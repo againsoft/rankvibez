@@ -5,8 +5,7 @@ import { PageHero } from "@/components/shared/page-hero";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/shared/reveal";
 import { CTASection } from "@/components/shared/cta-section";
-import { TeamSection } from "@/components/about/team-section";
-import { OpenRolesSection } from "@/components/about/open-roles-section";
+import { OrganogramSection } from "@/components/about/organogram-section";
 import { whyRankVibez } from "@/data/why";
 
 export const metadata: Metadata = {
@@ -100,9 +99,7 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <TeamSection />
-
-      <OpenRolesSection />
+      <OrganogramSection />
 
       <section className="border-y border-border-subtle bg-surface/30 py-24">
         <Container>
