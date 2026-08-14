@@ -27,8 +27,8 @@ export const openRoles: OpenRole[] = [
     icon: "Workflow",
   },
   {
-    title: "Cloud & DevOps Engineer",
-    description: "Owns cloud infrastructure, deployment pipelines and system reliability.",
+    title: "Cloud, DevOps & Infrastructure Engineer",
+    description: "Owns server maintenance, cloud infrastructure, deployment pipelines and business email systems.",
     icon: "Cloud",
   },
   {
@@ -40,11 +40,6 @@ export const openRoles: OpenRole[] = [
     title: "QA Engineer",
     description: "Tests and validates every release across web, ERP and e-commerce systems.",
     icon: "CheckCircle2",
-  },
-  {
-    title: "Backend Developer — ERP Systems",
-    description: "Builds and maintains core ERP modules for finance, inventory and operations.",
-    icon: "Database",
   },
   {
     title: "Business Analyst — ERP & Automation",
@@ -60,11 +55,6 @@ export const openRoles: OpenRole[] = [
     title: "Content Writer & Strategist",
     description: "Writes and plans SEO-driven content across client and internal channels.",
     icon: "PenLine",
-  },
-  {
-    title: "PPC & Ads Specialist",
-    description: "Manages Google and Meta ad campaigns from setup through optimization.",
-    icon: "Target",
   },
 ];
 
@@ -86,21 +76,21 @@ export const teamDepartments: TeamDepartment[] = [
   {
     name: "Development",
     members: [
-      { name: "Manik Chandra Roy", role: "Software Developer", image: "/team/manik-file.png" },
-      { name: "Md Al-Mamun", role: "Software Developer", image: "/team/md-al-mamun.png" },
-      { name: "Sahos Mia", role: "Software Developer", image: "/team/sahos.png" },
+      { name: "Manik Chandra Roy", role: "ERP Systems Developer", image: "/team/manik-file.png" },
+      { name: "Md Al-Mamun", role: "E-Commerce Developer", image: "/team/md-al-mamun.png" },
+      { name: "Sahos Mia", role: "Full-Stack Web Developer", image: "/team/sahos.png" },
       { name: "Full Kumar Roy", role: "Software Developer", image: "/team/full-kumar-roy.png" },
-      { name: "Md. Sujad-ud Doula", role: "Full-Stack .NET Developer", image: "/team/sujad.png" },
+      { name: "Md. Sujad-ud Doula", role: "Full-Stack .NET Developer — ERP Systems", image: "/team/sujad.png" },
     ],
   },
   {
     name: "SEO & Digital Marketing",
     members: [
-      { name: "Jannatul Moriyom Anni", role: "Digital Marketing & SEO Expert", image: "/team/anni.png" },
+      { name: "Jannatul Moriyom Anni", role: "SEO & Content Strategist", image: "/team/anni.png" },
       { name: "Sheikh MD Maruf Hossain", role: "Digital Marketing Expert", image: "/team/maruf.png" },
-      { name: "Tamim AL Hasan", role: "SEO Expert", image: "/team/tamin.png" },
+      { name: "Tamim AL Hasan", role: "Technical SEO Expert", image: "/team/tamin.png" },
       { name: "Uzzwal Kumar Biswas", role: "Digital Marketing Executive", image: "/team/uzzwal.png" },
-      { name: "Md. Munir Husen Munna", role: "Digital Marketing Executive", image: "/team/munna.png" },
+      { name: "Md. Munir Husen Munna", role: "Conversion & Campaign Executive", image: "/team/munna.png" },
     ],
   },
   {
@@ -113,8 +103,8 @@ export const teamDepartments: TeamDepartment[] = [
   {
     name: "Marketing",
     members: [
-      { name: "Tarshid Alam", role: "Marketing Manager", image: "/team/fahim.png" },
-      { name: "Md Rifat Mia", role: "Digital Marketing Expert", image: "/team/rifat1.png" },
+      { name: "Tarshid Alam", role: "Marketing Manager — Ads Campaigns", image: "/team/fahim.png" },
+      { name: "Md Rifat Mia", role: "Ads Campaign Specialist", image: "/team/rifat1.png" },
     ],
   },
 ];

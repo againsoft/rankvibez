@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -5,6 +6,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/shared/reveal";
 import { AvatarPhoto } from "@/components/shared/avatar-photo";
 import { leadership, teamDepartments, openRoles, type TeamMember, type OpenRole } from "@/data/team";
+import { services } from "@/data/services";
 
 function findDept(name: string) {
   return teamDepartments.find((d) => d.name === name)?.members ?? [];
@@ -16,39 +18,63 @@ function findRoles(titles: string[]) {
     .filter((r): r is OpenRole => Boolean(r));
 }
 
+function findServices(slugs: string[]) {
+  return slugs
+    .map((slug) => services.find((s) => s.slug === slug))
+    .filter((s): s is (typeof services)[number] => Boolean(s));
+}
+
 const [chairman, ceo, cto, cfo] = leadership;
 
 const branches = [
   {
-    name: "Engineering & AI",
+    name: "Enterprise Software",
     lead: "Reports to CTO",
+    services: findServices(["erp", "ai-erp", "ecommerce", "web-development"]),
     members: findDept("Development"),
-    openRoles: findRoles([
-      "AI Engineer",
-      "AI Automation Engineer",
-      "Cloud & DevOps Engineer",
-      "Cybersecurity Analyst",
-      "QA Engineer",
-      "Backend Developer — ERP Systems",
-    ]),
+    openRoles: findRoles(["QA Engineer"]),
   },
   {
-    name: "Project & Operations",
-    lead: "Reports to CEO",
-    members: findDept("Management"),
-    openRoles: findRoles(["Business Analyst — ERP & Automation", "Client Support Specialist"]),
+    name: "Cloud & Infrastructure",
+    lead: "Reports to CTO",
+    services: findServices(["server-maintenance", "cloud-infrastructure", "business-email"]),
+    members: [],
+    openRoles: findRoles(["Cloud, DevOps & Infrastructure Engineer"]),
   },
   {
-    name: "Growth & Marketing",
+    name: "Cyber Security",
+    lead: "Reports to CTO",
+    services: findServices(["cyber-security"]),
+    members: [],
+    openRoles: findRoles(["Cybersecurity Analyst"]),
+  },
+  {
+    name: "AI & Business Transformation",
+    lead: "Reports to CTO",
+    services: findServices(["ai-transformation", "virtual-assistance"]),
+    members: [],
+    openRoles: findRoles(["AI Engineer", "AI Automation Engineer", "Client Support Specialist"]),
+  },
+  {
+    name: "Digital Growth",
     lead: "Reports to CFO",
+    services: findServices(["digital-marketing", "seo", "ads-campaign", "conversion-optimization"]),
     members: [...findDept("SEO & Digital Marketing"), ...findDept("Marketing")],
-    openRoles: findRoles(["Content Writer & Strategist", "PPC & Ads Specialist"]),
+    openRoles: findRoles(["Content Writer & Strategist"]),
   },
   {
-    name: "Creative",
+    name: "Creative & Brand",
     lead: "Reports to CEO",
+    services: [],
     members: findDept("Graphics & Design"),
     openRoles: [],
+  },
+  {
+    name: "Project & Client Operations",
+    lead: "Reports to CEO",
+    services: [],
+    members: findDept("Management"),
+    openRoles: findRoles(["Business Analyst — ERP & Automation"]),
   },
 ];
 
@@ -98,7 +124,7 @@ export function OrganogramSection() {
         <SectionHeading
           eyebrow="Our Team"
           title="How RankVibez is organized."
-          description="Our real leadership and team, plus the specialist roles we're actively growing into across engineering, operations and growth — shown as open positions, not filled seats."
+          description="Structured around every service we deliver — from ERP and AI to cloud, security and growth. Real people are shown with a photo; roles we're still building toward are marked open, not filled with invented names."
         />
 
         <div className="mt-16 flex flex-col items-center">
@@ -117,12 +143,27 @@ export function OrganogramSection() {
 
         <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {branches.map((branch, bi) => (
-            <Reveal key={branch.name} delay={bi * 0.06} className="flex flex-col items-center">
+            <Reveal key={branch.name} delay={bi * 0.05} className="flex flex-col items-center">
               <div className="h-6 w-px bg-border-strong" />
-              <div className="mb-5 text-center">
+              <div className="mb-4 text-center">
                 <h3 className="text-sm font-semibold text-foreground">{branch.name}</h3>
                 <p className="text-[11px] uppercase tracking-[0.1em] text-muted-2">{branch.lead}</p>
               </div>
+
+              {branch.services.length > 0 && (
+                <div className="mb-5 flex flex-wrap justify-center gap-1.5">
+                  {branch.services.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={`/services/${service.slug}`}
+                      className="focus-ring rounded-full border border-border-subtle px-2.5 py-1 text-[10px] text-muted transition-colors hover:border-primary/50 hover:text-foreground"
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
               <div className="flex w-full flex-col gap-2.5">
                 {branch.members.map((person) => (
                   <MemberCard key={person.name} person={person} />
