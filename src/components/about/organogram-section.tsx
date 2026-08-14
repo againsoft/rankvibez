@@ -144,7 +144,7 @@ export function OrganogramSection() {
         <div className="mt-10 flex flex-col items-center">
           <LeaderNode person={chairman} size={72} />
           <div className="h-8 w-px bg-border-strong" />
-          <div className="w-full max-w-3xl border-t border-border-strong" />
+          <div className="hidden w-full max-w-3xl border-t border-border-strong sm:block" />
           <div className="grid w-full max-w-3xl grid-cols-1 gap-8 pt-0 sm:grid-cols-3">
             {([
               [ceo, "ceo"],
