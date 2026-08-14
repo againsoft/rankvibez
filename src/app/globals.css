@@ -10,11 +10,11 @@
   --foreground: #f6f7f9;
   --muted: #9498a8;
   --muted-2: #6b6f80;
-  --primary: #7c5cff;
-  --primary-hover: #8f72ff;
-  --primary-soft: rgba(124, 92, 255, 0.14);
-  --secondary: #22d3ee;
-  --secondary-soft: rgba(34, 211, 238, 0.14);
+  --primary: #e2323f;
+  --primary-hover: #f2444f;
+  --primary-soft: rgba(226, 50, 63, 0.14);
+  --secondary: #ff8a3d;
+  --secondary-soft: rgba(255, 138, 61, 0.14);
   --success: #34d399;
   --warning: #fbbf24;
   --danger: #f87171;
@@ -87,7 +87,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(120deg, #ffffff 10%, #b6a9ff 55%, #7ee8fb 100%);
+  background: linear-gradient(120deg, #ffffff 10%, #ff8f8f 55%, #ffb366 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -101,7 +101,7 @@ body {
 }
 
 .glow-orb {
-  background: radial-gradient(circle at center, rgba(124, 92, 255, 0.55), rgba(34, 211, 238, 0.12) 45%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(226, 50, 63, 0.55), rgba(255, 138, 61, 0.12) 45%, transparent 70%);
   filter: blur(60px);
 }
 

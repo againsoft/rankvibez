@@ -1,0 +1,42 @@
+import { Container } from "@/components/ui/container";
+import { Button } from "@/components/ui/button";
+import { Reveal } from "./reveal";
+
+export function CTASection({
+  title = "Ready to Build What's Next?",
+  description = "Whether you need an ERP, e-commerce platform, AI transformation, secure infrastructure or a complete digital growth strategy — let's build it together.",
+  primaryLabel = "Start a Conversation",
+  primaryHref = "/contact",
+  secondaryLabel = "Explore Our Services",
+  secondaryHref = "/services",
+}: {
+  title?: string;
+  description?: string;
+  primaryLabel?: string;
+  primaryHref?: string;
+  secondaryLabel?: string;
+  secondaryHref?: string;
+}) {
+  return (
+    <section className="relative py-28">
+      <Container>
+        <Reveal className="relative overflow-hidden rounded-3xl border border-border-strong bg-surface px-8 py-16 text-center sm:px-16 sm:py-20">
+          <div className="glow-orb pointer-events-none absolute -top-32 left-1/2 h-[380px] w-[620px] -translate-x-1/2 opacity-60" />
+          <div className="bg-grid pointer-events-none absolute inset-0 opacity-40" />
+          <div className="relative mx-auto flex max-w-2xl flex-col items-center gap-6">
+            <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-5xl">{title}</h2>
+            <p className="text-balance text-base leading-relaxed text-muted sm:text-lg">{description}</p>
+            <div className="mt-4 flex flex-col gap-4 sm:flex-row">
+              <Button href={primaryHref} size="lg">
+                {primaryLabel}
+              </Button>
+              <Button href={secondaryHref} variant="secondary" size="lg">
+                {secondaryLabel}
+              </Button>
+            </div>
+          </div>
+        </Reveal>
+      </Container>
+    </section>
+  );
+}
