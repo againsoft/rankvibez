@@ -26,52 +26,78 @@ function findServices(slugs: string[]) {
 
 const [chairman, ceo, cto, cfo] = leadership;
 
-const branches = [
+type Line = "ceo" | "cto" | "cfo";
+
+const LINE_STYLES: Record<Line, { label: string; dot: string; text: string; stem: string; borderTop: string }> = {
+  ceo: {
+    label: "Reports to CEO",
+    dot: "bg-primary",
+    text: "text-primary",
+    stem: "bg-primary/50",
+    borderTop: "border-t-primary/50",
+  },
+  cto: {
+    label: "Reports to CTO",
+    dot: "bg-secondary",
+    text: "text-secondary",
+    stem: "bg-secondary/50",
+    borderTop: "border-t-secondary/50",
+  },
+  cfo: {
+    label: "Reports to CFO",
+    dot: "bg-amber-400",
+    text: "text-amber-400",
+    stem: "bg-amber-400/50",
+    borderTop: "border-t-amber-400/50",
+  },
+};
+
+const branches: { name: string; line: Line; services: ReturnType<typeof findServices>; members: TeamMember[]; openRoles: OpenRole[] }[] = [
   {
     name: "Enterprise Software",
-    lead: "Reports to CTO",
+    line: "cto",
     services: findServices(["erp", "ai-erp", "ecommerce", "web-development"]),
     members: findDept("Development"),
     openRoles: findRoles(["QA Engineer"]),
   },
   {
     name: "Cloud & Infrastructure",
-    lead: "Reports to CTO",
+    line: "cto",
     services: findServices(["server-maintenance", "cloud-infrastructure", "business-email"]),
     members: [],
     openRoles: findRoles(["Cloud, DevOps & Infrastructure Engineer"]),
   },
   {
     name: "Cyber Security",
-    lead: "Reports to CTO",
+    line: "cto",
     services: findServices(["cyber-security"]),
     members: [],
     openRoles: findRoles(["Cybersecurity Analyst"]),
   },
   {
     name: "AI & Business Transformation",
-    lead: "Reports to CTO",
+    line: "cto",
     services: findServices(["ai-transformation", "virtual-assistance"]),
     members: [],
     openRoles: findRoles(["AI Engineer", "AI Automation Engineer", "Client Support Specialist"]),
   },
   {
     name: "Digital Growth",
-    lead: "Reports to CFO",
+    line: "cfo",
     services: findServices(["digital-marketing", "seo", "ads-campaign", "conversion-optimization"]),
     members: [...findDept("SEO & Digital Marketing"), ...findDept("Marketing")],
     openRoles: findRoles(["Content Writer & Strategist"]),
   },
   {
     name: "Creative & Brand",
-    lead: "Reports to CEO",
+    line: "ceo",
     services: [],
     members: findDept("Graphics & Design"),
     openRoles: [],
   },
   {
     name: "Project & Client Operations",
-    lead: "Reports to CEO",
+    line: "ceo",
     services: [],
     members: findDept("Management"),
     openRoles: findRoles(["Business Analyst — ERP & Automation"]),
@@ -127,14 +153,27 @@ export function OrganogramSection() {
           description="Structured around every service we deliver — from ERP and AI to cloud, security and growth. Real people are shown with a photo; roles we're still building toward are marked open, not filled with invented names."
         />
 
-        <div className="mt-16 flex flex-col items-center">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          {(Object.keys(LINE_STYLES) as Line[]).map((key) => (
+            <div key={key} className="flex items-center gap-2">
+              <span className={`h-[3px] w-6 rounded-full ${LINE_STYLES[key].dot}`} />
+              <span className="text-xs text-muted">{LINE_STYLES[key].label}</span>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 flex flex-col items-center">
           <LeaderNode person={chairman} size={72} />
           <div className="h-8 w-px bg-border-strong" />
           <div className="w-full max-w-3xl border-t border-border-strong" />
           <div className="grid w-full max-w-3xl grid-cols-1 gap-8 pt-0 sm:grid-cols-3">
-            {[ceo, cto, cfo].map((person) => (
+            {([
+              [ceo, "ceo"],
+              [cto, "cto"],
+              [cfo, "cfo"],
+            ] as [TeamMember, Line][]).map(([person, line]) => (
               <div key={person.name} className="flex flex-col items-center">
-                <div className="h-8 w-px bg-border-strong" />
+                <div className={`h-8 w-px ${LINE_STYLES[line].stem}`} />
                 <LeaderNode person={person} />
               </div>
             ))}
@@ -144,10 +183,13 @@ export function OrganogramSection() {
         <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {branches.map((branch, bi) => (
             <Reveal key={branch.name} delay={bi * 0.05} className="flex flex-col items-center">
-              <div className="h-6 w-px bg-border-strong" />
+              <div className={`h-6 w-px ${LINE_STYLES[branch.line].stem}`} />
               <div className="mb-4 text-center">
                 <h3 className="text-sm font-semibold text-foreground">{branch.name}</h3>
-                <p className="text-[11px] uppercase tracking-[0.1em] text-muted-2">{branch.lead}</p>
+                <p className={`mt-0.5 flex items-center justify-center gap-1.5 text-[11px] uppercase tracking-[0.1em] ${LINE_STYLES[branch.line].text}`}>
+                  <span className={`h-1.5 w-1.5 rounded-full ${LINE_STYLES[branch.line].dot}`} />
+                  {LINE_STYLES[branch.line].label}
+                </p>
               </div>
 
               {branch.services.length > 0 && (
@@ -164,7 +206,9 @@ export function OrganogramSection() {
                 </div>
               )}
 
-              <div className="flex w-full flex-col gap-2.5">
+              <div
+                className={`flex w-full flex-col gap-2.5 rounded-2xl border border-border-subtle border-t-2 bg-white/[0.015] p-3 ${LINE_STYLES[branch.line].borderTop}`}
+              >
                 {branch.members.map((person) => (
                   <MemberCard key={person.name} person={person} />
                 ))}
