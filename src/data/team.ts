@@ -1,62 +1,13 @@
 export type TeamMember = {
   name: string;
   role: string;
-  image: string;
+  image?: string;
 };
 
 export type TeamDepartment = {
   name: string;
   members: TeamMember[];
 };
-
-export type OpenRole = {
-  title: string;
-  description: string;
-  icon: string;
-};
-
-export const openRoles: OpenRole[] = [
-  {
-    title: "AI Engineer",
-    description: "Builds AI agents, automation and model integrations across client systems.",
-    icon: "Bot",
-  },
-  {
-    title: "AI Automation Engineer",
-    description: "Designs workflow automation connecting business tools with AI capabilities.",
-    icon: "Workflow",
-  },
-  {
-    title: "Cloud, DevOps & Infrastructure Engineer",
-    description: "Owns server maintenance, cloud infrastructure, deployment pipelines and business email systems.",
-    icon: "Cloud",
-  },
-  {
-    title: "Cybersecurity Analyst",
-    description: "Leads security assessments, hardening and monitoring for client infrastructure.",
-    icon: "ShieldCheck",
-  },
-  {
-    title: "QA Engineer",
-    description: "Tests and validates every release across web, ERP and e-commerce systems.",
-    icon: "CheckCircle2",
-  },
-  {
-    title: "Business Analyst — ERP & Automation",
-    description: "Maps client business processes into ERP and automation requirements.",
-    icon: "ClipboardList",
-  },
-  {
-    title: "Client Support Specialist",
-    description: "Handles virtual assistance and day-to-day client operational support.",
-    icon: "Headset",
-  },
-  {
-    title: "Content Writer & Strategist",
-    description: "Writes and plans SEO-driven content across client and internal channels.",
-    icon: "PenLine",
-  },
-];
 
 export const leadership: TeamMember[] = [
   { name: "Mossiur Rahman Riyad", role: "Founder & Chairman", image: "/team/ceo.png" },
@@ -71,6 +22,7 @@ export const teamDepartments: TeamDepartment[] = [
     members: [
       { name: "Md Abid Hasan", role: "Project Manager", image: "/team/abid.png" },
       { name: "Al Amin", role: "Project Manager", image: "/team/al-amin2.png" },
+      { name: "Saikat Kumar Das", role: "Business Analyst — ERP & Automation" },
     ],
   },
   {
@@ -81,6 +33,23 @@ export const teamDepartments: TeamDepartment[] = [
       { name: "Sahos Mia", role: "Full-Stack Web Developer", image: "/team/sahos.png" },
       { name: "Full Kumar Roy", role: "Software Developer", image: "/team/full-kumar-roy.png" },
       { name: "Md. Sujad-ud Doula", role: "Full-Stack .NET Developer — ERP Systems", image: "/team/sujad.png" },
+      { name: "Rayhan Islam", role: "QA Engineer" },
+    ],
+  },
+  {
+    name: "Cloud & Infrastructure",
+    members: [{ name: "Md. Fahim Ahmed", role: "Cloud, DevOps & Infrastructure Engineer" }],
+  },
+  {
+    name: "Cyber Security",
+    members: [{ name: "Abdullah Al Noman", role: "Cybersecurity Analyst" }],
+  },
+  {
+    name: "AI & Automation",
+    members: [
+      { name: "Mehedi Hasan", role: "AI Engineer" },
+      { name: "Sajjad Arif", role: "AI Automation Engineer" },
+      { name: "Tasnim Jahan", role: "Client Support Specialist" },
     ],
   },
   {
@@ -91,6 +60,7 @@ export const teamDepartments: TeamDepartment[] = [
       { name: "Tamim AL Hasan", role: "Technical SEO Expert", image: "/team/tamin.png" },
       { name: "Uzzwal Kumar Biswas", role: "Digital Marketing Executive", image: "/team/uzzwal.png" },
       { name: "Md. Munir Husen Munna", role: "Conversion & Campaign Executive", image: "/team/munna.png" },
+      { name: "Mehjabin Nesa", role: "Content Writer & Strategist" },
     ],
   },
   {

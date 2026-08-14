@@ -1,21 +1,14 @@
 import Link from "next/link";
-import * as Icons from "lucide-react";
-import type { LucideIcon } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/shared/reveal";
 import { AvatarPhoto } from "@/components/shared/avatar-photo";
-import { leadership, teamDepartments, openRoles, type TeamMember, type OpenRole } from "@/data/team";
+import { AvatarInitials } from "@/components/shared/avatar-initials";
+import { leadership, teamDepartments, type TeamMember } from "@/data/team";
 import { services } from "@/data/services";
 
 function findDept(name: string) {
   return teamDepartments.find((d) => d.name === name)?.members ?? [];
-}
-
-function findRoles(titles: string[]) {
-  return titles
-    .map((t) => openRoles.find((r) => r.title === t))
-    .filter((r): r is OpenRole => Boolean(r));
 }
 
 function findServices(slugs: string[]) {
@@ -52,62 +45,59 @@ const LINE_STYLES: Record<Line, { label: string; dot: string; text: string; stem
   },
 };
 
-const branches: { name: string; line: Line; services: ReturnType<typeof findServices>; members: TeamMember[]; openRoles: OpenRole[] }[] = [
+const branches: { name: string; line: Line; services: ReturnType<typeof findServices>; members: TeamMember[] }[] = [
   {
     name: "Enterprise Software",
     line: "cto",
     services: findServices(["erp", "ai-erp", "ecommerce", "web-development"]),
     members: findDept("Development"),
-    openRoles: findRoles(["QA Engineer"]),
   },
   {
     name: "Cloud & Infrastructure",
     line: "cto",
     services: findServices(["server-maintenance", "cloud-infrastructure", "business-email"]),
-    members: [],
-    openRoles: findRoles(["Cloud, DevOps & Infrastructure Engineer"]),
+    members: findDept("Cloud & Infrastructure"),
   },
   {
     name: "Cyber Security",
     line: "cto",
     services: findServices(["cyber-security"]),
-    members: [],
-    openRoles: findRoles(["Cybersecurity Analyst"]),
+    members: findDept("Cyber Security"),
   },
   {
     name: "AI & Business Transformation",
     line: "cto",
     services: findServices(["ai-transformation", "virtual-assistance"]),
-    members: [],
-    openRoles: findRoles(["AI Engineer", "AI Automation Engineer", "Client Support Specialist"]),
+    members: findDept("AI & Automation"),
   },
   {
     name: "Digital Growth",
     line: "cfo",
     services: findServices(["digital-marketing", "seo", "ads-campaign", "conversion-optimization"]),
     members: [...findDept("SEO & Digital Marketing"), ...findDept("Marketing")],
-    openRoles: findRoles(["Content Writer & Strategist"]),
   },
   {
     name: "Creative & Brand",
     line: "ceo",
     services: [],
     members: findDept("Graphics & Design"),
-    openRoles: [],
   },
   {
     name: "Project & Client Operations",
     line: "ceo",
     services: [],
     members: findDept("Management"),
-    openRoles: findRoles(["Business Analyst — ERP & Automation"]),
   },
 ];
 
 function LeaderNode({ person, size = 64 }: { person: TeamMember; size?: number }) {
   return (
     <div className="card-surface flex w-full max-w-[220px] flex-col items-center gap-3 rounded-2xl p-5 text-center">
-      <AvatarPhoto src={person.image} name={person.name} size={size} />
+      {person.image ? (
+        <AvatarPhoto src={person.image} name={person.name} size={size} />
+      ) : (
+        <AvatarInitials name={person.name} size={size} />
+      )}
       <div>
         <p className="text-sm font-semibold text-foreground">{person.name}</p>
         <p className="mt-0.5 text-xs text-muted-2">{person.role}</p>
@@ -119,25 +109,14 @@ function LeaderNode({ person, size = 64 }: { person: TeamMember; size?: number }
 function MemberCard({ person }: { person: TeamMember }) {
   return (
     <div className="flex items-center gap-3 rounded-xl border border-border-subtle bg-white/[0.02] p-3">
-      <AvatarPhoto src={person.image} name={person.name} size={36} />
+      {person.image ? (
+        <AvatarPhoto src={person.image} name={person.name} size={36} />
+      ) : (
+        <AvatarInitials name={person.name} size={36} />
+      )}
       <div>
         <p className="text-xs font-medium text-foreground">{person.name}</p>
         <p className="text-[11px] text-muted-2">{person.role}</p>
-      </div>
-    </div>
-  );
-}
-
-function OpenRoleCard({ role }: { role: OpenRole }) {
-  const Icon = (Icons[role.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
-  return (
-    <div className="flex items-center gap-3 rounded-xl border border-dashed border-border-strong bg-transparent p-3">
-      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary-soft text-primary">
-        <Icon size={15} />
-      </div>
-      <div>
-        <p className="text-xs font-medium text-foreground">{role.title}</p>
-        <p className="text-[11px] text-muted-2">Open role</p>
       </div>
     </div>
   );
@@ -150,7 +129,7 @@ export function OrganogramSection() {
         <SectionHeading
           eyebrow="Our Team"
           title="How RankVibez is organized."
-          description="Structured around every service we deliver — from ERP and AI to cloud, security and growth. Real people are shown with a photo; roles we're still building toward are marked open, not filled with invented names."
+          description="Structured around every service we deliver — from ERP and AI to cloud, security and growth."
         />
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
@@ -212,18 +191,10 @@ export function OrganogramSection() {
                 {branch.members.map((person) => (
                   <MemberCard key={person.name} person={person} />
                 ))}
-                {branch.openRoles.map((role) => (
-                  <OpenRoleCard key={role.title} role={role} />
-                ))}
               </div>
             </Reveal>
           ))}
         </div>
-
-        <p className="mx-auto mt-14 max-w-2xl text-center text-xs text-muted-2">
-          Solid cards with a photo are current RankVibez team members. Dashed cards mark specialist roles we&rsquo;re
-          actively building the team toward — not yet filled by a named person.
-        </p>
       </Container>
     </section>
   );
