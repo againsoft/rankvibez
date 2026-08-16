@@ -64,7 +64,7 @@ export const services: Service[] = [
   {
     slug: "web-development",
     category: "Enterprise Software",
-    name: "Company Website",
+    name: "Web Development",
     short: "Corporate websites, business portals and enterprise web applications.",
     description:
       "We design and engineer corporate websites, client portals and web applications built on modern, scalable architecture — fast, accessible and SEO-ready from day one.",

@@ -6,7 +6,6 @@ import { ServicesSection } from "@/components/home/services-section";
 import { SolutionsSection } from "@/components/home/solutions-section";
 import { IndustriesSection } from "@/components/home/industries-section";
 import { PortfolioSection } from "@/components/home/portfolio-section";
-import { TechEcosystemSection } from "@/components/home/tech-ecosystem-section";
 import { GlobalPresenceSection } from "@/components/home/global-presence-section";
 import { WhySection } from "@/components/home/why-section";
 import { ProcessSection } from "@/components/home/process-section";
@@ -24,7 +23,6 @@ export default function Home() {
       <SolutionsSection />
       <IndustriesSection />
       <PortfolioSection />
-      <TechEcosystemSection />
       <GlobalPresenceSection />
       <WhySection />
       <ProcessSection />

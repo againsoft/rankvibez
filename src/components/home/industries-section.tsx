@@ -7,7 +7,7 @@ import { industries } from "@/data/industries";
 
 export function IndustriesSection() {
   return (
-    <section className="py-24 sm:py-28">
+    <section className="py-4">
       <Container>
         <SectionHeading
           eyebrow="Industries"
@@ -24,7 +24,10 @@ export function IndustriesSection() {
                   <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/[0.04] text-muted transition-colors group-hover:bg-primary-soft group-hover:text-primary">
                     <Icon size={16} />
                   </div>
-                  <h3 className="text-sm font-semibold text-foreground">{industry.name}</h3>
+                  <div>
+                    <h3 className="text-sm font-semibold text-foreground">{industry.name}</h3>
+                    <p className="mt-1 text-xs leading-relaxed text-muted">{industry.tagline}</p>
+                  </div>
                 </div>
               </Reveal>
             );

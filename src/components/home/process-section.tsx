@@ -5,7 +5,7 @@ import { processSteps } from "@/data/why";
 
 export function ProcessSection() {
   return (
-    <section className="py-24 sm:py-28">
+    <section className="py-4">
       <Container>
         <SectionHeading
           eyebrow="Process"
@@ -22,7 +22,7 @@ export function ProcessSection() {
                 key={step.number}
                 delay={i * 0.06}
                 className={`relative flex items-start gap-6 sm:w-1/2 ${
-                  i % 2 === 0 ? "sm:ml-0 sm:flex-row sm:pr-10 sm:text-right sm:items-end" : "sm:ml-auto sm:pl-10"
+                  i % 2 === 0 ? "sm:ml-0 sm:flex-row sm:pr-10 sm:text-right" : "sm:ml-auto sm:pl-10"
                 }`}
               >
                 <div className={`relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-primary/50 bg-surface text-xs font-bold text-primary sm:absolute ${i % 2 === 0 ? "sm:-right-5" : "sm:-left-5"}`}>

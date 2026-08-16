@@ -12,6 +12,7 @@ export type PortfolioProject = {
   solution: string;
   outcome: string;
   liveUrl?: string;
+  image?: string;
 };
 
 export const portfolioCategories = [
@@ -43,6 +44,7 @@ export const portfolioProjects: PortfolioProject[] = [
       "Designed a unified ERP data model covering finance, inventory and production planning, with an AI layer surfacing demand forecasts and stock anomalies.",
     outcome:
       "A working concept demonstrating how AI-assisted planning can reduce manual reporting effort and highlight operational risk earlier.",
+    image: "/featured-work/atlas.png",
   },
   {
     slug: "northline-commerce-demo",
@@ -61,6 +63,7 @@ export const portfolioProjects: PortfolioProject[] = [
       "Built a demo storefront with server-rendered catalog pages, optimized checkout and a synchronized inventory layer.",
     outcome:
       "Established reusable commerce architecture patterns for catalog performance and checkout reliability.",
+    image: "/featured-work/northline-commerce.png",
   },
   {
     slug: "harborcloud-infrastructure-demo",
@@ -79,6 +82,7 @@ export const portfolioProjects: PortfolioProject[] = [
       "Designed an infrastructure-as-code reference stack with automated CI/CD, monitoring and hardened access control.",
     outcome:
       "A reusable infrastructure blueprint for reliable, auditable deployments across environments.",
+    image: "/featured-work/harborcloud.png",
   },
   {
     slug: "meridian-corporate-concept",
@@ -87,7 +91,7 @@ export const portfolioProjects: PortfolioProject[] = [
     industry: "Professional Services",
     country: "Canada",
     categories: ["Corporate Websites", "Software"],
-    services: ["Company Website"],
+    services: ["Web Development"],
     technology: ["Next.js", "TypeScript", "Tailwind CSS"],
     summary:
       "A concept corporate web platform exploring modern content architecture for professional services firms.",

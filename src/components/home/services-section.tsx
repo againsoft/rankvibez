@@ -6,13 +6,13 @@ import { Reveal } from "@/components/shared/reveal";
 import { ServiceCard } from "@/components/shared/service-card";
 import { services } from "@/data/services";
 
-const featured = ["erp", "ai-erp", "ecommerce", "cyber-security", "cloud-infrastructure", "ai-transformation"];
+const featured = ["erp", "ecommerce", "web-development", "cloud-infrastructure", "ai-transformation"];
 
 export function ServicesSection() {
   const featuredServices = featured.map((slug) => services.find((s) => s.slug === slug)!);
 
   return (
-    <section className="py-24 sm:py-28">
+    <section className="py-4">
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading

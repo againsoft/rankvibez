@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { PortfolioProject } from "@/data/portfolio";
 
@@ -9,8 +10,20 @@ export function PortfolioCard({ project }: { project: PortfolioProject }) {
       className="card-surface focus-ring group flex h-full flex-col overflow-hidden rounded-2xl transition-transform duration-300 hover:-translate-y-1"
     >
       <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden border-b border-border-subtle bg-gradient-to-br from-primary/15 via-surface to-secondary/10">
-        <div className="bg-grid absolute inset-0 opacity-40" />
-        <span className="relative text-2xl font-bold tracking-tight text-foreground/25">{project.name}</span>
+        {project.image ? (
+          <Image
+            src={project.image}
+            alt={project.name}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(min-width: 1024px) 33vw, 100vw"
+          />
+        ) : (
+          <>
+            <div className="bg-grid absolute inset-0 opacity-40" />
+            <span className="relative text-2xl font-bold tracking-tight text-foreground/25">{project.name}</span>
+          </>
+        )}
         <span className="absolute right-4 top-4 rounded-full border border-border-strong bg-background/70 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.1em] text-muted backdrop-blur">
           {project.label}
         </span>
