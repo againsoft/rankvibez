@@ -7,7 +7,7 @@ import { industries } from "@/data/industries";
 
 export function IndustriesSection() {
   return (
-    <section className="py-4">
+    <section className="py-16 sm:py-20">
       <Container>
         <SectionHeading
           eyebrow="Industries"

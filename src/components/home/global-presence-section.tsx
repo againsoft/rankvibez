@@ -6,7 +6,7 @@ import { locations } from "@/data/locations";
 
 export function GlobalPresenceSection() {
   return (
-    <section className="py-4">
+    <section className="py-16 sm:py-20">
       <Container>
         <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
           <div>

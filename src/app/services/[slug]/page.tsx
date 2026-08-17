@@ -93,7 +93,7 @@ export default async function ServiceDetailPage({ params }: { params: Params }) 
                   <p className="text-sm font-semibold text-foreground">Custom Pricing</p>
                   <p className="mt-1 text-sm text-muted">Talk to an Expert</p>
                 </div>
-                <Button href="/contact" className="mt-6 w-full">
+                <Button href={`/quote?service=${service.slug}`} className="mt-6 w-full">
                   Get a Custom Quote
                 </Button>
               </div>

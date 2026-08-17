@@ -5,6 +5,7 @@ export type Service = {
   short: string;
   description: string;
   icon: string;
+  image?: string;
   capabilities: string[];
   process?: string[];
 };
@@ -18,6 +19,7 @@ export const services: Service[] = [
     description:
       "We design and build enterprise resource planning systems tailored to how your business actually operates — connecting finance, HR, inventory, sales, purchasing and manufacturing into a single source of truth.",
     icon: "LayoutGrid",
+    image: "/service/again-erp.png",
     capabilities: [
       "Finance & accounting modules",
       "HR & payroll management",
@@ -35,6 +37,7 @@ export const services: Service[] = [
     description:
       "We extend traditional ERP with AI agents, predictive analytics and automation — helping teams forecast demand, flag anomalies and reduce manual data entry across every department.",
     icon: "BrainCircuit",
+    image: "/service/ai-driven.png",
     capabilities: [
       "AI-assisted forecasting",
       "Intelligent process automation",
@@ -52,6 +55,7 @@ export const services: Service[] = [
     description:
       "We build high-performance e-commerce platforms and marketplaces — from product catalogs and checkout to order management, payments and logistics integrations.",
     icon: "ShoppingCart",
+    image: "/service/ecommerce-solution.png",
     capabilities: [
       "Custom storefronts & marketplaces",
       "Product & catalog management",
@@ -69,6 +73,7 @@ export const services: Service[] = [
     description:
       "We design and engineer corporate websites, client portals and web applications built on modern, scalable architecture — fast, accessible and SEO-ready from day one.",
     icon: "Globe",
+    image: "/service/web-development.png",
     capabilities: [
       "Corporate & marketing websites",
       "Client & business portals",
@@ -86,6 +91,7 @@ export const services: Service[] = [
     description:
       "We manage and maintain Linux and Windows server environments — monitoring uptime, applying security patches, optimizing performance and handling backups so your infrastructure stays reliable.",
     icon: "Server",
+    image: "/service/server-maintenance.png",
     capabilities: [
       "Server monitoring & alerting",
       "Patch & update management",
@@ -103,6 +109,7 @@ export const services: Service[] = [
     description:
       "We architect and manage cloud infrastructure across leading providers — designing systems that scale reliably, deploy safely and stay observable in production.",
     icon: "Cloud",
+    image: "/service/cloud-infrastructure.png",
     capabilities: [
       "Cloud migration & deployment",
       "Auto-scaling architecture",
@@ -120,6 +127,7 @@ export const services: Service[] = [
     description:
       "We set up and administer professional business email — configuring DNS, SPF, DKIM and DMARC correctly, migrating mailboxes safely and hardening deliverability and security.",
     icon: "Mail",
+    image: "/service/professional-email-service.png",
     capabilities: [
       "Business email setup & migration",
       "DNS, SPF, DKIM & DMARC configuration",
@@ -137,6 +145,7 @@ export const services: Service[] = [
     description:
       "We assess and strengthen the security of your websites, servers and business infrastructure — identifying vulnerabilities, hardening access and building a practical, ongoing security posture.",
     icon: "ShieldCheck",
+    image: "/service/cyber-security.png",
     capabilities: [
       "Security assessment & review",
       "Vulnerability scanning",
@@ -154,6 +163,7 @@ export const services: Service[] = [
     description:
       "We design full-funnel digital marketing strategies that connect brand, content, channels and analytics — built to move measurable business outcomes, not just impressions.",
     icon: "Megaphone",
+    image: "/service/digital-marketing.png",
     capabilities: [
       "Marketing strategy & planning",
       "Content & channel strategy",
@@ -171,6 +181,7 @@ export const services: Service[] = [
     description:
       "We improve organic visibility through technical SEO, on-page optimization, content strategy and international SEO structuring — grounded in analytics, not guesswork.",
     icon: "Search",
+    image: "/service/seo.png",
     capabilities: [
       "Technical SEO audits",
       "On-page optimization",
@@ -188,6 +199,7 @@ export const services: Service[] = [
     description:
       "We plan, launch and manage performance advertising across Google and Meta — building campaign structures, creative direction and optimization loops focused on return on ad spend.",
     icon: "Target",
+    image: "/service/ads-campaign.png",
     capabilities: [
       "Google Ads management",
       "Meta Ads management",
@@ -198,6 +210,24 @@ export const services: Service[] = [
     ],
   },
   {
+    slug: "ppc-ads",
+    category: "Digital Growth",
+    name: "PPC Ads",
+    short: "Pay-per-click campaigns that drive targeted traffic and generate leads.",
+    description:
+      "We plan and manage pay-per-click advertising across search, display and shopping placements — building keyword strategy, ad creative and bid management focused on driving traffic and generating qualified leads.",
+    icon: "MousePointerClick",
+    image: "/service/ppc.png",
+    capabilities: [
+      "Google & Bing Ads management",
+      "Search, display & shopping campaigns",
+      "Keyword research & targeting",
+      "Ad copy & creative direction",
+      "Bid & budget optimization",
+      "Conversion tracking & reporting",
+    ],
+  },
+  {
     slug: "conversion-optimization",
     category: "Digital Growth",
     name: "Conversion Optimization",
@@ -205,6 +235,7 @@ export const services: Service[] = [
     description:
       "We optimize landing pages and conversion funnels using analytics, testing and UX refinement — turning existing traffic into more qualified leads and customers.",
     icon: "TrendingUp",
+    image: "/service/Conversion-optimization.png",
     capabilities: [
       "Landing page design & testing",
       "Funnel analysis",
@@ -222,6 +253,7 @@ export const services: Service[] = [
     description:
       "We help organizations integrate AI into daily operations — assessing existing workflows, identifying practical automation opportunities and deploying AI agents where they create real leverage.",
     icon: "Sparkles",
+    image: "/service/company-ai-automation.png",
     capabilities: [
       "AI opportunity assessment",
       "Workflow automation design",
@@ -239,6 +271,7 @@ export const services: Service[] = [
     description:
       "We provide professional virtual assistance for administrative, customer service, data and operational tasks — giving growing teams reliable operational support without the overhead.",
     icon: "Headset",
+    image: "/service/virtual-assistance.png",
     capabilities: [
       "Administrative support",
       "Customer service support",

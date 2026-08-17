@@ -7,7 +7,7 @@ import { whyRankVibez } from "@/data/why";
 
 export function WhySection() {
   return (
-    <section className="border-y border-border-subtle bg-surface/30 py-4">
+    <section className="border-y border-border-subtle bg-surface/30 py-16 sm:py-20">
       <Container>
         <SectionHeading eyebrow="Why RankVibez" title="A technology partner built for the long term." />
 
