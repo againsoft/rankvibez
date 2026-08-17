@@ -9,7 +9,7 @@ import { portfolioProjects } from "@/data/portfolio";
 export function PortfolioSection() {
   const featured = portfolioProjects.slice(0, 3);
   return (
-    <section className="py-4">
+    <section className="py-16 sm:py-20">
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading

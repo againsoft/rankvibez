@@ -4,7 +4,7 @@ import { Reveal } from "@/components/shared/reveal";
 
 export function TestimonialsSection() {
   return (
-    <section className="py-4">
+    <section className="py-16 sm:py-20">
       <Container>
         <Reveal className="relative mx-auto max-w-3xl rounded-3xl border border-border-strong bg-surface px-8 py-16 text-center sm:px-16">
           <Quote className="mx-auto mb-6 text-primary/60" size={32} />

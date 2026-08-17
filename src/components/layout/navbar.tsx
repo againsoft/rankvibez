@@ -64,8 +64,8 @@ export function Navbar() {
         </nav>
 
         <div className="hidden lg:block">
-          <Button href="/contact" size="sm">
-            Let&rsquo;s Build Together
+          <Button href="/quote" size="sm">
+            Get a Quote
           </Button>
         </div>
 
@@ -97,8 +97,8 @@ export function Navbar() {
               {item.label}
             </Link>
           ))}
-          <Button href="/contact" className="mt-4 w-full">
-            Let&rsquo;s Build Together
+          <Button href="/quote" className="mt-4 w-full">
+            Get a Quote
           </Button>
         </Container>
       </div>

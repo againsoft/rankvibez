@@ -21,7 +21,7 @@ const capabilities = [
 
 export function Capabilities() {
   return (
-    <section className="py-4">
+    <section className="py-16 sm:py-20">
       <Container>
         <SectionHeading
           eyebrow="Core Capabilities"

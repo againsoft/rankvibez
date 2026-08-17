@@ -10,7 +10,7 @@ import { ArrowRight } from "lucide-react";
 
 export function AISection() {
   return (
-    <section id="ai" className="relative overflow-hidden py-4">
+    <section id="ai" className="relative overflow-hidden py-16 sm:py-20">
       <div className="glow-orb pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[900px] -translate-x-1/2 -translate-y-1/2 opacity-30" />
       <div className="bg-grid pointer-events-none absolute inset-0 opacity-60" />
 
