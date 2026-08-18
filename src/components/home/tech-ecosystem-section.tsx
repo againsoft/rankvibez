@@ -1,18 +1,16 @@
+import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/shared/reveal";
 import { techEcosystem } from "@/data/technology";
 
 export function TechEcosystemSection() {
+  const t = useTranslations("home.techEcosystemSection");
+
   return (
     <section className="border-y border-border-subtle bg-surface/30 py-4">
       <Container>
-        <SectionHeading
-          eyebrow="Technology Ecosystem"
-          align="center"
-          title="Built on the World's Leading Technology Platforms"
-          className="mx-auto"
-        />
+        <SectionHeading eyebrow={t("eyebrow")} align="center" title={t("title")} className="mx-auto" />
 
         <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {techEcosystem.map((name, i) => (
@@ -26,9 +24,7 @@ export function TechEcosystemSection() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-xs text-muted-2">
-          Platforms and tools RankVibez builds and delivers on. Official partnership status is shown only where verified.
-        </p>
+        <p className="mt-8 text-center text-xs text-muted-2">{t("footnote")}</p>
       </Container>
     </section>
   );

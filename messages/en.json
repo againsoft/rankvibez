@@ -1,0 +1,1151 @@
+{
+  "metadata": {
+    "title": "RankVibez | AI-Driven Software & Technology Solutions",
+    "description": "RankVibez builds AI-driven ERP, e-commerce, software, cloud, cybersecurity and digital growth solutions for modern businesses."
+  },
+  "nav": {
+    "home": "Home",
+    "whatWeDo": "What We Do",
+    "solutions": "Solutions",
+    "services": "Services",
+    "ai": "AI",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primaryNavLabel": "Primary",
+    "languageSwitcherLabel": "Select language"
+  },
+  "announcementBar": {
+    "headline": "AI is now the infrastructure of modern business.",
+    "cta": "Explore our AI capabilities"
+  },
+  "footer": {
+    "heading": "Let’s build something",
+    "headingHighlight": "intelligent.",
+    "tagline": "AI-driven software and technology solutions for modern businesses.",
+    "cta": "Start a Conversation",
+    "columns": {
+      "solutions": "Solutions",
+      "services": "Services",
+      "company": "Company",
+      "resources": "Resources",
+      "contact": "Contact"
+    },
+    "solutions": {
+      "erp": "ERP",
+      "aiErp": "AI ERP",
+      "ecommerce": "E-Commerce",
+      "aiAutomation": "AI Automation",
+      "cyberSecurity": "Cyber Security",
+      "cloud": "Cloud"
+    },
+    "services": {
+      "softwareDevelopment": "Software Development",
+      "websiteDevelopment": "Website Development",
+      "serverMaintenance": "Server Maintenance",
+      "professionalEmail": "Professional Email",
+      "seo": "SEO",
+      "digitalMarketing": "Digital Marketing",
+      "adsCampaign": "Ads Campaign",
+      "virtualAssistance": "Virtual Assistance"
+    },
+    "company": {
+      "about": "About",
+      "industries": "Industries",
+      "portfolio": "Portfolio",
+      "technology": "Technology",
+      "locations": "Locations",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "resources": {
+      "blog": "Blog",
+      "insights": "Insights",
+      "caseStudies": "Case Studies",
+      "documentation": "Documentation",
+      "faq": "FAQ"
+    },
+    "copyright": "© {year} RankVibez. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Page not found.",
+    "description": "The page you’re looking for doesn’t exist or may have moved.",
+    "backHome": "Back to Home",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "servicesSection": {
+      "eyebrow": "Services",
+      "title": "Technology services built around your business.",
+      "description": "A full-stack service architecture covering enterprise software, infrastructure, security and growth.",
+      "viewAll": "View All Services"
+    },
+    "industriesSection": {
+      "eyebrow": "Industries",
+      "title": "Built for the businesses that run the real economy.",
+      "description": "RankVibez works across industries where reliable software and infrastructure directly affect operations."
+    },
+    "solutionsSection": {
+      "eyebrow": "Enterprise Solutions",
+      "title": "Technology Solutions Built Around Your Business",
+      "description": "Each solution connects real business processes to a working technology system — not a generic package."
+    },
+    "aiSection": {
+      "eyebrow": "AI-First",
+      "title": "AI Is Not the Future. It's the Infrastructure of Modern Business.",
+      "description": "We integrate artificial intelligence into software, workflows, customer experiences and business operations to help organizations work smarter and scale faster.",
+      "cta": "Explore AI at RankVibez"
+    },
+    "whySection": {
+      "eyebrow": "Why RankVibez",
+      "title": "A technology partner built for the long term."
+    },
+    "processSection": {
+      "eyebrow": "Process",
+      "title": "From Idea to Intelligent Business System"
+    },
+    "hero": {
+      "badge": "AI-First Technology Partner",
+      "titlePrefix": "Build the Future with",
+      "titleHighlight": "AI-Driven Technology",
+      "description": "RankVibez helps businesses build intelligent software, automate operations, strengthen infrastructure and accelerate digital growth through AI-powered technology.",
+      "primaryCta": "Start a Project",
+      "secondaryCta": "Explore Our Solutions"
+    },
+    "heroVisual": {
+      "aiAnalyticsLive": "AI Analytics — Live",
+      "automationRate": "Automation Rate",
+      "optimized": "Optimized",
+      "agentDeployed": "Agent · Deployed"
+    },
+    "techEcosystemSection": {
+      "eyebrow": "Technology Ecosystem",
+      "title": "Built on the World's Leading Technology Platforms",
+      "footnote": "Platforms and tools RankVibez builds and delivers on. Official partnership status is shown only where verified."
+    },
+    "trustStrip": {
+      "label": "Platforms We Work With"
+    },
+    "globalPresenceSection": {
+      "eyebrow": "Global Presence",
+      "title": "Global Reach. Local Understanding.",
+      "description": "RankVibez operates from Dhaka and delivers technology solutions to businesses across multiple international markets."
+    },
+    "portfolioSection": {
+      "eyebrow": "Featured Work",
+      "title": "Built for Businesses Around the World",
+      "description": "A selection of projects and concept builds spanning ERP, e-commerce, AI and infrastructure.",
+      "viewFullPortfolio": "View Full Portfolio"
+    },
+    "capabilities": {
+      "eyebrow": "Core Capabilities",
+      "title": "One technology partner, full capability.",
+      "description": "From AI-driven systems to secure infrastructure and measurable growth — RankVibez brings the full stack together.",
+      "items": {
+        "ai-first": { "title": "AI-First Technology", "description": "AI integrated into products and workflows, not bolted on." },
+        "enterprise-software": { "title": "Enterprise Software", "description": "Custom ERP and business systems built around real operations." },
+        "business-automation": { "title": "Business Automation", "description": "Automated workflows connecting teams, tools and data." },
+        "ecommerce-technology": { "title": "E-Commerce Technology", "description": "High-performance commerce platforms built to scale." },
+        "cloud-infrastructure": { "title": "Cloud & Infrastructure", "description": "Reliable, monitored infrastructure across leading providers." },
+        "cyber-security": { "title": "Cyber Security", "description": "Security considered from architecture through to launch." }
+      }
+    },
+    "testimonialsSection": {
+      "quote": "Trusted by businesses building their next stage of growth.",
+      "note": "Verified client testimonials will be published here as engagements are completed."
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio",
+    "metaDescription": "RankVibez portfolio and concept projects spanning ERP, e-commerce, AI, infrastructure and digital growth.",
+    "eyebrow": "Portfolio",
+    "title": "Built for Businesses Around the World",
+    "description": "A selection of projects and concept builds spanning ERP, e-commerce, AI and infrastructure. Concept and demo work is clearly labeled."
+  },
+  "portfolioDetailPage": {
+    "backToPortfolio": "Back to Portfolio",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "outcome": "Outcome",
+    "servicesProvided": "Services Provided",
+    "startSimilarProject": "Start a Similar Project"
+  },
+  "portfolioLabels": {
+    "Concept Project": "Concept Project",
+    "Internal Demo": "Internal Demo"
+  },
+  "portfolioData": {
+    "categories": {
+      "All": "All",
+      "Software": "Software",
+      "ERP": "ERP",
+      "E-Commerce": "E-Commerce",
+      "Corporate Websites": "Corporate Websites",
+      "AI": "AI",
+      "Infrastructure": "Infrastructure",
+      "Digital Growth": "Digital Growth"
+    },
+    "industries": {
+      "Manufacturing": "Manufacturing",
+      "Retail": "Retail",
+      "Technology": "Technology",
+      "Professional Services": "Professional Services",
+      "Finance": "Finance",
+      "E-Commerce": "E-Commerce"
+    },
+    "services": {
+      "ERP Software": "ERP Software",
+      "AI-Driven ERP": "AI-Driven ERP",
+      "E-Commerce Solutions": "E-Commerce Solutions",
+      "Cloud Infrastructure": "Cloud Infrastructure",
+      "Cyber Security": "Cyber Security",
+      "Web Development": "Web Development",
+      "AI-Driven Company": "AI-Driven Company",
+      "AI Automation": "AI Automation",
+      "Digital Marketing": "Digital Marketing",
+      "SEO": "SEO",
+      "Ads Campaign": "Ads Campaign"
+    },
+    "projects": {
+      "again-erp-concept": {
+        "summary": "A concept ERP system exploring how AI-assisted forecasting and unified operations could work for a mid-size manufacturer.",
+        "challenge": "Manufacturers often run finance, inventory and production on disconnected spreadsheets and legacy tools, leading to slow decisions and stock mismatches.",
+        "solution": "Designed a unified ERP data model covering dashboard, HRM, sales, inventory and accounting, with an AI layer surfacing demand forecasts and stock anomalies.",
+        "outcome": "A working concept demonstrating how AI-assisted planning can reduce manual reporting effort and highlight operational risk earlier."
+      },
+      "againcart-ecommerce": {
+        "summary": "A demo commerce platform built to explore high-volume catalog management and checkout performance patterns.",
+        "challenge": "High-SKU retail catalogs need fast filtering, accurate inventory sync and a checkout flow that holds up under traffic spikes.",
+        "solution": "Built a demo storefront with server-rendered catalog pages, optimized checkout and a synchronized inventory layer.",
+        "outcome": "Established reusable commerce architecture patterns for catalog performance and checkout reliability."
+      },
+      "harborcloud-infrastructure-demo": {
+        "summary": "An internal reference architecture for scalable, secure cloud deployment and CI/CD pipelines.",
+        "challenge": "Growing teams need infrastructure that scales safely without manual deployment risk or inconsistent environments.",
+        "solution": "Designed an infrastructure-as-code reference stack with automated CI/CD, monitoring and hardened access control.",
+        "outcome": "A reusable infrastructure blueprint for reliable, auditable deployments across environments."
+      },
+      "meridian-corporate-concept": {
+        "summary": "A concept corporate web platform exploring modern content architecture for professional services firms.",
+        "challenge": "Professional services firms need credible, fast, content-rich websites that are easy to maintain without a heavy CMS.",
+        "solution": "Designed a component-driven, data-driven corporate site architecture ready for lightweight CMS integration.",
+        "outcome": "A flexible corporate site pattern that balances editorial flexibility with front-end performance."
+      },
+      "vantage-ai-advisor-concept": {
+        "summary": "A concept AI advisory assistant exploring how conversational AI could guide business users toward the right internal workflows.",
+        "challenge": "Business users often don't know which internal tool or workflow applies to a task, creating friction and support overhead.",
+        "solution": "Prototyped a server-side AI advisor that interprets natural-language requests and routes users to the right workflow or resource.",
+        "outcome": "Validated an architecture pattern for keeping AI API keys server-side while delivering a responsive advisory experience."
+      },
+      "growthline-marketing-demo": {
+        "summary": "An internal demo exploring a unified reporting layer across SEO, ads and conversion analytics for an online retailer.",
+        "challenge": "Growth teams often track SEO, paid ads and conversion data in separate dashboards, making funnel-wide decisions slow.",
+        "solution": "Built a demo reporting layer consolidating organic, paid and on-site conversion signals into one funnel view.",
+        "outcome": "Demonstrated a practical pattern for connecting acquisition and conversion data for faster growth decisions."
+      }
+    }
+  },
+  "locationsPage": {
+    "metaTitle": "Locations",
+    "metaDescription": "RankVibez operates from Dhaka, Bangladesh and serves clients across the United States, United Kingdom, UAE, Saudi Arabia, Canada and Australia.",
+    "eyebrow": "Global Presence",
+    "title": "Global Reach. Local Understanding.",
+    "description": "RankVibez operates from Dhaka and delivers technology solutions to businesses across multiple international markets.",
+    "footnote": "Locations marked as “Serving Clients In” represent active service markets rather than physical offices. Only Dhaka, Bangladesh is an operating office."
+  },
+  "locationsData": {
+    "labels": {
+      "headOffice": "Head Office / Technology Operations",
+      "servingClientsIn": "Serving Clients In"
+    }
+  },
+  "technologyPage": {
+    "metaTitle": "Technology",
+    "metaDescription": "The frontend, backend, cloud, DevOps and AI technologies RankVibez builds and delivers on.",
+    "eyebrow": "Technology",
+    "title": "The technology stack behind every build.",
+    "description": "A modern, proven stack across frontend, backend, cloud and AI — chosen for reliability, performance and long-term maintainability.",
+    "ecosystemEyebrow": "Technology Ecosystem",
+    "ecosystemTitle": "Platforms We Work With"
+  },
+  "technologyData": {
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "cloud": "Cloud",
+      "devops": "DevOps",
+      "ai": "AI"
+    }
+  },
+  "whatWeDoPage": {
+    "metaTitle": "What We Do",
+    "metaDescription": "A complete, scrollable overview of everything RankVibez offers — enterprise software, cloud infrastructure, cybersecurity, digital growth and AI transformation.",
+    "badge": "What We Do",
+    "titlePrefix": "One Technology Partner.",
+    "titleHighlight": "Every Capability You Need.",
+    "description": "Enterprise software, cloud infrastructure, cybersecurity, digital growth and AI transformation — scroll through to see exactly what RankVibez can build for you.",
+    "requestQuotation": "Request a Quotation",
+    "overviewEyebrow": "At a Glance",
+    "overviewTitle": "Everything we offer, in one view.",
+    "overviewDescription": "Tap any service to jump straight to the details below.",
+    "ctaTitle": "Ready to Build What's Next?",
+    "ctaDescription": "Tell us which services you need and we'll follow up with a custom quote — no pricing games, just a conversation about your project.",
+    "ctaSecondaryLabel": "Talk to Our Team"
+  },
+  "aiPage": {
+    "metaTitle": "AI",
+    "metaDescription": "AI is the infrastructure of modern business. Explore how RankVibez integrates AI into ERP, automation, analytics and customer operations.",
+    "eyebrow": "AI-First",
+    "title": "AI Is Not the Future. It's the Infrastructure of Modern Business.",
+    "description": "We integrate artificial intelligence into software, workflows, customer experiences and business operations to help organizations work smarter and scale faster.",
+    "tryItEyebrow": "Try It",
+    "tryItTitle": "Not sure where to start?",
+    "tryItDescription": "Answer two quick questions and the RankVibez AI Advisor will point you to the right solution.",
+    "ctaTitle": "Ready to Make AI Part of Your Business?",
+    "ctaDescription": "From AI-driven ERP to automation and analytics — let's identify the highest-leverage place to start.",
+    "ctaPrimaryLabel": "Start a Conversation",
+    "ctaSecondaryLabel": "Explore Our Services"
+  },
+  "orgChart": {
+    "eyebrow": "Our Team",
+    "title": "How RankVibez is organized.",
+    "description": "Structured around every service we deliver — from ERP and AI to cloud, security and growth.",
+    "reportsTo": {
+      "ceo": "Reports to CEO",
+      "cto": "Reports to CTO",
+      "cfo": "Reports to CFO"
+    },
+    "branches": {
+      "enterprise-software": "Enterprise Software",
+      "cloud-infrastructure": "Cloud & Infrastructure",
+      "cyber-security": "Cyber Security",
+      "ai-business-transformation": "AI & Business Transformation",
+      "digital-growth": "Digital Growth",
+      "creative-brand": "Creative & Brand",
+      "project-client-operations": "Project & Client Operations"
+    }
+  },
+  "teamData": {
+    "roles": {
+      "founder-chairman": "Founder & Chairman",
+      "ceo-web-developer": "CEO & Web Developer",
+      "cto-head-software": "CTO & Head of Software",
+      "cfo-hr-manager": "CFO & HR Manager",
+      "project-manager": "Project Manager",
+      "business-analyst-erp-automation": "Business Analyst — ERP & Automation",
+      "erp-systems-developer": "ERP Systems Developer",
+      "ecommerce-developer": "E-Commerce Developer",
+      "fullstack-web-developer": "Full-Stack Web Developer",
+      "software-developer": "Software Developer",
+      "fullstack-dotnet-developer-erp": "Full-Stack .NET Developer — ERP Systems",
+      "qa-engineer": "QA Engineer",
+      "cloud-devops-engineer": "Cloud, DevOps & Infrastructure Engineer",
+      "cybersecurity-analyst": "Cybersecurity Analyst",
+      "ai-engineer": "AI Engineer",
+      "ai-automation-engineer": "AI Automation Engineer",
+      "client-support-specialist": "Client Support Specialist",
+      "seo-content-strategist": "SEO & Content Strategist",
+      "digital-marketing-expert": "Digital Marketing Expert",
+      "technical-seo-expert": "Technical SEO Expert",
+      "digital-marketing-executive": "Digital Marketing Executive",
+      "conversion-campaign-executive": "Conversion & Campaign Executive",
+      "content-writer-strategist": "Content Writer & Strategist",
+      "graphics-designer": "Graphics Designer",
+      "graphics-designer-video-editor": "Graphics Designer & Video Editor",
+      "marketing-manager-ads": "Marketing Manager — Ads Campaigns",
+      "ads-campaign-specialist": "Ads Campaign Specialist"
+    }
+  },
+  "countries": {
+    "China": "China",
+    "Bangladesh": "Bangladesh",
+    "United States": "United States",
+    "United Kingdom": "United Kingdom",
+    "UAE": "UAE",
+    "Saudi Arabia": "Saudi Arabia",
+    "Canada": "Canada",
+    "Australia": "Australia",
+    "Other": "Other"
+  },
+  "contactData": {
+    "budgetOptions": {
+      "Under $1,000": "Under $1,000",
+      "$1,000 – $5,000": "$1,000 – $5,000",
+      "$5,000 – $10,000": "$5,000 – $10,000",
+      "$10,000 – $25,000": "$10,000 – $25,000",
+      "$25,000+": "$25,000+",
+      "Enterprise / Custom": "Enterprise / Custom"
+    }
+  },
+  "quoteForm": {
+    "steps": {
+      "services": "Services",
+      "requirements": "Requirements",
+      "yourDetails": "Your Details"
+    },
+    "selectServiceError": "Select at least one service to continue.",
+    "nameRequired": "Name is required.",
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "phoneInvalid": "Enter a valid phone number.",
+    "genericError": "Something went wrong. Please try again.",
+    "successTitle": "Thanks — your request is in.",
+    "successDescription": "We've received your quotation request and sent a confirmation to your email. Our team will review your requirements and follow up shortly with a custom quote.",
+    "step1Title": "Which services do you need?",
+    "step1Description": "Select one or more services — you can add details for each next.",
+    "step2Title": "Tell us more about each service",
+    "step2Description": "Optional — add any specific requirements or details so we can prepare a more accurate quote.",
+    "requirementsPlaceholder": "Specific requirements or details for {service} (optional)",
+    "step3Title": "Your contact information",
+    "step3Description": "So we know who to send the custom quote to. No prices are shown here — our team will follow up directly.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Jane Doe",
+    "companyLabel": "Company Name",
+    "companyPlaceholder": "Company name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+1 555 000 0000",
+    "messageLabel": "General Message",
+    "messagePlaceholder": "Anything else we should know? (optional)",
+    "back": "Back",
+    "next": "Next",
+    "submitting": "Submitting...",
+    "sendRequest": "Send Request"
+  },
+  "contactForm": {
+    "genericError": "Something went wrong. Please try again.",
+    "successTitle": "Thanks — your message is in.",
+    "successDescription": "A member of the RankVibez team will get back to you shortly to schedule a discovery call.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Jane Doe",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Company name",
+    "emailLabel": "Work Email",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+1 555 000 0000",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Select country",
+    "serviceLabel": "Service",
+    "servicePlaceholder": "Select a service",
+    "budgetLabel": "Budget (USD)",
+    "budgetPlaceholder": "Select a budget range",
+    "descriptionLabel": "Project Description",
+    "descriptionPlaceholder": "Tell us about your business and what you're looking to build.",
+    "sending": "Sending...",
+    "submit": "Send Message"
+  },
+  "aiAdvisor": {
+    "name": "RankVibez AI Advisor",
+    "tagline": "Guided, rule-based — no data leaves your browser.",
+    "recommended": "Recommended",
+    "exploreThisSolution": "Explore This Solution",
+    "startOver": "Start Over",
+    "questions": {
+      "goal": {
+        "prompt": "What does your business need most right now?",
+        "options": {
+          "erp": "A unified system to run operations",
+          "ecommerce": "To sell products online",
+          "automation": "To automate repetitive work",
+          "security": "Stronger, more secure infrastructure"
+        }
+      },
+      "stage": {
+        "prompt": "How would you describe your current setup?",
+        "options": {
+          "manual": "Mostly manual / spreadsheets",
+          "fragmented": "Existing tools that don't talk to each other",
+          "scaling": "A working system that needs to scale"
+        }
+      }
+    },
+    "recommendations": {
+      "erp": {
+        "title": "ERP & AI-Driven ERP",
+        "description": "A unified system connecting finance, HR, inventory and operations — enhanced with AI-assisted forecasting."
+      },
+      "ecommerce": {
+        "title": "E-Commerce Solutions",
+        "description": "A custom storefront or marketplace built for performance, with integrated order and inventory management."
+      },
+      "automation": {
+        "title": "AI Automation & Transformation",
+        "description": "AI agents and workflow automation to remove repetitive manual work across your business."
+      },
+      "security": {
+        "title": "Cloud Infrastructure & Cyber Security",
+        "description": "Scalable cloud infrastructure paired with a practical, ongoing security posture."
+      }
+    }
+  },
+  "whyData": {
+    "items": {
+      "ai-first": {
+        "title": "AI-First",
+        "description": "We design AI into the product and workflow rather than adding it as an afterthought."
+      },
+      "business-understanding": {
+        "title": "Business Understanding",
+        "description": "Technology is built around real business processes, not generic templates."
+      },
+      "full-stack": {
+        "title": "Full Technology Stack",
+        "description": "Software, cloud, infrastructure, security and growth under one technology partner."
+      },
+      "scalable-architecture": {
+        "title": "Scalable Architecture",
+        "description": "Systems designed to evolve as the business grows, not rebuilt from scratch."
+      },
+      "security-mindset": {
+        "title": "Security Mindset",
+        "description": "Security and reliability are considered from the beginning of every build."
+      },
+      "global-delivery": {
+        "title": "Global Delivery",
+        "description": "Built to support international businesses and distributed teams."
+      },
+      "long-term-partnership": {
+        "title": "Long-Term Partnership",
+        "description": "We focus on continuous improvement, not one-time delivery."
+      }
+    },
+    "processSteps": {
+      "discover": { "title": "Discover", "description": "Understand the business and goals." },
+      "strategize": { "title": "Strategize", "description": "Define technology and AI opportunities." },
+      "design": { "title": "Design", "description": "Create UX, architecture and workflows." },
+      "build": { "title": "Build", "description": "Develop the software and integrations." },
+      "secure": { "title": "Secure", "description": "Test, harden and validate the system." },
+      "launch": { "title": "Launch", "description": "Deploy to production." },
+      "grow": { "title": "Grow", "description": "Monitor, optimize and continuously improve." }
+    },
+    "trustSignals": {
+      "ai-first-technology": "AI-First Technology",
+      "enterprise-software": "Enterprise Software",
+      "cloud-infrastructure": "Cloud & Infrastructure",
+      "digital-growth": "Digital Growth",
+      "global-delivery": "Global Delivery"
+    }
+  },
+  "privacyPolicyPage": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "How RankVibez collects, uses and protects information.",
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "2026",
+    "sections": {
+      "overview": {
+        "heading": "Overview",
+        "body": [
+          "This Privacy Policy explains how RankVibez (\"we\", \"us\") collects, uses and protects information when you visit rankvibez.com or engage with our services."
+        ]
+      },
+      "informationWeCollect": {
+        "heading": "Information We Collect",
+        "body": [
+          "When you submit our contact form, we collect the information you provide, such as your name, company, email address, phone number and project details.",
+          "We may also collect standard technical information such as browser type and general usage data to help us improve the website."
+        ]
+      },
+      "howWeUseInformation": {
+        "heading": "How We Use Information",
+        "body": [
+          "Information submitted through our contact form is used solely to respond to your inquiry and, where relevant, to prepare a project proposal.",
+          "We do not sell or rent personal information to third parties."
+        ]
+      },
+      "dataRetention": {
+        "heading": "Data Retention",
+        "body": [
+          "We retain inquiry information for as long as necessary to respond to your request and maintain business records, after which it may be deleted."
+        ]
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": ["Questions about this policy can be directed to admin@rankvibez.com."]
+      }
+    }
+  },
+  "termsOfServicePage": {
+    "metaTitle": "Terms of Service",
+    "metaDescription": "The terms that govern use of the RankVibez website and services.",
+    "eyebrow": "Legal",
+    "title": "Terms of Service",
+    "updated": "2026",
+    "sections": {
+      "acceptanceOfTerms": {
+        "heading": "Acceptance of Terms",
+        "body": ["By accessing rankvibez.com, you agree to these Terms of Service. If you do not agree, please discontinue use of the website."]
+      },
+      "useOfWebsite": {
+        "heading": "Use of the Website",
+        "body": ["Content on this website is provided for general informational purposes about RankVibez and its services and should not be relied upon as a substitute for a formal proposal or contract."]
+      },
+      "serviceEngagements": {
+        "heading": "Service Engagements",
+        "body": ["Specific project scope, deliverables, pricing and timelines for any engagement are governed by a separate written proposal or agreement between RankVibez and the client."]
+      },
+      "intellectualProperty": {
+        "heading": "Intellectual Property",
+        "body": ["All content on this website, including text, graphics and branding, is the property of RankVibez unless otherwise noted, and may not be reproduced without permission."]
+      },
+      "limitationOfLiability": {
+        "heading": "Limitation of Liability",
+        "body": ["RankVibez is not liable for any indirect or consequential loss arising from use of this website. Nothing in these terms limits liability arising from a signed service agreement."]
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": ["Questions about these terms can be directed to admin@rankvibez.com."]
+      }
+    }
+  },
+  "cookiePolicyPage": {
+    "metaTitle": "Cookie Policy",
+    "metaDescription": "How RankVibez uses cookies and similar technologies.",
+    "eyebrow": "Legal",
+    "title": "Cookie Policy",
+    "updated": "2026",
+    "sections": {
+      "whatAreCookies": {
+        "heading": "What Are Cookies",
+        "body": ["Cookies are small text files stored on your device that help websites function correctly and, where used, understand how visitors interact with the site."]
+      },
+      "howWeUseCookies": {
+        "heading": "How We Use Cookies",
+        "body": ["RankVibez uses essential cookies required for the website to function. If analytics or marketing cookies are added in the future, this policy will be updated accordingly."]
+      },
+      "managingCookies": {
+        "heading": "Managing Cookies",
+        "body": ["You can control or disable cookies through your browser settings. Disabling essential cookies may affect website functionality."]
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": ["Questions about this policy can be directed to admin@rankvibez.com."]
+      }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog",
+    "metaDescription": "Articles and updates from the RankVibez team on software, AI, infrastructure and digital growth.",
+    "eyebrow": "Resources",
+    "title": "Blog",
+    "description": "Articles and updates from the RankVibez team — coming soon."
+  },
+  "insightsPage": {
+    "metaTitle": "Insights",
+    "metaDescription": "RankVibez insights on AI, software engineering, cloud infrastructure and digital growth.",
+    "eyebrow": "Resources",
+    "title": "Insights",
+    "description": "Articles and perspectives on AI, software engineering, infrastructure and digital growth — coming soon."
+  },
+  "documentationPage": {
+    "metaTitle": "Documentation",
+    "metaDescription": "Technical documentation and guides from RankVibez.",
+    "eyebrow": "Resources",
+    "title": "Documentation",
+    "description": "Technical documentation for RankVibez clients and partners — coming soon."
+  },
+  "quotePage": {
+    "metaTitle": "Request a Quotation",
+    "metaDescription": "Tell us which services you need and describe your requirements — RankVibez will follow up with a custom quote.",
+    "eyebrow": "Request a Quotation",
+    "title": "Tell us what you need. We'll send a custom quote.",
+    "description": "Select the services you're interested in, share your requirements, and our team will follow up with a tailored proposal — no pricing shown here, just a conversation about your project."
+  },
+  "faqPage": {
+    "metaTitle": "FAQ",
+    "metaDescription": "Frequently asked questions about working with RankVibez.",
+    "eyebrow": "Resources",
+    "title": "Frequently Asked Questions",
+    "description": "Answers to common questions about working with RankVibez.",
+    "items": {
+      "whoWeWorkWith": {
+        "q": "What kind of businesses does RankVibez work with?",
+        "a": "We work with businesses that need enterprise-grade software, infrastructure, security or growth systems — from growing companies to larger organizations across retail, manufacturing, finance, healthcare, technology and other industries."
+      },
+      "pricing": {
+        "q": "How does pricing work?",
+        "a": "Most engagements are scoped individually through a discovery call and custom proposal. Where indicative pricing is shown, it is listed in USD as a starting point rather than a fixed final cost."
+      },
+      "process": {
+        "q": "What does the engagement process look like?",
+        "a": "We follow a structured process: discover, strategize, design, build, secure, launch and grow — with clear checkpoints and documentation at each stage."
+      },
+      "ongoingSupport": {
+        "q": "Do you offer ongoing support after launch?",
+        "a": "Yes. Monitoring, maintenance and continuous improvement are available as part of a managed technology services engagement."
+      },
+      "aiIntegration": {
+        "q": "Can RankVibez integrate AI into an existing system?",
+        "a": "Yes. We regularly assess existing workflows and add AI capabilities — automation, analytics or agents — into systems that are already in production."
+      },
+      "location": {
+        "q": "Where is RankVibez based?",
+        "a": "RankVibez operates from Dhaka, Bangladesh, and serves clients across multiple international markets."
+      }
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Contact",
+    "metaDescription": "Start a conversation with RankVibez about your next software, AI, infrastructure or growth project.",
+    "eyebrow": "Contact",
+    "title": "Let's talk about what you're building.",
+    "description": "Tell us about your business and goals — we'll follow up to schedule a discovery call and scope a custom proposal.",
+    "headOffice": "Head Office",
+    "email": "Email",
+    "phone": "Phone",
+    "discoveryCallNote": "For enterprise engagements, we prefer a discovery call over a fixed quote — this lets us scope the right architecture before proposing pricing."
+  },
+  "aboutPage": {
+    "metaTitle": "About",
+    "metaDescription": "RankVibez is an AI-driven software and technology solutions company helping businesses build, automate, secure and grow.",
+    "eyebrow": "About RankVibez",
+    "title": "A technology partner for businesses building their next stage of growth.",
+    "description": "RankVibez is an AI-driven software and technology solutions company helping businesses build, automate, secure, market and scale their digital operations.",
+    "missionTitle": "Mission",
+    "missionDescription": "To help businesses operate, compete and grow through intelligent software and technology.",
+    "visionTitle": "Vision",
+    "visionDescription": "To become a globally trusted AI-first technology company for modern businesses.",
+    "valuesEyebrow": "Values",
+    "valuesTitle": "What guides how we build and work.",
+    "values": {
+      "clarity": {
+        "title": "Clarity",
+        "description": "We communicate in plain, technical language — no unnecessary complexity."
+      },
+      "craftsmanship": {
+        "title": "Craftsmanship",
+        "description": "Every system is built with attention to architecture, not just features."
+      },
+      "accountability": {
+        "title": "Accountability",
+        "description": "We stand behind what we build, from launch through ongoing support."
+      },
+      "curiosity": {
+        "title": "Curiosity",
+        "description": "We continually evaluate new technology, especially in AI, for practical value."
+      }
+    },
+    "aiPhilosophyTitle": "AI-First Philosophy",
+    "aiPhilosophyDescription": "We don’t treat AI as an add-on. Every system we design starts with the question: where can intelligence meaningfully reduce manual work, surface better decisions, or improve the customer experience? AI is designed into the architecture from day one, not retrofitted afterward.",
+    "globalDeliveryTitle": "Global Delivery",
+    "globalDeliveryDescription": "RankVibez operates from Dhaka, Bangladesh and delivers technology solutions to businesses across multiple international markets. Our team combines software engineering, cloud infrastructure, security and digital growth expertise to support each engagement end-to-end.",
+    "whyEyebrow": "Why RankVibez",
+    "whyTitle": "A technology partner built for the long term."
+  },
+  "careersPage": {
+    "metaTitle": "Careers",
+    "metaDescription": "Join RankVibez and help build AI-driven software and technology solutions for businesses around the world.",
+    "eyebrow": "Careers",
+    "title": "Build technology that matters.",
+    "description": "RankVibez is growing its team of engineers, designers and technologists. We're not actively hiring for specific roles right now, but we're always open to hearing from strong candidates.",
+    "whyEyebrow": "Why RankVibez",
+    "whyTitle": "What it's like to work here.",
+    "noOpenRolesTitle": "No open roles right now — reach out anyway.",
+    "noOpenRolesDescription": "Send your CV and a short note to our team, and we’ll keep it on file for future openings.",
+    "getInTouch": "Get In Touch"
+  },
+  "aiData": {
+    "flow": ["Business Data", "AI Intelligence Layer", "Automation", "Business Actions", "Insights & Growth"],
+    "capabilities": {
+      "ai-erp": {
+        "title": "AI-Driven ERP",
+        "description": "Intelligent enterprise resource planning with AI-assisted operations, analytics and automation."
+      },
+      "business-automation": {
+        "title": "AI Business Automation",
+        "description": "Automate repetitive workflows and connect business processes through intelligent agents."
+      },
+      "customer-operations": {
+        "title": "AI Customer Operations",
+        "description": "AI-powered customer support, lead qualification, recommendations and communication."
+      },
+      "analytics": {
+        "title": "AI Analytics",
+        "description": "Turn business data into actionable insights and decision support."
+      },
+      "agents": {
+        "title": "AI Agents",
+        "description": "Deploy specialized AI agents for sales, operations, support, marketing and administration."
+      },
+      "transformation": {
+        "title": "AI Transformation",
+        "description": "Assess existing business operations and identify practical AI opportunities."
+      }
+    }
+  },
+  "solutionsPage": {
+    "metaTitle": "Solutions",
+    "metaDescription": "Technology solutions built around your business — ERP, e-commerce, AI transformation, cloud, security and digital growth.",
+    "eyebrow": "Solutions",
+    "title": "Technology Solutions Built Around Your Business",
+    "description": "Every solution connects a real business process to a working technology system — designed to scale as the business grows."
+  },
+  "solutionsData": {
+    "erp": {
+      "name": "ERP & Business Management",
+      "description": "Unified systems for finance, HR, inventory and operations.",
+      "flow": ["Business Data", "Unified ERP Core", "Reporting & Control"]
+    },
+    "ecommerce": {
+      "name": "E-Commerce",
+      "description": "Storefronts, marketplaces and order management that scale.",
+      "flow": ["Catalog & Orders", "Commerce Platform", "Fulfillment & Growth"]
+    },
+    "web-development": {
+      "name": "Corporate Digital Platform",
+      "description": "Websites and portals built for credibility and performance.",
+      "flow": ["Content & Brand", "Web Platform", "Engagement & Leads"]
+    },
+    "ai-transformation": {
+      "name": "AI Transformation",
+      "description": "Practical AI adoption across workflows and operations.",
+      "flow": ["Business Process", "AI Layer", "Automated Outcomes"]
+    },
+    "cloud-infrastructure": {
+      "name": "Cloud Infrastructure",
+      "description": "Scalable, monitored infrastructure across cloud providers.",
+      "flow": ["Workloads", "Cloud Architecture", "Reliability & Scale"]
+    },
+    "cyber-security": {
+      "name": "Cyber Security",
+      "description": "Security built into infrastructure, not bolted on after.",
+      "flow": ["Risk Assessment", "Hardening & Controls", "Ongoing Monitoring"]
+    },
+    "digital-marketing": {
+      "name": "Digital Growth",
+      "description": "SEO, ads and conversion systems that compound over time.",
+      "flow": ["Audience & Channels", "Growth Execution", "Measured Outcomes"]
+    },
+    "business-automation": {
+      "name": "Business Automation",
+      "description": "Automated workflows connecting tools, teams and data.",
+      "flow": ["Manual Workflow", "Automation Layer", "Time & Cost Saved"]
+    },
+    "server-maintenance": {
+      "name": "Managed Technology Services",
+      "description": "Ongoing support, maintenance and monitoring for peace of mind.",
+      "flow": ["Live Systems", "Monitoring & Support", "Continuous Improvement"]
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "Industries",
+    "metaDescription": "RankVibez builds technology for retail, e-commerce, manufacturing, healthcare, finance and more.",
+    "eyebrow": "Industries",
+    "title": "Built for the businesses that run the real economy.",
+    "description": "RankVibez works across industries where reliable software and infrastructure directly affect day-to-day operations."
+  },
+  "industriesData": {
+    "retail": {
+      "name": "Retail",
+      "tagline": "Inventory & POS systems",
+      "description": "Unified inventory, point-of-sale and e-commerce systems that keep stock, pricing and operations in sync across channels."
+    },
+    "ecommerce": {
+      "name": "E-Commerce",
+      "tagline": "Storefronts & order management",
+      "description": "High-performance storefronts, catalog systems and order management built to handle volume and complexity."
+    },
+    "manufacturing": {
+      "name": "Manufacturing",
+      "tagline": "ERP & production planning",
+      "description": "ERP and production planning systems that connect procurement, manufacturing and inventory into one operational view."
+    },
+    "healthcare": {
+      "name": "Healthcare",
+      "tagline": "Secure operational software",
+      "description": "Secure administrative and operational software for healthcare organizations, built with data protection in mind."
+    },
+    "education": {
+      "name": "Education",
+      "tagline": "Enrollment & content platforms",
+      "description": "Digital platforms for institutions and education businesses, from enrollment portals to content delivery."
+    },
+    "finance": {
+      "name": "Finance",
+      "tagline": "Secure financial systems",
+      "description": "Reliable, secure software and infrastructure for financial operations, reporting and client-facing platforms."
+    },
+    "real-estate": {
+      "name": "Real Estate",
+      "tagline": "Listings & property management",
+      "description": "Property management platforms, listing systems and client portals built for real estate businesses."
+    },
+    "logistics": {
+      "name": "Logistics",
+      "tagline": "Tracking & fulfillment systems",
+      "description": "Operational systems for tracking, fulfillment and supply chain coordination across distributed teams."
+    },
+    "hospitality": {
+      "name": "Hospitality",
+      "tagline": "Booking & guest management",
+      "description": "Booking, guest management and operational platforms designed around hospitality workflows."
+    },
+    "professional-services": {
+      "name": "Professional Services",
+      "tagline": "Client portals & project systems",
+      "description": "Client portals, project systems and corporate platforms that reflect the credibility of a professional firm."
+    },
+    "technology": {
+      "name": "Technology",
+      "tagline": "Infrastructure & product engineering",
+      "description": "Infrastructure, tooling and product engineering support for technology companies scaling their platforms."
+    },
+    "ngo-nonprofit": {
+      "name": "NGOs / Non-Profit",
+      "tagline": "Mission-driven digital platforms",
+      "description": "Purpose-built digital platforms that help mission-driven organizations operate efficiently and communicate clearly."
+    }
+  },
+  "common": {
+    "exploreService": "Explore Service",
+    "whatYouGet": "What You Get",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "viewCaseStudy": "View Case Study",
+    "scrollToExplore": "Scroll to explore",
+    "lastUpdated": "Last updated: {date}",
+    "comingSoon": {
+      "title": "Coming Soon",
+      "description": "We're building this out. In the meantime, reach out directly and our team will help.",
+      "contactUs": "Contact Us"
+    },
+    "cta": {
+      "title": "Ready to Build What's Next?",
+      "description": "Whether you need an ERP, e-commerce platform, AI transformation, secure infrastructure or a complete digital growth strategy — let's build it together.",
+      "primaryLabel": "Start a Conversation",
+      "secondaryLabel": "Explore Our Services"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Services",
+    "metaDescription": "Enterprise software, cloud infrastructure, cyber security, digital growth and AI transformation services from RankVibez.",
+    "eyebrow": "Services",
+    "title": "Technology services built around your business.",
+    "description": "A full-stack service architecture spanning enterprise software, infrastructure, security and digital growth — designed to work together as one system."
+  },
+  "serviceDetailPage": {
+    "requestConsultation": "Request a Consultation",
+    "viewAllServices": "View All Services",
+    "whatsIncluded": "What’s Included",
+    "pricing": "Pricing",
+    "pricingDescription": "Every engagement is scoped to the business. For enterprise services, we prefer a custom proposal over fixed pricing.",
+    "customPricing": "Custom Pricing",
+    "talkToExpert": "Talk to an Expert",
+    "getCustomQuote": "Get a Custom Quote",
+    "relatedServices": "Related Services"
+  },
+  "serviceCategories": {
+    "Enterprise Software": "Enterprise Software",
+    "Cloud & Infrastructure": "Cloud & Infrastructure",
+    "Cyber Security": "Cyber Security",
+    "Digital Growth": "Digital Growth",
+    "AI & Business Transformation": "AI & Business Transformation"
+  },
+  "servicesData": {
+    "erp": {
+      "name": "ERP Software",
+      "short": "Custom ERP systems for finance, HR, inventory, sales and operations.",
+      "description": "We design and build enterprise resource planning systems tailored to how your business actually operates — connecting finance, HR, inventory, sales, purchasing and manufacturing into a single source of truth.",
+      "capabilities": [
+        "Finance & accounting modules",
+        "HR & payroll management",
+        "Inventory & warehouse control",
+        "Sales & purchasing workflows",
+        "Manufacturing & production planning",
+        "Custom reporting & dashboards"
+      ]
+    },
+    "ai-erp": {
+      "name": "AI-Driven ERP",
+      "short": "ERP systems enhanced with AI agents, automation and intelligent analytics.",
+      "description": "We extend traditional ERP with AI agents, predictive analytics and automation — helping teams forecast demand, flag anomalies and reduce manual data entry across every department.",
+      "capabilities": [
+        "AI-assisted forecasting",
+        "Intelligent process automation",
+        "Anomaly & fraud detection",
+        "Natural-language reporting",
+        "Smart approval workflows",
+        "Predictive inventory planning"
+      ]
+    },
+    "ecommerce": {
+      "name": "E-Commerce Solutions",
+      "short": "Custom e-commerce platforms, marketplaces and order management.",
+      "description": "We build high-performance e-commerce platforms and marketplaces — from product catalogs and checkout to order management, payments and logistics integrations.",
+      "capabilities": [
+        "Custom storefronts & marketplaces",
+        "Product & catalog management",
+        "Order & fulfillment systems",
+        "Payment gateway integration",
+        "Inventory synchronization",
+        "Performance & conversion optimization"
+      ]
+    },
+    "web-development": {
+      "name": "Web Development",
+      "short": "Corporate websites, business portals and enterprise web applications.",
+      "description": "We design and engineer corporate websites, client portals and web applications built on modern, scalable architecture — fast, accessible and SEO-ready from day one.",
+      "capabilities": [
+        "Corporate & marketing websites",
+        "Client & business portals",
+        "Landing pages & campaign sites",
+        "Enterprise web applications",
+        "Headless CMS integration",
+        "SEO & performance engineering"
+      ]
+    },
+    "server-maintenance": {
+      "name": "Server Maintenance",
+      "short": "Linux/Windows server management, monitoring and security.",
+      "description": "We manage and maintain Linux and Windows server environments — monitoring uptime, applying security patches, optimizing performance and handling backups so your infrastructure stays reliable.",
+      "capabilities": [
+        "Server monitoring & alerting",
+        "Patch & update management",
+        "Performance optimization",
+        "Backup & disaster recovery",
+        "Security hardening",
+        "Incident troubleshooting"
+      ]
+    },
+    "cloud-infrastructure": {
+      "name": "Cloud Infrastructure",
+      "short": "Cloud deployment, migration, scaling and architecture.",
+      "description": "We architect and manage cloud infrastructure across leading providers — designing systems that scale reliably, deploy safely and stay observable in production.",
+      "capabilities": [
+        "Cloud migration & deployment",
+        "Auto-scaling architecture",
+        "Infrastructure as code",
+        "CI/CD pipelines",
+        "Monitoring & observability",
+        "Cost optimization"
+      ]
+    },
+    "business-email": {
+      "name": "Professional Email Service",
+      "short": "Business email setup, migration, security and administration.",
+      "description": "We set up and administer professional business email — configuring DNS, SPF, DKIM and DMARC correctly, migrating mailboxes safely and hardening deliverability and security.",
+      "capabilities": [
+        "Business email setup & migration",
+        "DNS, SPF, DKIM & DMARC configuration",
+        "Mailbox & domain administration",
+        "Deliverability optimization",
+        "Email security hardening",
+        "Ongoing administration support"
+      ]
+    },
+    "cyber-security": {
+      "name": "Cyber Security",
+      "short": "Website, server and business infrastructure security.",
+      "description": "We assess and strengthen the security of your websites, servers and business infrastructure — identifying vulnerabilities, hardening access and building a practical, ongoing security posture.",
+      "capabilities": [
+        "Security assessment & review",
+        "Vulnerability scanning",
+        "Server & application hardening",
+        "Access control & authentication",
+        "Malware detection & remediation",
+        "Backup strategy & monitoring"
+      ]
+    },
+    "digital-marketing": {
+      "name": "Digital Marketing",
+      "short": "Full-funnel digital marketing strategies for business growth.",
+      "description": "We design full-funnel digital marketing strategies that connect brand, content, channels and analytics — built to move measurable business outcomes, not just impressions.",
+      "capabilities": [
+        "Marketing strategy & planning",
+        "Content & channel strategy",
+        "Marketing analytics & reporting",
+        "Brand positioning support",
+        "Funnel & audience mapping",
+        "Cross-channel campaign execution"
+      ]
+    },
+    "seo": {
+      "name": "SEO",
+      "short": "Technical, on-page, local and international SEO.",
+      "description": "We improve organic visibility through technical SEO, on-page optimization, content strategy and international SEO structuring — grounded in analytics, not guesswork.",
+      "capabilities": [
+        "Technical SEO audits",
+        "On-page optimization",
+        "Content & keyword strategy",
+        "Local SEO",
+        "International / multi-region SEO",
+        "Analytics & performance tracking"
+      ]
+    },
+    "ads-campaign": {
+      "name": "Ads Campaign",
+      "short": "Google Ads, Meta Ads and performance advertising campaigns.",
+      "description": "We plan, launch and manage performance advertising across Google and Meta — building campaign structures, creative direction and optimization loops focused on return on ad spend.",
+      "capabilities": [
+        "Google Ads management",
+        "Meta Ads management",
+        "Campaign structure & targeting",
+        "Creative & copy direction",
+        "Conversion tracking setup",
+        "Ongoing optimization & reporting"
+      ]
+    },
+    "ppc-ads": {
+      "name": "PPC Ads",
+      "short": "Pay-per-click campaigns that drive targeted traffic and generate leads.",
+      "description": "We plan and manage pay-per-click advertising across search, display and shopping placements — building keyword strategy, ad creative and bid management focused on driving traffic and generating qualified leads.",
+      "capabilities": [
+        "Google & Bing Ads management",
+        "Search, display & shopping campaigns",
+        "Keyword research & targeting",
+        "Ad copy & creative direction",
+        "Bid & budget optimization",
+        "Conversion tracking & reporting"
+      ]
+    },
+    "conversion-optimization": {
+      "name": "Conversion Optimization",
+      "short": "Landing pages, analytics and funnel optimization.",
+      "description": "We optimize landing pages and conversion funnels using analytics, testing and UX refinement — turning existing traffic into more qualified leads and customers.",
+      "capabilities": [
+        "Landing page design & testing",
+        "Funnel analysis",
+        "Analytics implementation",
+        "A/B and multivariate testing",
+        "UX & copy refinement",
+        "Conversion rate reporting"
+      ]
+    },
+    "ai-transformation": {
+      "name": "AI-Driven Company / AI Automation",
+      "short": "AI transformation programs and business process automation.",
+      "description": "We help organizations integrate AI into daily operations — assessing existing workflows, identifying practical automation opportunities and deploying AI agents where they create real leverage.",
+      "capabilities": [
+        "AI opportunity assessment",
+        "Workflow automation design",
+        "AI agent deployment",
+        "Process re-engineering",
+        "Change management support",
+        "Continuous optimization"
+      ]
+    },
+    "virtual-assistance": {
+      "name": "Virtual Assistance",
+      "short": "Professional virtual assistance for administrative and operational tasks.",
+      "description": "We provide professional virtual assistance for administrative, customer service, data and operational tasks — giving growing teams reliable operational support without the overhead.",
+      "capabilities": [
+        "Administrative support",
+        "Customer service support",
+        "Data entry & management",
+        "Scheduling & coordination",
+        "Research & reporting",
+        "Operational task support"
+      ]
+    }
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, type FormEvent } from "react";
+import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowLeft, ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
@@ -20,6 +21,9 @@ type Status = "idle" | "loading" | "success" | "error";
 type FieldErrors = { name?: string; email?: string; phone?: string };
 
 export function QuoteForm() {
+  const t = useTranslations("quoteForm");
+  const tCategory = useTranslations("serviceCategories");
+  const tServiceData = useTranslations("servicesData");
   const searchParams = useSearchParams();
   const preselected = searchParams.get("service");
 
@@ -59,7 +63,7 @@ export function QuoteForm() {
 
   function handleStep1Next() {
     if (selectedSlugs.length === 0) {
-      setServiceError("Select at least one service to continue.");
+      setServiceError(t("selectServiceError"));
       return;
     }
     goTo(2);
@@ -67,14 +71,14 @@ export function QuoteForm() {
 
   function validateContactFields() {
     const errors: FieldErrors = {};
-    if (!name.trim()) errors.name = "Name is required.";
+    if (!name.trim()) errors.name = t("nameRequired");
     if (!email.trim()) {
-      errors.email = "Email is required.";
+      errors.email = t("emailRequired");
     } else if (!emailPattern.test(email.trim())) {
-      errors.email = "Enter a valid email address.";
+      errors.email = t("emailInvalid");
     }
     if (phone.trim() && !phonePattern.test(phone.trim())) {
-      errors.phone = "Enter a valid phone number.";
+      errors.phone = t("phoneInvalid");
     }
     return errors;
   }
@@ -83,7 +87,7 @@ export function QuoteForm() {
     e.preventDefault();
 
     if (selectedSlugs.length === 0) {
-      setServiceError("Select at least one service to continue.");
+      setServiceError(t("selectServiceError"));
       goTo(1);
       return;
     }
@@ -115,13 +119,13 @@ export function QuoteForm() {
       });
       const data = await res.json();
       if (!res.ok) {
-        setSubmitError(data.error ?? "Something went wrong. Please try again.");
+        setSubmitError(data.error ?? t("genericError"));
         setStatus("error");
         return;
       }
       setStatus("success");
     } catch {
-      setSubmitError("Something went wrong. Please try again.");
+      setSubmitError(t("genericError"));
       setStatus("error");
     }
   }
@@ -135,11 +139,8 @@ export function QuoteForm() {
         className="card-surface flex flex-col items-center gap-4 rounded-3xl p-12 text-center"
       >
         <CheckCircle2 className="text-success" size={40} />
-        <h3 className="text-xl font-semibold text-foreground">Thanks — your request is in.</h3>
-        <p className="max-w-sm text-sm text-muted">
-          We&rsquo;ve received your quotation request and sent a confirmation to your email. Our team will review your
-          requirements and follow up shortly with a custom quote.
-        </p>
+        <h3 className="text-xl font-semibold text-foreground">{t("successTitle")}</h3>
+        <p className="max-w-sm text-sm text-muted">{t("successDescription")}</p>
       </motion.div>
     );
   }
@@ -171,15 +172,15 @@ export function QuoteForm() {
           {step === 1 && (
             <div className="flex flex-col gap-8">
               <div>
-                <h2 className="text-lg font-semibold text-foreground">Which services do you need?</h2>
-                <p className="mt-1.5 text-sm text-muted">Select one or more services — you can add details for each next.</p>
+                <h2 className="text-lg font-semibold text-foreground">{t("step1Title")}</h2>
+                <p className="mt-1.5 text-sm text-muted">{t("step1Description")}</p>
               </div>
 
               {serviceCategories.map((category) => {
                 const categoryServices = services.filter((s) => s.category === category);
                 return (
                   <div key={category} className="flex flex-col gap-3">
-                    <p className="text-xs font-semibold uppercase tracking-[0.1em] text-muted-2">{category}</p>
+                    <p className="text-xs font-semibold uppercase tracking-[0.1em] text-muted-2">{tCategory(category)}</p>
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                       {categoryServices.map((service) => (
                         <ServiceSelectCard
@@ -201,64 +202,63 @@ export function QuoteForm() {
           {step === 2 && (
             <div className="flex flex-col gap-6">
               <div>
-                <h2 className="text-lg font-semibold text-foreground">Tell us more about each service</h2>
-                <p className="mt-1.5 text-sm text-muted">
-                  Optional — add any specific requirements or details so we can prepare a more accurate quote.
-                </p>
+                <h2 className="text-lg font-semibold text-foreground">{t("step2Title")}</h2>
+                <p className="mt-1.5 text-sm text-muted">{t("step2Description")}</p>
               </div>
 
-              {selectedServices.map((service) => (
-                <div key={service.slug} className="flex flex-col gap-2">
-                  <label className={labelClass} htmlFor={`req-${service.slug}`}>
-                    {service.name}
-                  </label>
-                  <Textarea
-                    id={`req-${service.slug}`}
-                    rows={3}
-                    placeholder={`Specific requirements or details for ${service.name} (optional)`}
-                    value={requirements[service.slug] ?? ""}
-                    onChange={(e) => setRequirements((prev) => ({ ...prev, [service.slug]: e.target.value }))}
-                  />
-                </div>
-              ))}
+              {selectedServices.map((service) => {
+                const serviceName = tServiceData(`${service.slug}.name`);
+                return (
+                  <div key={service.slug} className="flex flex-col gap-2">
+                    <label className={labelClass} htmlFor={`req-${service.slug}`}>
+                      {serviceName}
+                    </label>
+                    <Textarea
+                      id={`req-${service.slug}`}
+                      rows={3}
+                      placeholder={t("requirementsPlaceholder", { service: serviceName })}
+                      value={requirements[service.slug] ?? ""}
+                      onChange={(e) => setRequirements((prev) => ({ ...prev, [service.slug]: e.target.value }))}
+                    />
+                  </div>
+                );
+              })}
             </div>
           )}
 
           {step === 3 && (
             <div className="flex flex-col gap-6">
               <div>
-                <h2 className="text-lg font-semibold text-foreground">Your contact information</h2>
-                <p className="mt-1.5 text-sm text-muted">
-                  So we know who to send the custom quote to. No prices are shown here — our team will follow up directly.
-                </p>
+                <h2 className="text-lg font-semibold text-foreground">{t("step3Title")}</h2>
+                <p className="mt-1.5 text-sm text-muted">{t("step3Description")}</p>
               </div>
 
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <div className="flex flex-col gap-2">
                   <label className={labelClass} htmlFor="name">
-                    Name
+                    {t("nameLabel")}
                   </label>
                   <Input
                     id="name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     state={fieldErrors.name ? "error" : "default"}
-                    placeholder="Jane Doe"
+                    placeholder={t("namePlaceholder")}
                   />
                   {fieldErrors.name && <p className="text-xs text-danger">{fieldErrors.name}</p>}
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className={labelClass} htmlFor="company">
-                    Company Name
+                    {t("companyLabel")}
                   </label>
-                  <Input id="company" value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Company name" />
+                  <Input id="company" value={company} onChange={(e) => setCompany(e.target.value)} placeholder={t("companyPlaceholder")} />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <div className="flex flex-col gap-2">
                   <label className={labelClass} htmlFor="email">
-                    Email
+                    {t("emailLabel")}
                   </label>
                   <Input
                     id="email"
@@ -266,13 +266,13 @@ export function QuoteForm() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     state={fieldErrors.email ? "error" : "default"}
-                    placeholder="you@company.com"
+                    placeholder={t("emailPlaceholder")}
                   />
                   {fieldErrors.email && <p className="text-xs text-danger">{fieldErrors.email}</p>}
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className={labelClass} htmlFor="phone">
-                    Phone
+                    {t("phoneLabel")}
                   </label>
                   <Input
                     id="phone"
@@ -280,7 +280,7 @@ export function QuoteForm() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     state={fieldErrors.phone ? "error" : "default"}
-                    placeholder="+1 555 000 0000"
+                    placeholder={t("phonePlaceholder")}
                   />
                   {fieldErrors.phone && <p className="text-xs text-danger">{fieldErrors.phone}</p>}
                 </div>
@@ -288,14 +288,14 @@ export function QuoteForm() {
 
               <div className="flex flex-col gap-2">
                 <label className={labelClass} htmlFor="message">
-                  General Message
+                  {t("messageLabel")}
                 </label>
                 <Textarea
                   id="message"
                   rows={4}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Anything else we should know? (optional)"
+                  placeholder={t("messagePlaceholder")}
                 />
               </div>
 
@@ -309,7 +309,7 @@ export function QuoteForm() {
         {step > 1 ? (
           <Button type="button" variant="secondary" onClick={() => goTo((step - 1) as Step)}>
             <ArrowLeft size={16} />
-            Back
+            {t("back")}
           </Button>
         ) : (
           <span />
@@ -317,7 +317,7 @@ export function QuoteForm() {
 
         {step < 3 && (
           <Button type="button" onClick={step === 1 ? handleStep1Next : () => goTo(3)}>
-            Next
+            {t("next")}
             <ArrowRight size={16} />
           </Button>
         )}
@@ -327,10 +327,10 @@ export function QuoteForm() {
             {status === "loading" ? (
               <>
                 <Loader2 size={16} className="animate-spin" />
-                Submitting...
+                {t("submitting")}
               </>
             ) : (
-              "Send Request"
+              t("sendRequest")
             )}
           </Button>
         )}

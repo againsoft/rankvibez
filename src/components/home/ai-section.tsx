@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -9,6 +10,9 @@ import { aiCapabilities } from "@/data/ai";
 import { ArrowRight } from "lucide-react";
 
 export function AISection() {
+  const t = useTranslations("home.aiSection");
+  const tData = useTranslations("aiData");
+
   return (
     <section id="ai" className="relative overflow-hidden py-16 sm:py-20">
       <div className="glow-orb pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[900px] -translate-x-1/2 -translate-y-1/2 opacity-30" />
@@ -16,10 +20,10 @@ export function AISection() {
 
       <Container className="relative">
         <SectionHeading
-          eyebrow="AI-First"
+          eyebrow={t("eyebrow")}
           align="center"
-          title="AI Is Not the Future. It's the Infrastructure of Modern Business."
-          description="We integrate artificial intelligence into software, workflows, customer experiences and business operations to help organizations work smarter and scale faster."
+          title={t("title")}
+          description={t("description")}
           className="mx-auto"
         />
 
@@ -28,13 +32,13 @@ export function AISection() {
             {aiCapabilities.map((cap, i) => {
               const Icon = (Icons[cap.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
               return (
-                <Reveal key={cap.title} delay={i * 0.06}>
+                <Reveal key={cap.id} delay={i * 0.06}>
                   <div className="card-surface h-full rounded-2xl p-6">
                     <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-secondary-soft text-secondary">
                       <Icon size={18} />
                     </div>
-                    <h3 className="text-[15px] font-semibold text-foreground">{cap.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted">{cap.description}</p>
+                    <h3 className="text-[15px] font-semibold text-foreground">{tData(`capabilities.${cap.id}.title`)}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-muted">{tData(`capabilities.${cap.id}.description`)}</p>
                   </div>
                 </Reveal>
               );
@@ -48,7 +52,7 @@ export function AISection() {
 
         <div className="mt-14 flex justify-center">
           <Button href="/ai" variant="secondary" size="lg">
-            Explore AI at RankVibez
+            {t("cta")}
             <ArrowRight size={16} />
           </Button>
         </div>

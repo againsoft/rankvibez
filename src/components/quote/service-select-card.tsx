@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Check } from "lucide-react";
@@ -16,6 +17,7 @@ export function ServiceSelectCard({
   selected: boolean;
   onToggle: () => void;
 }) {
+  const t = useTranslations(`servicesData.${service.slug}`);
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
 
   return (
@@ -47,8 +49,8 @@ export function ServiceSelectCard({
         <Icon size={20} />
       </div>
       <div>
-        <h3 className="pr-6 text-sm font-semibold text-foreground">{service.name}</h3>
-        <p className="mt-1.5 text-xs leading-relaxed text-muted">{service.short}</p>
+        <h3 className="pr-6 text-sm font-semibold text-foreground">{t("name")}</h3>
+        <p className="mt-1.5 text-xs leading-relaxed text-muted">{t("short")}</p>
       </div>
     </motion.button>
   );

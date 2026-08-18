@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -6,14 +7,13 @@ import { Reveal } from "@/components/shared/reveal";
 import { industries } from "@/data/industries";
 
 export function IndustriesSection() {
+  const t = useTranslations("home.industriesSection");
+  const tData = useTranslations("industriesData");
+
   return (
     <section className="py-16 sm:py-20">
       <Container>
-        <SectionHeading
-          eyebrow="Industries"
-          title="Built for the businesses that run the real economy."
-          description="RankVibez works across industries where reliable software and infrastructure directly affect operations."
-        />
+        <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
 
         <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {industries.map((industry, i) => {
@@ -25,8 +25,8 @@ export function IndustriesSection() {
                     <Icon size={16} />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">{industry.name}</h3>
-                    <p className="mt-1 text-xs leading-relaxed text-muted">{industry.tagline}</p>
+                    <h3 className="text-sm font-semibold text-foreground">{tData(`${industry.slug}.name`)}</h3>
+                    <p className="mt-1 text-xs leading-relaxed text-muted">{tData(`${industry.slug}.tagline`)}</p>
                   </div>
                 </div>
               </Reveal>

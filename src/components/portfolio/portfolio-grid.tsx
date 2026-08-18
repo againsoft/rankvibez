@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { PortfolioCard } from "@/components/shared/portfolio-card";
 import { portfolioCategories, portfolioProjects } from "@/data/portfolio";
 
 export function PortfolioGrid() {
+  const tCategory = useTranslations("portfolioData.categories");
   const [active, setActive] = useState("All");
 
   const filtered =
@@ -25,7 +27,7 @@ export function PortfolioGrid() {
                 : "border-border-subtle text-muted hover:border-border-strong hover:text-foreground"
             )}
           >
-            {cat}
+            {tCategory(cat)}
           </button>
         ))}
       </div>

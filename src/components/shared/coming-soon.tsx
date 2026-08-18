@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Construction } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,8 @@ export function ComingSoon({
   title: string;
   description: string;
 }) {
+  const t = useTranslations("common.comingSoon");
+
   return (
     <>
       <PageHero eyebrow={eyebrow} title={title} description={description} />
@@ -21,11 +24,9 @@ export function ComingSoon({
             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-soft text-primary">
               <Construction size={22} />
             </div>
-            <h2 className="text-xl font-semibold text-foreground">Coming Soon</h2>
-            <p className="max-w-md text-sm leading-relaxed text-muted">
-              We&rsquo;re building this out. In the meantime, reach out directly and our team will help.
-            </p>
-            <Button href="/contact">Contact Us</Button>
+            <h2 className="text-xl font-semibold text-foreground">{t("title")}</h2>
+            <p className="max-w-md text-sm leading-relaxed text-muted">{t("description")}</p>
+            <Button href="/contact">{t("contactUs")}</Button>
           </div>
         </Container>
       </section>

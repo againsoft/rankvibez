@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { PageHero } from "./page-hero";
 
@@ -12,9 +13,11 @@ export function LegalPage({
   updated: string;
   sections: { heading: string; body: string[] }[];
 }) {
+  const t = useTranslations("common");
+
   return (
     <>
-      <PageHero eyebrow={eyebrow} title={title} description={`Last updated: ${updated}`} />
+      <PageHero eyebrow={eyebrow} title={title} description={t("lastUpdated", { date: updated })} />
       <section className="pb-24">
         <Container>
           <div className="mx-auto flex max-w-3xl flex-col gap-10">

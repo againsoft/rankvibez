@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useTranslations } from "next-intl";
 import { CheckCircle2, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { services } from "@/data/services";
@@ -11,6 +12,10 @@ const fieldClass =
 const labelClass = "text-xs font-medium uppercase tracking-[0.08em] text-muted-2";
 
 export function ContactForm() {
+  const t = useTranslations("contactForm");
+  const tServices = useTranslations("servicesData");
+  const tCountries = useTranslations("countries");
+  const tBudget = useTranslations("contactData.budgetOptions");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [error, setError] = useState("");
 
@@ -30,13 +35,13 @@ export function ContactForm() {
       });
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error ?? "Something went wrong. Please try again.");
+        setError(data.error ?? t("genericError"));
         setStatus("error");
         return;
       }
       setStatus("success");
     } catch {
-      setError("Something went wrong. Please try again.");
+      setError(t("genericError"));
       setStatus("error");
     }
   }
@@ -45,10 +50,8 @@ export function ContactForm() {
     return (
       <div className="card-surface flex flex-col items-center gap-4 rounded-3xl p-12 text-center">
         <CheckCircle2 className="text-success" size={40} />
-        <h3 className="text-xl font-semibold text-foreground">Thanks — your message is in.</h3>
-        <p className="max-w-sm text-sm text-muted">
-          A member of the RankVibez team will get back to you shortly to schedule a discovery call.
-        </p>
+        <h3 className="text-xl font-semibold text-foreground">{t("successTitle")}</h3>
+        <p className="max-w-sm text-sm text-muted">{t("successDescription")}</p>
       </div>
     );
   }
@@ -59,66 +62,66 @@ export function ContactForm() {
 
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="name">Name</label>
-          <input id="name" name="name" required className={fieldClass} placeholder="Jane Doe" />
+          <label className={labelClass} htmlFor="name">{t("nameLabel")}</label>
+          <input id="name" name="name" required className={fieldClass} placeholder={t("namePlaceholder")} />
         </div>
         <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="company">Company</label>
-          <input id="company" name="company" className={fieldClass} placeholder="Company name" />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="email">Work Email</label>
-          <input id="email" name="email" type="email" required className={fieldClass} placeholder="you@company.com" />
-        </div>
-        <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="phone">Phone</label>
-          <input id="phone" name="phone" type="tel" className={fieldClass} placeholder="+1 555 000 0000" />
+          <label className={labelClass} htmlFor="company">{t("companyLabel")}</label>
+          <input id="company" name="company" className={fieldClass} placeholder={t("companyPlaceholder")} />
         </div>
       </div>
 
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="country">Country</label>
+          <label className={labelClass} htmlFor="email">{t("emailLabel")}</label>
+          <input id="email" name="email" type="email" required className={fieldClass} placeholder={t("emailPlaceholder")} />
+        </div>
+        <div className="flex flex-col gap-2">
+          <label className={labelClass} htmlFor="phone">{t("phoneLabel")}</label>
+          <input id="phone" name="phone" type="tel" className={fieldClass} placeholder={t("phonePlaceholder")} />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+        <div className="flex flex-col gap-2">
+          <label className={labelClass} htmlFor="country">{t("countryLabel")}</label>
           <select id="country" name="country" className={fieldClass} defaultValue="">
-            <option value="" disabled>Select country</option>
+            <option value="" disabled>{t("countryPlaceholder")}</option>
             {countryOptions.map((c) => (
-              <option key={c} value={c}>{c}</option>
+              <option key={c} value={c}>{tCountries(c)}</option>
             ))}
           </select>
         </div>
         <div className="flex flex-col gap-2">
-          <label className={labelClass} htmlFor="service">Service</label>
+          <label className={labelClass} htmlFor="service">{t("serviceLabel")}</label>
           <select id="service" name="service" className={fieldClass} defaultValue="">
-            <option value="" disabled>Select a service</option>
+            <option value="" disabled>{t("servicePlaceholder")}</option>
             {services.map((s) => (
-              <option key={s.slug} value={s.name}>{s.name}</option>
+              <option key={s.slug} value={s.slug}>{tServices(`${s.slug}.name`)}</option>
             ))}
           </select>
         </div>
       </div>
 
       <div className="flex flex-col gap-2">
-        <label className={labelClass} htmlFor="budget">Budget (USD)</label>
+        <label className={labelClass} htmlFor="budget">{t("budgetLabel")}</label>
         <select id="budget" name="budget" className={fieldClass} defaultValue="">
-          <option value="" disabled>Select a budget range</option>
+          <option value="" disabled>{t("budgetPlaceholder")}</option>
           {budgetOptions.map((b) => (
-            <option key={b} value={b}>{b}</option>
+            <option key={b} value={b}>{tBudget(b)}</option>
           ))}
         </select>
       </div>
 
       <div className="flex flex-col gap-2">
-        <label className={labelClass} htmlFor="description">Project Description</label>
+        <label className={labelClass} htmlFor="description">{t("descriptionLabel")}</label>
         <textarea
           id="description"
           name="description"
           required
           rows={5}
           className={fieldClass}
-          placeholder="Tell us about your business and what you're looking to build."
+          placeholder={t("descriptionPlaceholder")}
         />
       </div>
 
@@ -128,10 +131,10 @@ export function ContactForm() {
         {status === "loading" ? (
           <>
             <Loader2 size={16} className="animate-spin" />
-            Sending...
+            {t("sending")}
           </>
         ) : (
-          "Send Message"
+          t("submit")
         )}
       </Button>
     </form>

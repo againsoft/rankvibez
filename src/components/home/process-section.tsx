@@ -1,18 +1,17 @@
+import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/shared/reveal";
 import { processSteps } from "@/data/why";
 
 export function ProcessSection() {
+  const t = useTranslations("home.processSection");
+  const tData = useTranslations("whyData.processSteps");
+
   return (
     <section className="py-16 sm:py-20">
       <Container>
-        <SectionHeading
-          eyebrow="Process"
-          align="center"
-          title="From Idea to Intelligent Business System"
-          className="mx-auto"
-        />
+        <SectionHeading eyebrow={t("eyebrow")} align="center" title={t("title")} className="mx-auto" />
 
         <div className="relative mt-16">
           <div className="absolute left-5 top-2 bottom-2 w-px bg-gradient-to-b from-primary via-border-strong to-transparent sm:left-1/2 sm:-translate-x-1/2" />
@@ -29,8 +28,8 @@ export function ProcessSection() {
                   {step.number}
                 </div>
                 <div className={`card-surface w-full rounded-2xl p-5 ${i % 2 === 0 ? "sm:mr-0" : ""}`}>
-                  <h3 className="text-base font-semibold text-foreground">{step.title}</h3>
-                  <p className="mt-1.5 text-sm text-muted">{step.description}</p>
+                  <h3 className="text-base font-semibold text-foreground">{tData(`${step.id}.title`)}</h3>
+                  <p className="mt-1.5 text-sm text-muted">{tData(`${step.id}.description`)}</p>
                 </div>
               </Reveal>
             ))}

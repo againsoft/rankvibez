@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -7,18 +8,15 @@ import { PortfolioCard } from "@/components/shared/portfolio-card";
 import { portfolioProjects } from "@/data/portfolio";
 
 export function PortfolioSection() {
+  const t = useTranslations("home.portfolioSection");
   const featured = portfolioProjects.slice(0, 3);
   return (
     <section className="py-16 sm:py-20">
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-          <SectionHeading
-            eyebrow="Featured Work"
-            title="Built for Businesses Around the World"
-            description="A selection of projects and concept builds spanning ERP, e-commerce, AI and infrastructure."
-          />
+          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
           <Button href="/portfolio" variant="secondary" className="shrink-0">
-            View Full Portfolio
+            {t("viewFullPortfolio")}
             <ArrowRight size={16} />
           </Button>
         </div>

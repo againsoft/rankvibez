@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -10,9 +11,13 @@ import { cn } from "@/lib/utils";
 import type { Service } from "@/data/services";
 
 export function ServiceSection({ service, index }: { service: Service; index: number }) {
+  const t = useTranslations(`servicesData.${service.slug}`);
+  const tCategory = useTranslations("serviceCategories");
+  const tCommon = useTranslations("common");
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
   const reverse = index % 2 === 1;
-  const whatYouGet = service.capabilities.slice(0, 3);
+  const whatYouGet = t.raw("capabilities") as string[];
+  const capabilitiesPreview = whatYouGet.slice(0, 3);
 
   return (
     <section id={service.slug} className="scroll-mt-24 py-10">
@@ -22,13 +27,13 @@ export function ServiceSection({ service, index }: { service: Service; index: nu
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-soft text-primary">
               <Icon size={24} />
             </div>
-            <Badge>{service.category}</Badge>
-            <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">{service.name}</h2>
-            <p className="text-base leading-relaxed text-muted">{service.description}</p>
+            <Badge>{tCategory(service.category)}</Badge>
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">{t("name")}</h2>
+            <p className="text-base leading-relaxed text-muted">{t("description")}</p>
 
             <ul className="mt-1 flex flex-col gap-3">
-              <li className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-2">What You Get</li>
-              {whatYouGet.map((item) => (
+              <li className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-2">{tCommon("whatYouGet")}</li>
+              {capabilitiesPreview.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-foreground/90">
                   <Check size={16} className="mt-0.5 shrink-0 text-secondary" />
                   {item}
@@ -40,7 +45,7 @@ export function ServiceSection({ service, index }: { service: Service; index: nu
               href={`/services/${service.slug}`}
               className="focus-ring mt-1 inline-flex items-center gap-1.5 rounded text-sm font-medium text-secondary transition-transform hover:translate-x-1"
             >
-              Explore Service
+              {tCommon("exploreService")}
               <ArrowRight size={14} />
             </Link>
           </div>
@@ -50,7 +55,7 @@ export function ServiceSection({ service, index }: { service: Service; index: nu
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-border-subtle bg-background">
                 <Image
                   src={service.image}
-                  alt={service.name}
+                  alt={t("name")}
                   fill
                   className="object-contain p-6"
                   sizes="(min-width: 1024px) 45vw, 100vw"

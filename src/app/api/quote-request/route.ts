@@ -43,7 +43,7 @@ export async function POST(request: Request) {
       email: data.email,
       phone: data.phone,
       message: data.message,
-      services: selectedServices.map((s) => s.name),
+      services: selectedServices.map((s) => s.slug),
       requirements: data.requirements,
     });
     return NextResponse.json({ ok: true });

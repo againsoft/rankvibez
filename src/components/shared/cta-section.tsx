@@ -1,13 +1,14 @@
+import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "./reveal";
 
 export function CTASection({
-  title = "Ready to Build What's Next?",
-  description = "Whether you need an ERP, e-commerce platform, AI transformation, secure infrastructure or a complete digital growth strategy — let's build it together.",
-  primaryLabel = "Start a Conversation",
+  title,
+  description,
+  primaryLabel,
   primaryHref = "/contact",
-  secondaryLabel = "Explore Our Services",
+  secondaryLabel,
   secondaryHref = "/services",
 }: {
   title?: string;
@@ -17,6 +18,8 @@ export function CTASection({
   secondaryLabel?: string;
   secondaryHref?: string;
 }) {
+  const t = useTranslations("common.cta");
+
   return (
     <section className="relative py-28">
       <Container>
@@ -24,14 +27,14 @@ export function CTASection({
           <div className="glow-orb pointer-events-none absolute -top-32 left-1/2 h-[380px] w-[620px] -translate-x-1/2 opacity-60" />
           <div className="bg-grid pointer-events-none absolute inset-0 opacity-40" />
           <div className="relative mx-auto flex max-w-2xl flex-col items-center gap-6">
-            <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-5xl">{title}</h2>
-            <p className="text-balance text-base leading-relaxed text-muted sm:text-lg">{description}</p>
+            <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-5xl">{title ?? t("title")}</h2>
+            <p className="text-balance text-base leading-relaxed text-muted sm:text-lg">{description ?? t("description")}</p>
             <div className="mt-4 flex flex-col gap-4 sm:flex-row">
               <Button href={primaryHref} size="lg">
-                {primaryLabel}
+                {primaryLabel ?? t("primaryLabel")}
               </Button>
               <Button href={secondaryHref} variant="secondary" size="lg">
-                {secondaryLabel}
+                {secondaryLabel ?? t("secondaryLabel")}
               </Button>
             </div>
           </div>

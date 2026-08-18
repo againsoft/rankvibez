@@ -1,9 +1,16 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { PortfolioProject } from "@/data/portfolio";
 
 export function PortfolioCard({ project }: { project: PortfolioProject }) {
+  const t = useTranslations(`portfolioData.projects.${project.slug}`);
+  const tLabel = useTranslations("portfolioLabels");
+  const tCategory = useTranslations("portfolioData.categories");
+  const tCountry = useTranslations("countries");
+  const tCommon = useTranslations("common");
+
   return (
     <Link
       href={`/portfolio/${project.slug}`}
@@ -25,20 +32,20 @@ export function PortfolioCard({ project }: { project: PortfolioProject }) {
           </>
         )}
         <span className="absolute right-4 top-4 rounded-full border border-border-strong bg-background/70 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.1em] text-muted backdrop-blur">
-          {project.label}
+          {tLabel(project.label)}
         </span>
       </div>
       <div className="flex flex-1 flex-col p-6">
         <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.1em] text-muted-2">
-          <span>{project.categories[0]}</span>
+          <span>{tCategory(project.categories[0])}</span>
           <span>·</span>
-          <span>{project.country}</span>
+          <span>{tCountry(project.country)}</span>
         </div>
         <h3 className="mt-3 text-lg font-semibold text-foreground">{project.name}</h3>
-        <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{project.summary}</p>
+        <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{t("summary")}</p>
         <p className="mt-4 text-xs text-muted-2">{project.technology.join(" · ")}</p>
         <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-secondary transition-transform group-hover:translate-x-1">
-          View Case Study
+          {tCommon("viewCaseStudy")}
           <ArrowRight size={14} />
         </span>
       </div>

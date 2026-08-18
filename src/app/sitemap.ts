@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { routing } from "@/i18n/routing";
 import { services } from "@/data/services";
 import { portfolioProjects } from "@/data/portfolio";
 
@@ -25,29 +26,39 @@ const staticRoutes = [
   "/cookie-policy",
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+function localizedEntry(
+  route: string,
+  priority: number,
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]
+): MetadataRoute.Sitemap {
   const now = new Date();
+  const languages: Record<string, string> = {};
+  for (const locale of routing.locales) {
+    languages[locale] = `${siteUrl}/${locale}${route}`;
+  }
+  languages["x-default"] = `${siteUrl}/${routing.defaultLocale}${route}`;
 
-  const routes = staticRoutes.map((route) => ({
-    url: `${siteUrl}${route}`,
+  return routing.locales.map((locale) => ({
+    url: `${siteUrl}/${locale}${route}`,
     lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: route === "" ? 1 : 0.7,
+    changeFrequency,
+    priority,
+    alternates: { languages },
   }));
+}
 
-  const serviceRoutes = services.map((s) => ({
-    url: `${siteUrl}/services/${s.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+export default function sitemap(): MetadataRoute.Sitemap {
+  const routes = staticRoutes.flatMap((route) =>
+    localizedEntry(route, route === "" ? 1 : 0.7, "weekly")
+  );
 
-  const portfolioRoutes = portfolioProjects.map((p) => ({
-    url: `${siteUrl}/portfolio/${p.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.5,
-  }));
+  const serviceRoutes = services.flatMap((s) =>
+    localizedEntry(`/services/${s.slug}`, 0.6, "monthly")
+  );
+
+  const portfolioRoutes = portfolioProjects.flatMap((p) =>
+    localizedEntry(`/portfolio/${p.slug}`, 0.5, "monthly")
+  );
 
   return [...routes, ...serviceRoutes, ...portfolioRoutes];
 }

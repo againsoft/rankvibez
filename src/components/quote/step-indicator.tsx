@@ -1,12 +1,16 @@
+import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const steps = ["Services", "Requirements", "Your Details"];
+const stepKeys = ["services", "requirements", "yourDetails"];
 
 export function StepIndicator({ currentStep }: { currentStep: number }) {
+  const t = useTranslations("quoteForm.steps");
+
   return (
     <ol className="flex items-center gap-2 sm:gap-4">
-      {steps.map((label, i) => {
+      {stepKeys.map((key, i) => {
+        const label = t(key);
         const stepNumber = i + 1;
         const complete = stepNumber < currentStep;
         const active = stepNumber === currentStep;
@@ -32,7 +36,7 @@ export function StepIndicator({ currentStep }: { currentStep: number }) {
                 {label}
               </span>
             </div>
-            {stepNumber < steps.length && (
+            {stepNumber < stepKeys.length && (
               <span className={cn("h-px flex-1 transition-colors", complete ? "bg-primary" : "bg-border-subtle")} />
             )}
           </li>

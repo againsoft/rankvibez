@@ -1,4 +1,12 @@
 import type { Service } from "@/data/services";
+import enMessages from "../../messages/en.json";
+
+// Transactional emails are sent in English regardless of site locale —
+// they're internal business notifications, not user-facing SEO content.
+function serviceName(slug: string): string {
+  const data = (enMessages as { servicesData?: Record<string, { name?: string }> }).servicesData;
+  return data?.[slug]?.name ?? slug;
+}
 
 type BusinessEmailData = {
   name: string;
@@ -56,7 +64,7 @@ export function buildBusinessNotificationEmail(data: BusinessEmailData) {
     .map((service) => {
       const requirement = data.requirements[service.slug];
       return `<li style="margin-bottom:14px;">
-          <strong style="color:#111114;">${escapeHtml(service.name)}</strong>
+          <strong style="color:#111114;">${escapeHtml(serviceName(service.slug))}</strong>
           ${
             requirement
               ? `<div style="margin-top:4px;font-size:13px;color:#4b4b55;white-space:pre-wrap;">${escapeHtml(requirement)}</div>`
@@ -87,7 +95,7 @@ export function buildBusinessNotificationEmail(data: BusinessEmailData) {
 
 export function buildClientConfirmationEmail(data: { name: string; services: Service[] }) {
   const servicesList = data.services
-    .map((s) => `<li style="margin-bottom:6px;color:#333;font-size:14px;">${escapeHtml(s.name)}</li>`)
+    .map((s) => `<li style="margin-bottom:6px;color:#333;font-size:14px;">${escapeHtml(serviceName(s.slug))}</li>`)
     .join("");
 
   const body = `

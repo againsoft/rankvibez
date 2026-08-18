@@ -1,0 +1,1151 @@
+{
+  "metadata": {
+    "title": "RankVibez | AI駆動型ソフトウェア・テクノロジーソリューション",
+    "description": "RankVibezは、AIを活用したERP、ECサイト、ソフトウェア、クラウド、サイバーセキュリティ、デジタル成長ソリューションを現代のビジネス向けに構築します。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "whatWeDo": "サービス内容",
+    "solutions": "ソリューション",
+    "services": "サービス",
+    "ai": "AI",
+    "portfolio": "ポートフォリオ",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "getQuote": "見積もりを依頼",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "primaryNavLabel": "メインナビゲーション",
+    "languageSwitcherLabel": "言語を選択"
+  },
+  "announcementBar": {
+    "headline": "AIは今や現代ビジネスのインフラです。",
+    "cta": "AIの活用事例を見る"
+  },
+  "footer": {
+    "heading": "さあ、共に",
+    "headingHighlight": "インテリジェントなものを作りましょう。",
+    "tagline": "現代のビジネスのための、AI駆動型ソフトウェア・テクノロジーソリューション。",
+    "cta": "対話を始める",
+    "columns": {
+      "solutions": "ソリューション",
+      "services": "サービス",
+      "company": "会社情報",
+      "resources": "リソース",
+      "contact": "お問い合わせ"
+    },
+    "solutions": {
+      "erp": "ERP",
+      "aiErp": "AI ERP",
+      "ecommerce": "ECサイト",
+      "aiAutomation": "AIオートメーション",
+      "cyberSecurity": "サイバーセキュリティ",
+      "cloud": "クラウド"
+    },
+    "services": {
+      "softwareDevelopment": "ソフトウェア開発",
+      "websiteDevelopment": "ウェブサイト開発",
+      "serverMaintenance": "サーバー保守",
+      "professionalEmail": "ビジネスメール",
+      "seo": "SEO",
+      "digitalMarketing": "デジタルマーケティング",
+      "adsCampaign": "広告キャンペーン",
+      "virtualAssistance": "バーチャルアシスタンス"
+    },
+    "company": {
+      "about": "会社概要",
+      "industries": "業界",
+      "portfolio": "ポートフォリオ",
+      "technology": "テクノロジー",
+      "locations": "拠点",
+      "careers": "採用情報",
+      "contact": "お問い合わせ"
+    },
+    "resources": {
+      "blog": "ブログ",
+      "insights": "インサイト",
+      "caseStudies": "導入事例",
+      "documentation": "ドキュメント",
+      "faq": "よくある質問"
+    },
+    "copyright": "© {year} RankVibez 無断転載を禁じます。",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "cookiePolicy": "Cookieポリシー"
+  },
+  "notFound": {
+    "eyebrow": "エラー 404",
+    "title": "ページが見つかりません。",
+    "description": "お探しのページは存在しないか、移動した可能性があります。",
+    "backHome": "ホームに戻る",
+    "contactUs": "お問い合わせ"
+  },
+  "home": {
+    "servicesSection": {
+      "eyebrow": "サービス",
+      "title": "貴社のビジネスに寄り添うテクノロジーサービス。",
+      "description": "エンタープライズソフトウェア、インフラ、セキュリティ、成長戦略を網羅するフルスタックのサービス体系です。",
+      "viewAll": "すべてのサービスを見る"
+    },
+    "industriesSection": {
+      "eyebrow": "業界",
+      "title": "実体経済を支える企業のために。",
+      "description": "RankVibezは、信頼性の高いソフトウェアとインフラが業務に直結する、さまざまな業界で事業を展開しています。"
+    },
+    "solutionsSection": {
+      "eyebrow": "エンタープライズソリューション",
+      "title": "貴社のビジネスに合わせたテクノロジーソリューション",
+      "description": "それぞれのソリューションは、汎用パッケージではなく、実際の業務プロセスを機能するテクノロジーシステムへとつなげます。"
+    },
+    "aiSection": {
+      "eyebrow": "AIファースト",
+      "title": "AIは未来ではありません。現代ビジネスのインフラです。",
+      "description": "私たちは、組織がよりスマートに働き、より速く成長できるよう、ソフトウェア、ワークフロー、顧客体験、事業運営に人工知能を統合します。",
+      "cta": "RankVibezのAIを見る"
+    },
+    "whySection": {
+      "eyebrow": "RankVibezが選ばれる理由",
+      "title": "長期的なパートナーシップを前提に築かれたテクノロジーパートナー。"
+    },
+    "processSection": {
+      "eyebrow": "プロセス",
+      "title": "アイデアからインテリジェントなビジネスシステムへ"
+    },
+    "hero": {
+      "badge": "AIファーストのテクノロジーパートナー",
+      "titlePrefix": "未来を築く、",
+      "titleHighlight": "AI駆動型テクノロジーで",
+      "description": "RankVibezは、AIを活用したテクノロジーを通じて、インテリジェントなソフトウェアの構築、業務の自動化、インフラの強化、デジタル成長の加速を支援します。",
+      "primaryCta": "プロジェクトを始める",
+      "secondaryCta": "ソリューションを見る"
+    },
+    "heroVisual": {
+      "aiAnalyticsLive": "AIアナリティクス — ライブ",
+      "automationRate": "自動化率",
+      "optimized": "最適化済み",
+      "agentDeployed": "エージェント・稼働中"
+    },
+    "techEcosystemSection": {
+      "eyebrow": "テクノロジーエコシステム",
+      "title": "世界トップクラスのテクノロジープラットフォーム上に構築",
+      "footnote": "RankVibezが構築・提供するプラットフォームおよびツールです。公式パートナーシップのステータスは、確認が取れている場合にのみ表示しています。"
+    },
+    "trustStrip": {
+      "label": "採用しているプラットフォーム"
+    },
+    "globalPresenceSection": {
+      "eyebrow": "グローバル展開",
+      "title": "グローバルな展開力。地域に根ざした理解力。",
+      "description": "RankVibezはダッカを拠点に、複数の国際市場にわたる企業へテクノロジーソリューションを提供しています。"
+    },
+    "portfolioSection": {
+      "eyebrow": "注目の実績",
+      "title": "世界中の企業のために構築",
+      "description": "ERP、ECサイト、AI、インフラにまたがるプロジェクトおよびコンセプト事例の一部をご紹介します。",
+      "viewFullPortfolio": "ポートフォリオをすべて見る"
+    },
+    "capabilities": {
+      "eyebrow": "コアケイパビリティ",
+      "title": "1社のテクノロジーパートナーで、フルスタックの対応力を。",
+      "description": "AI駆動型システムから安全なインフラ、測定可能な成長まで — RankVibezがフルスタックを一つにまとめます。",
+      "items": {
+        "ai-first": { "title": "AIファーストテクノロジー", "description": "AIは後付けではなく、プロダクトとワークフローに組み込まれています。" },
+        "enterprise-software": { "title": "エンタープライズソフトウェア", "description": "実際の業務に合わせて構築されたカスタムERPおよび業務システム。" },
+        "business-automation": { "title": "ビジネスオートメーション", "description": "チーム、ツール、データをつなぐ自動化されたワークフロー。" },
+        "ecommerce-technology": { "title": "ECテクノロジー", "description": "スケールを前提に構築された高性能コマースプラットフォーム。" },
+        "cloud-infrastructure": { "title": "クラウド＆インフラ", "description": "主要プロバイダー間で監視された、信頼性の高いインフラ。" },
+        "cyber-security": { "title": "サイバーセキュリティ", "description": "設計段階からローンチまで一貫して考慮されたセキュリティ。" }
+      }
+    },
+    "testimonialsSection": {
+      "quote": "次の成長ステージを築く企業から信頼されています。",
+      "note": "検証済みのクライアントの声は、案件完了に伴い順次公開予定です。"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "ポートフォリオ",
+    "metaDescription": "ERP、ECサイト、AI、インフラ、デジタル成長にまたがるRankVibezのポートフォリオおよびコンセプトプロジェクト。",
+    "eyebrow": "ポートフォリオ",
+    "title": "世界中の企業のために構築",
+    "description": "ERP、ECサイト、AI、インフラにまたがるプロジェクトおよびコンセプト事例の一部をご紹介します。コンセプト・デモ案件にはその旨を明記しています。"
+  },
+  "portfolioDetailPage": {
+    "backToPortfolio": "ポートフォリオに戻る",
+    "challenge": "課題",
+    "solution": "ソリューション",
+    "outcome": "成果",
+    "servicesProvided": "提供サービス",
+    "startSimilarProject": "類似のプロジェクトを始める"
+  },
+  "portfolioLabels": {
+    "Concept Project": "コンセプトプロジェクト",
+    "Internal Demo": "社内デモ"
+  },
+  "portfolioData": {
+    "categories": {
+      "All": "すべて",
+      "Software": "ソフトウェア",
+      "ERP": "ERP",
+      "E-Commerce": "ECサイト",
+      "Corporate Websites": "コーポレートサイト",
+      "AI": "AI",
+      "Infrastructure": "インフラ",
+      "Digital Growth": "デジタル成長"
+    },
+    "industries": {
+      "Manufacturing": "製造業",
+      "Retail": "小売業",
+      "Technology": "テクノロジー",
+      "Professional Services": "専門サービス業",
+      "Finance": "金融",
+      "E-Commerce": "ECサイト"
+    },
+    "services": {
+      "ERP Software": "ERPソフトウェア",
+      "AI-Driven ERP": "AI駆動型ERP",
+      "E-Commerce Solutions": "ECソリューション",
+      "Cloud Infrastructure": "クラウドインフラ",
+      "Cyber Security": "サイバーセキュリティ",
+      "Web Development": "ウェブ開発",
+      "AI-Driven Company": "AI駆動型企業",
+      "AI Automation": "AIオートメーション",
+      "Digital Marketing": "デジタルマーケティング",
+      "SEO": "SEO",
+      "Ads Campaign": "広告キャンペーン"
+    },
+    "projects": {
+      "again-erp-concept": {
+        "summary": "AI支援による需要予測と統合オペレーションが中規模製造業者にどう機能しうるかを検証するコンセプトERPシステムです。",
+        "challenge": "製造業では、財務、在庫、生産管理が分断されたスプレッドシートやレガシーツール上で運用されることが多く、意思決定の遅れや在庫の不整合を招いています。",
+        "solution": "ダッシュボード、人事管理、販売、在庫、会計を網羅する統合ERPデータモデルを設計し、需要予測と在庫異常を可視化するAIレイヤーを搭載しました。",
+        "outcome": "AI支援による計画立案が、手作業によるレポート作業を削減し、業務リスクをより早期に可視化できることを示すワーキングコンセプトです。"
+      },
+      "againcart-ecommerce": {
+        "summary": "大規模カタログ管理とチェックアウトのパフォーマンスパターンを検証するために構築されたデモコマースプラットフォームです。",
+        "challenge": "SKU数の多い小売カタログには、高速なフィルタリング、正確な在庫同期、そしてトラフィックの急増にも耐えるチェックアウトフローが求められます。",
+        "solution": "サーバーサイドレンダリングによるカタログページ、最適化されたチェックアウト、同期された在庫レイヤーを備えたデモストアフロントを構築しました。",
+        "outcome": "カタログのパフォーマンスとチェックアウトの信頼性に関する、再利用可能なコマースアーキテクチャパターンを確立しました。"
+      },
+      "harborcloud-infrastructure-demo": {
+        "summary": "スケーラブルかつセキュアなクラウドデプロイメントとCI/CDパイプラインのための社内リファレンスアーキテクチャです。",
+        "challenge": "成長中のチームには、手動デプロイのリスクや環境の不整合を招くことなく、安全にスケールできるインフラが必要です。",
+        "solution": "自動化されたCI/CD、監視、堅牢なアクセス制御を備えたInfrastructure as Codeのリファレンススタックを設計しました。",
+        "outcome": "各環境にわたる信頼性が高く、監査可能なデプロイメントのための再利用可能なインフラブループリントです。"
+      },
+      "meridian-corporate-concept": {
+        "summary": "専門サービス企業向けのモダンなコンテンツアーキテクチャを検証するコンセプトのコーポレートウェブプラットフォームです。",
+        "challenge": "専門サービス企業には、重厚なCMSを使わずとも保守しやすい、信頼性が高く、高速でコンテンツの充実したウェブサイトが求められます。",
+        "solution": "軽量なCMS連携を前提とした、コンポーネント駆動・データ駆動のコーポレートサイトアーキテクチャを設計しました。",
+        "outcome": "編集の柔軟性とフロントエンドのパフォーマンスを両立する、柔軟なコーポレートサイトのパターンです。"
+      },
+      "vantage-ai-advisor-concept": {
+        "summary": "対話型AIがビジネスユーザーを適切な社内ワークフローへと導く方法を検証するコンセプトのAIアドバイザリーアシスタントです。",
+        "challenge": "ビジネスユーザーは、あるタスクにどの社内ツールやワークフローが適用されるか分からないことが多く、これが業務の摩擦やサポート負荷を生んでいます。",
+        "solution": "自然言語によるリクエストを解釈し、ユーザーを適切なワークフローやリソースへと導くサーバーサイドAIアドバイザーのプロトタイプを構築しました。",
+        "outcome": "応答性の高いアドバイザリー体験を提供しながら、AI APIキーをサーバーサイドに保持するアーキテクチャパターンを検証しました。"
+      },
+      "growthline-marketing-demo": {
+        "summary": "オンライン小売業者向けに、SEO、広告、コンバージョン分析を統合したレポーティングレイヤーを検証する社内デモです。",
+        "challenge": "成長チームはSEO、有料広告、コンバージョンデータをそれぞれ別のダッシュボードで追跡することが多く、ファネル全体での意思決定が遅くなりがちです。",
+        "solution": "オーガニック、有料、サイト内コンバージョンのシグナルを一つのファネルビューに統合するデモレポーティングレイヤーを構築しました。",
+        "outcome": "獲得データとコンバージョンデータを連携させ、より迅速な成長判断を可能にする実践的なパターンを実証しました。"
+      }
+    }
+  },
+  "locationsPage": {
+    "metaTitle": "拠点",
+    "metaDescription": "RankVibezはバングラデシュのダッカを拠点に、アメリカ、イギリス、アラブ首長国連邦、サウジアラビア、カナダ、オーストラリアの企業にサービスを提供しています。",
+    "eyebrow": "グローバル展開",
+    "title": "グローバルな展開力。地域に根ざした理解力。",
+    "description": "RankVibezはダッカを拠点に、複数の国際市場にわたる企業へテクノロジーソリューションを提供しています。",
+    "footnote": "「サービス提供地域」と表示されている拠点は、物理的なオフィスではなく、実際にサービスを提供している市場を示しています。物理オフィスがあるのはバングラデシュのダッカのみです。"
+  },
+  "locationsData": {
+    "labels": {
+      "headOffice": "本社 ／ テクノロジー運用拠点",
+      "servingClientsIn": "サービス提供地域"
+    }
+  },
+  "technologyPage": {
+    "metaTitle": "テクノロジー",
+    "metaDescription": "RankVibezが構築・提供するフロントエンド、バックエンド、クラウド、DevOps、AIのテクノロジー。",
+    "eyebrow": "テクノロジー",
+    "title": "すべての開発を支えるテクノロジースタック。",
+    "description": "信頼性、パフォーマンス、長期的な保守性を重視して選定された、フロントエンド、バックエンド、クラウド、AIにわたるモダンで実績のあるスタックです。",
+    "ecosystemEyebrow": "テクノロジーエコシステム",
+    "ecosystemTitle": "採用しているプラットフォーム"
+  },
+  "technologyData": {
+    "groups": {
+      "frontend": "フロントエンド",
+      "backend": "バックエンド",
+      "database": "データベース",
+      "cloud": "クラウド",
+      "devops": "DevOps",
+      "ai": "AI"
+    }
+  },
+  "whatWeDoPage": {
+    "metaTitle": "サービス内容",
+    "metaDescription": "エンタープライズソフトウェア、クラウドインフラ、サイバーセキュリティ、デジタル成長、AIトランスフォーメーションなど、RankVibezが提供するすべてを網羅したスクロール形式の概要ページです。",
+    "badge": "サービス内容",
+    "titlePrefix": "1社のテクノロジーパートナーで、",
+    "titleHighlight": "必要なすべてのケイパビリティを。",
+    "description": "エンタープライズソフトウェア、クラウドインフラ、サイバーセキュリティ、デジタル成長、AIトランスフォーメーション — スクロールして、RankVibezが貴社のために何を構築できるかをご覧ください。",
+    "requestQuotation": "見積もりを依頼する",
+    "overviewEyebrow": "全体像",
+    "overviewTitle": "提供するすべてのサービスを、ひと目で。",
+    "overviewDescription": "サービスをタップすると、下記の詳細箇所に直接ジャンプします。",
+    "ctaTitle": "次の一手を、共に築きませんか？",
+    "ctaDescription": "必要なサービスをお知らせいただければ、カスタム見積もりでご連絡いたします — 価格の駆け引きではなく、貴社のプロジェクトについての対話です。",
+    "ctaSecondaryLabel": "チームに相談する"
+  },
+  "aiPage": {
+    "metaTitle": "AI",
+    "metaDescription": "AIは現代ビジネスのインフラです。RankVibezがAIをERP、オートメーション、分析、カスタマーオペレーションにどう統合しているかをご覧ください。",
+    "eyebrow": "AIファースト",
+    "title": "AIは未来ではありません。現代ビジネスのインフラです。",
+    "description": "私たちは、組織がよりスマートに働き、より速く成長できるよう、ソフトウェア、ワークフロー、顧客体験、事業運営に人工知能を統合します。",
+    "tryItEyebrow": "試してみる",
+    "tryItTitle": "何から始めればよいか分かりませんか？",
+    "tryItDescription": "2つの簡単な質問に答えるだけで、RankVibez AIアドバイザーが最適なソリューションをご提案します。",
+    "ctaTitle": "AIを貴社のビジネスに取り入れる準備はできていますか？",
+    "ctaDescription": "AI駆動型ERPからオートメーション、分析まで — 最も効果の高い着手点を一緒に見極めましょう。",
+    "ctaPrimaryLabel": "対話を始める",
+    "ctaSecondaryLabel": "サービスを見る"
+  },
+  "orgChart": {
+    "eyebrow": "私たちのチーム",
+    "title": "RankVibezの組織体制。",
+    "description": "ERPやAIからクラウド、セキュリティ、成長戦略まで、私たちが提供するすべてのサービスを軸に構成されています。",
+    "reportsTo": {
+      "ceo": "CEOに直属",
+      "cto": "CTOに直属",
+      "cfo": "CFOに直属"
+    },
+    "branches": {
+      "enterprise-software": "エンタープライズソフトウェア",
+      "cloud-infrastructure": "クラウド＆インフラ",
+      "cyber-security": "サイバーセキュリティ",
+      "ai-business-transformation": "AI＆ビジネストランスフォーメーション",
+      "digital-growth": "デジタル成長",
+      "creative-brand": "クリエイティブ＆ブランド",
+      "project-client-operations": "プロジェクト＆クライアントオペレーション"
+    }
+  },
+  "teamData": {
+    "roles": {
+      "founder-chairman": "創業者 兼 会長",
+      "ceo-web-developer": "CEO 兼 ウェブ開発者",
+      "cto-head-software": "CTO 兼 ソフトウェア部門責任者",
+      "cfo-hr-manager": "CFO 兼 人事マネージャー",
+      "project-manager": "プロジェクトマネージャー",
+      "business-analyst-erp-automation": "ビジネスアナリスト — ERP＆オートメーション",
+      "erp-systems-developer": "ERPシステム開発者",
+      "ecommerce-developer": "EC開発者",
+      "fullstack-web-developer": "フルスタックウェブ開発者",
+      "software-developer": "ソフトウェア開発者",
+      "fullstack-dotnet-developer-erp": "フルスタック.NET開発者 — ERPシステム",
+      "qa-engineer": "QAエンジニア",
+      "cloud-devops-engineer": "クラウド・DevOps・インフラエンジニア",
+      "cybersecurity-analyst": "サイバーセキュリティアナリスト",
+      "ai-engineer": "AIエンジニア",
+      "ai-automation-engineer": "AIオートメーションエンジニア",
+      "client-support-specialist": "クライアントサポートスペシャリスト",
+      "seo-content-strategist": "SEO・コンテンツストラテジスト",
+      "digital-marketing-expert": "デジタルマーケティングエキスパート",
+      "technical-seo-expert": "テクニカルSEOエキスパート",
+      "digital-marketing-executive": "デジタルマーケティングエグゼクティブ",
+      "conversion-campaign-executive": "コンバージョン・キャンペーンエグゼクティブ",
+      "content-writer-strategist": "コンテンツライター 兼 ストラテジスト",
+      "graphics-designer": "グラフィックデザイナー",
+      "graphics-designer-video-editor": "グラフィックデザイナー 兼 ビデオエディター",
+      "marketing-manager-ads": "マーケティングマネージャー — 広告キャンペーン",
+      "ads-campaign-specialist": "広告キャンペーンスペシャリスト"
+    }
+  },
+  "countries": {
+    "China": "中国",
+    "Bangladesh": "バングラデシュ",
+    "United States": "アメリカ合衆国",
+    "United Kingdom": "イギリス",
+    "UAE": "アラブ首長国連邦",
+    "Saudi Arabia": "サウジアラビア",
+    "Canada": "カナダ",
+    "Australia": "オーストラリア",
+    "Other": "その他"
+  },
+  "contactData": {
+    "budgetOptions": {
+      "Under $1,000": "1,000ドル未満",
+      "$1,000 – $5,000": "1,000ドル～5,000ドル",
+      "$5,000 – $10,000": "5,000ドル～10,000ドル",
+      "$10,000 – $25,000": "10,000ドル～25,000ドル",
+      "$25,000+": "25,000ドル以上",
+      "Enterprise / Custom": "エンタープライズ／カスタム"
+    }
+  },
+  "quoteForm": {
+    "steps": {
+      "services": "サービス",
+      "requirements": "要件",
+      "yourDetails": "お客様情報"
+    },
+    "selectServiceError": "続行するには、少なくとも1つのサービスを選択してください。",
+    "nameRequired": "お名前を入力してください。",
+    "emailRequired": "メールアドレスを入力してください。",
+    "emailInvalid": "有効なメールアドレスを入力してください。",
+    "phoneInvalid": "有効な電話番号を入力してください。",
+    "genericError": "問題が発生しました。もう一度お試しください。",
+    "successTitle": "ありがとうございます。ご依頼を受け付けました。",
+    "successDescription": "お見積もりのご依頼を受け付け、ご登録のメールアドレスに確認メールをお送りしました。担当チームがご要件を確認のうえ、追ってカスタム見積もりをご連絡いたします。",
+    "step1Title": "どのサービスが必要ですか？",
+    "step1Description": "1つ以上のサービスを選択してください — 詳細は次のステップで追加できます。",
+    "step2Title": "各サービスについて詳しく教えてください",
+    "step2Description": "任意項目です — 具体的なご要件や詳細をご記入いただくと、より正確なお見積もりをご用意できます。",
+    "requirementsPlaceholder": "{service}に関する具体的なご要件や詳細（任意）",
+    "step3Title": "ご連絡先情報",
+    "step3Description": "カスタム見積もりのお届け先を確認するためのものです。ここでは価格は表示されません — 担当チームより直接ご連絡いたします。",
+    "nameLabel": "お名前",
+    "namePlaceholder": "山田 太郎",
+    "companyLabel": "会社名",
+    "companyPlaceholder": "会社名",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "電話番号",
+    "phonePlaceholder": "+1 555 000 0000",
+    "messageLabel": "その他のご要望",
+    "messagePlaceholder": "その他、お伝えいただきたいことがあればご記入ください（任意）",
+    "back": "戻る",
+    "next": "次へ",
+    "submitting": "送信中...",
+    "sendRequest": "リクエストを送信"
+  },
+  "contactForm": {
+    "genericError": "問題が発生しました。もう一度お試しください。",
+    "successTitle": "ありがとうございます。メッセージを受け付けました。",
+    "successDescription": "RankVibezチームより、ディスカバリーコールの日程調整のため、追ってご連絡いたします。",
+    "nameLabel": "お名前",
+    "namePlaceholder": "山田 太郎",
+    "companyLabel": "会社名",
+    "companyPlaceholder": "会社名",
+    "emailLabel": "勤務先メールアドレス",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "電話番号",
+    "phonePlaceholder": "+1 555 000 0000",
+    "countryLabel": "国",
+    "countryPlaceholder": "国を選択",
+    "serviceLabel": "サービス",
+    "servicePlaceholder": "サービスを選択",
+    "budgetLabel": "予算（米ドル）",
+    "budgetPlaceholder": "予算範囲を選択",
+    "descriptionLabel": "プロジェクトの概要",
+    "descriptionPlaceholder": "貴社の事業内容と、構築をご希望の内容についてお聞かせください。",
+    "sending": "送信中...",
+    "submit": "メッセージを送信"
+  },
+  "aiAdvisor": {
+    "name": "RankVibez AIアドバイザー",
+    "tagline": "ルールベースのガイド形式 — データはブラウザの外に送信されません。",
+    "recommended": "おすすめ",
+    "exploreThisSolution": "このソリューションを見る",
+    "startOver": "最初からやり直す",
+    "questions": {
+      "goal": {
+        "prompt": "貴社が今、最も必要としているものは何ですか？",
+        "options": {
+          "erp": "業務を統合的に運営するシステム",
+          "ecommerce": "オンラインでの商品販売",
+          "automation": "定型業務の自動化",
+          "security": "より強固で安全なインフラ"
+        }
+      },
+      "stage": {
+        "prompt": "現在の環境をどのように表現しますか？",
+        "options": {
+          "manual": "ほぼ手作業／スプレッドシート中心",
+          "fragmented": "連携していない既存のツール群",
+          "scaling": "スケールが必要な稼働中のシステム"
+        }
+      }
+    },
+    "recommendations": {
+      "erp": {
+        "title": "ERP＆AI駆動型ERP",
+        "description": "財務、人事、在庫、業務を統合するシステムに、AI支援の需要予測機能を組み合わせました。"
+      },
+      "ecommerce": {
+        "title": "ECソリューション",
+        "description": "パフォーマンスを重視したカスタムストアフロントやマーケットプレイスに、注文・在庫管理機能を統合しました。"
+      },
+      "automation": {
+        "title": "AIオートメーション＆トランスフォーメーション",
+        "description": "貴社の定型的な手作業を排除する、AIエージェントとワークフローの自動化。"
+      },
+      "security": {
+        "title": "クラウドインフラ＆サイバーセキュリティ",
+        "description": "スケーラブルなクラウドインフラと、実践的で継続的なセキュリティ体制を組み合わせました。"
+      }
+    }
+  },
+  "whyData": {
+    "items": {
+      "ai-first": {
+        "title": "AIファースト",
+        "description": "AIを後付けではなく、プロダクトとワークフローに最初から組み込んで設計します。"
+      },
+      "business-understanding": {
+        "title": "ビジネスへの理解",
+        "description": "テクノロジーは汎用テンプレートではなく、実際の業務プロセスを軸に構築されます。"
+      },
+      "full-stack": {
+        "title": "フルスタックのテクノロジー",
+        "description": "ソフトウェア、クラウド、インフラ、セキュリティ、成長戦略を、1社のテクノロジーパートナーで。"
+      },
+      "scalable-architecture": {
+        "title": "スケーラブルなアーキテクチャ",
+        "description": "ゼロから作り直すのではなく、事業成長に合わせて進化するシステム設計。"
+      },
+      "security-mindset": {
+        "title": "セキュリティ重視の姿勢",
+        "description": "セキュリティと信頼性は、あらゆる開発の最初の段階から考慮されます。"
+      },
+      "global-delivery": {
+        "title": "グローバルな提供体制",
+        "description": "国際的な企業や分散したチームを支える体制で構築されています。"
+      },
+      "long-term-partnership": {
+        "title": "長期的なパートナーシップ",
+        "description": "私たちは、単発の納品ではなく、継続的な改善に重きを置いています。"
+      }
+    },
+    "processSteps": {
+      "discover": { "title": "発見", "description": "ビジネスと目標を理解する。" },
+      "strategize": { "title": "戦略立案", "description": "テクノロジーとAIの活用機会を定義する。" },
+      "design": { "title": "設計", "description": "UX、アーキテクチャ、ワークフローを構築する。" },
+      "build": { "title": "開発", "description": "ソフトウェアと連携機能を開発する。" },
+      "secure": { "title": "セキュリティ強化", "description": "システムをテスト・堅牢化・検証する。" },
+      "launch": { "title": "ローンチ", "description": "本番環境へデプロイする。" },
+      "grow": { "title": "成長", "description": "モニタリング、最適化、継続的な改善を行う。" }
+    },
+    "trustSignals": {
+      "ai-first-technology": "AIファーストテクノロジー",
+      "enterprise-software": "エンタープライズソフトウェア",
+      "cloud-infrastructure": "クラウド＆インフラ",
+      "digital-growth": "デジタル成長",
+      "global-delivery": "グローバルな提供体制"
+    }
+  },
+  "privacyPolicyPage": {
+    "metaTitle": "プライバシーポリシー",
+    "metaDescription": "RankVibezが情報をどのように収集、利用、保護しているか。",
+    "eyebrow": "法的情報",
+    "title": "プライバシーポリシー",
+    "updated": "2026",
+    "sections": {
+      "overview": {
+        "heading": "概要",
+        "body": [
+          "本プライバシーポリシーは、お客様がrankvibez.comをご利用いただく際、またはRankVibez（以下「当社」）のサービスをご利用いただく際に、当社が情報をどのように収集、利用、保護するかについて説明するものです。"
+        ]
+      },
+      "informationWeCollect": {
+        "heading": "収集する情報",
+        "body": [
+          "お問い合わせフォームをご送信いただく際、お名前、会社名、メールアドレス、電話番号、プロジェクトの詳細など、お客様にご提供いただいた情報を収集します。",
+          "また、ウェブサイトの改善に役立てるため、ブラウザの種類や一般的な利用状況などの標準的な技術情報を収集する場合があります。"
+        ]
+      },
+      "howWeUseInformation": {
+        "heading": "情報の利用方法",
+        "body": [
+          "お問い合わせフォームを通じて送信された情報は、お問い合わせへの対応、および該当する場合はプロジェクト提案書の作成のみに使用されます。",
+          "当社は、個人情報を第三者に販売または貸与することはありません。"
+        ]
+      },
+      "dataRetention": {
+        "heading": "データの保持",
+        "body": [
+          "当社は、お客様のご依頼への対応および業務記録の保持に必要な期間、お問い合わせ情報を保持します。その後は削除される場合があります。"
+        ]
+      },
+      "contact": {
+        "heading": "お問い合わせ",
+        "body": ["本ポリシーに関するご質問は、admin@rankvibez.comまでお問い合わせください。"]
+      }
+    }
+  },
+  "termsOfServicePage": {
+    "metaTitle": "利用規約",
+    "metaDescription": "RankVibezのウェブサイトおよびサービスの利用に適用される規約です。",
+    "eyebrow": "法的情報",
+    "title": "利用規約",
+    "updated": "2026",
+    "sections": {
+      "acceptanceOfTerms": {
+        "heading": "規約への同意",
+        "body": ["rankvibez.comにアクセスすることにより、お客様は本利用規約に同意したものとみなされます。同意いただけない場合は、本ウェブサイトのご利用を中止してください。"]
+      },
+      "useOfWebsite": {
+        "heading": "ウェブサイトの利用",
+        "body": ["本ウェブサイトのコンテンツは、RankVibezおよびそのサービスに関する一般的な情報提供を目的として提供されるものであり、正式な提案書または契約書の代替として依拠されるべきではありません。"]
+      },
+      "serviceEngagements": {
+        "heading": "サービスの提供",
+        "body": ["個別案件における具体的なプロジェクトの範囲、成果物、価格、スケジュールは、RankVibezとクライアントとの間で別途締結される書面による提案書または契約書によって定められます。"]
+      },
+      "intellectualProperty": {
+        "heading": "知的財産権",
+        "body": ["本ウェブサイト上のテキスト、グラフィック、ブランディングを含むすべてのコンテンツは、特に明記されている場合を除き、RankVibezの財産であり、許可なく複製することはできません。"]
+      },
+      "limitationOfLiability": {
+        "heading": "責任の制限",
+        "body": ["RankVibezは、本ウェブサイトの利用に起因する間接的または結果的な損失について責任を負いません。本規約のいかなる内容も、締結済みのサービス契約に起因する責任を制限するものではありません。"]
+      },
+      "contact": {
+        "heading": "お問い合わせ",
+        "body": ["本規約に関するご質問は、admin@rankvibez.comまでお問い合わせください。"]
+      }
+    }
+  },
+  "cookiePolicyPage": {
+    "metaTitle": "Cookieポリシー",
+    "metaDescription": "RankVibezがCookieおよび類似技術をどのように利用しているか。",
+    "eyebrow": "法的情報",
+    "title": "Cookieポリシー",
+    "updated": "2026",
+    "sections": {
+      "whatAreCookies": {
+        "heading": "Cookieとは",
+        "body": ["Cookieとは、お使いのデバイスに保存される小さなテキストファイルであり、ウェブサイトが正しく機能するために役立つほか、利用される場合には訪問者がサイトをどのように利用しているかを把握するためにも使用されます。"]
+      },
+      "howWeUseCookies": {
+        "heading": "Cookieの利用方法",
+        "body": ["RankVibezは、ウェブサイトの機能に必要な必須Cookieを使用しています。今後、アナリティクスまたはマーケティング用のCookieを追加する場合は、本ポリシーを改訂のうえ更新いたします。"]
+      },
+      "managingCookies": {
+        "heading": "Cookieの管理",
+        "body": ["Cookieは、お使いのブラウザの設定から管理または無効化することができます。必須Cookieを無効化すると、ウェブサイトの機能に影響が生じる場合があります。"]
+      },
+      "contact": {
+        "heading": "お問い合わせ",
+        "body": ["本ポリシーに関するご質問は、admin@rankvibez.comまでお問い合わせください。"]
+      }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "ブログ",
+    "metaDescription": "ソフトウェア、AI、インフラ、デジタル成長に関するRankVibezチームの記事と最新情報。",
+    "eyebrow": "リソース",
+    "title": "ブログ",
+    "description": "RankVibezチームによる記事と最新情報 — 近日公開予定です。"
+  },
+  "insightsPage": {
+    "metaTitle": "インサイト",
+    "metaDescription": "AI、ソフトウェアエンジニアリング、クラウドインフラ、デジタル成長に関するRankVibezのインサイト。",
+    "eyebrow": "リソース",
+    "title": "インサイト",
+    "description": "AI、ソフトウェアエンジニアリング、インフラ、デジタル成長に関する記事や視点 — 近日公開予定です。"
+  },
+  "documentationPage": {
+    "metaTitle": "ドキュメント",
+    "metaDescription": "RankVibezによる技術ドキュメントおよびガイド。",
+    "eyebrow": "リソース",
+    "title": "ドキュメント",
+    "description": "RankVibezのクライアントおよびパートナー向け技術ドキュメント — 近日公開予定です。"
+  },
+  "quotePage": {
+    "metaTitle": "見積もりを依頼する",
+    "metaDescription": "必要なサービスとご要件をお知らせください — RankVibezがカスタム見積もりでご連絡いたします。",
+    "eyebrow": "見積もりを依頼する",
+    "title": "ご要望をお聞かせください。カスタム見積もりをお届けします。",
+    "description": "ご興味のあるサービスを選択し、ご要件をお聞かせください。担当チームがカスタム提案でご連絡いたします — ここでは価格は表示されません。貴社のプロジェクトについての対話です。"
+  },
+  "faqPage": {
+    "metaTitle": "よくある質問",
+    "metaDescription": "RankVibezとの協業に関するよくある質問。",
+    "eyebrow": "リソース",
+    "title": "よくある質問",
+    "description": "RankVibezとの協業に関するよくある質問への回答です。",
+    "items": {
+      "whoWeWorkWith": {
+        "q": "RankVibezはどのような企業と協業していますか？",
+        "a": "私たちは、エンタープライズグレードのソフトウェア、インフラ、セキュリティ、または成長システムを必要とする企業と協業しています — 成長中の企業から、小売、製造、金融、ヘルスケア、テクノロジーなど、さまざまな業界の大規模組織まで幅広く対応しています。"
+      },
+      "pricing": {
+        "q": "料金体系はどのようになっていますか？",
+        "a": "ほとんどの案件は、ディスカバリーコールとカスタム提案を通じて個別に見積もりを行います。目安となる価格を表示している場合、それは最終的な確定金額ではなく、米ドル建ての出発点として提示しています。"
+      },
+      "process": {
+        "q": "プロジェクトの進め方について教えてください。",
+        "a": "私たちは、発見、戦略立案、設計、開発、セキュリティ強化、ローンチ、成長という構造化されたプロセスに沿って進めます。各段階で明確なチェックポイントとドキュメントを設けています。"
+      },
+      "ongoingSupport": {
+        "q": "ローンチ後も継続的なサポートはありますか？",
+        "a": "はい。マネージドテクノロジーサービスの一環として、モニタリング、保守、継続的な改善をご利用いただけます。"
+      },
+      "aiIntegration": {
+        "q": "既存のシステムにAIを統合することはできますか？",
+        "a": "はい。私たちは既存のワークフローを定期的に評価し、すでに稼働中のシステムにオートメーション、分析、エージェントなどのAI機能を追加しています。"
+      },
+      "location": {
+        "q": "RankVibezの拠点はどこですか？",
+        "a": "RankVibezはバングラデシュのダッカを拠点に、複数の国際市場の企業にサービスを提供しています。"
+      }
+    }
+  },
+  "contactPage": {
+    "metaTitle": "お問い合わせ",
+    "metaDescription": "次のソフトウェア、AI、インフラ、成長プロジェクトについて、RankVibezとの対話を始めましょう。",
+    "eyebrow": "お問い合わせ",
+    "title": "貴社が築こうとしているものについて、お話しましょう。",
+    "description": "貴社の事業内容と目標をお聞かせください — ディスカバリーコールの日程を調整し、カスタム提案のご要件を整理するため、追ってご連絡いたします。",
+    "headOffice": "本社",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "discoveryCallNote": "エンタープライズ案件については、固定見積もりよりもディスカバリーコールを優先してご案内しています。これにより、価格をご提示する前に適切なアーキテクチャを見極めることができます。"
+  },
+  "aboutPage": {
+    "metaTitle": "会社概要",
+    "metaDescription": "RankVibezは、企業の構築、自動化、セキュリティ強化、成長を支援するAI駆動型ソフトウェア・テクノロジーソリューション企業です。",
+    "eyebrow": "RankVibezについて",
+    "title": "次の成長ステージを築く企業のためのテクノロジーパートナー。",
+    "description": "RankVibezは、企業のデジタル業務の構築、自動化、セキュリティ強化、マーケティング、スケールを支援するAI駆動型ソフトウェア・テクノロジーソリューション企業です。",
+    "missionTitle": "ミッション",
+    "missionDescription": "インテリジェントなソフトウェアとテクノロジーを通じて、企業の事業運営、競争力強化、成長を支援すること。",
+    "visionTitle": "ビジョン",
+    "visionDescription": "現代のビジネスにとって、世界的に信頼されるAIファーストのテクノロジーカンパニーになること。",
+    "valuesEyebrow": "バリュー",
+    "valuesTitle": "私たちの構築と働き方の指針。",
+    "values": {
+      "clarity": {
+        "title": "明快さ",
+        "description": "私たちは、不必要な複雑さを排し、平易で専門的な言葉でコミュニケーションします。"
+      },
+      "craftsmanship": {
+        "title": "職人気質",
+        "description": "あらゆるシステムは、機能だけでなく、アーキテクチャにもこだわって構築されています。"
+      },
+      "accountability": {
+        "title": "説明責任",
+        "description": "私たちは、ローンチから継続的なサポートに至るまで、構築したものに責任を持ちます。"
+      },
+      "curiosity": {
+        "title": "探究心",
+        "description": "特にAI分野において、新しいテクノロジーの実用的な価値を絶えず評価しています。"
+      }
+    },
+    "aiPhilosophyTitle": "AIファーストの哲学",
+    "aiPhilosophyDescription": "私たちはAIを単なる付加機能とは考えていません。私たちが設計するあらゆるシステムは、「知能によって、手作業を意味のある形で削減し、より良い意思決定を可視化し、顧客体験を向上させられる場所はどこか」という問いから始まります。AIは後付けではなく、初日からアーキテクチャに組み込まれて設計されます。",
+    "globalDeliveryTitle": "グローバルな提供体制",
+    "globalDeliveryDescription": "RankVibezはバングラデシュのダッカを拠点に、複数の国際市場にわたる企業へテクノロジーソリューションを提供しています。私たちのチームは、ソフトウェアエンジニアリング、クラウドインフラ、セキュリティ、デジタル成長の専門知識を組み合わせ、各案件をエンドツーエンドで支援します。",
+    "whyEyebrow": "RankVibezが選ばれる理由",
+    "whyTitle": "長期的なパートナーシップを前提に築かれたテクノロジーパートナー。"
+  },
+  "careersPage": {
+    "metaTitle": "採用情報",
+    "metaDescription": "RankVibezに参加し、世界中の企業のためにAI駆動型ソフトウェア・テクノロジーソリューションの構築に貢献しませんか。",
+    "eyebrow": "採用情報",
+    "title": "意味のあるテクノロジーを構築する。",
+    "description": "RankVibezは、エンジニア、デザイナー、テクノロジストからなるチームを拡大しています。現在特定の職種を積極的に募集しているわけではありませんが、優秀な候補者からのご連絡はいつでも歓迎しています。",
+    "whyEyebrow": "RankVibezが選ばれる理由",
+    "whyTitle": "ここで働くということ。",
+    "noOpenRolesTitle": "現在募集中のポジションはありませんが、ぜひご連絡ください。",
+    "noOpenRolesDescription": "履歴書と簡単なメッセージをチームまでお送りください。今後の採用機会に備えて保管いたします。",
+    "getInTouch": "お問い合わせ"
+  },
+  "aiData": {
+    "flow": ["ビジネスデータ", "AIインテリジェンスレイヤー", "オートメーション", "ビジネスアクション", "インサイト＆成長"],
+    "capabilities": {
+      "ai-erp": {
+        "title": "AI駆動型ERP",
+        "description": "AI支援のオペレーション、分析、オートメーションを備えたインテリジェントな統合基幹業務システム。"
+      },
+      "business-automation": {
+        "title": "AIビジネスオートメーション",
+        "description": "定型的なワークフローを自動化し、インテリジェントエージェントを通じて業務プロセスを連携させます。"
+      },
+      "customer-operations": {
+        "title": "AIカスタマーオペレーション",
+        "description": "AIを活用したカスタマーサポート、リード選別、レコメンデーション、コミュニケーション。"
+      },
+      "analytics": {
+        "title": "AIアナリティクス",
+        "description": "ビジネスデータを、実用的なインサイトと意思決定支援へと変換します。"
+      },
+      "agents": {
+        "title": "AIエージェント",
+        "description": "営業、業務、サポート、マーケティング、管理業務に特化したAIエージェントを展開します。"
+      },
+      "transformation": {
+        "title": "AIトランスフォーメーション",
+        "description": "既存の事業運営を評価し、実践的なAI活用機会を見極めます。"
+      }
+    }
+  },
+  "solutionsPage": {
+    "metaTitle": "ソリューション",
+    "metaDescription": "ERP、ECサイト、AIトランスフォーメーション、クラウド、セキュリティ、デジタル成長など、貴社のビジネスに合わせて構築するテクノロジーソリューション。",
+    "eyebrow": "ソリューション",
+    "title": "貴社のビジネスに合わせたテクノロジーソリューション",
+    "description": "それぞれのソリューションは、実際の業務プロセスを、事業成長に合わせてスケールする稼働中のテクノロジーシステムへとつなげます。"
+  },
+  "solutionsData": {
+    "erp": {
+      "name": "ERP＆ビジネスマネジメント",
+      "description": "財務、人事、在庫、業務を統合するシステム。",
+      "flow": ["ビジネスデータ", "統合ERPコア", "レポーティング＆コントロール"]
+    },
+    "ecommerce": {
+      "name": "ECサイト",
+      "description": "スケール可能なストアフロント、マーケットプレイス、注文管理。",
+      "flow": ["カタログ＆注文", "コマースプラットフォーム", "フルフィルメント＆成長"]
+    },
+    "web-development": {
+      "name": "コーポレートデジタルプラットフォーム",
+      "description": "信頼性とパフォーマンスを兼ね備えたウェブサイトおよびポータル。",
+      "flow": ["コンテンツ＆ブランド", "ウェブプラットフォーム", "エンゲージメント＆リード"]
+    },
+    "ai-transformation": {
+      "name": "AIトランスフォーメーション",
+      "description": "業務プロセス全体にわたる実践的なAI導入。",
+      "flow": ["業務プロセス", "AIレイヤー", "自動化された成果"]
+    },
+    "cloud-infrastructure": {
+      "name": "クラウドインフラ",
+      "description": "クラウドプロバイダー間でスケーラブルかつ監視されたインフラ。",
+      "flow": ["ワークロード", "クラウドアーキテクチャ", "信頼性＆スケール"]
+    },
+    "cyber-security": {
+      "name": "サイバーセキュリティ",
+      "description": "後付けではなく、インフラに組み込まれたセキュリティ。",
+      "flow": ["リスクアセスメント", "堅牢化＆コントロール", "継続的なモニタリング"]
+    },
+    "digital-marketing": {
+      "name": "デジタル成長",
+      "description": "時間とともに効果が積み重なるSEO、広告、コンバージョンシステム。",
+      "flow": ["オーディエンス＆チャネル", "成長施策の実行", "測定された成果"]
+    },
+    "business-automation": {
+      "name": "ビジネスオートメーション",
+      "description": "ツール、チーム、データをつなぐ自動化されたワークフロー。",
+      "flow": ["手作業のワークフロー", "オートメーションレイヤー", "時間とコストの削減"]
+    },
+    "server-maintenance": {
+      "name": "マネージドテクノロジーサービス",
+      "description": "安心のための継続的なサポート、保守、モニタリング。",
+      "flow": ["稼働中のシステム", "モニタリング＆サポート", "継続的な改善"]
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "業界",
+    "metaDescription": "RankVibezは、小売、EC、製造、ヘルスケア、金融などのためにテクノロジーを構築しています。",
+    "eyebrow": "業界",
+    "title": "実体経済を支える企業のために。",
+    "description": "RankVibezは、信頼性の高いソフトウェアとインフラが日々の業務に直結する、さまざまな業界で事業を展開しています。"
+  },
+  "industriesData": {
+    "retail": {
+      "name": "小売業",
+      "tagline": "在庫・POSシステム",
+      "description": "在庫、POS、ECシステムを統合し、複数のチャネルにわたって在庫、価格、業務を同期させます。"
+    },
+    "ecommerce": {
+      "name": "EC",
+      "tagline": "ストアフロント＆注文管理",
+      "description": "大量かつ複雑な取引にも対応できる、高性能なストアフロント、カタログシステム、注文管理。"
+    },
+    "manufacturing": {
+      "name": "製造業",
+      "tagline": "ERP＆生産計画",
+      "description": "調達、製造、在庫を一元的に把握できるERPおよび生産計画システム。"
+    },
+    "healthcare": {
+      "name": "ヘルスケア",
+      "tagline": "安全な業務ソフトウェア",
+      "description": "データ保護を念頭に構築された、ヘルスケア組織向けの安全な管理・業務ソフトウェア。"
+    },
+    "education": {
+      "name": "教育",
+      "tagline": "入学・コンテンツプラットフォーム",
+      "description": "入学ポータルからコンテンツ配信まで、教育機関・教育事業者向けのデジタルプラットフォーム。"
+    },
+    "finance": {
+      "name": "金融",
+      "tagline": "安全な金融システム",
+      "description": "金融業務、レポーティング、顧客向けプラットフォームのための、信頼性が高く安全なソフトウェアとインフラ。"
+    },
+    "real-estate": {
+      "name": "不動産",
+      "tagline": "物件情報・管理システム",
+      "description": "不動産事業者向けに構築された、物件管理プラットフォーム、物件情報システム、クライアントポータル。"
+    },
+    "logistics": {
+      "name": "物流",
+      "tagline": "追跡・フルフィルメントシステム",
+      "description": "分散したチーム間での追跡、フルフィルメント、サプライチェーン連携のための業務システム。"
+    },
+    "hospitality": {
+      "name": "ホスピタリティ",
+      "tagline": "予約・宿泊者管理",
+      "description": "ホスピタリティ業務に合わせて設計された予約、宿泊者管理、業務プラットフォーム。"
+    },
+    "professional-services": {
+      "name": "専門サービス業",
+      "tagline": "クライアントポータル＆プロジェクトシステム",
+      "description": "専門企業としての信頼性を反映した、クライアントポータル、プロジェクトシステム、コーポレートプラットフォーム。"
+    },
+    "technology": {
+      "name": "テクノロジー",
+      "tagline": "インフラ＆プロダクトエンジニアリング",
+      "description": "プラットフォームをスケールさせるテクノロジー企業向けの、インフラ、ツール、プロダクトエンジニアリング支援。"
+    },
+    "ngo-nonprofit": {
+      "name": "NGO／非営利団体",
+      "tagline": "ミッション主導型デジタルプラットフォーム",
+      "description": "ミッション主導型組織が効率的に運営し、明確にコミュニケーションできるよう支援する、目的に特化したデジタルプラットフォーム。"
+    }
+  },
+  "common": {
+    "exploreService": "サービスを見る",
+    "whatYouGet": "提供内容",
+    "learnMore": "詳しく見る",
+    "viewAll": "すべて見る",
+    "viewCaseStudy": "導入事例を見る",
+    "scrollToExplore": "スクロールして詳細を見る",
+    "lastUpdated": "最終更新日：{date}",
+    "comingSoon": {
+      "title": "近日公開",
+      "description": "現在準備中です。それまでの間、直接お問い合わせいただければ、チームがサポートいたします。",
+      "contactUs": "お問い合わせ"
+    },
+    "cta": {
+      "title": "次の一手を、共に築きませんか？",
+      "description": "ERP、ECプラットフォーム、AIトランスフォーメーション、安全なインフラ、または包括的なデジタル成長戦略まで — 何が必要でも、共に構築しましょう。",
+      "primaryLabel": "対話を始める",
+      "secondaryLabel": "サービスを見る"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "サービス",
+    "metaDescription": "RankVibezによるエンタープライズソフトウェア、クラウドインフラ、サイバーセキュリティ、デジタル成長、AIトランスフォーメーションサービス。",
+    "eyebrow": "サービス",
+    "title": "貴社のビジネスに寄り添うテクノロジーサービス。",
+    "description": "エンタープライズソフトウェア、インフラ、セキュリティ、デジタル成長にまたがる、一つのシステムとして機能するように設計されたフルスタックのサービス体系です。"
+  },
+  "serviceDetailPage": {
+    "requestConsultation": "相談を依頼する",
+    "viewAllServices": "すべてのサービスを見る",
+    "whatsIncluded": "含まれる内容",
+    "pricing": "料金",
+    "pricingDescription": "すべての案件は、貴社のビジネスに合わせて個別に見積もります。エンタープライズ向けサービスについては、固定価格よりもカスタム提案を優先してご案内しています。",
+    "customPricing": "カスタム見積もり",
+    "talkToExpert": "専門家に相談する",
+    "getCustomQuote": "カスタム見積もりを取得",
+    "relatedServices": "関連サービス"
+  },
+  "serviceCategories": {
+    "Enterprise Software": "エンタープライズソフトウェア",
+    "Cloud & Infrastructure": "クラウド＆インフラ",
+    "Cyber Security": "サイバーセキュリティ",
+    "Digital Growth": "デジタル成長",
+    "AI & Business Transformation": "AI＆ビジネストランスフォーメーション"
+  },
+  "servicesData": {
+    "erp": {
+      "name": "ERPソフトウェア",
+      "short": "財務、人事、在庫、販売、業務向けのカスタムERPシステム。",
+      "description": "貴社の実際の業務運営に合わせて、財務、人事、在庫、販売、購買、製造を単一の情報基盤へと統合する基幹業務システムを設計・構築します。",
+      "capabilities": [
+        "財務・会計モジュール",
+        "人事・給与管理",
+        "在庫・倉庫管理",
+        "販売・購買ワークフロー",
+        "製造・生産計画",
+        "カスタムレポート＆ダッシュボード"
+      ]
+    },
+    "ai-erp": {
+      "name": "AI駆動型ERP",
+      "short": "AIエージェント、オートメーション、インテリジェント分析を強化したERPシステム。",
+      "description": "従来のERPをAIエージェント、予測分析、オートメーションで拡張し、あらゆる部門で需要予測、異常検知、手入力作業の削減をチームが実現できるよう支援します。",
+      "capabilities": [
+        "AI支援の需要予測",
+        "インテリジェントなプロセス自動化",
+        "異常・不正検知",
+        "自然言語によるレポーティング",
+        "スマートな承認ワークフロー",
+        "予測型の在庫計画"
+      ]
+    },
+    "ecommerce": {
+      "name": "ECソリューション",
+      "short": "カスタムECプラットフォーム、マーケットプレイス、注文管理。",
+      "description": "商品カタログとチェックアウトから、注文管理、決済、物流連携まで、高性能なECプラットフォームとマーケットプレイスを構築します。",
+      "capabilities": [
+        "カスタムストアフロント＆マーケットプレイス",
+        "商品・カタログ管理",
+        "注文・フルフィルメントシステム",
+        "決済ゲートウェイ連携",
+        "在庫同期",
+        "パフォーマンス＆コンバージョン最適化"
+      ]
+    },
+    "web-development": {
+      "name": "ウェブ開発",
+      "short": "コーポレートサイト、業務ポータル、エンタープライズウェブアプリケーション。",
+      "description": "モダンでスケーラブルなアーキテクチャに基づく、コーポレートサイト、クライアントポータル、ウェブアプリケーションを設計・開発します — 高速、アクセシブル、そして初日からSEOに対応しています。",
+      "capabilities": [
+        "コーポレート・マーケティングサイト",
+        "クライアント・業務ポータル",
+        "ランディングページ＆キャンペーンサイト",
+        "エンタープライズウェブアプリケーション",
+        "ヘッドレスCMS連携",
+        "SEO＆パフォーマンスエンジニアリング"
+      ]
+    },
+    "server-maintenance": {
+      "name": "サーバー保守",
+      "short": "Linux／Windowsサーバーの管理、監視、セキュリティ。",
+      "description": "Linux・Windowsサーバー環境の管理・保守を行います — 稼働状況の監視、セキュリティパッチの適用、パフォーマンスの最適化、バックアップ対応まで、インフラの信頼性を維持します。",
+      "capabilities": [
+        "サーバー監視＆アラート",
+        "パッチ・アップデート管理",
+        "パフォーマンス最適化",
+        "バックアップ＆災害復旧",
+        "セキュリティ堅牢化",
+        "インシデント対応"
+      ]
+    },
+    "cloud-infrastructure": {
+      "name": "クラウドインフラ",
+      "short": "クラウドの導入、移行、スケーリング、アーキテクチャ設計。",
+      "description": "主要クラウドプロバイダー間でインフラを設計・管理します — 信頼性高くスケールし、安全にデプロイでき、本番環境で可観測性を保てるシステムを構築します。",
+      "capabilities": [
+        "クラウド移行＆デプロイ",
+        "オートスケーリングアーキテクチャ",
+        "Infrastructure as Code",
+        "CI/CDパイプライン",
+        "モニタリング＆可観測性",
+        "コスト最適化"
+      ]
+    },
+    "business-email": {
+      "name": "ビジネスメールサービス",
+      "short": "ビジネスメールの導入、移行、セキュリティ、運用管理。",
+      "description": "プロフェッショナルなビジネスメールの導入・運用を行います — DNS、SPF、DKIM、DMARCを正しく設定し、メールボックスを安全に移行し、到達率とセキュリティを強化します。",
+      "capabilities": [
+        "ビジネスメールの導入＆移行",
+        "DNS・SPF・DKIM・DMARC設定",
+        "メールボックス・ドメイン管理",
+        "到達率の最適化",
+        "メールセキュリティの強化",
+        "継続的な運用サポート"
+      ]
+    },
+    "cyber-security": {
+      "name": "サイバーセキュリティ",
+      "short": "ウェブサイト、サーバー、業務インフラのセキュリティ。",
+      "description": "貴社のウェブサイト、サーバー、業務インフラのセキュリティを評価・強化します — 脆弱性の特定、アクセスの堅牢化、実践的で継続的なセキュリティ体制の構築を行います。",
+      "capabilities": [
+        "セキュリティアセスメント＆レビュー",
+        "脆弱性スキャン",
+        "サーバー・アプリケーションの堅牢化",
+        "アクセス制御＆認証",
+        "マルウェア検知＆対応",
+        "バックアップ戦略＆モニタリング"
+      ]
+    },
+    "digital-marketing": {
+      "name": "デジタルマーケティング",
+      "short": "事業成長のためのフルファネル型デジタルマーケティング戦略。",
+      "description": "ブランド、コンテンツ、チャネル、分析をつなぐフルファネル型のデジタルマーケティング戦略を設計します — インプレッションだけでなく、測定可能な事業成果を動かすことを目的としています。",
+      "capabilities": [
+        "マーケティング戦略・計画立案",
+        "コンテンツ・チャネル戦略",
+        "マーケティング分析＆レポーティング",
+        "ブランドポジショニング支援",
+        "ファネル・オーディエンスマッピング",
+        "クロスチャネルキャンペーン実行"
+      ]
+    },
+    "seo": {
+      "name": "SEO",
+      "short": "テクニカル、オンページ、ローカル、国際SEO。",
+      "description": "テクニカルSEO、オンページ最適化、コンテンツ戦略、国際SEO構造の設計を通じて、オーガニックでの視認性を向上させます — 勘に頼らず、分析に基づいて実施します。",
+      "capabilities": [
+        "テクニカルSEO監査",
+        "オンページ最適化",
+        "コンテンツ・キーワード戦略",
+        "ローカルSEO",
+        "国際・多地域SEO",
+        "分析・パフォーマンストラッキング"
+      ]
+    },
+    "ads-campaign": {
+      "name": "広告キャンペーン",
+      "short": "Google広告、Meta広告、パフォーマンス広告キャンペーン。",
+      "description": "GoogleとMetaを横断したパフォーマンス広告の計画、実施、運用を行います — 広告費用対効果を重視した、キャンペーン設計、クリエイティブディレクション、最適化サイクルを構築します。",
+      "capabilities": [
+        "Google広告運用",
+        "Meta広告運用",
+        "キャンペーン設計・ターゲティング",
+        "クリエイティブ・コピーディレクション",
+        "コンバージョントラッキング設定",
+        "継続的な最適化＆レポーティング"
+      ]
+    },
+    "ppc-ads": {
+      "name": "PPC広告",
+      "short": "ターゲットを絞ったトラフィックを獲得し、リードを創出するクリック課金型広告キャンペーン。",
+      "description": "検索、ディスプレイ、ショッピング面にわたるクリック課金型広告の計画・運用を行います — キーワード戦略、広告クリエイティブ、入札管理を構築し、トラフィックの獲得と質の高いリード創出を目指します。",
+      "capabilities": [
+        "Google・Bing広告運用",
+        "検索・ディスプレイ・ショッピングキャンペーン",
+        "キーワードリサーチ＆ターゲティング",
+        "広告コピー・クリエイティブディレクション",
+        "入札・予算最適化",
+        "コンバージョントラッキング＆レポーティング"
+      ]
+    },
+    "conversion-optimization": {
+      "name": "コンバージョン最適化",
+      "short": "ランディングページ、分析、ファネル最適化。",
+      "description": "分析、テスト、UX改善を活用して、ランディングページとコンバージョンファネルを最適化します — 既存のトラフィックを、より質の高いリードや顧客へと転換します。",
+      "capabilities": [
+        "ランディングページ設計＆テスト",
+        "ファネル分析",
+        "アナリティクス実装",
+        "A／Bテスト・多変量テスト",
+        "UX・コピー改善",
+        "コンバージョン率レポーティング"
+      ]
+    },
+    "ai-transformation": {
+      "name": "AI駆動型企業／AIオートメーション",
+      "short": "AIトランスフォーメーションプログラムと業務プロセスの自動化。",
+      "description": "組織がAIを日常業務に統合できるよう支援します — 既存のワークフローを評価し、実践的な自動化の機会を特定し、真の効果が期待できる領域にAIエージェントを展開します。",
+      "capabilities": [
+        "AI活用機会のアセスメント",
+        "ワークフロー自動化設計",
+        "AIエージェントの展開",
+        "プロセスの再設計",
+        "チェンジマネジメント支援",
+        "継続的な最適化"
+      ]
+    },
+    "virtual-assistance": {
+      "name": "バーチャルアシスタンス",
+      "short": "管理・業務タスクのためのプロフェッショナルなバーチャルアシスタンスサービス。",
+      "description": "管理業務、カスタマーサービス、データ処理、業務タスクに対応するプロフェッショナルなバーチャルアシスタンスを提供します — 拡大するチームに、オーバーヘッドをかけずに信頼できる業務サポートを提供します。",
+      "capabilities": [
+        "管理業務サポート",
+        "カスタマーサービスサポート",
+        "データ入力・管理",
+        "スケジューリング＆コーディネーション",
+        "リサーチ＆レポーティング",
+        "業務タスクサポート"
+      ]
+    }
+  }
+}

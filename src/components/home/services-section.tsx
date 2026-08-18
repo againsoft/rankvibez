@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -9,19 +10,16 @@ import { services } from "@/data/services";
 const featured = ["erp", "ecommerce", "web-development", "cloud-infrastructure", "ai-transformation", "ppc-ads"];
 
 export function ServicesSection() {
+  const t = useTranslations("home.servicesSection");
   const featuredServices = featured.map((slug) => services.find((s) => s.slug === slug)!);
 
   return (
     <section className="py-16 sm:py-20">
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-          <SectionHeading
-            eyebrow="Services"
-            title="Technology services built around your business."
-            description="A full-stack service architecture covering enterprise software, infrastructure, security and growth."
-          />
+          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
           <Button href="/services" variant="secondary" className="shrink-0">
-            View All Services
+            {t("viewAll")}
             <ArrowRight size={16} />
           </Button>
         </div>

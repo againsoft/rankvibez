@@ -1,80 +1,80 @@
 export type TeamMember = {
   name: string;
-  role: string;
+  roleId: string;
   image?: string;
 };
 
 export type TeamDepartment = {
-  name: string;
+  id: string;
   members: TeamMember[];
 };
 
 export const leadership: TeamMember[] = [
-  { name: "Mossiur Rahman Riyad", role: "Founder & Chairman", image: "/team/ceo.png" },
-  { name: "Motiur Rahman Jidan", role: "CEO & Web Developer", image: "/team/jidan-vai.png" },
-  { name: "Yeasin Arafat", role: "CTO & Head of Software", image: "/team/arafat.png" },
-  { name: "Fajle Rabby", role: "CFO & HR Manager", image: "/team/fajle-rabby.png" },
+  { name: "Mossiur Rahman Riyad", roleId: "founder-chairman", image: "/team/ceo.png" },
+  { name: "Motiur Rahman Jidan", roleId: "ceo-web-developer", image: "/team/jidan-vai.png" },
+  { name: "Yeasin Arafat", roleId: "cto-head-software", image: "/team/arafat.png" },
+  { name: "Fajle Rabby", roleId: "cfo-hr-manager", image: "/team/fajle-rabby.png" },
 ];
 
 export const teamDepartments: TeamDepartment[] = [
   {
-    name: "Management",
+    id: "management",
     members: [
-      { name: "Md Abid Hasan", role: "Project Manager", image: "/team/abid.png" },
-      { name: "Al Amin", role: "Project Manager", image: "/team/al-amin2.png" },
-      { name: "Saikat Kumar Das", role: "Business Analyst — ERP & Automation" },
+      { name: "Md Abid Hasan", roleId: "project-manager", image: "/team/abid.png" },
+      { name: "Al Amin", roleId: "project-manager", image: "/team/al-amin2.png" },
+      { name: "Saikat Kumar Das", roleId: "business-analyst-erp-automation" },
     ],
   },
   {
-    name: "Development",
+    id: "development",
     members: [
-      { name: "Manik Chandra Roy", role: "ERP Systems Developer", image: "/team/manik-file.png" },
-      { name: "Md Al-Mamun", role: "E-Commerce Developer", image: "/team/md-al-mamun.png" },
-      { name: "Sahos Mia", role: "Full-Stack Web Developer", image: "/team/sahos.png" },
-      { name: "Full Kumar Roy", role: "Software Developer", image: "/team/full-kumar-roy.png" },
-      { name: "Md. Sujad-ud Doula", role: "Full-Stack .NET Developer — ERP Systems", image: "/team/sujad.png" },
-      { name: "Rayhan Islam", role: "QA Engineer" },
+      { name: "Manik Chandra Roy", roleId: "erp-systems-developer", image: "/team/manik-file.png" },
+      { name: "Md Al-Mamun", roleId: "ecommerce-developer", image: "/team/md-al-mamun.png" },
+      { name: "Sahos Mia", roleId: "fullstack-web-developer", image: "/team/sahos.png" },
+      { name: "Full Kumar Roy", roleId: "software-developer", image: "/team/full-kumar-roy.png" },
+      { name: "Md. Sujad-ud Doula", roleId: "fullstack-dotnet-developer-erp", image: "/team/sujad.png" },
+      { name: "Rayhan Islam", roleId: "qa-engineer" },
     ],
   },
   {
-    name: "Cloud & Infrastructure",
-    members: [{ name: "Md. Fahim Ahmed", role: "Cloud, DevOps & Infrastructure Engineer" }],
+    id: "cloud-infrastructure",
+    members: [{ name: "Md. Fahim Ahmed", roleId: "cloud-devops-engineer" }],
   },
   {
-    name: "Cyber Security",
-    members: [{ name: "Abdullah Al Noman", role: "Cybersecurity Analyst" }],
+    id: "cyber-security",
+    members: [{ name: "Abdullah Al Noman", roleId: "cybersecurity-analyst" }],
   },
   {
-    name: "AI & Automation",
+    id: "ai-automation",
     members: [
-      { name: "Mehedi Hasan", role: "AI Engineer" },
-      { name: "Sajjad Arif", role: "AI Automation Engineer" },
-      { name: "Tasnim Jahan", role: "Client Support Specialist" },
+      { name: "Mehedi Hasan", roleId: "ai-engineer" },
+      { name: "Sajjad Arif", roleId: "ai-automation-engineer" },
+      { name: "Tasnim Jahan", roleId: "client-support-specialist" },
     ],
   },
   {
-    name: "SEO & Digital Marketing",
+    id: "seo-marketing",
     members: [
-      { name: "Jannatul Moriyom Anni", role: "SEO & Content Strategist", image: "/team/anni.png" },
-      { name: "Sheikh MD Maruf Hossain", role: "Digital Marketing Expert", image: "/team/maruf.png" },
-      { name: "Tamim AL Hasan", role: "Technical SEO Expert", image: "/team/tamin.png" },
-      { name: "Uzzwal Kumar Biswas", role: "Digital Marketing Executive", image: "/team/uzzwal.png" },
-      { name: "Md. Munir Husen Munna", role: "Conversion & Campaign Executive", image: "/team/munna.png" },
-      { name: "Mehjabin Nesa", role: "Content Writer & Strategist" },
+      { name: "Jannatul Moriyom Anni", roleId: "seo-content-strategist", image: "/team/anni.png" },
+      { name: "Sheikh MD Maruf Hossain", roleId: "digital-marketing-expert", image: "/team/maruf.png" },
+      { name: "Tamim AL Hasan", roleId: "technical-seo-expert", image: "/team/tamin.png" },
+      { name: "Uzzwal Kumar Biswas", roleId: "digital-marketing-executive", image: "/team/uzzwal.png" },
+      { name: "Md. Munir Husen Munna", roleId: "conversion-campaign-executive", image: "/team/munna.png" },
+      { name: "Mehjabin Nesa", roleId: "content-writer-strategist" },
     ],
   },
   {
-    name: "Graphics & Design",
+    id: "graphics-design",
     members: [
-      { name: "Md. Al-amin", role: "Graphics Designer", image: "/team/al-amin.png" },
-      { name: "Topan Roy", role: "Graphics Designer & Video Editor", image: "/team/tapon.png" },
+      { name: "Md. Al-amin", roleId: "graphics-designer", image: "/team/al-amin.png" },
+      { name: "Topan Roy", roleId: "graphics-designer-video-editor", image: "/team/tapon.png" },
     ],
   },
   {
-    name: "Marketing",
+    id: "marketing",
     members: [
-      { name: "Tarshid Alam", role: "Marketing Manager — Ads Campaigns", image: "/team/fahim.png" },
-      { name: "Md Rifat Mia", role: "Ads Campaign Specialist", image: "/team/rifat1.png" },
+      { name: "Tarshid Alam", roleId: "marketing-manager-ads", image: "/team/fahim.png" },
+      { name: "Md Rifat Mia", roleId: "ads-campaign-specialist", image: "/team/rifat1.png" },
     ],
   },
 ];

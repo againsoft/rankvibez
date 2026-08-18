@@ -1,0 +1,1151 @@
+{
+  "metadata": {
+    "title": "RankVibez | Soluções de Software e Tecnologia Orientadas por IA",
+    "description": "A RankVibez desenvolve soluções de ERP, e-commerce, software, cloud, cibersegurança e crescimento digital orientadas por IA para empresas modernas."
+  },
+  "nav": {
+    "home": "Início",
+    "whatWeDo": "O Que Fazemos",
+    "solutions": "Soluções",
+    "services": "Serviços",
+    "ai": "IA",
+    "portfolio": "Portefólio",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "getQuote": "Pedir Orçamento",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "primaryNavLabel": "Principal",
+    "languageSwitcherLabel": "Selecionar idioma"
+  },
+  "announcementBar": {
+    "headline": "A IA é agora a infraestrutura das empresas modernas.",
+    "cta": "Explore as nossas capacidades de IA"
+  },
+  "footer": {
+    "heading": "Vamos construir algo",
+    "headingHighlight": "inteligente.",
+    "tagline": "Soluções de software e tecnologia orientadas por IA para empresas modernas.",
+    "cta": "Iniciar uma Conversa",
+    "columns": {
+      "solutions": "Soluções",
+      "services": "Serviços",
+      "company": "Empresa",
+      "resources": "Recursos",
+      "contact": "Contacto"
+    },
+    "solutions": {
+      "erp": "ERP",
+      "aiErp": "ERP com IA",
+      "ecommerce": "E-Commerce",
+      "aiAutomation": "Automação com IA",
+      "cyberSecurity": "Cibersegurança",
+      "cloud": "Cloud"
+    },
+    "services": {
+      "softwareDevelopment": "Desenvolvimento de Software",
+      "websiteDevelopment": "Desenvolvimento de Websites",
+      "serverMaintenance": "Manutenção de Servidores",
+      "professionalEmail": "Email Profissional",
+      "seo": "SEO",
+      "digitalMarketing": "Marketing Digital",
+      "adsCampaign": "Campanhas de Anúncios",
+      "virtualAssistance": "Assistência Virtual"
+    },
+    "company": {
+      "about": "Sobre",
+      "industries": "Setores",
+      "portfolio": "Portefólio",
+      "technology": "Tecnologia",
+      "locations": "Localizações",
+      "careers": "Carreiras",
+      "contact": "Contacto"
+    },
+    "resources": {
+      "blog": "Blog",
+      "insights": "Perspetivas",
+      "caseStudies": "Casos de Estudo",
+      "documentation": "Documentação",
+      "faq": "Perguntas Frequentes"
+    },
+    "copyright": "© {year} RankVibez. Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "cookiePolicy": "Política de Cookies"
+  },
+  "notFound": {
+    "eyebrow": "Erro 404",
+    "title": "Página não encontrada.",
+    "description": "A página que procura não existe ou pode ter sido movida.",
+    "backHome": "Voltar ao Início",
+    "contactUs": "Contacte-nos"
+  },
+  "home": {
+    "servicesSection": {
+      "eyebrow": "Serviços",
+      "title": "Serviços tecnológicos construídos à medida do seu negócio.",
+      "description": "Uma arquitetura de serviços completa que abrange software empresarial, infraestrutura, segurança e crescimento.",
+      "viewAll": "Ver Todos os Serviços"
+    },
+    "industriesSection": {
+      "eyebrow": "Setores",
+      "title": "Criado para as empresas que fazem mover a economia real.",
+      "description": "A RankVibez atua em setores onde software e infraestrutura fiáveis têm impacto direto nas operações."
+    },
+    "solutionsSection": {
+      "eyebrow": "Soluções Empresariais",
+      "title": "Soluções Tecnológicas Construídas à Medida do Seu Negócio",
+      "description": "Cada solução liga processos de negócio reais a um sistema tecnológico funcional — não um pacote genérico."
+    },
+    "aiSection": {
+      "eyebrow": "IA em Primeiro Lugar",
+      "title": "A IA Não É o Futuro. É a Infraestrutura das Empresas Modernas.",
+      "description": "Integramos inteligência artificial em software, fluxos de trabalho, experiências de cliente e operações de negócio para ajudar as organizações a trabalhar de forma mais inteligente e a crescer mais rapidamente.",
+      "cta": "Explore a IA na RankVibez"
+    },
+    "whySection": {
+      "eyebrow": "Porquê a RankVibez",
+      "title": "Um parceiro tecnológico pensado para o longo prazo."
+    },
+    "processSection": {
+      "eyebrow": "Processo",
+      "title": "Da Ideia a um Sistema de Negócio Inteligente"
+    },
+    "hero": {
+      "badge": "Parceiro Tecnológico Focado em IA",
+      "titlePrefix": "Construa o Futuro com",
+      "titleHighlight": "Tecnologia Orientada por IA",
+      "description": "A RankVibez ajuda empresas a construir software inteligente, automatizar operações, reforçar infraestrutura e acelerar o crescimento digital através de tecnologia potenciada por IA.",
+      "primaryCta": "Iniciar um Projeto",
+      "secondaryCta": "Explorar as Nossas Soluções"
+    },
+    "heroVisual": {
+      "aiAnalyticsLive": "Análise de IA — Ao Vivo",
+      "automationRate": "Taxa de Automação",
+      "optimized": "Otimizado",
+      "agentDeployed": "Agente · Implementado"
+    },
+    "techEcosystemSection": {
+      "eyebrow": "Ecossistema Tecnológico",
+      "title": "Construído sobre as Principais Plataformas Tecnológicas do Mundo",
+      "footnote": "Plataformas e ferramentas com as quais a RankVibez constrói e entrega. O estatuto de parceria oficial é indicado apenas onde verificado."
+    },
+    "trustStrip": {
+      "label": "Plataformas com as Quais Trabalhamos"
+    },
+    "globalPresenceSection": {
+      "eyebrow": "Presença Global",
+      "title": "Alcance Global. Compreensão Local.",
+      "description": "A RankVibez opera a partir de Daca e entrega soluções tecnológicas a empresas em vários mercados internacionais."
+    },
+    "portfolioSection": {
+      "eyebrow": "Trabalhos em Destaque",
+      "title": "Construído para Empresas em Todo o Mundo",
+      "description": "Uma seleção de projetos e conceitos que abrangem ERP, e-commerce, IA e infraestrutura.",
+      "viewFullPortfolio": "Ver Portefólio Completo"
+    },
+    "capabilities": {
+      "eyebrow": "Capacidades Principais",
+      "title": "Um parceiro tecnológico, capacidade total.",
+      "description": "De sistemas orientados por IA a infraestrutura segura e crescimento mensurável — a RankVibez reúne toda a cadeia de valor.",
+      "items": {
+        "ai-first": { "title": "Tecnologia Focada em IA", "description": "IA integrada em produtos e fluxos de trabalho, não acrescentada à posteriori." },
+        "enterprise-software": { "title": "Software Empresarial", "description": "Sistemas ERP e de gestão personalizados, construídos à volta das operações reais." },
+        "business-automation": { "title": "Automação de Negócio", "description": "Fluxos de trabalho automatizados que ligam equipas, ferramentas e dados." },
+        "ecommerce-technology": { "title": "Tecnologia de E-Commerce", "description": "Plataformas de comércio de alto desempenho, construídas para escalar." },
+        "cloud-infrastructure": { "title": "Cloud e Infraestrutura", "description": "Infraestrutura fiável e monitorizada nos principais fornecedores." },
+        "cyber-security": { "title": "Cibersegurança", "description": "Segurança considerada desde a arquitetura até ao lançamento." }
+      }
+    },
+    "testimonialsSection": {
+      "quote": "A confiança de empresas a construir a próxima fase do seu crescimento.",
+      "note": "Testemunhos de clientes verificados serão publicados aqui à medida que os projetos forem concluídos."
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portefólio",
+    "metaDescription": "Portefólio da RankVibez e projetos concetuais que abrangem ERP, e-commerce, IA, infraestrutura e crescimento digital.",
+    "eyebrow": "Portefólio",
+    "title": "Construído para Empresas em Todo o Mundo",
+    "description": "Uma seleção de projetos e conceitos que abrangem ERP, e-commerce, IA e infraestrutura. Os trabalhos concetuais e de demonstração estão claramente identificados."
+  },
+  "portfolioDetailPage": {
+    "backToPortfolio": "Voltar ao Portefólio",
+    "challenge": "Desafio",
+    "solution": "Solução",
+    "outcome": "Resultado",
+    "servicesProvided": "Serviços Prestados",
+    "startSimilarProject": "Iniciar um Projeto Semelhante"
+  },
+  "portfolioLabels": {
+    "Concept Project": "Projeto Concetual",
+    "Internal Demo": "Demonstração Interna"
+  },
+  "portfolioData": {
+    "categories": {
+      "All": "Todos",
+      "Software": "Software",
+      "ERP": "ERP",
+      "E-Commerce": "E-Commerce",
+      "Corporate Websites": "Websites Corporativos",
+      "AI": "IA",
+      "Infrastructure": "Infraestrutura",
+      "Digital Growth": "Crescimento Digital"
+    },
+    "industries": {
+      "Manufacturing": "Indústria",
+      "Retail": "Retalho",
+      "Technology": "Tecnologia",
+      "Professional Services": "Serviços Profissionais",
+      "Finance": "Finanças",
+      "E-Commerce": "E-Commerce"
+    },
+    "services": {
+      "ERP Software": "Software ERP",
+      "AI-Driven ERP": "ERP Orientado por IA",
+      "E-Commerce Solutions": "Soluções de E-Commerce",
+      "Cloud Infrastructure": "Infraestrutura Cloud",
+      "Cyber Security": "Cibersegurança",
+      "Web Development": "Desenvolvimento Web",
+      "AI-Driven Company": "Empresa Orientada por IA",
+      "AI Automation": "Automação com IA",
+      "Digital Marketing": "Marketing Digital",
+      "SEO": "SEO",
+      "Ads Campaign": "Campanha de Anúncios"
+    },
+    "projects": {
+      "again-erp-concept": {
+        "summary": "Um sistema ERP concetual que explora como a previsão assistida por IA e as operações unificadas poderiam funcionar para uma indústria transformadora de média dimensão.",
+        "challenge": "As empresas industriais gerem frequentemente finanças, inventário e produção em folhas de cálculo e ferramentas legadas desligadas entre si, o que provoca decisões lentas e desfasamentos de stock.",
+        "solution": "Concebemos um modelo de dados ERP unificado que abrange dashboard, RH, vendas, inventário e contabilidade, com uma camada de IA que revela previsões de procura e anomalias de stock.",
+        "outcome": "Um conceito funcional que demonstra como o planeamento assistido por IA pode reduzir o esforço de reporte manual e identificar riscos operacionais mais cedo."
+      },
+      "againcart-ecommerce": {
+        "summary": "Uma plataforma de comércio de demonstração construída para explorar padrões de gestão de catálogos de grande volume e desempenho de checkout.",
+        "challenge": "Catálogos de retalho com muitas referências (SKU) precisam de filtragem rápida, sincronização precisa de inventário e um processo de checkout que aguente picos de tráfego.",
+        "solution": "Construímos uma loja de demonstração com páginas de catálogo renderizadas no servidor, checkout otimizado e uma camada de inventário sincronizada.",
+        "outcome": "Estabelecemos padrões de arquitetura de comércio reutilizáveis para desempenho de catálogo e fiabilidade de checkout."
+      },
+      "harborcloud-infrastructure-demo": {
+        "summary": "Uma arquitetura de referência interna para implementação cloud escalável e segura e pipelines de CI/CD.",
+        "challenge": "Equipas em crescimento precisam de infraestrutura que escale com segurança, sem risco de implementação manual ou ambientes inconsistentes.",
+        "solution": "Concebemos uma stack de referência de infraestrutura como código, com CI/CD automatizado, monitorização e controlo de acessos reforçado.",
+        "outcome": "Um modelo de infraestrutura reutilizável para implementações fiáveis e auditáveis em todos os ambientes."
+      },
+      "meridian-corporate-concept": {
+        "summary": "Uma plataforma web corporativa concetual que explora uma arquitetura de conteúdo moderna para empresas de serviços profissionais.",
+        "challenge": "As empresas de serviços profissionais precisam de websites credíveis, rápidos e ricos em conteúdo, fáceis de manter sem um CMS pesado.",
+        "solution": "Concebemos uma arquitetura de site corporativo orientada por componentes e dados, pronta para integração com um CMS leve.",
+        "outcome": "Um padrão de site corporativo flexível que equilibra a flexibilidade editorial com o desempenho front-end."
+      },
+      "vantage-ai-advisor-concept": {
+        "summary": "Um assistente de consultoria de IA concetual que explora como a IA conversacional pode orientar utilizadores empresariais para os fluxos de trabalho internos certos.",
+        "challenge": "Os utilizadores empresariais muitas vezes não sabem qual ferramenta ou fluxo de trabalho interno se aplica a uma tarefa, criando atrito e sobrecarga de suporte.",
+        "solution": "Criámos um protótipo de consultor de IA no servidor que interpreta pedidos em linguagem natural e encaminha os utilizadores para o fluxo de trabalho ou recurso certo.",
+        "outcome": "Validámos um padrão de arquitetura para manter as chaves de API de IA no servidor, entregando ao mesmo tempo uma experiência de consultoria responsiva."
+      },
+      "growthline-marketing-demo": {
+        "summary": "Uma demonstração interna que explora uma camada de reporte unificada entre SEO, anúncios e análise de conversões para um retalhista online.",
+        "challenge": "As equipas de crescimento frequentemente acompanham dados de SEO, anúncios pagos e conversão em dashboards separados, tornando as decisões ao longo do funil lentas.",
+        "solution": "Construímos uma camada de reporte de demonstração que consolida sinais orgânicos, pagos e de conversão no site numa única vista de funil.",
+        "outcome": "Demonstrámos um padrão prático para ligar dados de aquisição e conversão, permitindo decisões de crescimento mais rápidas."
+      }
+    }
+  },
+  "locationsPage": {
+    "metaTitle": "Localizações",
+    "metaDescription": "A RankVibez opera a partir de Daca, Bangladeche, e serve clientes nos Estados Unidos, Reino Unido, Emirados Árabes Unidos, Arábia Saudita, Canadá e Austrália.",
+    "eyebrow": "Presença Global",
+    "title": "Alcance Global. Compreensão Local.",
+    "description": "A RankVibez opera a partir de Daca e entrega soluções tecnológicas a empresas em vários mercados internacionais.",
+    "footnote": "As localizações marcadas como \"Ao Serviço de Clientes Em\" representam mercados de serviço ativos e não escritórios físicos. Apenas Daca, Bangladeche, é um escritório operacional."
+  },
+  "locationsData": {
+    "labels": {
+      "headOffice": "Sede / Operações Tecnológicas",
+      "servingClientsIn": "Ao Serviço de Clientes Em"
+    }
+  },
+  "technologyPage": {
+    "metaTitle": "Tecnologia",
+    "metaDescription": "As tecnologias de frontend, backend, cloud, DevOps e IA com as quais a RankVibez constrói e entrega.",
+    "eyebrow": "Tecnologia",
+    "title": "A stack tecnológica por trás de cada projeto.",
+    "description": "Uma stack moderna e comprovada em frontend, backend, cloud e IA — escolhida pela fiabilidade, desempenho e manutenção a longo prazo.",
+    "ecosystemEyebrow": "Ecossistema Tecnológico",
+    "ecosystemTitle": "Plataformas com as Quais Trabalhamos"
+  },
+  "technologyData": {
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Base de Dados",
+      "cloud": "Cloud",
+      "devops": "DevOps",
+      "ai": "IA"
+    }
+  },
+  "whatWeDoPage": {
+    "metaTitle": "O Que Fazemos",
+    "metaDescription": "Uma visão completa e navegável de tudo o que a RankVibez oferece — software empresarial, infraestrutura cloud, cibersegurança, crescimento digital e transformação com IA.",
+    "badge": "O Que Fazemos",
+    "titlePrefix": "Um Parceiro Tecnológico.",
+    "titleHighlight": "Todas as Capacidades de Que Precisa.",
+    "description": "Software empresarial, infraestrutura cloud, cibersegurança, crescimento digital e transformação com IA — percorra a página para ver exatamente o que a RankVibez pode construir para si.",
+    "requestQuotation": "Pedir Orçamento",
+    "overviewEyebrow": "De Relance",
+    "overviewTitle": "Tudo o que oferecemos, numa só vista.",
+    "overviewDescription": "Toque em qualquer serviço para ir diretamente aos detalhes abaixo.",
+    "ctaTitle": "Pronto para Construir o Próximo Passo?",
+    "ctaDescription": "Diga-nos de que serviços precisa e entraremos em contacto com um orçamento personalizado — sem jogos de preços, apenas uma conversa sobre o seu projeto.",
+    "ctaSecondaryLabel": "Fale com a Nossa Equipa"
+  },
+  "aiPage": {
+    "metaTitle": "IA",
+    "metaDescription": "A IA é a infraestrutura das empresas modernas. Descubra como a RankVibez integra IA em ERP, automação, análise e operações de cliente.",
+    "eyebrow": "IA em Primeiro Lugar",
+    "title": "A IA Não É o Futuro. É a Infraestrutura das Empresas Modernas.",
+    "description": "Integramos inteligência artificial em software, fluxos de trabalho, experiências de cliente e operações de negócio para ajudar as organizações a trabalhar de forma mais inteligente e a crescer mais rapidamente.",
+    "tryItEyebrow": "Experimente",
+    "tryItTitle": "Não sabe por onde começar?",
+    "tryItDescription": "Responda a duas perguntas rápidas e o Consultor de IA da RankVibez indicará a solução certa.",
+    "ctaTitle": "Pronto para Tornar a IA Parte do Seu Negócio?",
+    "ctaDescription": "De ERP orientado por IA a automação e análise — vamos identificar o ponto de partida com maior impacto.",
+    "ctaPrimaryLabel": "Iniciar uma Conversa",
+    "ctaSecondaryLabel": "Explorar os Nossos Serviços"
+  },
+  "orgChart": {
+    "eyebrow": "A Nossa Equipa",
+    "title": "Como a RankVibez está organizada.",
+    "description": "Estruturada em torno de cada serviço que prestamos — de ERP e IA a cloud, segurança e crescimento.",
+    "reportsTo": {
+      "ceo": "Reporta ao CEO",
+      "cto": "Reporta ao CTO",
+      "cfo": "Reporta ao CFO"
+    },
+    "branches": {
+      "enterprise-software": "Software Empresarial",
+      "cloud-infrastructure": "Cloud e Infraestrutura",
+      "cyber-security": "Cibersegurança",
+      "ai-business-transformation": "IA e Transformação de Negócio",
+      "digital-growth": "Crescimento Digital",
+      "creative-brand": "Criativo e Marca",
+      "project-client-operations": "Projetos e Operações com Clientes"
+    }
+  },
+  "teamData": {
+    "roles": {
+      "founder-chairman": "Fundador e Presidente",
+      "ceo-web-developer": "CEO e Programador Web",
+      "cto-head-software": "CTO e Diretor de Software",
+      "cfo-hr-manager": "CFO e Gestor de RH",
+      "project-manager": "Gestor de Projeto",
+      "business-analyst-erp-automation": "Analista de Negócio — ERP e Automação",
+      "erp-systems-developer": "Programador de Sistemas ERP",
+      "ecommerce-developer": "Programador de E-Commerce",
+      "fullstack-web-developer": "Programador Web Full-Stack",
+      "software-developer": "Programador de Software",
+      "fullstack-dotnet-developer-erp": "Programador Full-Stack .NET — Sistemas ERP",
+      "qa-engineer": "Engenheiro de QA",
+      "cloud-devops-engineer": "Engenheiro de Cloud, DevOps e Infraestrutura",
+      "cybersecurity-analyst": "Analista de Cibersegurança",
+      "ai-engineer": "Engenheiro de IA",
+      "ai-automation-engineer": "Engenheiro de Automação com IA",
+      "client-support-specialist": "Especialista em Apoio ao Cliente",
+      "seo-content-strategist": "Estratega de SEO e Conteúdo",
+      "digital-marketing-expert": "Especialista em Marketing Digital",
+      "technical-seo-expert": "Especialista em SEO Técnico",
+      "digital-marketing-executive": "Executivo de Marketing Digital",
+      "conversion-campaign-executive": "Executivo de Conversão e Campanhas",
+      "content-writer-strategist": "Redator e Estratega de Conteúdo",
+      "graphics-designer": "Designer Gráfico",
+      "graphics-designer-video-editor": "Designer Gráfico e Editor de Vídeo",
+      "marketing-manager-ads": "Gestor de Marketing — Campanhas de Anúncios",
+      "ads-campaign-specialist": "Especialista em Campanhas de Anúncios"
+    }
+  },
+  "countries": {
+    "China": "China",
+    "Bangladesh": "Bangladeche",
+    "United States": "Estados Unidos",
+    "United Kingdom": "Reino Unido",
+    "UAE": "Emirados Árabes Unidos",
+    "Saudi Arabia": "Arábia Saudita",
+    "Canada": "Canadá",
+    "Australia": "Austrália",
+    "Other": "Outro"
+  },
+  "contactData": {
+    "budgetOptions": {
+      "Under $1,000": "Menos de 1.000 $",
+      "$1,000 – $5,000": "1.000 $ – 5.000 $",
+      "$5,000 – $10,000": "5.000 $ – 10.000 $",
+      "$10,000 – $25,000": "10.000 $ – 25.000 $",
+      "$25,000+": "25.000 $+",
+      "Enterprise / Custom": "Empresarial / Personalizado"
+    }
+  },
+  "quoteForm": {
+    "steps": {
+      "services": "Serviços",
+      "requirements": "Requisitos",
+      "yourDetails": "Os Seus Dados"
+    },
+    "selectServiceError": "Selecione pelo menos um serviço para continuar.",
+    "nameRequired": "O nome é obrigatório.",
+    "emailRequired": "O email é obrigatório.",
+    "emailInvalid": "Introduza um endereço de email válido.",
+    "phoneInvalid": "Introduza um número de telefone válido.",
+    "genericError": "Ocorreu um erro. Por favor, tente novamente.",
+    "successTitle": "Obrigado — o seu pedido foi recebido.",
+    "successDescription": "Recebemos o seu pedido de orçamento e enviámos uma confirmação para o seu email. A nossa equipa irá analisar os seus requisitos e entrará em contacto brevemente com um orçamento personalizado.",
+    "step1Title": "De que serviços precisa?",
+    "step1Description": "Selecione um ou mais serviços — poderá adicionar detalhes para cada um a seguir.",
+    "step2Title": "Conte-nos mais sobre cada serviço",
+    "step2Description": "Opcional — adicione requisitos ou detalhes específicos para que possamos preparar um orçamento mais preciso.",
+    "requirementsPlaceholder": "Requisitos ou detalhes específicos para {service} (opcional)",
+    "step3Title": "As suas informações de contacto",
+    "step3Description": "Para sabermos a quem enviar o orçamento personalizado. Não são apresentados preços aqui — a nossa equipa entrará em contacto diretamente.",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Joana Silva",
+    "companyLabel": "Nome da Empresa",
+    "companyPlaceholder": "Nome da empresa",
+    "emailLabel": "Email",
+    "emailPlaceholder": "voce@empresa.com",
+    "phoneLabel": "Telefone",
+    "phonePlaceholder": "+351 900 000 000",
+    "messageLabel": "Mensagem Geral",
+    "messagePlaceholder": "Mais alguma coisa que devamos saber? (opcional)",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "submitting": "A enviar...",
+    "sendRequest": "Enviar Pedido"
+  },
+  "contactForm": {
+    "genericError": "Ocorreu um erro. Por favor, tente novamente.",
+    "successTitle": "Obrigado — a sua mensagem foi recebida.",
+    "successDescription": "Um membro da equipa RankVibez entrará em contacto consigo brevemente para agendar uma chamada exploratória.",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Joana Silva",
+    "companyLabel": "Empresa",
+    "companyPlaceholder": "Nome da empresa",
+    "emailLabel": "Email Profissional",
+    "emailPlaceholder": "voce@empresa.com",
+    "phoneLabel": "Telefone",
+    "phonePlaceholder": "+351 900 000 000",
+    "countryLabel": "País",
+    "countryPlaceholder": "Selecionar país",
+    "serviceLabel": "Serviço",
+    "servicePlaceholder": "Selecionar um serviço",
+    "budgetLabel": "Orçamento (USD)",
+    "budgetPlaceholder": "Selecionar um intervalo de orçamento",
+    "descriptionLabel": "Descrição do Projeto",
+    "descriptionPlaceholder": "Conte-nos sobre o seu negócio e o que pretende construir.",
+    "sending": "A enviar...",
+    "submit": "Enviar Mensagem"
+  },
+  "aiAdvisor": {
+    "name": "Consultor de IA da RankVibez",
+    "tagline": "Orientado, baseado em regras — nenhum dado sai do seu navegador.",
+    "recommended": "Recomendado",
+    "exploreThisSolution": "Explorar Esta Solução",
+    "startOver": "Recomeçar",
+    "questions": {
+      "goal": {
+        "prompt": "Do que o seu negócio mais precisa neste momento?",
+        "options": {
+          "erp": "Um sistema unificado para gerir as operações",
+          "ecommerce": "Vender produtos online",
+          "automation": "Automatizar trabalho repetitivo",
+          "security": "Infraestrutura mais forte e segura"
+        }
+      },
+      "stage": {
+        "prompt": "Como descreveria a sua configuração atual?",
+        "options": {
+          "manual": "Maioritariamente manual / folhas de cálculo",
+          "fragmented": "Ferramentas existentes que não comunicam entre si",
+          "scaling": "Um sistema funcional que precisa de escalar"
+        }
+      }
+    },
+    "recommendations": {
+      "erp": {
+        "title": "ERP e ERP Orientado por IA",
+        "description": "Um sistema unificado que liga finanças, RH, inventário e operações — reforçado com previsão assistida por IA."
+      },
+      "ecommerce": {
+        "title": "Soluções de E-Commerce",
+        "description": "Uma loja online ou marketplace personalizada, construída para desempenho, com gestão integrada de encomendas e inventário."
+      },
+      "automation": {
+        "title": "Automação e Transformação com IA",
+        "description": "Agentes de IA e automação de fluxos de trabalho para eliminar o trabalho manual repetitivo em todo o negócio."
+      },
+      "security": {
+        "title": "Infraestrutura Cloud e Cibersegurança",
+        "description": "Infraestrutura cloud escalável, aliada a uma postura de segurança prática e contínua."
+      }
+    }
+  },
+  "whyData": {
+    "items": {
+      "ai-first": {
+        "title": "IA em Primeiro Lugar",
+        "description": "Concebemos a IA dentro do produto e do fluxo de trabalho, em vez de a acrescentar como reflexão tardia."
+      },
+      "business-understanding": {
+        "title": "Compreensão do Negócio",
+        "description": "A tecnologia é construída em torno de processos de negócio reais, não de modelos genéricos."
+      },
+      "full-stack": {
+        "title": "Stack Tecnológica Completa",
+        "description": "Software, cloud, infraestrutura, segurança e crescimento sob um único parceiro tecnológico."
+      },
+      "scalable-architecture": {
+        "title": "Arquitetura Escalável",
+        "description": "Sistemas concebidos para evoluir à medida que o negócio cresce, não para serem reconstruídos do zero."
+      },
+      "security-mindset": {
+        "title": "Mentalidade de Segurança",
+        "description": "Segurança e fiabilidade são consideradas desde o início de cada projeto."
+      },
+      "global-delivery": {
+        "title": "Entrega Global",
+        "description": "Construído para apoiar empresas internacionais e equipas distribuídas."
+      },
+      "long-term-partnership": {
+        "title": "Parceria de Longo Prazo",
+        "description": "Focamo-nos na melhoria contínua, não numa entrega pontual."
+      }
+    },
+    "processSteps": {
+      "discover": { "title": "Descobrir", "description": "Compreender o negócio e os objetivos." },
+      "strategize": { "title": "Definir Estratégia", "description": "Identificar oportunidades de tecnologia e IA." },
+      "design": { "title": "Conceber", "description": "Criar UX, arquitetura e fluxos de trabalho." },
+      "build": { "title": "Construir", "description": "Desenvolver o software e as integrações." },
+      "secure": { "title": "Proteger", "description": "Testar, reforçar e validar o sistema." },
+      "launch": { "title": "Lançar", "description": "Implementar em produção." },
+      "grow": { "title": "Crescer", "description": "Monitorizar, otimizar e melhorar continuamente." }
+    },
+    "trustSignals": {
+      "ai-first-technology": "Tecnologia Focada em IA",
+      "enterprise-software": "Software Empresarial",
+      "cloud-infrastructure": "Cloud e Infraestrutura",
+      "digital-growth": "Crescimento Digital",
+      "global-delivery": "Entrega Global"
+    }
+  },
+  "privacyPolicyPage": {
+    "metaTitle": "Política de Privacidade",
+    "metaDescription": "Como a RankVibez recolhe, utiliza e protege informação.",
+    "eyebrow": "Legal",
+    "title": "Política de Privacidade",
+    "updated": "2026",
+    "sections": {
+      "overview": {
+        "heading": "Visão Geral",
+        "body": [
+          "Esta Política de Privacidade explica como a RankVibez (\"nós\", \"a nossa empresa\") recolhe, utiliza e protege informação quando visita rankvibez.com ou recorre aos nossos serviços."
+        ]
+      },
+      "informationWeCollect": {
+        "heading": "Informação que Recolhemos",
+        "body": [
+          "Quando submete o nosso formulário de contacto, recolhemos a informação que fornece, como nome, empresa, endereço de email, número de telefone e detalhes do projeto.",
+          "Podemos também recolher informação técnica padrão, como o tipo de navegador e dados gerais de utilização, para nos ajudar a melhorar o website."
+        ]
+      },
+      "howWeUseInformation": {
+        "heading": "Como Utilizamos a Informação",
+        "body": [
+          "A informação submetida através do nosso formulário de contacto é utilizada exclusivamente para responder à sua consulta e, quando relevante, para preparar uma proposta de projeto.",
+          "Não vendemos nem alugamos informação pessoal a terceiros."
+        ]
+      },
+      "dataRetention": {
+        "heading": "Retenção de Dados",
+        "body": [
+          "Mantemos a informação das consultas pelo tempo necessário para responder ao seu pedido e manter registos comerciais, após o qual poderá ser eliminada."
+        ]
+      },
+      "contact": {
+        "heading": "Contacto",
+        "body": ["Questões sobre esta política podem ser dirigidas para admin@rankvibez.com."]
+      }
+    }
+  },
+  "termsOfServicePage": {
+    "metaTitle": "Termos de Serviço",
+    "metaDescription": "Os termos que regem a utilização do website e dos serviços da RankVibez.",
+    "eyebrow": "Legal",
+    "title": "Termos de Serviço",
+    "updated": "2026",
+    "sections": {
+      "acceptanceOfTerms": {
+        "heading": "Aceitação dos Termos",
+        "body": ["Ao aceder a rankvibez.com, concorda com estes Termos de Serviço. Se não concordar, deve interromper a utilização do website."]
+      },
+      "useOfWebsite": {
+        "heading": "Utilização do Website",
+        "body": ["O conteúdo deste website é fornecido para fins informativos gerais sobre a RankVibez e os seus serviços, e não deve ser tomado como substituto de uma proposta ou contrato formal."]
+      },
+      "serviceEngagements": {
+        "heading": "Prestação de Serviços",
+        "body": ["O âmbito específico do projeto, os entregáveis, os preços e os prazos de qualquer colaboração são regidos por uma proposta ou acordo escrito separado entre a RankVibez e o cliente."]
+      },
+      "intellectualProperty": {
+        "heading": "Propriedade Intelectual",
+        "body": ["Todo o conteúdo deste website, incluindo texto, elementos gráficos e marca, é propriedade da RankVibez, salvo indicação em contrário, e não pode ser reproduzido sem autorização."]
+      },
+      "limitationOfLiability": {
+        "heading": "Limitação de Responsabilidade",
+        "body": ["A RankVibez não é responsável por quaisquer perdas indiretas ou consequenciais resultantes da utilização deste website. Nada nestes termos limita a responsabilidade decorrente de um acordo de serviço assinado."]
+      },
+      "contact": {
+        "heading": "Contacto",
+        "body": ["Questões sobre estes termos podem ser dirigidas para admin@rankvibez.com."]
+      }
+    }
+  },
+  "cookiePolicyPage": {
+    "metaTitle": "Política de Cookies",
+    "metaDescription": "Como a RankVibez utiliza cookies e tecnologias semelhantes.",
+    "eyebrow": "Legal",
+    "title": "Política de Cookies",
+    "updated": "2026",
+    "sections": {
+      "whatAreCookies": {
+        "heading": "O Que São Cookies",
+        "body": ["Cookies são pequenos ficheiros de texto armazenados no seu dispositivo que ajudam os websites a funcionar corretamente e, quando utilizados, a compreender como os visitantes interagem com o site."]
+      },
+      "howWeUseCookies": {
+        "heading": "Como Utilizamos Cookies",
+        "body": ["A RankVibez utiliza cookies essenciais necessários ao funcionamento do website. Se cookies de análise ou marketing forem adicionados no futuro, esta política será atualizada em conformidade."]
+      },
+      "managingCookies": {
+        "heading": "Gerir Cookies",
+        "body": ["Pode controlar ou desativar cookies através das definições do seu navegador. Desativar cookies essenciais pode afetar o funcionamento do website."]
+      },
+      "contact": {
+        "heading": "Contacto",
+        "body": ["Questões sobre esta política podem ser dirigidas para admin@rankvibez.com."]
+      }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog",
+    "metaDescription": "Artigos e novidades da equipa RankVibez sobre software, IA, infraestrutura e crescimento digital.",
+    "eyebrow": "Recursos",
+    "title": "Blog",
+    "description": "Artigos e novidades da equipa RankVibez — brevemente disponível."
+  },
+  "insightsPage": {
+    "metaTitle": "Perspetivas",
+    "metaDescription": "Perspetivas da RankVibez sobre IA, engenharia de software, infraestrutura cloud e crescimento digital.",
+    "eyebrow": "Recursos",
+    "title": "Perspetivas",
+    "description": "Artigos e perspetivas sobre IA, engenharia de software, infraestrutura e crescimento digital — brevemente disponível."
+  },
+  "documentationPage": {
+    "metaTitle": "Documentação",
+    "metaDescription": "Documentação técnica e guias da RankVibez.",
+    "eyebrow": "Recursos",
+    "title": "Documentação",
+    "description": "Documentação técnica para clientes e parceiros da RankVibez — brevemente disponível."
+  },
+  "quotePage": {
+    "metaTitle": "Pedir Orçamento",
+    "metaDescription": "Diga-nos de que serviços precisa e descreva os seus requisitos — a RankVibez entrará em contacto com um orçamento personalizado.",
+    "eyebrow": "Pedir Orçamento",
+    "title": "Diga-nos do que precisa. Enviamos um orçamento personalizado.",
+    "description": "Selecione os serviços do seu interesse, partilhe os seus requisitos e a nossa equipa entrará em contacto com uma proposta à medida — sem preços apresentados aqui, apenas uma conversa sobre o seu projeto."
+  },
+  "faqPage": {
+    "metaTitle": "Perguntas Frequentes",
+    "metaDescription": "Perguntas frequentes sobre trabalhar com a RankVibez.",
+    "eyebrow": "Recursos",
+    "title": "Perguntas Frequentes",
+    "description": "Respostas a perguntas comuns sobre trabalhar com a RankVibez.",
+    "items": {
+      "whoWeWorkWith": {
+        "q": "Com que tipo de empresas trabalha a RankVibez?",
+        "a": "Trabalhamos com empresas que precisam de software, infraestrutura, segurança ou sistemas de crescimento de nível empresarial — de empresas em crescimento a organizações de maior dimensão, nos setores de retalho, indústria, finanças, saúde, tecnologia e outros."
+      },
+      "pricing": {
+        "q": "Como funcionam os preços?",
+        "a": "A maioria dos projetos é orçamentada individualmente através de uma chamada exploratória e de uma proposta personalizada. Quando é apresentado um preço indicativo, este é expresso em USD como ponto de partida e não como custo final fixo."
+      },
+      "process": {
+        "q": "Como é o processo de colaboração?",
+        "a": "Seguimos um processo estruturado: descobrir, definir estratégia, conceber, construir, proteger, lançar e crescer — com pontos de verificação claros e documentação em cada etapa."
+      },
+      "ongoingSupport": {
+        "q": "Oferecem suporte contínuo após o lançamento?",
+        "a": "Sim. Monitorização, manutenção e melhoria contínua estão disponíveis como parte de um serviço de tecnologia gerido."
+      },
+      "aiIntegration": {
+        "q": "A RankVibez pode integrar IA num sistema já existente?",
+        "a": "Sim. Avaliamos regularmente fluxos de trabalho existentes e adicionamos capacidades de IA — automação, análise ou agentes — a sistemas já em produção."
+      },
+      "location": {
+        "q": "Onde está sediada a RankVibez?",
+        "a": "A RankVibez opera a partir de Daca, Bangladeche, e serve clientes em vários mercados internacionais."
+      }
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Inicie uma conversa com a RankVibez sobre o seu próximo projeto de software, IA, infraestrutura ou crescimento.",
+    "eyebrow": "Contacto",
+    "title": "Vamos falar sobre o que está a construir.",
+    "description": "Conte-nos sobre o seu negócio e os seus objetivos — entraremos em contacto para agendar uma chamada exploratória e definir uma proposta personalizada.",
+    "headOffice": "Sede",
+    "email": "Email",
+    "phone": "Telefone",
+    "discoveryCallNote": "Para projetos empresariais, preferimos uma chamada exploratória a um orçamento fixo — isto permite-nos definir a arquitetura certa antes de propor um preço."
+  },
+  "aboutPage": {
+    "metaTitle": "Sobre",
+    "metaDescription": "A RankVibez é uma empresa de software e soluções tecnológicas orientada por IA que ajuda empresas a construir, automatizar, proteger e crescer.",
+    "eyebrow": "Sobre a RankVibez",
+    "title": "Um parceiro tecnológico para empresas a construir a sua próxima fase de crescimento.",
+    "description": "A RankVibez é uma empresa de software e soluções tecnológicas orientada por IA que ajuda empresas a construir, automatizar, proteger, promover e escalar as suas operações digitais.",
+    "missionTitle": "Missão",
+    "missionDescription": "Ajudar as empresas a operar, competir e crescer através de software e tecnologia inteligentes.",
+    "visionTitle": "Visão",
+    "visionDescription": "Tornar-se uma empresa tecnológica focada em IA globalmente reconhecida e de confiança para as empresas modernas.",
+    "valuesEyebrow": "Valores",
+    "valuesTitle": "O que orienta a nossa forma de construir e trabalhar.",
+    "values": {
+      "clarity": {
+        "title": "Clareza",
+        "description": "Comunicamos numa linguagem simples e técnica — sem complexidade desnecessária."
+      },
+      "craftsmanship": {
+        "title": "Rigor Técnico",
+        "description": "Cada sistema é construído com atenção à arquitetura, não apenas às funcionalidades."
+      },
+      "accountability": {
+        "title": "Responsabilidade",
+        "description": "Assumimos a responsabilidade pelo que construímos, desde o lançamento até ao suporte contínuo."
+      },
+      "curiosity": {
+        "title": "Curiosidade",
+        "description": "Avaliamos continuamente novas tecnologias, especialmente em IA, pelo seu valor prático."
+      }
+    },
+    "aiPhilosophyTitle": "Filosofia de IA em Primeiro Lugar",
+    "aiPhilosophyDescription": "Não tratamos a IA como um extra. Todos os sistemas que concebemos começam com a mesma pergunta: onde é que a inteligência pode reduzir significativamente o trabalho manual, revelar melhores decisões ou melhorar a experiência do cliente? A IA é integrada na arquitetura desde o primeiro dia, não adaptada posteriormente.",
+    "globalDeliveryTitle": "Entrega Global",
+    "globalDeliveryDescription": "A RankVibez opera a partir de Daca, Bangladeche, e entrega soluções tecnológicas a empresas em vários mercados internacionais. A nossa equipa combina engenharia de software, infraestrutura cloud, segurança e experiência em crescimento digital para apoiar cada projeto do início ao fim.",
+    "whyEyebrow": "Porquê a RankVibez",
+    "whyTitle": "Um parceiro tecnológico pensado para o longo prazo."
+  },
+  "careersPage": {
+    "metaTitle": "Carreiras",
+    "metaDescription": "Junte-se à RankVibez e ajude a construir soluções de software e tecnologia orientadas por IA para empresas em todo o mundo.",
+    "eyebrow": "Carreiras",
+    "title": "Construa tecnologia que faz a diferença.",
+    "description": "A RankVibez está a expandir a sua equipa de engenheiros, designers e tecnólogos. Não estamos a recrutar ativamente para funções específicas neste momento, mas estamos sempre disponíveis para conhecer bons candidatos.",
+    "whyEyebrow": "Porquê a RankVibez",
+    "whyTitle": "Como é trabalhar aqui.",
+    "noOpenRolesTitle": "Sem vagas abertas neste momento — contacte-nos na mesma.",
+    "noOpenRolesDescription": "Envie o seu CV e uma breve nota à nossa equipa, e vamos guardá-lo para futuras oportunidades.",
+    "getInTouch": "Entre em Contacto"
+  },
+  "aiData": {
+    "flow": ["Dados do Negócio", "Camada de Inteligência de IA", "Automação", "Ações de Negócio", "Perspetivas e Crescimento"],
+    "capabilities": {
+      "ai-erp": {
+        "title": "ERP Orientado por IA",
+        "description": "Planeamento de recursos empresariais inteligente, com operações, análise e automação assistidas por IA."
+      },
+      "business-automation": {
+        "title": "Automação de Negócio com IA",
+        "description": "Automatize fluxos de trabalho repetitivos e ligue processos de negócio através de agentes inteligentes."
+      },
+      "customer-operations": {
+        "title": "Operações de Cliente com IA",
+        "description": "Suporte ao cliente, qualificação de leads, recomendações e comunicação potenciados por IA."
+      },
+      "analytics": {
+        "title": "Análise com IA",
+        "description": "Transforme dados de negócio em perspetivas acionáveis e apoio à decisão."
+      },
+      "agents": {
+        "title": "Agentes de IA",
+        "description": "Implemente agentes de IA especializados para vendas, operações, suporte, marketing e administração."
+      },
+      "transformation": {
+        "title": "Transformação com IA",
+        "description": "Avalie as operações de negócio existentes e identifique oportunidades práticas de IA."
+      }
+    }
+  },
+  "solutionsPage": {
+    "metaTitle": "Soluções",
+    "metaDescription": "Soluções tecnológicas construídas à medida do seu negócio — ERP, e-commerce, transformação com IA, cloud, segurança e crescimento digital.",
+    "eyebrow": "Soluções",
+    "title": "Soluções Tecnológicas Construídas à Medida do Seu Negócio",
+    "description": "Cada solução liga um processo de negócio real a um sistema tecnológico funcional — concebido para escalar à medida que o negócio cresce."
+  },
+  "solutionsData": {
+    "erp": {
+      "name": "ERP e Gestão de Negócio",
+      "description": "Sistemas unificados para finanças, RH, inventário e operações.",
+      "flow": ["Dados do Negócio", "Núcleo ERP Unificado", "Relatórios e Controlo"]
+    },
+    "ecommerce": {
+      "name": "E-Commerce",
+      "description": "Lojas online, marketplaces e gestão de encomendas que escalam.",
+      "flow": ["Catálogo e Encomendas", "Plataforma de Comércio", "Cumprimento e Crescimento"]
+    },
+    "web-development": {
+      "name": "Plataforma Digital Corporativa",
+      "description": "Websites e portais construídos para credibilidade e desempenho.",
+      "flow": ["Conteúdo e Marca", "Plataforma Web", "Envolvimento e Leads"]
+    },
+    "ai-transformation": {
+      "name": "Transformação com IA",
+      "description": "Adoção prática de IA em fluxos de trabalho e operações.",
+      "flow": ["Processo de Negócio", "Camada de IA", "Resultados Automatizados"]
+    },
+    "cloud-infrastructure": {
+      "name": "Infraestrutura Cloud",
+      "description": "Infraestrutura escalável e monitorizada em vários fornecedores cloud.",
+      "flow": ["Cargas de Trabalho", "Arquitetura Cloud", "Fiabilidade e Escala"]
+    },
+    "cyber-security": {
+      "name": "Cibersegurança",
+      "description": "Segurança integrada na infraestrutura, não acrescentada posteriormente.",
+      "flow": ["Avaliação de Risco", "Reforço e Controlos", "Monitorização Contínua"]
+    },
+    "digital-marketing": {
+      "name": "Crescimento Digital",
+      "description": "SEO, anúncios e sistemas de conversão que se acumulam ao longo do tempo.",
+      "flow": ["Audiência e Canais", "Execução de Crescimento", "Resultados Medidos"]
+    },
+    "business-automation": {
+      "name": "Automação de Negócio",
+      "description": "Fluxos de trabalho automatizados que ligam ferramentas, equipas e dados.",
+      "flow": ["Fluxo de Trabalho Manual", "Camada de Automação", "Tempo e Custos Poupados"]
+    },
+    "server-maintenance": {
+      "name": "Serviços de Tecnologia Geridos",
+      "description": "Suporte, manutenção e monitorização contínuos para tranquilidade total.",
+      "flow": ["Sistemas em Produção", "Monitorização e Suporte", "Melhoria Contínua"]
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "Setores",
+    "metaDescription": "A RankVibez constrói tecnologia para retalho, e-commerce, indústria, saúde, finanças e muito mais.",
+    "eyebrow": "Setores",
+    "title": "Criado para as empresas que fazem mover a economia real.",
+    "description": "A RankVibez atua em setores onde software e infraestrutura fiáveis têm impacto direto nas operações do dia a dia."
+  },
+  "industriesData": {
+    "retail": {
+      "name": "Retalho",
+      "tagline": "Sistemas de inventário e PDV",
+      "description": "Sistemas unificados de inventário, ponto de venda e e-commerce que mantêm stock, preços e operações sincronizados entre canais."
+    },
+    "ecommerce": {
+      "name": "E-Commerce",
+      "tagline": "Lojas online e gestão de encomendas",
+      "description": "Lojas online de alto desempenho, sistemas de catálogo e gestão de encomendas construídos para lidar com volume e complexidade."
+    },
+    "manufacturing": {
+      "name": "Indústria",
+      "tagline": "ERP e planeamento de produção",
+      "description": "Sistemas de ERP e planeamento de produção que ligam compras, produção e inventário numa única visão operacional."
+    },
+    "healthcare": {
+      "name": "Saúde",
+      "tagline": "Software operacional seguro",
+      "description": "Software administrativo e operacional seguro para organizações de saúde, construído com a proteção de dados em mente."
+    },
+    "education": {
+      "name": "Educação",
+      "tagline": "Plataformas de inscrição e conteúdo",
+      "description": "Plataformas digitais para instituições e empresas de educação, desde portais de inscrição até à distribuição de conteúdo."
+    },
+    "finance": {
+      "name": "Finanças",
+      "tagline": "Sistemas financeiros seguros",
+      "description": "Software e infraestrutura fiáveis e seguros para operações financeiras, reporte e plataformas voltadas para o cliente."
+    },
+    "real-estate": {
+      "name": "Imobiliário",
+      "tagline": "Anúncios e gestão de imóveis",
+      "description": "Plataformas de gestão de imóveis, sistemas de anúncios e portais de clientes construídos para empresas do setor imobiliário."
+    },
+    "logistics": {
+      "name": "Logística",
+      "tagline": "Sistemas de rastreamento e cumprimento",
+      "description": "Sistemas operacionais para rastreamento, cumprimento e coordenação da cadeia de abastecimento entre equipas distribuídas."
+    },
+    "hospitality": {
+      "name": "Hotelaria",
+      "tagline": "Reservas e gestão de hóspedes",
+      "description": "Plataformas de reservas, gestão de hóspedes e operações concebidas em torno dos fluxos de trabalho da hotelaria."
+    },
+    "professional-services": {
+      "name": "Serviços Profissionais",
+      "tagline": "Portais de clientes e sistemas de projetos",
+      "description": "Portais de clientes, sistemas de projetos e plataformas corporativas que refletem a credibilidade de uma empresa profissional."
+    },
+    "technology": {
+      "name": "Tecnologia",
+      "tagline": "Infraestrutura e engenharia de produto",
+      "description": "Suporte em infraestrutura, ferramentas e engenharia de produto para empresas tecnológicas a escalar as suas plataformas."
+    },
+    "ngo-nonprofit": {
+      "name": "ONGs / Sem Fins Lucrativos",
+      "tagline": "Plataformas digitais orientadas por missão",
+      "description": "Plataformas digitais construídas à medida que ajudam organizações orientadas por missão a operar de forma eficiente e a comunicar com clareza."
+    }
+  },
+  "common": {
+    "exploreService": "Explorar Serviço",
+    "whatYouGet": "O Que Recebe",
+    "learnMore": "Saber Mais",
+    "viewAll": "Ver Todos",
+    "viewCaseStudy": "Ver Caso de Estudo",
+    "scrollToExplore": "Percorra para explorar",
+    "lastUpdated": "Última atualização: {date}",
+    "comingSoon": {
+      "title": "Brevemente Disponível",
+      "description": "Estamos a construir isto. Entretanto, contacte-nos diretamente e a nossa equipa irá ajudar.",
+      "contactUs": "Contacte-nos"
+    },
+    "cta": {
+      "title": "Pronto para Construir o Próximo Passo?",
+      "description": "Quer precise de um ERP, plataforma de e-commerce, transformação com IA, infraestrutura segura ou de uma estratégia completa de crescimento digital — vamos construí-lo juntos.",
+      "primaryLabel": "Iniciar uma Conversa",
+      "secondaryLabel": "Explorar os Nossos Serviços"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Serviços",
+    "metaDescription": "Software empresarial, infraestrutura cloud, cibersegurança, crescimento digital e serviços de transformação com IA da RankVibez.",
+    "eyebrow": "Serviços",
+    "title": "Serviços tecnológicos construídos à medida do seu negócio.",
+    "description": "Uma arquitetura de serviços completa que abrange software empresarial, infraestrutura, segurança e crescimento digital — concebida para funcionar como um único sistema."
+  },
+  "serviceDetailPage": {
+    "requestConsultation": "Pedir uma Consulta",
+    "viewAllServices": "Ver Todos os Serviços",
+    "whatsIncluded": "O Que Está Incluído",
+    "pricing": "Preços",
+    "pricingDescription": "Cada projeto é orçamentado de acordo com o negócio. Para serviços empresariais, preferimos uma proposta personalizada a um preço fixo.",
+    "customPricing": "Preço Personalizado",
+    "talkToExpert": "Fale com um Especialista",
+    "getCustomQuote": "Pedir um Orçamento Personalizado",
+    "relatedServices": "Serviços Relacionados"
+  },
+  "serviceCategories": {
+    "Enterprise Software": "Software Empresarial",
+    "Cloud & Infrastructure": "Cloud e Infraestrutura",
+    "Cyber Security": "Cibersegurança",
+    "Digital Growth": "Crescimento Digital",
+    "AI & Business Transformation": "IA e Transformação de Negócio"
+  },
+  "servicesData": {
+    "erp": {
+      "name": "Software ERP",
+      "short": "Sistemas ERP personalizados para finanças, RH, inventário, vendas e operações.",
+      "description": "Concebemos e construímos sistemas de planeamento de recursos empresariais adaptados à forma como o seu negócio realmente opera — ligando finanças, RH, inventário, vendas, compras e produção numa única fonte de verdade.",
+      "capabilities": [
+        "Módulos de finanças e contabilidade",
+        "Gestão de RH e processamento salarial",
+        "Controlo de inventário e armazém",
+        "Fluxos de trabalho de vendas e compras",
+        "Produção e planeamento de fabrico",
+        "Relatórios e dashboards personalizados"
+      ]
+    },
+    "ai-erp": {
+      "name": "ERP Orientado por IA",
+      "short": "Sistemas ERP reforçados com agentes de IA, automação e análise inteligente.",
+      "description": "Estendemos o ERP tradicional com agentes de IA, análise preditiva e automação — ajudando as equipas a prever a procura, sinalizar anomalias e reduzir a introdução manual de dados em todos os departamentos.",
+      "capabilities": [
+        "Previsão assistida por IA",
+        "Automação inteligente de processos",
+        "Deteção de anomalias e fraude",
+        "Relatórios em linguagem natural",
+        "Fluxos de aprovação inteligentes",
+        "Planeamento preditivo de inventário"
+      ]
+    },
+    "ecommerce": {
+      "name": "Soluções de E-Commerce",
+      "short": "Plataformas de e-commerce personalizadas, marketplaces e gestão de encomendas.",
+      "description": "Construímos plataformas de e-commerce e marketplaces de alto desempenho — desde catálogos de produtos e checkout até gestão de encomendas, pagamentos e integrações logísticas.",
+      "capabilities": [
+        "Lojas online e marketplaces personalizados",
+        "Gestão de produtos e catálogo",
+        "Sistemas de encomendas e cumprimento",
+        "Integração de gateways de pagamento",
+        "Sincronização de inventário",
+        "Otimização de desempenho e conversão"
+      ]
+    },
+    "web-development": {
+      "name": "Desenvolvimento Web",
+      "short": "Websites corporativos, portais de negócio e aplicações web empresariais.",
+      "description": "Concebemos e desenvolvemos websites corporativos, portais de clientes e aplicações web construídas sobre uma arquitetura moderna e escalável — rápidas, acessíveis e prontas para SEO desde o primeiro dia.",
+      "capabilities": [
+        "Websites corporativos e de marketing",
+        "Portais de clientes e de negócio",
+        "Landing pages e sites de campanha",
+        "Aplicações web empresariais",
+        "Integração com CMS headless",
+        "Engenharia de SEO e desempenho"
+      ]
+    },
+    "server-maintenance": {
+      "name": "Manutenção de Servidores",
+      "short": "Gestão, monitorização e segurança de servidores Linux/Windows.",
+      "description": "Gerimos e mantemos ambientes de servidores Linux e Windows — monitorizando a disponibilidade, aplicando correções de segurança, otimizando o desempenho e gerindo cópias de segurança para que a sua infraestrutura se mantenha fiável.",
+      "capabilities": [
+        "Monitorização e alertas de servidor",
+        "Gestão de correções e atualizações",
+        "Otimização de desempenho",
+        "Cópias de segurança e recuperação de desastres",
+        "Reforço de segurança",
+        "Resolução de incidentes"
+      ]
+    },
+    "cloud-infrastructure": {
+      "name": "Infraestrutura Cloud",
+      "short": "Implementação, migração, escalabilidade e arquitetura cloud.",
+      "description": "Concebemos e gerimos infraestrutura cloud nos principais fornecedores — desenhando sistemas que escalam com fiabilidade, são implementados com segurança e permanecem observáveis em produção.",
+      "capabilities": [
+        "Migração e implementação cloud",
+        "Arquitetura com escalabilidade automática",
+        "Infraestrutura como código",
+        "Pipelines de CI/CD",
+        "Monitorização e observabilidade",
+        "Otimização de custos"
+      ]
+    },
+    "business-email": {
+      "name": "Serviço de Email Profissional",
+      "short": "Configuração, migração, segurança e administração de email empresarial.",
+      "description": "Configuramos e administramos email empresarial profissional — configurando corretamente DNS, SPF, DKIM e DMARC, migrando caixas de correio com segurança e reforçando a entregabilidade e a segurança.",
+      "capabilities": [
+        "Configuração e migração de email empresarial",
+        "Configuração de DNS, SPF, DKIM e DMARC",
+        "Administração de caixas de correio e domínios",
+        "Otimização da entregabilidade",
+        "Reforço da segurança de email",
+        "Apoio de administração contínuo"
+      ]
+    },
+    "cyber-security": {
+      "name": "Cibersegurança",
+      "short": "Segurança de websites, servidores e infraestrutura empresarial.",
+      "description": "Avaliamos e reforçamos a segurança dos seus websites, servidores e infraestrutura empresarial — identificando vulnerabilidades, reforçando o acesso e construindo uma postura de segurança prática e contínua.",
+      "capabilities": [
+        "Avaliação e revisão de segurança",
+        "Deteção de vulnerabilidades",
+        "Reforço de servidores e aplicações",
+        "Controlo de acesso e autenticação",
+        "Deteção e remediação de malware",
+        "Estratégia de cópias de segurança e monitorização"
+      ]
+    },
+    "digital-marketing": {
+      "name": "Marketing Digital",
+      "short": "Estratégias de marketing digital de funil completo para o crescimento do negócio.",
+      "description": "Concebemos estratégias de marketing digital de funil completo que ligam marca, conteúdo, canais e análise — construídas para gerar resultados de negócio mensuráveis, não apenas impressões.",
+      "capabilities": [
+        "Estratégia e planeamento de marketing",
+        "Estratégia de conteúdo e canais",
+        "Análise e relatórios de marketing",
+        "Apoio ao posicionamento de marca",
+        "Mapeamento de funil e audiência",
+        "Execução de campanhas multicanal"
+      ]
+    },
+    "seo": {
+      "name": "SEO",
+      "short": "SEO técnico, on-page, local e internacional.",
+      "description": "Melhoramos a visibilidade orgânica através de SEO técnico, otimização on-page, estratégia de conteúdo e estruturação de SEO internacional — baseados em análise de dados, não em suposições.",
+      "capabilities": [
+        "Auditorias técnicas de SEO",
+        "Otimização on-page",
+        "Estratégia de conteúdo e palavras-chave",
+        "SEO local",
+        "SEO internacional / multirregional",
+        "Análise e acompanhamento de desempenho"
+      ]
+    },
+    "ads-campaign": {
+      "name": "Campanhas de Anúncios",
+      "short": "Campanhas de publicidade de desempenho no Google Ads e Meta Ads.",
+      "description": "Planeamos, lançamos e gerimos publicidade de desempenho no Google e na Meta — construindo estruturas de campanha, direção criativa e ciclos de otimização focados no retorno do investimento publicitário.",
+      "capabilities": [
+        "Gestão de Google Ads",
+        "Gestão de Meta Ads",
+        "Estrutura e segmentação de campanhas",
+        "Direção criativa e de copy",
+        "Configuração de rastreamento de conversões",
+        "Otimização e relatórios contínuos"
+      ]
+    },
+    "ppc-ads": {
+      "name": "Anúncios PPC",
+      "short": "Campanhas de pagamento por clique que geram tráfego segmentado e leads.",
+      "description": "Planeamos e gerimos publicidade de pagamento por clique em pesquisa, display e shopping — construindo estratégia de palavras-chave, criatividades de anúncios e gestão de licitações focadas em gerar tráfego e leads qualificados.",
+      "capabilities": [
+        "Gestão de Google Ads e Bing Ads",
+        "Campanhas de pesquisa, display e shopping",
+        "Pesquisa e segmentação de palavras-chave",
+        "Direção de copy e criatividades",
+        "Otimização de licitações e orçamento",
+        "Rastreamento de conversões e relatórios"
+      ]
+    },
+    "conversion-optimization": {
+      "name": "Otimização de Conversão",
+      "short": "Landing pages, análise de dados e otimização de funil.",
+      "description": "Otimizamos landing pages e funis de conversão utilizando análise de dados, testes e refinamento de UX — transformando o tráfego existente em mais leads e clientes qualificados.",
+      "capabilities": [
+        "Design e testes de landing pages",
+        "Análise de funil",
+        "Implementação de analítica",
+        "Testes A/B e multivariados",
+        "Refinamento de UX e copy",
+        "Relatórios de taxa de conversão"
+      ]
+    },
+    "ai-transformation": {
+      "name": "Empresa Orientada por IA / Automação com IA",
+      "short": "Programas de transformação com IA e automação de processos de negócio.",
+      "description": "Ajudamos organizações a integrar IA nas operações diárias — avaliando fluxos de trabalho existentes, identificando oportunidades práticas de automação e implementando agentes de IA onde criam valor real.",
+      "capabilities": [
+        "Avaliação de oportunidades de IA",
+        "Design de automação de fluxos de trabalho",
+        "Implementação de agentes de IA",
+        "Reengenharia de processos",
+        "Apoio à gestão da mudança",
+        "Otimização contínua"
+      ]
+    },
+    "virtual-assistance": {
+      "name": "Assistência Virtual",
+      "short": "Assistência virtual profissional para tarefas administrativas e operacionais.",
+      "description": "Prestamos assistência virtual profissional para tarefas administrativas, de apoio ao cliente, de dados e operacionais — proporcionando a equipas em crescimento um suporte operacional fiável sem custos adicionais estruturais.",
+      "capabilities": [
+        "Apoio administrativo",
+        "Apoio ao serviço de cliente",
+        "Introdução e gestão de dados",
+        "Agendamento e coordenação",
+        "Pesquisa e relatórios",
+        "Apoio a tarefas operacionais"
+      ]
+    }
+  }
+}

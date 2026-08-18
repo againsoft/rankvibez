@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -6,6 +7,9 @@ import { ArrowRight } from "lucide-react";
 import type { Service } from "@/data/services";
 
 export function ServiceCard({ service }: { service: Service }) {
+  const t = useTranslations(`servicesData.${service.slug}`);
+  const tCategory = useTranslations("serviceCategories");
+  const tCommon = useTranslations("common");
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
   return (
     <Link
@@ -16,13 +20,13 @@ export function ServiceCard({ service }: { service: Service }) {
         <div className="relative h-40 overflow-hidden border-b border-border-subtle bg-background sm:h-44">
           <Image
             src={service.image}
-            alt={service.name}
+            alt={t("name")}
             fill
             className="object-contain p-3 transition-transform duration-300 group-hover:scale-105"
             sizes="(min-width: 1024px) 33vw, 100vw"
           />
           <span className="absolute right-4 top-4 rounded-full border border-border-strong bg-background/70 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.1em] text-muted backdrop-blur">
-            {service.category}
+            {tCategory(service.category)}
           </span>
         </div>
       ) : null}
@@ -32,13 +36,13 @@ export function ServiceCard({ service }: { service: Service }) {
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-soft text-primary">
               <Icon size={20} />
             </div>
-            <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-muted-2">{service.category}</span>
+            <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-muted-2">{tCategory(service.category)}</span>
           </div>
         )}
-        <h3 className={`text-lg font-semibold text-foreground ${service.image ? "" : "mt-5"}`}>{service.name}</h3>
-        <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{service.short}</p>
+        <h3 className={`text-lg font-semibold text-foreground ${service.image ? "" : "mt-5"}`}>{t("name")}</h3>
+        <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{t("short")}</p>
         <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-secondary transition-transform group-hover:translate-x-1">
-          Explore Service
+          {tCommon("exploreService")}
           <ArrowRight size={14} />
         </span>
       </div>

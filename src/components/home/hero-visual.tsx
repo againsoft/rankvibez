@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 
 const nodes = [
@@ -26,6 +27,8 @@ const edges: [number, number][] = [
 ];
 
 export function HeroVisual() {
+  const t = useTranslations("home.heroVisual");
+
   return (
     <div className="relative aspect-square w-full max-w-[480px]">
       <div className="glow-orb absolute inset-0 scale-125 opacity-70" />
@@ -77,7 +80,7 @@ export function HeroVisual() {
           className="glass absolute left-6 top-8 flex items-center gap-2 rounded-xl px-3 py-2 text-[11px] font-medium text-foreground/90"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-secondary" />
-          AI Analytics — Live
+          {t("aiAnalyticsLive")}
         </motion.div>
 
         <motion.div
@@ -85,8 +88,8 @@ export function HeroVisual() {
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
           className="glass absolute bottom-10 right-7 flex flex-col gap-1 rounded-xl px-3.5 py-2.5 text-[11px] text-foreground/90"
         >
-          <span className="text-muted-2">Automation Rate</span>
-          <span className="font-semibold text-foreground">Optimized</span>
+          <span className="text-muted-2">{t("automationRate")}</span>
+          <span className="font-semibold text-foreground">{t("optimized")}</span>
         </motion.div>
 
         <motion.div
@@ -94,7 +97,7 @@ export function HeroVisual() {
           transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
           className="glass absolute bottom-24 left-10 rounded-xl px-3 py-2 text-[11px] font-medium text-foreground/90"
         >
-          Agent · Deployed
+          {t("agentDeployed")}
         </motion.div>
       </div>
     </div>

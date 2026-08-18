@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { ArrowDown } from "lucide-react";
-import { aiFlow } from "@/data/ai";
 import { Reveal } from "@/components/shared/reveal";
 
 export function AIFlowDiagram() {
+  const t = useTranslations("aiData");
+  const aiFlow = t.raw("flow") as string[];
+
   return (
     <div className="flex flex-col items-center gap-1">
       {aiFlow.map((step, i) => (

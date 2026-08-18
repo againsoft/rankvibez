@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 import { locations } from "@/data/locations";
 
@@ -14,6 +15,8 @@ const positions = [
 ];
 
 export function GlobalVisual() {
+  const tCountries = useTranslations("countries");
+
   return (
     <div className="relative mx-auto aspect-square w-full max-w-[440px]">
       {[0, 1, 2].map((ring) => (
@@ -48,7 +51,7 @@ export function GlobalVisual() {
               }
             />
             <span className="mt-2 whitespace-nowrap rounded-full border border-border-subtle bg-background/80 px-2.5 py-1 text-[10px] font-medium text-foreground/90 backdrop-blur">
-              {loc.country}
+              {tCountries(loc.country)}
             </span>
           </motion.div>
         );

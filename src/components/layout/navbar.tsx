@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import { Menu, X } from "lucide-react";
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { LanguageSwitcher } from "./language-switcher";
 import { primaryNav } from "@/data/nav";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -45,7 +47,7 @@ export function Navbar() {
       <Container className="flex h-18 items-center justify-between py-3.5">
         <Logo markClassName="h-10 sm:h-11" />
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-1 lg:flex" aria-label={t("primaryNavLabel")}>
           {primaryNav.map((item) => {
             const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
             return (
@@ -57,15 +59,16 @@ export function Navbar() {
                   active ? "text-foreground" : "text-muted hover:text-foreground"
                 )}
               >
-                {item.label}
+                {t(item.key)}
               </Link>
             );
           })}
         </nav>
 
-        <div className="hidden lg:block">
+        <div className="hidden items-center gap-2 lg:flex">
+          <LanguageSwitcher />
           <Button href="/quote" size="sm">
-            Get a Quote
+            {t("getQuote")}
           </Button>
         </div>
 
@@ -73,7 +76,7 @@ export function Navbar() {
           type="button"
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
-          aria-label={open ? "Close menu" : "Open menu"}
+          aria-label={open ? t("closeMenu") : t("openMenu")}
           className="focus-ring -mr-2 flex h-10 w-10 items-center justify-center rounded-full text-foreground lg:hidden"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
@@ -94,11 +97,14 @@ export function Navbar() {
               href={item.href}
               className="focus-ring rounded-lg px-3 py-3 text-base font-medium text-foreground/90 hover:bg-white/[0.05]"
             >
-              {item.label}
+              {t(item.key)}
             </Link>
           ))}
+          <div className="mt-2 px-3">
+            <LanguageSwitcher />
+          </div>
           <Button href="/quote" className="mt-4 w-full">
-            Get a Quote
+            {t("getQuote")}
           </Button>
         </Container>
       </div>

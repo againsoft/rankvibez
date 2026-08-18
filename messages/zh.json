@@ -1,0 +1,1151 @@
+{
+  "metadata": {
+    "title": "RankVibez | AI驱动的软件与技术解决方案",
+    "description": "RankVibez 为现代企业打造AI驱动的ERP、电子商务、软件、云计算、网络安全与数字增长解决方案。"
+  },
+  "nav": {
+    "home": "首页",
+    "whatWeDo": "业务范围",
+    "solutions": "解决方案",
+    "services": "服务",
+    "ai": "AI",
+    "portfolio": "案例展示",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "getQuote": "获取报价",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "primaryNavLabel": "主导航",
+    "languageSwitcherLabel": "选择语言"
+  },
+  "announcementBar": {
+    "headline": "AI 已成为现代商业的基础设施。",
+    "cta": "探索我们的AI能力"
+  },
+  "footer": {
+    "heading": "让我们一起打造",
+    "headingHighlight": "智能未来。",
+    "tagline": "为现代企业提供AI驱动的软件与技术解决方案。",
+    "cta": "开启对话",
+    "columns": {
+      "solutions": "解决方案",
+      "services": "服务",
+      "company": "公司",
+      "resources": "资源",
+      "contact": "联系我们"
+    },
+    "solutions": {
+      "erp": "ERP",
+      "aiErp": "AI ERP",
+      "ecommerce": "电子商务",
+      "aiAutomation": "AI 自动化",
+      "cyberSecurity": "网络安全",
+      "cloud": "云计算"
+    },
+    "services": {
+      "softwareDevelopment": "软件开发",
+      "websiteDevelopment": "网站开发",
+      "serverMaintenance": "服务器维护",
+      "professionalEmail": "专业邮箱服务",
+      "seo": "SEO",
+      "digitalMarketing": "数字营销",
+      "adsCampaign": "广告投放",
+      "virtualAssistance": "虚拟助理服务"
+    },
+    "company": {
+      "about": "关于我们",
+      "industries": "行业领域",
+      "portfolio": "案例展示",
+      "technology": "技术栈",
+      "locations": "服务地区",
+      "careers": "招贤纳士",
+      "contact": "联系我们"
+    },
+    "resources": {
+      "blog": "博客",
+      "insights": "行业洞察",
+      "caseStudies": "案例研究",
+      "documentation": "技术文档",
+      "faq": "常见问题"
+    },
+    "copyright": "© {year} RankVibez. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie 政策"
+  },
+  "notFound": {
+    "eyebrow": "错误 404",
+    "title": "页面未找到。",
+    "description": "您访问的页面不存在，或已被移动。",
+    "backHome": "返回首页",
+    "contactUs": "联系我们"
+  },
+  "home": {
+    "servicesSection": {
+      "eyebrow": "服务",
+      "title": "围绕您的业务打造的技术服务。",
+      "description": "覆盖企业软件、基础设施、安全与增长的全栈服务体系。",
+      "viewAll": "查看全部服务"
+    },
+    "industriesSection": {
+      "eyebrow": "行业领域",
+      "title": "为驱动实体经济运转的企业而生。",
+      "description": "RankVibez 服务于多个行业，可靠的软件与基础设施直接影响这些企业的日常运营。"
+    },
+    "solutionsSection": {
+      "eyebrow": "企业级解决方案",
+      "title": "围绕您的业务打造的技术解决方案",
+      "description": "每个解决方案都将真实的业务流程与可落地的技术系统相连接，而非通用的标准套件。"
+    },
+    "aiSection": {
+      "eyebrow": "AI 优先",
+      "title": "AI 不是未来，而是现代商业的基础设施。",
+      "description": "我们将人工智能融入软件、工作流程、客户体验与业务运营，帮助企业更智能地工作、更快速地扩展。",
+      "cta": "探索 RankVibez 的 AI 能力"
+    },
+    "whySection": {
+      "eyebrow": "为何选择 RankVibez",
+      "title": "值得长期信赖的技术合作伙伴。"
+    },
+    "processSection": {
+      "eyebrow": "流程",
+      "title": "从创意到智能业务系统"
+    },
+    "hero": {
+      "badge": "AI 优先的技术合作伙伴",
+      "titlePrefix": "携手共创未来",
+      "titleHighlight": "AI 驱动的技术",
+      "description": "RankVibez 通过AI驱动的技术，帮助企业构建智能软件、实现运营自动化、强化基础设施并加速数字增长。",
+      "primaryCta": "启动项目",
+      "secondaryCta": "探索我们的解决方案"
+    },
+    "heroVisual": {
+      "aiAnalyticsLive": "AI 分析 — 实时",
+      "automationRate": "自动化率",
+      "optimized": "已优化",
+      "agentDeployed": "智能体 · 已部署"
+    },
+    "techEcosystemSection": {
+      "eyebrow": "技术生态",
+      "title": "构建于全球领先的技术平台之上",
+      "footnote": "以下是 RankVibez 构建与交付所依托的平台与工具，仅展示经过验证的官方合作状态。"
+    },
+    "trustStrip": {
+      "label": "我们合作的平台"
+    },
+    "globalPresenceSection": {
+      "eyebrow": "全球布局",
+      "title": "全球触达，本地洞察。",
+      "description": "RankVibez 立足达卡，为多个国际市场的企业提供技术解决方案。"
+    },
+    "portfolioSection": {
+      "eyebrow": "精选案例",
+      "title": "为全球企业打造",
+      "description": "涵盖 ERP、电子商务、AI 与基础设施领域的精选项目与概念方案。",
+      "viewFullPortfolio": "查看完整案例"
+    },
+    "capabilities": {
+      "eyebrow": "核心能力",
+      "title": "一个技术合作伙伴，完整的能力体系。",
+      "description": "从AI驱动的系统到安全的基础设施与可衡量的增长——RankVibez 将全栈能力融为一体。",
+      "items": {
+        "ai-first": { "title": "AI 优先技术", "description": "AI 深度融入产品与工作流，而非事后附加。" },
+        "enterprise-software": { "title": "企业软件", "description": "围绕真实业务运营打造的定制化 ERP 与业务系统。" },
+        "business-automation": { "title": "业务自动化", "description": "连接团队、工具与数据的自动化工作流。" },
+        "ecommerce-technology": { "title": "电子商务技术", "description": "为规模化增长打造的高性能电商平台。" },
+        "cloud-infrastructure": { "title": "云计算与基础设施", "description": "在领先服务商之上构建的可靠、可监控的基础设施。" },
+        "cyber-security": { "title": "网络安全", "description": "从架构设计到上线全程贯穿的安全考量。" }
+      }
+    },
+    "testimonialsSection": {
+      "quote": "深受正在迈向下一增长阶段的企业信赖。",
+      "note": "随着项目陆续完成，经过验证的客户评价将在此发布。"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "案例展示",
+    "metaDescription": "RankVibez 的案例展示与概念项目，涵盖 ERP、电子商务、AI、基础设施与数字增长领域。",
+    "eyebrow": "案例展示",
+    "title": "为全球企业打造",
+    "description": "涵盖 ERP、电子商务、AI 与基础设施领域的精选项目与概念方案。概念与演示项目均已明确标注。"
+  },
+  "portfolioDetailPage": {
+    "backToPortfolio": "返回案例展示",
+    "challenge": "挑战",
+    "solution": "解决方案",
+    "outcome": "成果",
+    "servicesProvided": "所提供的服务",
+    "startSimilarProject": "启动类似项目"
+  },
+  "portfolioLabels": {
+    "Concept Project": "概念项目",
+    "Internal Demo": "内部演示"
+  },
+  "portfolioData": {
+    "categories": {
+      "All": "全部",
+      "Software": "软件",
+      "ERP": "ERP",
+      "E-Commerce": "电子商务",
+      "Corporate Websites": "企业网站",
+      "AI": "AI",
+      "Infrastructure": "基础设施",
+      "Digital Growth": "数字增长"
+    },
+    "industries": {
+      "Manufacturing": "制造业",
+      "Retail": "零售业",
+      "Technology": "科技行业",
+      "Professional Services": "专业服务",
+      "Finance": "金融业",
+      "E-Commerce": "电子商务"
+    },
+    "services": {
+      "ERP Software": "ERP 软件",
+      "AI-Driven ERP": "AI驱动的 ERP",
+      "E-Commerce Solutions": "电子商务解决方案",
+      "Cloud Infrastructure": "云基础设施",
+      "Cyber Security": "网络安全",
+      "Web Development": "网站开发",
+      "AI-Driven Company": "AI驱动型企业",
+      "AI Automation": "AI 自动化",
+      "Digital Marketing": "数字营销",
+      "SEO": "SEO",
+      "Ads Campaign": "广告投放"
+    },
+    "projects": {
+      "again-erp-concept": {
+        "summary": "一个探索AI辅助预测与统一运营管理如何服务于中型制造企业的概念性 ERP 系统。",
+        "challenge": "制造企业往往在互不关联的电子表格与传统工具上运行财务、库存与生产管理，导致决策迟缓、库存数据不一致。",
+        "solution": "设计了统一的 ERP 数据模型，涵盖仪表盘、人力资源管理、销售、库存与财务，并引入AI层来呈现需求预测与库存异常。",
+        "outcome": "一个可运行的概念方案，展示了AI辅助规划如何减少人工报表工作量，并更早发现运营风险。"
+      },
+      "againcart-ecommerce": {
+        "summary": "一个用于探索大规模商品目录管理与结账性能模式的演示型电商平台。",
+        "challenge": "高 SKU 数量的零售目录需要快速筛选、精准的库存同步，以及能够承受流量高峰的结账流程。",
+        "solution": "构建了一个演示型商城，采用服务器端渲染的目录页面、优化的结账流程与同步的库存层。",
+        "outcome": "为目录性能与结账可靠性建立了可复用的电商架构模式。"
+      },
+      "harborcloud-infrastructure-demo": {
+        "summary": "一套用于可扩展、安全的云部署与 CI/CD 流水线的内部参考架构。",
+        "challenge": "快速发展的团队需要能够安全扩展的基础设施，避免手动部署风险与环境不一致的问题。",
+        "solution": "设计了一套基础设施即代码的参考技术栈，具备自动化 CI/CD、监控与强化的访问控制。",
+        "outcome": "为跨环境的可靠、可审计部署提供了可复用的基础设施蓝图。"
+      },
+      "meridian-corporate-concept": {
+        "summary": "一个探索专业服务企业现代内容架构的概念型企业网站平台。",
+        "challenge": "专业服务企业需要可信、快速、内容丰富的网站，且无需依赖繁重的 CMS 即可轻松维护。",
+        "solution": "设计了一套组件化、数据驱动的企业网站架构，可随时对接轻量级 CMS。",
+        "outcome": "形成了一种在编辑灵活性与前端性能之间取得平衡的灵活企业网站模式。"
+      },
+      "vantage-ai-advisor-concept": {
+        "summary": "一个探索对话式AI如何引导业务用户找到正确内部工作流的概念型AI顾问助手。",
+        "challenge": "业务用户常常不清楚某项任务应使用哪种内部工具或工作流，由此造成使用摩擦并增加支持成本。",
+        "solution": "构建了一个服务器端AI顾问原型，能够解析自然语言请求，并将用户引导至正确的工作流或资源。",
+        "outcome": "验证了一种在服务器端保管AI API密钥的同时，仍能提供响应迅速的顾问体验的架构模式。"
+      },
+      "growthline-marketing-demo": {
+        "summary": "一个为在线零售商探索 SEO、广告与转化分析统一报表层的内部演示项目。",
+        "challenge": "增长团队通常在不同的仪表盘中分别追踪 SEO、付费广告与转化数据，导致全漏斗决策效率低下。",
+        "solution": "构建了一个演示型报表层，将自然流量、付费流量与站内转化信号整合为统一的漏斗视图。",
+        "outcome": "展示了一种连接获客数据与转化数据、加快增长决策的实用模式。"
+      }
+    }
+  },
+  "locationsPage": {
+    "metaTitle": "服务地区",
+    "metaDescription": "RankVibez 立足孟加拉国达卡，服务于美国、英国、阿联酋、沙特阿拉伯、加拿大与澳大利亚的客户。",
+    "eyebrow": "全球布局",
+    "title": "全球触达，本地洞察。",
+    "description": "RankVibez 立足达卡，为多个国际市场的企业提供技术解决方案。",
+    "footnote": "标注为“服务客户所在地”的地区代表当前的服务市场，而非实体办公室。唯有孟加拉国达卡为实际运营办公室。"
+  },
+  "locationsData": {
+    "labels": {
+      "headOffice": "总部 / 技术运营中心",
+      "servingClientsIn": "服务客户所在地"
+    }
+  },
+  "technologyPage": {
+    "metaTitle": "技术栈",
+    "metaDescription": "RankVibez 所使用的前端、后端、云计算、DevOps 与AI技术。",
+    "eyebrow": "技术栈",
+    "title": "支撑每一次交付的技术栈。",
+    "description": "一套现代化且经过验证的技术栈，覆盖前端、后端、云计算与AI——因其可靠性、性能与长期可维护性而被选用。",
+    "ecosystemEyebrow": "技术生态",
+    "ecosystemTitle": "我们合作的平台"
+  },
+  "technologyData": {
+    "groups": {
+      "frontend": "前端",
+      "backend": "后端",
+      "database": "数据库",
+      "cloud": "云计算",
+      "devops": "DevOps",
+      "ai": "AI"
+    }
+  },
+  "whatWeDoPage": {
+    "metaTitle": "业务范围",
+    "metaDescription": "完整浏览 RankVibez 提供的全部服务——企业软件、云基础设施、网络安全、数字增长与AI转型。",
+    "badge": "业务范围",
+    "titlePrefix": "一个技术合作伙伴。",
+    "titleHighlight": "满足您所需的每一项能力。",
+    "description": "企业软件、云基础设施、网络安全、数字增长与AI转型——向下滚动，了解 RankVibez 究竟能为您打造什么。",
+    "requestQuotation": "申请报价",
+    "overviewEyebrow": "一览全貌",
+    "overviewTitle": "我们提供的一切服务，一目了然。",
+    "overviewDescription": "点击任意服务，即可直接跳转至下方详情。",
+    "ctaTitle": "准备好开启下一步了吗？",
+    "ctaDescription": "告诉我们您需要哪些服务，我们会为您提供定制报价——没有定价套路，只有围绕您项目的真诚沟通。",
+    "ctaSecondaryLabel": "联系我们的团队"
+  },
+  "aiPage": {
+    "metaTitle": "AI",
+    "metaDescription": "AI 是现代商业的基础设施。了解 RankVibez 如何将AI融入 ERP、自动化、分析与客户运营。",
+    "eyebrow": "AI 优先",
+    "title": "AI 不是未来，而是现代商业的基础设施。",
+    "description": "我们将人工智能融入软件、工作流程、客户体验与业务运营，帮助企业更智能地工作、更快速地扩展。",
+    "tryItEyebrow": "立即体验",
+    "tryItTitle": "不确定从何入手？",
+    "tryItDescription": "回答两个简单问题，RankVibez AI 顾问将为您指出最合适的解决方案。",
+    "ctaTitle": "准备好让AI融入您的业务了吗？",
+    "ctaDescription": "从AI驱动的 ERP 到自动化与分析——让我们一起找到最具杠杆效应的切入点。",
+    "ctaPrimaryLabel": "开启对话",
+    "ctaSecondaryLabel": "探索我们的服务"
+  },
+  "orgChart": {
+    "eyebrow": "我们的团队",
+    "title": "RankVibez 的组织架构。",
+    "description": "围绕我们交付的每一项服务而构建——从 ERP、AI 到云计算、安全与增长。",
+    "reportsTo": {
+      "ceo": "向 CEO 汇报",
+      "cto": "向 CTO 汇报",
+      "cfo": "向 CFO 汇报"
+    },
+    "branches": {
+      "enterprise-software": "企业软件",
+      "cloud-infrastructure": "云计算与基础设施",
+      "cyber-security": "网络安全",
+      "ai-business-transformation": "AI 与业务转型",
+      "digital-growth": "数字增长",
+      "creative-brand": "创意与品牌",
+      "project-client-operations": "项目与客户运营"
+    }
+  },
+  "teamData": {
+    "roles": {
+      "founder-chairman": "创始人兼董事长",
+      "ceo-web-developer": "首席执行官兼网站开发工程师",
+      "cto-head-software": "首席技术官兼软件负责人",
+      "cfo-hr-manager": "首席财务官兼人力资源经理",
+      "project-manager": "项目经理",
+      "business-analyst-erp-automation": "业务分析师 — ERP 与自动化",
+      "erp-systems-developer": "ERP 系统开发工程师",
+      "ecommerce-developer": "电商开发工程师",
+      "fullstack-web-developer": "全栈网站开发工程师",
+      "software-developer": "软件开发工程师",
+      "fullstack-dotnet-developer-erp": "全栈 .NET 开发工程师 — ERP 系统",
+      "qa-engineer": "质量保证工程师",
+      "cloud-devops-engineer": "云计算、DevOps 与基础设施工程师",
+      "cybersecurity-analyst": "网络安全分析师",
+      "ai-engineer": "AI 工程师",
+      "ai-automation-engineer": "AI 自动化工程师",
+      "client-support-specialist": "客户支持专员",
+      "seo-content-strategist": "SEO 与内容策略师",
+      "digital-marketing-expert": "数字营销专家",
+      "technical-seo-expert": "技术 SEO 专家",
+      "digital-marketing-executive": "数字营销执行专员",
+      "conversion-campaign-executive": "转化与广告投放执行专员",
+      "content-writer-strategist": "内容撰稿与策略师",
+      "graphics-designer": "平面设计师",
+      "graphics-designer-video-editor": "平面设计师兼视频剪辑师",
+      "marketing-manager-ads": "营销经理 — 广告投放",
+      "ads-campaign-specialist": "广告投放专员"
+    }
+  },
+  "countries": {
+    "China": "中国",
+    "Bangladesh": "孟加拉国",
+    "United States": "美国",
+    "United Kingdom": "英国",
+    "UAE": "阿联酋",
+    "Saudi Arabia": "沙特阿拉伯",
+    "Canada": "加拿大",
+    "Australia": "澳大利亚",
+    "Other": "其他"
+  },
+  "contactData": {
+    "budgetOptions": {
+      "Under $1,000": "1,000 美元以下",
+      "$1,000 – $5,000": "1,000 – 5,000 美元",
+      "$5,000 – $10,000": "5,000 – 10,000 美元",
+      "$10,000 – $25,000": "10,000 – 25,000 美元",
+      "$25,000+": "25,000 美元以上",
+      "Enterprise / Custom": "企业级 / 定制"
+    }
+  },
+  "quoteForm": {
+    "steps": {
+      "services": "服务",
+      "requirements": "需求",
+      "yourDetails": "您的信息"
+    },
+    "selectServiceError": "请至少选择一项服务以继续。",
+    "nameRequired": "姓名为必填项。",
+    "emailRequired": "邮箱为必填项。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "phoneInvalid": "请输入有效的电话号码。",
+    "genericError": "出现了一些问题，请重试。",
+    "successTitle": "感谢您——我们已收到您的请求。",
+    "successDescription": "我们已收到您的报价请求，并已向您的邮箱发送确认信息。我们的团队将审核您的需求，并尽快为您提供定制报价。",
+    "step1Title": "您需要哪些服务？",
+    "step1Description": "选择一项或多项服务——接下来可以为每项服务补充详细信息。",
+    "step2Title": "请告诉我们更多关于每项服务的信息",
+    "step2Description": "选填——补充具体需求或细节，以便我们准备更精准的报价。",
+    "requirementsPlaceholder": "关于{service}的具体需求或细节（选填）",
+    "step3Title": "您的联系方式",
+    "step3Description": "以便我们知道将定制报价发送给谁。此处不显示任何价格——我们的团队将直接与您跟进。",
+    "nameLabel": "姓名",
+    "namePlaceholder": "王小明",
+    "companyLabel": "公司名称",
+    "companyPlaceholder": "公司名称",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "+1 555 000 0000",
+    "messageLabel": "留言",
+    "messagePlaceholder": "还有什么我们应该了解的吗？（选填）",
+    "back": "上一步",
+    "next": "下一步",
+    "submitting": "提交中...",
+    "sendRequest": "发送请求"
+  },
+  "contactForm": {
+    "genericError": "出现了一些问题，请重试。",
+    "successTitle": "感谢您——我们已收到您的留言。",
+    "successDescription": "RankVibez 团队成员将尽快与您联系，安排一次初步沟通电话。",
+    "nameLabel": "姓名",
+    "namePlaceholder": "王小明",
+    "companyLabel": "公司",
+    "companyPlaceholder": "公司名称",
+    "emailLabel": "工作邮箱",
+    "emailPlaceholder": "you@company.com",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "+1 555 000 0000",
+    "countryLabel": "国家/地区",
+    "countryPlaceholder": "选择国家/地区",
+    "serviceLabel": "服务",
+    "servicePlaceholder": "选择一项服务",
+    "budgetLabel": "预算（美元）",
+    "budgetPlaceholder": "选择预算范围",
+    "descriptionLabel": "项目描述",
+    "descriptionPlaceholder": "请告诉我们您的业务情况，以及您想要打造的内容。",
+    "sending": "发送中...",
+    "submit": "发送消息"
+  },
+  "aiAdvisor": {
+    "name": "RankVibez AI 顾问",
+    "tagline": "基于规则的引导式体验——数据不会离开您的浏览器。",
+    "recommended": "推荐方案",
+    "exploreThisSolution": "探索该解决方案",
+    "startOver": "重新开始",
+    "questions": {
+      "goal": {
+        "prompt": "您的企业目前最需要什么？",
+        "options": {
+          "erp": "一套统一的系统来运营业务",
+          "ecommerce": "在线销售产品",
+          "automation": "实现重复性工作自动化",
+          "security": "更强大、更安全的基础设施"
+        }
+      },
+      "stage": {
+        "prompt": "您会如何描述当前的系统状况？",
+        "options": {
+          "manual": "主要依靠人工 / 电子表格",
+          "fragmented": "现有工具之间互不联通",
+          "scaling": "现有系统运转良好，但需要扩展"
+        }
+      }
+    },
+    "recommendations": {
+      "erp": {
+        "title": "ERP 与AI驱动的 ERP",
+        "description": "连接财务、人力资源、库存与运营的统一系统——并通过AI辅助预测进行增强。"
+      },
+      "ecommerce": {
+        "title": "电子商务解决方案",
+        "description": "为高性能打造的定制商城或市场平台，并集成订单与库存管理。"
+      },
+      "automation": {
+        "title": "AI 自动化与转型",
+        "description": "AI 智能体与工作流自动化，消除企业内的重复性人工操作。"
+      },
+      "security": {
+        "title": "云基础设施与网络安全",
+        "description": "可扩展的云基础设施，搭配务实、持续的安全防护体系。"
+      }
+    }
+  },
+  "whyData": {
+    "items": {
+      "ai-first": {
+        "title": "AI 优先",
+        "description": "我们将AI融入产品与工作流的设计之初，而非事后附加。"
+      },
+      "business-understanding": {
+        "title": "深谙业务",
+        "description": "技术围绕真实的业务流程构建，而非套用通用模板。"
+      },
+      "full-stack": {
+        "title": "全栈技术能力",
+        "description": "软件、云计算、基础设施、安全与增长，尽在一个技术合作伙伴。"
+      },
+      "scalable-architecture": {
+        "title": "可扩展架构",
+        "description": "系统设计能够随业务增长而演进，而非推倒重建。"
+      },
+      "security-mindset": {
+        "title": "安全思维",
+        "description": "安全与可靠性从每次开发之初便纳入考量。"
+      },
+      "global-delivery": {
+        "title": "全球交付能力",
+        "description": "为支持国际化企业与分布式团队而构建。"
+      },
+      "long-term-partnership": {
+        "title": "长期合作伙伴关系",
+        "description": "我们注重持续改进，而非一次性交付。"
+      }
+    },
+    "processSteps": {
+      "discover": { "title": "洞察需求", "description": "理解业务与目标。" },
+      "strategize": { "title": "制定策略", "description": "明确技术与AI机会点。" },
+      "design": { "title": "设计方案", "description": "打造用户体验、架构与工作流。" },
+      "build": { "title": "开发构建", "description": "开发软件与系统集成。" },
+      "secure": { "title": "安全加固", "description": "测试、强化并验证系统。" },
+      "launch": { "title": "正式上线", "description": "部署至生产环境。" },
+      "grow": { "title": "持续增长", "description": "监控、优化并持续改进。" }
+    },
+    "trustSignals": {
+      "ai-first-technology": "AI 优先技术",
+      "enterprise-software": "企业软件",
+      "cloud-infrastructure": "云计算与基础设施",
+      "digital-growth": "数字增长",
+      "global-delivery": "全球交付能力"
+    }
+  },
+  "privacyPolicyPage": {
+    "metaTitle": "隐私政策",
+    "metaDescription": "RankVibez 如何收集、使用与保护信息。",
+    "eyebrow": "法律信息",
+    "title": "隐私政策",
+    "updated": "2026",
+    "sections": {
+      "overview": {
+        "heading": "概述",
+        "body": [
+          "本隐私政策说明了当您访问 rankvibez.com 或使用我们的服务时，RankVibez（“我们”）如何收集、使用与保护相关信息。"
+        ]
+      },
+      "informationWeCollect": {
+        "heading": "我们收集的信息",
+        "body": [
+          "当您提交我们的联系表单时，我们会收集您所提供的信息，例如姓名、公司、邮箱地址、电话号码及项目详情。",
+          "我们也可能收集浏览器类型等标准技术信息，以及一般使用数据，以帮助我们改进网站体验。"
+        ]
+      },
+      "howWeUseInformation": {
+        "heading": "我们如何使用信息",
+        "body": [
+          "通过联系表单提交的信息仅用于回复您的咨询，并在相关情况下用于准备项目提案。",
+          "我们不会向第三方出售或出租个人信息。"
+        ]
+      },
+      "dataRetention": {
+        "heading": "数据留存",
+        "body": [
+          "我们会在回复您的请求及维护业务记录所需的期限内保留咨询信息，此后可能予以删除。"
+        ]
+      },
+      "contact": {
+        "heading": "联系我们",
+        "body": ["如对本政策有任何疑问，请联系 admin@rankvibez.com。"]
+      }
+    }
+  },
+  "termsOfServicePage": {
+    "metaTitle": "服务条款",
+    "metaDescription": "适用于 RankVibez 网站与服务使用的条款。",
+    "eyebrow": "法律信息",
+    "title": "服务条款",
+    "updated": "2026",
+    "sections": {
+      "acceptanceOfTerms": {
+        "heading": "条款接受",
+        "body": ["访问 rankvibez.com 即表示您同意本服务条款。如果您不同意，请停止使用本网站。"]
+      },
+      "useOfWebsite": {
+        "heading": "网站使用",
+        "body": ["本网站内容仅用于提供关于 RankVibez 及其服务的一般性信息，不应被视为正式提案或合同的替代品。"]
+      },
+      "serviceEngagements": {
+        "heading": "服务合作",
+        "body": ["任何具体项目的范围、交付物、定价与时间安排，均由 RankVibez 与客户之间另行签署的书面提案或协议予以约定。"]
+      },
+      "intellectualProperty": {
+        "heading": "知识产权",
+        "body": ["本网站上的所有内容，包括文字、图形与品牌标识，除另有说明外均归 RankVibez 所有，未经许可不得复制。"]
+      },
+      "limitationOfLiability": {
+        "heading": "责任限制",
+        "body": ["对于因使用本网站而产生的任何间接或后果性损失，RankVibez 概不承担责任。本条款中的任何内容均不限制因已签署的服务协议而产生的责任。"]
+      },
+      "contact": {
+        "heading": "联系我们",
+        "body": ["如对本条款有任何疑问，请联系 admin@rankvibez.com。"]
+      }
+    }
+  },
+  "cookiePolicyPage": {
+    "metaTitle": "Cookie 政策",
+    "metaDescription": "RankVibez 如何使用 Cookie 及类似技术。",
+    "eyebrow": "法律信息",
+    "title": "Cookie 政策",
+    "updated": "2026",
+    "sections": {
+      "whatAreCookies": {
+        "heading": "什么是 Cookie",
+        "body": ["Cookie 是存储在您设备上的小型文本文件，用于帮助网站正常运行，并在使用时了解访客与网站的交互方式。"]
+      },
+      "howWeUseCookies": {
+        "heading": "我们如何使用 Cookie",
+        "body": ["RankVibez 使用网站正常运行所必需的基本 Cookie。若未来新增分析或营销类 Cookie，本政策将相应更新。"]
+      },
+      "managingCookies": {
+        "heading": "管理 Cookie",
+        "body": ["您可以通过浏览器设置来控制或禁用 Cookie。禁用基本 Cookie 可能会影响网站功能。"]
+      },
+      "contact": {
+        "heading": "联系我们",
+        "body": ["如对本政策有任何疑问，请联系 admin@rankvibez.com。"]
+      }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "博客",
+    "metaDescription": "来自 RankVibez 团队的软件、AI、基础设施与数字增长相关文章及动态。",
+    "eyebrow": "资源",
+    "title": "博客",
+    "description": "来自 RankVibez 团队的文章与动态——即将上线。"
+  },
+  "insightsPage": {
+    "metaTitle": "行业洞察",
+    "metaDescription": "RankVibez 关于AI、软件工程、云基础设施与数字增长的深度洞察。",
+    "eyebrow": "资源",
+    "title": "行业洞察",
+    "description": "关于AI、软件工程、基础设施与数字增长的文章与观点——即将上线。"
+  },
+  "documentationPage": {
+    "metaTitle": "技术文档",
+    "metaDescription": "来自 RankVibez 的技术文档与操作指南。",
+    "eyebrow": "资源",
+    "title": "技术文档",
+    "description": "面向 RankVibez 客户与合作伙伴的技术文档——即将上线。"
+  },
+  "quotePage": {
+    "metaTitle": "申请报价",
+    "metaDescription": "告诉我们您需要哪些服务并描述您的需求——RankVibez 将为您提供定制报价。",
+    "eyebrow": "申请报价",
+    "title": "告诉我们您的需求，我们将为您发送定制报价。",
+    "description": "选择您感兴趣的服务，分享您的需求，我们的团队将为您提供量身定制的方案——此处不显示价格，只有围绕您项目的真诚沟通。"
+  },
+  "faqPage": {
+    "metaTitle": "常见问题",
+    "metaDescription": "关于与 RankVibez 合作的常见问题解答。",
+    "eyebrow": "资源",
+    "title": "常见问题解答",
+    "description": "关于与 RankVibez 合作的常见问题解答。",
+    "items": {
+      "whoWeWorkWith": {
+        "q": "RankVibez 与哪些类型的企业合作？",
+        "a": "我们与需要企业级软件、基础设施、安全或增长系统的企业合作——从成长型公司到零售、制造、金融、医疗、科技等各行业的大型机构。"
+      },
+      "pricing": {
+        "q": "定价是如何确定的？",
+        "a": "大多数项目会通过初步沟通电话与定制提案单独评估范围。若展示了参考价格，其以美元列出，仅作为起始参考，而非最终固定费用。"
+      },
+      "process": {
+        "q": "合作流程是怎样的？",
+        "a": "我们遵循结构化的流程：洞察需求、制定策略、设计方案、开发构建、安全加固、正式上线与持续增长——每个阶段都有明确的检查点与文档记录。"
+      },
+      "ongoingSupport": {
+        "q": "上线后是否提供持续支持？",
+        "a": "是的。作为托管技术服务的一部分，我们提供监控、维护与持续改进服务。"
+      },
+      "aiIntegration": {
+        "q": "RankVibez 能否为现有系统集成AI？",
+        "a": "可以。我们会定期评估现有工作流程，并为已上线的系统添加AI能力——包括自动化、分析或智能体。"
+      },
+      "location": {
+        "q": "RankVibez 总部位于哪里？",
+        "a": "RankVibez 立足孟加拉国达卡，服务于多个国际市场的客户。"
+      }
+    }
+  },
+  "contactPage": {
+    "metaTitle": "联系我们",
+    "metaDescription": "就您的下一个软件、AI、基础设施或增长项目，与 RankVibez 开启对话。",
+    "eyebrow": "联系我们",
+    "title": "聊聊您正在打造的项目。",
+    "description": "告诉我们您的业务与目标——我们会尽快与您联系，安排一次初步沟通电话，并为您规划定制方案。",
+    "headOffice": "总部",
+    "email": "邮箱",
+    "phone": "电话",
+    "discoveryCallNote": "对于企业级项目，相较于固定报价，我们更倾向于先进行一次初步沟通电话——这有助于我们在给出报价前明确合适的架构方案。"
+  },
+  "aboutPage": {
+    "metaTitle": "关于我们",
+    "metaDescription": "RankVibez 是一家AI驱动的软件与技术解决方案公司，致力于帮助企业构建、自动化、保障安全并实现增长。",
+    "eyebrow": "关于 RankVibez",
+    "title": "为迈向下一增长阶段的企业而生的技术合作伙伴。",
+    "description": "RankVibez 是一家AI驱动的软件与技术解决方案公司，致力于帮助企业构建、自动化、保障安全、开展营销并扩展其数字化运营。",
+    "missionTitle": "使命",
+    "missionDescription": "通过智能软件与技术，助力企业运营、竞争与增长。",
+    "visionTitle": "愿景",
+    "visionDescription": "成为面向现代企业、全球信赖的AI优先技术公司。",
+    "valuesEyebrow": "价值观",
+    "valuesTitle": "指引我们构建与工作方式的准则。",
+    "values": {
+      "clarity": {
+        "title": "清晰透明",
+        "description": "我们以简明、专业的语言沟通——不做不必要的复杂化。"
+      },
+      "craftsmanship": {
+        "title": "精益求精",
+        "description": "每一套系统的打造都注重架构本身，而不仅仅是功能堆砌。"
+      },
+      "accountability": {
+        "title": "尽职担当",
+        "description": "从上线到后续持续支持，我们始终对自己所构建的一切负责。"
+      },
+      "curiosity": {
+        "title": "求知探索",
+        "description": "我们持续评估新兴技术，尤其是AI领域，以发掘其实际价值。"
+      }
+    },
+    "aiPhilosophyTitle": "AI 优先理念",
+    "aiPhilosophyDescription": "我们从不把AI当作附加功能。我们设计的每一套系统，都始于一个问题：智能技术能在哪些方面切实减少人工负担、辅助更优决策，或改善客户体验？AI 从第一天起就融入架构设计，而不是事后补装。",
+    "globalDeliveryTitle": "全球交付能力",
+    "globalDeliveryDescription": "RankVibez 立足孟加拉国达卡，为多个国际市场的企业提供技术解决方案。我们的团队融合软件工程、云基础设施、安全与数字增长方面的专业能力，为每个项目提供端到端支持。",
+    "whyEyebrow": "为何选择 RankVibez",
+    "whyTitle": "值得长期信赖的技术合作伙伴。"
+  },
+  "careersPage": {
+    "metaTitle": "招贤纳士",
+    "metaDescription": "加入 RankVibez，与我们一起为全球企业打造AI驱动的软件与技术解决方案。",
+    "eyebrow": "招贤纳士",
+    "title": "打造真正有意义的技术。",
+    "description": "RankVibez 正在壮大我们的工程师、设计师与技术专家团队。目前我们没有特定的在招职位，但始终欢迎优秀人才与我们联系。",
+    "whyEyebrow": "为何选择 RankVibez",
+    "whyTitle": "在这里工作是怎样一番体验。",
+    "noOpenRolesTitle": "目前暂无在招职位——欢迎仍与我们联系。",
+    "noOpenRolesDescription": "向我们的团队发送您的简历与简短自我介绍，我们会将其存档，以备未来职位空缺之需。",
+    "getInTouch": "联系我们"
+  },
+  "aiData": {
+    "flow": ["业务数据", "AI 智能层", "自动化", "业务行动", "洞察与增长"],
+    "capabilities": {
+      "ai-erp": {
+        "title": "AI驱动的 ERP",
+        "description": "融合AI辅助运营、分析与自动化的智能企业资源规划系统。"
+      },
+      "business-automation": {
+        "title": "AI 业务自动化",
+        "description": "通过智能体实现重复性工作流自动化，并连接各项业务流程。"
+      },
+      "customer-operations": {
+        "title": "AI 客户运营",
+        "description": "AI驱动的客户支持、线索资格评估、智能推荐与沟通服务。"
+      },
+      "analytics": {
+        "title": "AI 分析",
+        "description": "将业务数据转化为可执行的洞察与决策支持。"
+      },
+      "agents": {
+        "title": "AI 智能体",
+        "description": "为销售、运营、支持、营销与行政管理部署专业化AI智能体。"
+      },
+      "transformation": {
+        "title": "AI 转型",
+        "description": "评估现有业务运营，识别切实可行的AI机会。"
+      }
+    }
+  },
+  "solutionsPage": {
+    "metaTitle": "解决方案",
+    "metaDescription": "围绕您的业务打造的技术解决方案——ERP、电子商务、AI转型、云计算、安全与数字增长。",
+    "eyebrow": "解决方案",
+    "title": "围绕您的业务打造的技术解决方案",
+    "description": "每个解决方案都将真实的业务流程与可落地的技术系统相连接——并随业务增长而设计扩展空间。"
+  },
+  "solutionsData": {
+    "erp": {
+      "name": "ERP 与业务管理",
+      "description": "面向财务、人力资源、库存与运营的统一系统。",
+      "flow": ["业务数据", "统一 ERP 核心", "报表与管控"]
+    },
+    "ecommerce": {
+      "name": "电子商务",
+      "description": "可随业务扩展的商城、市场平台与订单管理系统。",
+      "flow": ["商品目录与订单", "电商平台", "履约与增长"]
+    },
+    "web-development": {
+      "name": "企业数字平台",
+      "description": "为塑造品牌可信度与卓越性能而打造的网站与门户。",
+      "flow": ["内容与品牌", "网站平台", "互动与获客"]
+    },
+    "ai-transformation": {
+      "name": "AI 转型",
+      "description": "在工作流与业务运营中落地切实可行的AI应用。",
+      "flow": ["业务流程", "AI 层", "自动化成果"]
+    },
+    "cloud-infrastructure": {
+      "name": "云基础设施",
+      "description": "跨云服务商的可扩展、可监控基础设施。",
+      "flow": ["工作负载", "云架构", "可靠性与扩展"]
+    },
+    "cyber-security": {
+      "name": "网络安全",
+      "description": "从一开始就融入基础设施的安全能力，而非事后附加。",
+      "flow": ["风险评估", "加固与管控", "持续监控"]
+    },
+    "digital-marketing": {
+      "name": "数字增长",
+      "description": "能够随时间不断复利增长的 SEO、广告与转化体系。",
+      "flow": ["受众与渠道", "增长执行", "可衡量的成果"]
+    },
+    "business-automation": {
+      "name": "业务自动化",
+      "description": "连接工具、团队与数据的自动化工作流。",
+      "flow": ["人工工作流", "自动化层", "节省时间与成本"]
+    },
+    "server-maintenance": {
+      "name": "托管技术服务",
+      "description": "持续的支持、维护与监控，让您安心无忧。",
+      "flow": ["线上系统", "监控与支持", "持续改进"]
+    }
+  },
+  "industriesPage": {
+    "metaTitle": "行业领域",
+    "metaDescription": "RankVibez 为零售、电子商务、制造、医疗、金融等多个行业打造技术解决方案。",
+    "eyebrow": "行业领域",
+    "title": "为驱动实体经济运转的企业而生。",
+    "description": "RankVibez 服务于多个行业，可靠的软件与基础设施直接影响这些企业的日常运营。"
+  },
+  "industriesData": {
+    "retail": {
+      "name": "零售业",
+      "tagline": "库存与 POS 系统",
+      "description": "统一的库存、收银（POS）与电商系统，让库存、定价与运营在各渠道间保持同步。"
+    },
+    "ecommerce": {
+      "name": "电子商务",
+      "tagline": "商城与订单管理",
+      "description": "为应对海量交易与复杂业务而打造的高性能商城、商品目录系统与订单管理体系。"
+    },
+    "manufacturing": {
+      "name": "制造业",
+      "tagline": "ERP 与生产计划",
+      "description": "将采购、生产与库存整合为统一运营视图的 ERP 与生产计划系统。"
+    },
+    "healthcare": {
+      "name": "医疗健康",
+      "tagline": "安全的运营软件",
+      "description": "为医疗机构打造的安全行政与运营软件，充分考量数据保护要求。"
+    },
+    "education": {
+      "name": "教育行业",
+      "tagline": "招生与内容平台",
+      "description": "面向教育机构与教育企业的数字平台，从招生门户到内容分发一应俱全。"
+    },
+    "finance": {
+      "name": "金融业",
+      "tagline": "安全的金融系统",
+      "description": "面向金融运营、报表与客户端平台的可靠、安全的软件与基础设施。"
+    },
+    "real-estate": {
+      "name": "房地产",
+      "tagline": "房源与物业管理",
+      "description": "为房地产企业打造的物业管理平台、房源系统与客户门户。"
+    },
+    "logistics": {
+      "name": "物流行业",
+      "tagline": "追踪与履约系统",
+      "description": "支持跨团队协同的追踪、履约与供应链协调运营系统。"
+    },
+    "hospitality": {
+      "name": "酒店餐饮业",
+      "tagline": "预订与宾客管理",
+      "description": "围绕酒店行业工作流设计的预订、宾客管理与运营平台。"
+    },
+    "professional-services": {
+      "name": "专业服务",
+      "tagline": "客户门户与项目系统",
+      "description": "客户门户、项目系统与企业级平台，彰显专业机构的可信度。"
+    },
+    "technology": {
+      "name": "科技行业",
+      "tagline": "基础设施与产品工程",
+      "description": "为扩展自身平台的科技公司提供基础设施、工具链与产品工程支持。"
+    },
+    "ngo-nonprofit": {
+      "name": "非营利组织 / NGO",
+      "tagline": "使命驱动型数字平台",
+      "description": "为使命驱动型组织量身打造的数字平台，助力其高效运营与清晰沟通。"
+    }
+  },
+  "common": {
+    "exploreService": "了解该服务",
+    "whatYouGet": "您将获得",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "viewCaseStudy": "查看案例研究",
+    "scrollToExplore": "向下滚动以探索更多",
+    "lastUpdated": "最近更新：{date}",
+    "comingSoon": {
+      "title": "即将上线",
+      "description": "我们正在打造这项内容。与此同时，欢迎直接与我们联系，我们的团队将为您提供帮助。",
+      "contactUs": "联系我们"
+    },
+    "cta": {
+      "title": "准备好开启下一步了吗？",
+      "description": "无论您需要 ERP、电商平台、AI转型、安全基础设施，还是一套完整的数字增长战略——让我们携手共同打造。",
+      "primaryLabel": "开启对话",
+      "secondaryLabel": "探索我们的服务"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "服务",
+    "metaDescription": "来自 RankVibez 的企业软件、云基础设施、网络安全、数字增长与AI转型服务。",
+    "eyebrow": "服务",
+    "title": "围绕您的业务打造的技术服务。",
+    "description": "覆盖企业软件、基础设施、安全与数字增长的全栈服务体系——设计为协同运作的统一系统。"
+  },
+  "serviceDetailPage": {
+    "requestConsultation": "预约咨询",
+    "viewAllServices": "查看全部服务",
+    "whatsIncluded": "服务内容",
+    "pricing": "定价",
+    "pricingDescription": "每个项目的报价均根据企业实际需求而定。对于企业级服务，相较于固定定价，我们更倾向于提供定制提案。",
+    "customPricing": "定制报价",
+    "talkToExpert": "咨询专家",
+    "getCustomQuote": "获取定制报价",
+    "relatedServices": "相关服务"
+  },
+  "serviceCategories": {
+    "Enterprise Software": "企业软件",
+    "Cloud & Infrastructure": "云计算与基础设施",
+    "Cyber Security": "网络安全",
+    "Digital Growth": "数字增长",
+    "AI & Business Transformation": "AI 与业务转型"
+  },
+  "servicesData": {
+    "erp": {
+      "name": "ERP 软件",
+      "short": "面向财务、人力资源、库存、销售与运营的定制化 ERP 系统。",
+      "description": "我们根据企业的真实运营方式设计并构建企业资源规划系统——将财务、人力资源、库存、销售、采购与生产整合为单一权威数据源。",
+      "capabilities": [
+        "财务与会计模块",
+        "人力资源与薪酬管理",
+        "库存与仓储管控",
+        "销售与采购工作流",
+        "生产与制造计划",
+        "定制报表与仪表盘"
+      ]
+    },
+    "ai-erp": {
+      "name": "AI驱动的 ERP",
+      "short": "融合AI智能体、自动化与智能分析的 ERP 系统。",
+      "description": "我们通过AI智能体、预测分析与自动化来拓展传统 ERP 的能力——帮助各部门团队预测需求、发现异常，并减少人工数据录入。",
+      "capabilities": [
+        "AI 辅助预测",
+        "智能流程自动化",
+        "异常与欺诈检测",
+        "自然语言报表",
+        "智能审批工作流",
+        "预测性库存规划"
+      ]
+    },
+    "ecommerce": {
+      "name": "电子商务解决方案",
+      "short": "定制化电商平台、市场平台与订单管理系统。",
+      "description": "我们打造高性能的电商平台与市场平台——从商品目录、结账流程到订单管理、支付与物流集成，一应俱全。",
+      "capabilities": [
+        "定制商城与市场平台",
+        "商品与目录管理",
+        "订单与履约系统",
+        "支付网关集成",
+        "库存同步",
+        "性能与转化率优化"
+      ]
+    },
+    "web-development": {
+      "name": "网站开发",
+      "short": "企业网站、业务门户与企业级 Web 应用。",
+      "description": "我们设计并开发基于现代化、可扩展架构的企业网站、客户门户与 Web 应用——从第一天起就注重速度、可访问性与 SEO 友好性。",
+      "capabilities": [
+        "企业与营销网站",
+        "客户与业务门户",
+        "落地页与活动专题站",
+        "企业级 Web 应用",
+        "Headless CMS 集成",
+        "SEO 与性能优化工程"
+      ]
+    },
+    "server-maintenance": {
+      "name": "服务器维护",
+      "short": "Linux/Windows 服务器管理、监控与安全防护。",
+      "description": "我们负责管理与维护 Linux 与 Windows 服务器环境——监控运行状态、部署安全补丁、优化性能并处理数据备份，确保您的基础设施始终稳定可靠。",
+      "capabilities": [
+        "服务器监控与告警",
+        "补丁与更新管理",
+        "性能优化",
+        "备份与灾难恢复",
+        "安全加固",
+        "故障排查与处理"
+      ]
+    },
+    "cloud-infrastructure": {
+      "name": "云基础设施",
+      "short": "云部署、迁移、扩展与架构设计。",
+      "description": "我们在领先云服务商之上架构并管理云基础设施——设计能够可靠扩展、安全部署，并在生产环境中保持可观测性的系统。",
+      "capabilities": [
+        "云迁移与部署",
+        "自动扩缩容架构",
+        "基础设施即代码",
+        "CI/CD 流水线",
+        "监控与可观测性",
+        "成本优化"
+      ]
+    },
+    "business-email": {
+      "name": "专业邮箱服务",
+      "short": "企业邮箱搭建、迁移、安全与管理。",
+      "description": "我们搭建并管理专业的企业邮箱系统——正确配置 DNS、SPF、DKIM 与 DMARC，安全迁移邮箱数据，并强化送达率与安全性。",
+      "capabilities": [
+        "企业邮箱搭建与迁移",
+        "DNS、SPF、DKIM 与 DMARC 配置",
+        "邮箱与域名管理",
+        "送达率优化",
+        "邮箱安全加固",
+        "持续运维支持"
+      ]
+    },
+    "cyber-security": {
+      "name": "网络安全",
+      "short": "网站、服务器与企业基础设施安全防护。",
+      "description": "我们评估并强化您网站、服务器与企业基础设施的安全性——识别漏洞、加固访问权限，并构建务实、持续的安全防护体系。",
+      "capabilities": [
+        "安全评估与审查",
+        "漏洞扫描",
+        "服务器与应用加固",
+        "访问控制与身份认证",
+        "恶意软件检测与修复",
+        "备份策略与监控"
+      ]
+    },
+    "digital-marketing": {
+      "name": "数字营销",
+      "short": "驱动业务增长的全漏斗数字营销策略。",
+      "description": "我们设计全漏斗数字营销策略，将品牌、内容、渠道与数据分析连接为一体——推动可衡量的业务成果，而不只是曝光量。",
+      "capabilities": [
+        "营销战略与规划",
+        "内容与渠道策略",
+        "营销数据分析与报表",
+        "品牌定位支持",
+        "漏斗与受众画像梳理",
+        "跨渠道活动执行"
+      ]
+    },
+    "seo": {
+      "name": "SEO",
+      "short": "技术型、页面级、本地化与国际化 SEO。",
+      "description": "我们通过技术 SEO、页面优化、内容策略与国际 SEO 架构来提升自然搜索可见度——一切均以数据分析为依据，而非凭空猜测。",
+      "capabilities": [
+        "技术 SEO 审计",
+        "页面优化",
+        "内容与关键词策略",
+        "本地 SEO",
+        "国际化 / 多地区 SEO",
+        "数据分析与效果追踪"
+      ]
+    },
+    "ads-campaign": {
+      "name": "广告投放",
+      "short": "Google Ads、Meta Ads 与效果类广告活动。",
+      "description": "我们在 Google 与 Meta 平台上规划、启动并管理效果类广告——构建广告结构、创意方向与优化循环，专注于提升广告支出回报率。",
+      "capabilities": [
+        "Google Ads 管理",
+        "Meta Ads 管理",
+        "广告结构与定向设置",
+        "创意与文案方向",
+        "转化追踪设置",
+        "持续优化与报表"
+      ]
+    },
+    "ppc-ads": {
+      "name": "PPC 广告",
+      "short": "驱动精准流量并产生线索的按点击付费广告活动。",
+      "description": "我们规划并管理跨搜索、展示与购物版位的按点击付费广告——构建关键词策略、广告创意与出价管理，专注于引流并获取优质线索。",
+      "capabilities": [
+        "Google 与 Bing Ads 管理",
+        "搜索、展示与购物广告活动",
+        "关键词研究与定向",
+        "广告文案与创意方向",
+        "出价与预算优化",
+        "转化追踪与报表"
+      ]
+    },
+    "conversion-optimization": {
+      "name": "转化率优化",
+      "short": "落地页、数据分析与漏斗优化。",
+      "description": "我们通过数据分析、测试与用户体验优化来提升落地页与转化漏斗的表现——将现有流量转化为更多优质线索与客户。",
+      "capabilities": [
+        "落地页设计与测试",
+        "漏斗分析",
+        "数据分析工具部署",
+        "A/B 测试与多变量测试",
+        "用户体验与文案优化",
+        "转化率报表"
+      ]
+    },
+    "ai-transformation": {
+      "name": "AI驱动型企业 / AI 自动化",
+      "short": "AI 转型项目与业务流程自动化。",
+      "description": "我们帮助企业将AI融入日常运营——评估现有工作流程，识别切实可行的自动化机会，并在能带来真正价值的场景中部署AI智能体。",
+      "capabilities": [
+        "AI 机会评估",
+        "工作流自动化设计",
+        "AI 智能体部署",
+        "流程再造",
+        "变革管理支持",
+        "持续优化"
+      ]
+    },
+    "virtual-assistance": {
+      "name": "虚拟助理服务",
+      "short": "面向行政与运营任务的专业虚拟助理服务。",
+      "description": "我们为行政、客户服务、数据处理与运营任务提供专业的虚拟助理服务——为成长型团队提供可靠的运营支持，同时无需承担额外开销。",
+      "capabilities": [
+        "行政支持",
+        "客户服务支持",
+        "数据录入与管理",
+        "日程安排与协调",
+        "调研与报表",
+        "运营任务支持"
+      ]
+    }
+  }
+}

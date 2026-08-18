@@ -1,55 +1,55 @@
 export type NavItem = {
-  label: string;
+  key: string;
   href: string;
-  description?: string;
 };
 
 export const primaryNav: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "What We Do", href: "/what-we-do" },
-  { label: "Solutions", href: "/solutions" },
-  { label: "Services", href: "/services" },
-  { label: "AI", href: "/ai" },
-  { label: "Portfolio", href: "/portfolio" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { key: "home", href: "/" },
+  { key: "whatWeDo", href: "/what-we-do" },
+  { key: "solutions", href: "/solutions" },
+  { key: "services", href: "/services" },
+  { key: "ai", href: "/ai" },
+  { key: "portfolio", href: "/portfolio" },
+  { key: "about", href: "/about" },
+  { key: "contact", href: "/contact" },
 ];
 
 export const footerNav = {
   solutions: [
-    { label: "ERP", href: "/services/erp" },
-    { label: "AI ERP", href: "/services/ai-erp" },
-    { label: "E-Commerce", href: "/services/ecommerce" },
-    { label: "AI Automation", href: "/services/ai-transformation" },
-    { label: "Cyber Security", href: "/services/cyber-security" },
-    { label: "Cloud", href: "/services/server-maintenance" },
+    { key: "erp", href: "/services/erp" },
+    { key: "aiErp", href: "/services/ai-erp" },
+    { key: "ecommerce", href: "/services/ecommerce" },
+    { key: "aiAutomation", href: "/services/ai-transformation" },
+    { key: "cyberSecurity", href: "/services/cyber-security" },
+    { key: "cloud", href: "/services/server-maintenance" },
   ],
   services: [
-    { label: "Software Development", href: "/services/ecommerce" },
-    { label: "Website Development", href: "/services/web-development" },
-    { label: "Server Maintenance", href: "/services/server-maintenance" },
-    { label: "Professional Email", href: "/services/business-email" },
-    { label: "SEO", href: "/services/seo" },
-    { label: "Digital Marketing", href: "/services/digital-marketing" },
-    { label: "Ads Campaign", href: "/services/ads-campaign" },
-    { label: "Virtual Assistance", href: "/services/virtual-assistance" },
+    { key: "softwareDevelopment", href: "/services/ecommerce" },
+    { key: "websiteDevelopment", href: "/services/web-development" },
+    { key: "serverMaintenance", href: "/services/server-maintenance" },
+    { key: "professionalEmail", href: "/services/business-email" },
+    { key: "seo", href: "/services/seo" },
+    { key: "digitalMarketing", href: "/services/digital-marketing" },
+    { key: "adsCampaign", href: "/services/ads-campaign" },
+    { key: "virtualAssistance", href: "/services/virtual-assistance" },
   ],
   company: [
-    { label: "About", href: "/about" },
-    { label: "Industries", href: "/industries" },
-    { label: "Portfolio", href: "/portfolio" },
-    { label: "Technology", href: "/technology" },
-    { label: "Locations", href: "/locations" },
-    { label: "Careers", href: "/careers" },
-    { label: "Contact", href: "/contact" },
+    { key: "about", href: "/about" },
+    { key: "industries", href: "/industries" },
+    { key: "portfolio", href: "/portfolio" },
+    { key: "technology", href: "/technology" },
+    { key: "locations", href: "/locations" },
+    { key: "careers", href: "/careers" },
+    { key: "contact", href: "/contact" },
   ],
   resources: [
-    { label: "Blog", href: "/blog" },
-    { label: "Insights", href: "/insights" },
-    { label: "Case Studies", href: "/portfolio" },
-    { label: "Documentation", href: "/documentation" },
-    { label: "FAQ", href: "/faq" },
+    { key: "blog", href: "/blog" },
+    { key: "insights", href: "/insights" },
+    { key: "caseStudies", href: "/portfolio" },
+    { key: "documentation", href: "/documentation" },
+    { key: "faq", href: "/faq" },
   ],
 };
 
+// External link with a proper-noun label — intentionally not localized.
 export const socialLinks = [{ label: "Facebook", href: "https://www.facebook.com/rankvibez" }];

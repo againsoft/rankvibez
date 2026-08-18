@@ -1,65 +1,31 @@
 export type WhyItem = {
-  title: string;
-  description: string;
+  id: string;
   icon: string;
 };
 
 export const whyRankVibez: WhyItem[] = [
-  {
-    title: "AI-First",
-    description: "We design AI into the product and workflow rather than adding it as an afterthought.",
-    icon: "Sparkles",
-  },
-  {
-    title: "Business Understanding",
-    description: "Technology is built around real business processes, not generic templates.",
-    icon: "Compass",
-  },
-  {
-    title: "Full Technology Stack",
-    description: "Software, cloud, infrastructure, security and growth under one technology partner.",
-    icon: "Layers",
-  },
-  {
-    title: "Scalable Architecture",
-    description: "Systems designed to evolve as the business grows, not rebuilt from scratch.",
-    icon: "Network",
-  },
-  {
-    title: "Security Mindset",
-    description: "Security and reliability are considered from the beginning of every build.",
-    icon: "ShieldCheck",
-  },
-  {
-    title: "Global Delivery",
-    description: "Built to support international businesses and distributed teams.",
-    icon: "Globe2",
-  },
-  {
-    title: "Long-Term Partnership",
-    description: "We focus on continuous improvement, not one-time delivery.",
-    icon: "Handshake",
-  },
+  { id: "ai-first", icon: "Sparkles" },
+  { id: "business-understanding", icon: "Compass" },
+  { id: "full-stack", icon: "Layers" },
+  { id: "scalable-architecture", icon: "Network" },
+  { id: "security-mindset", icon: "ShieldCheck" },
+  { id: "global-delivery", icon: "Globe2" },
+  { id: "long-term-partnership", icon: "Handshake" },
 ];
 
 export const processSteps = [
-  { number: "01", title: "Discover", description: "Understand the business and goals." },
-  { number: "02", title: "Strategize", description: "Define technology and AI opportunities." },
-  { number: "03", title: "Design", description: "Create UX, architecture and workflows." },
-  { number: "04", title: "Build", description: "Develop the software and integrations." },
-  { number: "05", title: "Secure", description: "Test, harden and validate the system." },
-  { number: "06", title: "Launch", description: "Deploy to production." },
-  { number: "07", title: "Grow", description: "Monitor, optimize and continuously improve." },
+  { id: "discover", number: "01" },
+  { id: "strategize", number: "02" },
+  { id: "design", number: "03" },
+  { id: "build", number: "04" },
+  { id: "secure", number: "05" },
+  { id: "launch", number: "06" },
+  { id: "grow", number: "07" },
 ];
 
-export const trustSignals = [
-  "AI-First Technology",
-  "Enterprise Software",
-  "Cloud & Infrastructure",
-  "Digital Growth",
-  "Global Delivery",
-];
+export const trustSignals = ["ai-first-technology", "enterprise-software", "cloud-infrastructure", "digital-growth", "global-delivery"];
 
+// Not currently rendered anywhere; kept for a future "premium details" section.
 export const premiumDetails = [
   { title: "Discovery Call", description: "Start every engagement with a structured discovery conversation.", icon: "PhoneCall" },
   { title: "Architecture Review", description: "Technical architecture reviewed before development begins.", icon: "FileSearch" },

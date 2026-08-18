@@ -1,8 +1,11 @@
+import { useTranslations } from "next-intl";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { services } from "@/data/services";
 
 export function OverviewStrip() {
+  const tData = useTranslations("servicesData");
+
   return (
     <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
       {services.map((service) => {
@@ -16,7 +19,7 @@ export function OverviewStrip() {
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-soft text-primary transition-colors group-hover:bg-primary group-hover:text-white">
               <Icon size={20} />
             </div>
-            <span className="text-xs font-medium leading-snug text-foreground">{service.name}</span>
+            <span className="text-xs font-medium leading-snug text-foreground">{tData(`${service.slug}.name`)}</span>
           </a>
         );
       })}
