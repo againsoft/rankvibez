@@ -28,8 +28,8 @@ export const portfolioCategories = [
 
 export const portfolioProjects: PortfolioProject[] = [
   {
-    slug: "atlas-erp-concept",
-    name: "Atlas ERP",
+    slug: "again-erp-concept",
+    name: "AgainERP",
     label: "Concept Project",
     industry: "Manufacturing",
     country: "Bangladesh",
@@ -41,14 +41,14 @@ export const portfolioProjects: PortfolioProject[] = [
     challenge:
       "Manufacturers often run finance, inventory and production on disconnected spreadsheets and legacy tools, leading to slow decisions and stock mismatches.",
     solution:
-      "Designed a unified ERP data model covering finance, inventory and production planning, with an AI layer surfacing demand forecasts and stock anomalies.",
+      "Designed a unified ERP data model covering dashboard, HRM, sales, inventory and accounting, with an AI layer surfacing demand forecasts and stock anomalies.",
     outcome:
       "A working concept demonstrating how AI-assisted planning can reduce manual reporting effort and highlight operational risk earlier.",
-    image: "/featured-work/atlas.png",
+    image: "/featured-work/again-erp.png",
   },
   {
-    slug: "northline-commerce-demo",
-    name: "Northline Commerce",
+    slug: "againcart-ecommerce",
+    name: "Againcart",
     label: "Internal Demo",
     industry: "Retail",
     country: "United States",
@@ -63,7 +63,7 @@ export const portfolioProjects: PortfolioProject[] = [
       "Built a demo storefront with server-rendered catalog pages, optimized checkout and a synchronized inventory layer.",
     outcome:
       "Established reusable commerce architecture patterns for catalog performance and checkout reliability.",
-    image: "/featured-work/northline-commerce.png",
+    image: "/featured-work/againcart.png",
   },
   {
     slug: "harborcloud-infrastructure-demo",
