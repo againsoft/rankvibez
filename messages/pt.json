@@ -1044,6 +1044,84 @@
         "Apoio de administração contínuo"
       ]
     },
+    "iaas-vm": {
+      "name": "Máquinas Virtuais IaaS",
+      "short": "Máquinas virtuais na cloud com vCPU, RAM, armazenamento e largura de banda configuráveis.",
+      "description": "Provisionamos máquinas virtuais Infrastructure-as-a-Service construídas à volta da sua carga de trabalho exata — vCPU, RAM, armazenamento, alocação de IP e largura de banda configuráveis, faturadas mensalmente ou como plano reservado para cargas de trabalho previsíveis a longo prazo.",
+      "capabilities": [
+        "Dimensionamento personalizado de vCPU e RAM",
+        "Alocação flexível de armazenamento em bloco",
+        "Opções de IP dedicado e flutuante",
+        "Níveis de largura de banda configuráveis",
+        "Faturação mensal ou reservada",
+        "Suporte a snapshots e redimensionamento"
+      ]
+    },
+    "backup-as-a-service": {
+      "name": "Backup como Serviço",
+      "short": "Armazenamento protegido fora do local com trabalhos de backup agendados e suporte de restauro.",
+      "description": "Operamos Backup-as-a-Service para servidores, bases de dados e aplicações — armazenamento protegido, trabalhos de backup agendados e suporte de restauro testado, faturado por GB/TB protegido para que o custo acompanhe o que realmente armazena.",
+      "capabilities": [
+        "Trabalhos de backup automáticos agendados",
+        "Armazenamento protegido e encriptado fora do local",
+        "Suporte de restauro e recuperação testado",
+        "Configuração de política de retenção",
+        "Cobertura de servidores, bases de dados e aplicações",
+        "Faturação por utilização (GB/TB)"
+      ]
+    },
+    "object-storage": {
+      "name": "Armazenamento de Objetos",
+      "short": "Armazenamento de objetos compatível com S3 para media, backups e dados de aplicações.",
+      "description": "Fornecemos armazenamento de objetos compatível com S3, construído sobre Ceph RGW — armazenamento durável e escalável para bibliotecas de media, backups e dados de aplicações, acessível através de APIs S3 padrão e faturado por GB armazenado.",
+      "capabilities": [
+        "Acesso via API compatível com S3",
+        "Durabilidade suportada por Ceph RGW",
+        "Capacidade escalável, pague conforme cresce",
+        "Gestão de buckets e chaves de acesso",
+        "Integração com aplicações e CDN",
+        "Faturação por utilização (GB)"
+      ]
+    },
+    "dr-as-a-service": {
+      "name": "Recuperação de Desastre como Serviço",
+      "short": "Replicação, planeamento de recuperação e failover testado para continuidade de negócio.",
+      "description": "Concebemos e operamos Disaster-Recovery-as-a-Service — replicando sistemas críticos, criando um plano de recuperação documentado e realizando exercícios de teste regulares para que o failover funcione quando realmente importa, não só no papel.",
+      "capabilities": [
+        "Replicação contínua de dados",
+        "Plano de recuperação documentado",
+        "Exercícios de teste de failover agendados",
+        "Definição de metas RTO / RPO",
+        "Capacidade de standby por subscrição",
+        "Suporte de recuperação em caso de incidente"
+      ]
+    },
+    "managed-paas": {
+      "name": "PaaS Gerido",
+      "short": "Kubernetes, registo de contentores, CI/CD e padrões de bases de dados geridas.",
+      "description": "Operamos uma Platform-as-a-Service gerida construída à volta do Kubernetes — registo de contentores, pipelines de CI/CD e padrões de bases de dados geridas que permitem às equipas de engenharia lançar sem gerir a operação do cluster subjacente, faturado por cluster ou por utilização.",
+      "capabilities": [
+        "Clusters Kubernetes geridos",
+        "Registo de contentores e gestão de imagens",
+        "Integração de pipelines CI/CD",
+        "Padrões de bases de dados geridas",
+        "Monitorização e escalabilidade de clusters",
+        "Faturação por cluster ou por utilização"
+      ]
+    },
+    "hybrid-cloud": {
+      "name": "Cloud Híbrida",
+      "short": "Conectividade privada, VPN e integração com Azure entre os seus ambientes.",
+      "description": "Concebemos e gerimos ambientes de cloud híbrida que ligam infraestrutura on-premises à cloud pública — configuração de VPN e conectividade privada, integração com Azure e gestão contínua, sob uma taxa de projeto mais uma mensalidade recorrente.",
+      "capabilities": [
+        "Configuração de VPN site-a-site e de cliente",
+        "Desenho de conectividade privada",
+        "Integração e migração para Azure",
+        "Identidade e rede entre ambientes",
+        "Gestão contínua do ambiente",
+        "Taxa de projeto + mensalidade recorrente"
+      ]
+    },
     "cpanel-web-hosting": {
       "name": "Hospedagem cPanel",
       "short": "Hospedagem cPanel rápida e segura para sites, blogs e aplicações empresariais.",

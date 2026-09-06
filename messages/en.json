@@ -1044,6 +1044,84 @@
         "Ongoing administration support"
       ]
     },
+    "iaas-vm": {
+      "name": "IaaS Virtual Machines",
+      "short": "Custom cloud virtual machines with configurable vCPU, RAM, storage and bandwidth.",
+      "description": "We provision Infrastructure-as-a-Service virtual machines built around your exact workload — configurable vCPU, RAM, storage, IP allocation and bandwidth, billed monthly or as a reserved plan for predictable long-term workloads.",
+      "capabilities": [
+        "Custom vCPU & RAM sizing",
+        "Flexible block storage allocation",
+        "Dedicated & floating IP options",
+        "Configurable bandwidth tiers",
+        "Monthly or reserved billing",
+        "Snapshot & resize support"
+      ]
+    },
+    "backup-as-a-service": {
+      "name": "Backup as a Service",
+      "short": "Protected offsite storage with scheduled backup jobs and restore support.",
+      "description": "We run Backup-as-a-Service for servers, databases and applications — protected storage, scheduled backup jobs and tested restore support, billed per protected GB/TB so cost scales with what you actually store.",
+      "capabilities": [
+        "Scheduled automated backup jobs",
+        "Protected, encrypted offsite storage",
+        "Tested restore & recovery support",
+        "Retention policy configuration",
+        "Server, database & application coverage",
+        "Per-GB/TB usage-based billing"
+      ]
+    },
+    "object-storage": {
+      "name": "Object Storage",
+      "short": "S3-compatible object storage for media, backups and application data.",
+      "description": "We provide S3-compatible object storage built on Ceph RGW — durable, scalable storage for media libraries, backups and application data, accessible through standard S3 APIs and billed per GB stored.",
+      "capabilities": [
+        "S3-compatible API access",
+        "Ceph RGW-backed durability",
+        "Scalable, pay-as-you-grow capacity",
+        "Bucket & access-key management",
+        "Application & CDN integration",
+        "Per-GB usage-based billing"
+      ]
+    },
+    "dr-as-a-service": {
+      "name": "Disaster Recovery as a Service",
+      "short": "Replication, recovery planning and tested failover for business continuity.",
+      "description": "We design and operate Disaster-Recovery-as-a-Service — replicating critical systems, building a documented recovery plan and running regular test exercises so failover works when it actually matters, not just on paper.",
+      "capabilities": [
+        "Continuous data replication",
+        "Documented recovery plan",
+        "Scheduled failover test exercises",
+        "RTO / RPO target setting",
+        "Subscription-based standby capacity",
+        "Incident-time recovery support"
+      ]
+    },
+    "managed-paas": {
+      "name": "Managed PaaS",
+      "short": "Kubernetes, container registry, CI/CD and managed database patterns.",
+      "description": "We operate a managed Platform-as-a-Service built around Kubernetes — container registry, CI/CD pipelines and managed database patterns that let engineering teams ship without owning the underlying cluster operations, billed by cluster or usage.",
+      "capabilities": [
+        "Managed Kubernetes clusters",
+        "Container registry & image management",
+        "CI/CD pipeline integration",
+        "Managed database patterns",
+        "Cluster monitoring & scaling",
+        "Cluster or usage-based billing"
+      ]
+    },
+    "hybrid-cloud": {
+      "name": "Hybrid Cloud",
+      "short": "Private connectivity, VPN and Azure integration across your environments.",
+      "description": "We design and manage hybrid cloud environments connecting on-premises infrastructure with public cloud — VPN and private connectivity, Azure integration and ongoing management under a project fee plus monthly recurring charge.",
+      "capabilities": [
+        "Site-to-site & client VPN setup",
+        "Private connectivity design",
+        "Azure integration & migration",
+        "Cross-environment identity & networking",
+        "Ongoing environment management",
+        "Project fee + monthly recurring charge"
+      ]
+    },
     "cpanel-web-hosting": {
       "name": "cPanel Web Hosting",
       "short": "Fast, secure cPanel hosting for websites, blogs and business applications.",

@@ -1044,6 +1044,84 @@
         "Support administratif continu"
       ]
     },
+    "iaas-vm": {
+      "name": "Machines Virtuelles IaaS",
+      "short": "Machines virtuelles cloud avec vCPU, RAM, stockage et bande passante configurables.",
+      "description": "Nous provisionnons des machines virtuelles Infrastructure-as-a-Service conçues autour de votre charge de travail exacte — vCPU, RAM, stockage, attribution d'IP et bande passante configurables, facturés mensuellement ou via un plan réservé pour les charges de travail prévisibles à long terme.",
+      "capabilities": [
+        "Dimensionnement personnalisé du vCPU et de la RAM",
+        "Allocation flexible de stockage en bloc",
+        "Options d'IP dédiée et flottante",
+        "Niveaux de bande passante configurables",
+        "Facturation mensuelle ou réservée",
+        "Support des snapshots et redimensionnement"
+      ]
+    },
+    "backup-as-a-service": {
+      "name": "Sauvegarde en tant que Service",
+      "short": "Stockage protégé hors site avec tâches de sauvegarde planifiées et support de restauration.",
+      "description": "Nous exploitons un service de Backup-as-a-Service pour serveurs, bases de données et applications — stockage protégé, tâches de sauvegarde planifiées et support de restauration testé, facturé par Go/To protégé afin que le coût suive ce que vous stockez réellement.",
+      "capabilities": [
+        "Tâches de sauvegarde automatisées planifiées",
+        "Stockage hors site protégé et chiffré",
+        "Support de restauration et de récupération testé",
+        "Configuration de la politique de rétention",
+        "Couverture des serveurs, bases de données et applications",
+        "Facturation à l'usage (Go/To)"
+      ]
+    },
+    "object-storage": {
+      "name": "Stockage d'Objets",
+      "short": "Stockage d'objets compatible S3 pour médias, sauvegardes et données applicatives.",
+      "description": "Nous fournissons un stockage d'objets compatible S3 basé sur Ceph RGW — un stockage durable et évolutif pour les bibliothèques média, les sauvegardes et les données applicatives, accessible via des API S3 standard et facturé au Go stocké.",
+      "capabilities": [
+        "Accès via API compatible S3",
+        "Durabilité assurée par Ceph RGW",
+        "Capacité évolutive, payez à la croissance",
+        "Gestion des buckets et clés d'accès",
+        "Intégration applicative et CDN",
+        "Facturation à l'usage (Go)"
+      ]
+    },
+    "dr-as-a-service": {
+      "name": "Reprise après Sinistre en tant que Service",
+      "short": "Réplication, plan de reprise et bascule testée pour la continuité d'activité.",
+      "description": "Nous concevons et exploitons un service de Disaster-Recovery-as-a-Service — réplication des systèmes critiques, élaboration d'un plan de reprise documenté et exercices de test réguliers pour que la bascule fonctionne réellement le moment venu, pas seulement sur le papier.",
+      "capabilities": [
+        "Réplication continue des données",
+        "Plan de reprise documenté",
+        "Exercices de bascule planifiés",
+        "Définition des objectifs RTO / RPO",
+        "Capacité de secours par abonnement",
+        "Support de reprise en cas d'incident"
+      ]
+    },
+    "managed-paas": {
+      "name": "PaaS Géré",
+      "short": "Kubernetes, registre de conteneurs, CI/CD et modèles de bases de données gérées.",
+      "description": "Nous exploitons une Platform-as-a-Service gérée construite autour de Kubernetes — registre de conteneurs, pipelines CI/CD et modèles de bases de données gérées qui permettent aux équipes d'ingénierie de déployer sans gérer l'exploitation du cluster sous-jacent, facturé par cluster ou à l'usage.",
+      "capabilities": [
+        "Clusters Kubernetes gérés",
+        "Registre de conteneurs et gestion des images",
+        "Intégration de pipelines CI/CD",
+        "Modèles de bases de données gérées",
+        "Surveillance et mise à l'échelle des clusters",
+        "Facturation par cluster ou à l'usage"
+      ]
+    },
+    "hybrid-cloud": {
+      "name": "Cloud Hybride",
+      "short": "Connectivité privée, VPN et intégration Azure entre vos environnements.",
+      "description": "Nous concevons et gérons des environnements de cloud hybride reliant l'infrastructure sur site au cloud public — configuration VPN et connectivité privée, intégration Azure et gestion continue, facturés via des frais de projet plus une redevance mensuelle récurrente.",
+      "capabilities": [
+        "Configuration VPN site à site et client",
+        "Conception de connectivité privée",
+        "Intégration et migration Azure",
+        "Identité et réseau inter-environnements",
+        "Gestion continue de l'environnement",
+        "Frais de projet + redevance mensuelle récurrente"
+      ]
+    },
     "cpanel-web-hosting": {
       "name": "Hébergement cPanel",
       "short": "Hébergement cPanel rapide et sécurisé pour sites web, blogs et applications professionnelles.",
