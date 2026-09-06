@@ -947,6 +947,7 @@
   "serviceCategories": {
     "Enterprise Software": "Software Empresarial",
     "Cloud & Infrastructure": "Cloud e Infraestrutura",
+    "Web Hosting & Servers": "Alojamento Web e Servidores",
     "Cyber Security": "Cibersegurança",
     "Digital Growth": "Crescimento Digital",
     "AI & Business Transformation": "IA e Transformação de Negócio"
@@ -1041,6 +1042,110 @@
         "Otimização da entregabilidade",
         "Reforço da segurança de email",
         "Apoio de administração contínuo"
+      ]
+    },
+    "cpanel-web-hosting": {
+      "name": "Hospedagem cPanel",
+      "short": "Hospedagem cPanel rápida e segura para sites, blogs e aplicações empresariais.",
+      "description": "Fornecemos hospedagem web cPanel confiável, com painel de controlo fácil de usar, instalação de aplicações num clique e stacks de servidor otimizadas — criada para sites, blogs, portefólios e aplicações de pequenas empresas que precisam de lançar rapidamente e manter-se online.",
+      "capabilities": [
+        "Painel de controlo cPanel / WHM",
+        "Instalação de apps e CMS num clique",
+        "Certificados SSL gratuitos",
+        "Cópias de segurança diárias automáticas",
+        "Stack otimizado LiteSpeed / Apache",
+        "Monitorização de disponibilidade 24/7"
+      ]
+    },
+    "cpanel-reseller-hosting": {
+      "name": "Hospedagem Revenda cPanel",
+      "short": "Hospedagem de revenda white-label para lançar e gerir a sua própria marca de hosting.",
+      "description": "Fornecemos hospedagem de revenda cPanel para que agências e empreendedores possam revender hosting sob a sua própria marca — com gestão de contas WHM, alocação de recursos por cliente e ferramentas de faturação white-label.",
+      "capabilities": [
+        "Painel de controlo WHM para revenda",
+        "Contas cPanel ilimitadas",
+        "Marca branca (white-label)",
+        "Alocação de recursos por cliente",
+        "Suporte a faturação e automação integrada",
+        "Suporte técnico prioritário"
+      ]
+    },
+    "windows-hosting": {
+      "name": "Hospedagem Windows",
+      "short": "Hospedagem Windows gerida para ASP.NET, MSSQL e aplicações Microsoft.",
+      "description": "Fornecemos ambientes de hospedagem Windows geridos para ASP.NET, .NET Core, MSSQL e outras aplicações da stack Microsoft — com painel Plesk, configuração IIS e suporte técnico completo.",
+      "capabilities": [
+        "Painel de controlo Plesk",
+        "Suporte a ASP.NET / .NET Core",
+        "Hospedagem de bases de dados MSSQL",
+        "Configuração e gestão de IIS",
+        "Certificados SSL gratuitos",
+        "Segurança e atualizações geridas"
+      ]
+    },
+    "kvm-bdix-linux-vps": {
+      "name": "VPS Linux KVM BDIX",
+      "short": "VPS Linux KVM de alta velocidade na rede BDIX para desempenho local de baixa latência.",
+      "description": "Fornecemos hospedagem VPS Linux virtualizada em KVM ligada à rede BDIX — com recursos dedicados, acesso root completo e desempenho de baixa latência para empresas que servem o Bangladesh e a região local.",
+      "capabilities": [
+        "Acesso root completo e virtualização KVM",
+        "Rede de baixa latência ligada ao BDIX",
+        "CPU, RAM e armazenamento NVMe dedicados",
+        "Escolha de distribuições Linux",
+        "Atualizações de recursos escaláveis",
+        "Monitorização de infraestrutura 24/7"
+      ]
+    },
+    "kvm-bdix-windows-rdp": {
+      "name": "RDP Windows KVM BDIX",
+      "short": "Servidores RDP Windows dedicados na rede BDIX para acesso local rápido.",
+      "description": "Fornecemos servidores RDP Windows virtualizados em KVM ligados à rede BDIX — dando às equipas recursos dedicados de ambiente de trabalho remoto, acesso total de administrador e conectividade de baixa latência para operações locais.",
+      "capabilities": [
+        "Acesso RDP de administrador completo",
+        "Rede de baixa latência ligada ao BDIX",
+        "CPU, RAM e armazenamento dedicados",
+        "Escolha de versões do Windows Server",
+        "Atualizações de recursos escaláveis",
+        "Monitorização de infraestrutura 24/7"
+      ]
+    },
+    "dedicated-server": {
+      "name": "Servidor Dedicado",
+      "short": "Servidores físicos totalmente dedicados para cargas de trabalho de alto desempenho.",
+      "description": "Fornecemos servidores físicos totalmente dedicados com propriedade completa dos recursos — criados para aplicações de alto tráfego, bases de dados e cargas de trabalho intensivas que precisam de máximo desempenho, segurança e controlo.",
+      "capabilities": [
+        "Hardware físico dedicado",
+        "Acesso root / administrador completo",
+        "Configuração de hardware personalizada",
+        "Rede e largura de banda de nível empresarial",
+        "Configuração e reforço de segurança geridos",
+        "Monitorização e suporte 24/7"
+      ]
+    },
+    "domain-registration": {
+      "name": "Registo de Domínios",
+      "short": "Registo e gestão de domínios em todas as principais extensões (TLDs).",
+      "description": "Tratamos do registo, transferência e gestão de domínios em todas as principais extensões (TLDs) — com configuração de DNS, privacidade WHOIS e gestão de renovações, mantendo a identidade online da sua marca segura e disponível.",
+      "capabilities": [
+        "Registo em todas as principais TLDs",
+        "Assistência na transferência de domínios",
+        "Gestão e configuração de DNS",
+        "Proteção de privacidade WHOIS",
+        "Gestão de renovação automática",
+        "Segurança de domínio (DNSSEC / bloqueio)"
+      ]
+    },
+    "storage-server": {
+      "name": "Servidor de Armazenamento",
+      "short": "Servidores de armazenamento dedicados e escaláveis para backups, media e grandes volumes de dados.",
+      "description": "Fornecemos infraestrutura de servidores de armazenamento dedicados para backups, bibliotecas de media e grandes volumes de dados — com RAID configurável, redundância e capacidade escalável, criada para um armazenamento de dados fiável a longo prazo.",
+      "capabilities": [
+        "Armazenamento RAID de alta capacidade",
+        "Expansão de armazenamento escalável",
+        "Agendamento automático de backups",
+        "Redundância e proteção de dados",
+        "Acesso remoto seguro (FTP/SFTP)",
+        "Monitorização e suporte 24/7"
       ]
     },
     "cyber-security": {

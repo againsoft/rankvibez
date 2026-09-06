@@ -947,6 +947,7 @@
   "serviceCategories": {
     "Enterprise Software": "Logiciels d’entreprise",
     "Cloud & Infrastructure": "Cloud et infrastructure",
+    "Web Hosting & Servers": "Hébergement Web et Serveurs",
     "Cyber Security": "Cybersécurité",
     "Digital Growth": "Croissance digitale",
     "AI & Business Transformation": "IA et transformation métier"
@@ -1041,6 +1042,110 @@
         "Optimisation de la délivrabilité",
         "Renforcement de la sécurité des e-mails",
         "Support administratif continu"
+      ]
+    },
+    "cpanel-web-hosting": {
+      "name": "Hébergement cPanel",
+      "short": "Hébergement cPanel rapide et sécurisé pour sites web, blogs et applications professionnelles.",
+      "description": "Nous fournissons un hébergement web cPanel fiable, avec un panneau de contrôle simple d'utilisation, des installations d'applications en un clic et des architectures serveur optimisées — conçu pour les sites web, blogs, portfolios et applications de petites entreprises qui doivent être lancés rapidement et rester en ligne.",
+      "capabilities": [
+        "Panneau de contrôle cPanel / WHM",
+        "Installation d'applications et CMS en un clic",
+        "Certificats SSL gratuits",
+        "Sauvegardes automatiques quotidiennes",
+        "Architecture optimisée LiteSpeed / Apache",
+        "Surveillance de la disponibilité 24/7"
+      ]
+    },
+    "cpanel-reseller-hosting": {
+      "name": "Hébergement Revendeur cPanel",
+      "short": "Hébergement revendeur en marque blanche pour lancer et gérer votre propre marque d'hébergement.",
+      "description": "Nous fournissons un hébergement revendeur cPanel permettant aux agences et entrepreneurs de revendre de l'hébergement sous leur propre marque — avec gestion de comptes WHM, allocation de ressources par client et outils de facturation en marque blanche.",
+      "capabilities": [
+        "Panneau de contrôle WHM revendeur",
+        "Comptes cPanel illimités",
+        "Marque blanche personnalisable",
+        "Allocation de ressources par client",
+        "Facturation intégrée et support à l'automatisation",
+        "Support technique prioritaire"
+      ]
+    },
+    "windows-hosting": {
+      "name": "Hébergement Windows",
+      "short": "Hébergement Windows géré pour ASP.NET, MSSQL et applications Microsoft.",
+      "description": "Nous fournissons des environnements d'hébergement Windows gérés pour ASP.NET, .NET Core, MSSQL et autres applications de la suite Microsoft — avec panneau de contrôle Plesk, configuration IIS et support technique complet.",
+      "capabilities": [
+        "Panneau de contrôle Plesk",
+        "Support ASP.NET / .NET Core",
+        "Hébergement de bases de données MSSQL",
+        "Configuration et gestion IIS",
+        "Certificats SSL gratuits",
+        "Sécurité et mises à jour gérées"
+      ]
+    },
+    "kvm-bdix-linux-vps": {
+      "name": "VPS Linux KVM BDIX",
+      "short": "VPS Linux KVM haute vitesse sur le réseau BDIX pour des performances locales à faible latence.",
+      "description": "Nous fournissons un hébergement VPS Linux virtualisé KVM connecté au réseau BDIX — offrant des ressources dédiées, un accès root complet et des performances à faible latence pour les entreprises desservant le Bangladesh et la région locale.",
+      "capabilities": [
+        "Accès root complet et virtualisation KVM",
+        "Réseau à faible latence connecté au BDIX",
+        "CPU, RAM et stockage NVMe dédiés",
+        "Choix de distributions Linux",
+        "Montées en charge évolutives des ressources",
+        "Surveillance de l'infrastructure 24/7"
+      ]
+    },
+    "kvm-bdix-windows-rdp": {
+      "name": "RDP Windows KVM BDIX",
+      "short": "Serveurs RDP Windows dédiés sur le réseau BDIX pour un accès local rapide.",
+      "description": "Nous fournissons des serveurs RDP Windows virtualisés KVM connectés au réseau BDIX — offrant aux équipes des ressources de bureau à distance dédiées, un accès administrateur complet et une connectivité à faible latence pour les opérations locales.",
+      "capabilities": [
+        "Accès RDP administrateur complet",
+        "Réseau à faible latence connecté au BDIX",
+        "CPU, RAM et stockage dédiés",
+        "Choix de versions de Windows Server",
+        "Montées en charge évolutives des ressources",
+        "Surveillance de l'infrastructure 24/7"
+      ]
+    },
+    "dedicated-server": {
+      "name": "Serveur Dédié",
+      "short": "Serveurs physiques entièrement dédiés pour des charges de travail hautes performances et gourmandes en ressources.",
+      "description": "Nous fournissons des serveurs physiques entièrement dédiés avec une propriété complète des ressources — conçus pour les applications à fort trafic, les bases de données et les charges de travail gourmandes en ressources nécessitant performance, sécurité et contrôle maximaux.",
+      "capabilities": [
+        "Matériel physique dédié",
+        "Accès root / administrateur complet",
+        "Configuration matérielle personnalisée",
+        "Réseau et bande passante de niveau entreprise",
+        "Configuration et renforcement de la sécurité gérés",
+        "Surveillance et support 24/7"
+      ]
+    },
+    "domain-registration": {
+      "name": "Enregistrement de Domaine",
+      "short": "Enregistrement et gestion de domaines sur toutes les principales extensions (TLD).",
+      "description": "Nous gérons l'enregistrement, le transfert et la gestion de domaines sur toutes les principales extensions (TLD) — avec configuration DNS, protection de la vie privée WHOIS et gestion des renouvellements, afin que l'identité en ligne de votre marque reste sécurisée et disponible.",
+      "capabilities": [
+        "Enregistrement sur toutes les principales TLD",
+        "Assistance au transfert de domaine",
+        "Gestion et configuration DNS",
+        "Protection de la vie privée WHOIS",
+        "Gestion du renouvellement automatique",
+        "Sécurité du domaine (DNSSEC / verrouillage)"
+      ]
+    },
+    "storage-server": {
+      "name": "Serveur de Stockage",
+      "short": "Serveurs de stockage dédiés et évolutifs pour sauvegardes, médias et grands volumes de données.",
+      "description": "Nous fournissons une infrastructure de serveurs de stockage dédiés pour les sauvegardes, bibliothèques média et grands ensembles de données — avec RAID configurable, redondance et capacité évolutive, conçue pour un stockage de données fiable sur le long terme.",
+      "capabilities": [
+        "Stockage RAID haute capacité",
+        "Expansion de stockage évolutive",
+        "Planification automatique des sauvegardes",
+        "Redondance et protection des données",
+        "Accès distant sécurisé (FTP/SFTP)",
+        "Surveillance et support 24/7"
       ]
     },
     "cyber-security": {

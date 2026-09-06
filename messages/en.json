@@ -947,6 +947,7 @@
   "serviceCategories": {
     "Enterprise Software": "Enterprise Software",
     "Cloud & Infrastructure": "Cloud & Infrastructure",
+    "Web Hosting & Servers": "Web Hosting & Servers",
     "Cyber Security": "Cyber Security",
     "Digital Growth": "Digital Growth",
     "AI & Business Transformation": "AI & Business Transformation"
@@ -1041,6 +1042,110 @@
         "Deliverability optimization",
         "Email security hardening",
         "Ongoing administration support"
+      ]
+    },
+    "cpanel-web-hosting": {
+      "name": "cPanel Web Hosting",
+      "short": "Fast, secure cPanel hosting for websites, blogs and business applications.",
+      "description": "We provide reliable cPanel web hosting with an easy-to-use control panel, one-click app installs and optimized server stacks — built for websites, blogs, portfolios and small business applications that need to launch fast and stay online.",
+      "capabilities": [
+        "cPanel / WHM control panel",
+        "One-click app & CMS installs",
+        "Free SSL certificates",
+        "Daily automated backups",
+        "LiteSpeed / Apache optimized stack",
+        "24/7 uptime monitoring"
+      ]
+    },
+    "cpanel-reseller-hosting": {
+      "name": "cPanel Reseller Hosting",
+      "short": "White-label reseller hosting to launch and manage your own hosting brand.",
+      "description": "We provide cPanel reseller hosting so agencies and entrepreneurs can resell hosting under their own brand — with WHM account management, allocated resources per client and white-label billing tools.",
+      "capabilities": [
+        "WHM reseller control panel",
+        "Unlimited cPanel accounts",
+        "White-label branding",
+        "Resource allocation per client",
+        "Integrated billing & automation support",
+        "Priority technical support"
+      ]
+    },
+    "windows-hosting": {
+      "name": "Windows Hosting",
+      "short": "Managed Windows hosting for ASP.NET, MSSQL and Microsoft-stack applications.",
+      "description": "We provide managed Windows hosting environments for ASP.NET, .NET Core, MSSQL and other Microsoft-stack applications — with Plesk control panel, IIS configuration and full technical support.",
+      "capabilities": [
+        "Plesk control panel",
+        "ASP.NET / .NET Core support",
+        "MSSQL database hosting",
+        "IIS configuration & management",
+        "Free SSL certificates",
+        "Managed security & updates"
+      ]
+    },
+    "kvm-bdix-linux-vps": {
+      "name": "KVM BDIX Linux VPS",
+      "short": "High-speed KVM Linux VPS on BDIX network for low-latency local performance.",
+      "description": "We provide KVM-virtualized Linux VPS hosting connected to the BDIX network — delivering dedicated resources, full root access and low-latency performance for businesses serving Bangladesh and the local region.",
+      "capabilities": [
+        "Full root access & KVM virtualization",
+        "BDIX-connected low-latency network",
+        "Dedicated CPU, RAM & NVMe storage",
+        "Choice of Linux distributions",
+        "Scalable resource upgrades",
+        "24/7 infrastructure monitoring"
+      ]
+    },
+    "kvm-bdix-windows-rdp": {
+      "name": "KVM BDIX Windows RDP",
+      "short": "Dedicated Windows RDP servers on BDIX network for fast local access.",
+      "description": "We provide KVM-virtualized Windows RDP servers connected to the BDIX network — giving teams dedicated remote desktop resources, full admin access and low-latency connectivity for local operations.",
+      "capabilities": [
+        "Full administrator RDP access",
+        "BDIX-connected low-latency network",
+        "Dedicated CPU, RAM & storage",
+        "Choice of Windows Server versions",
+        "Scalable resource upgrades",
+        "24/7 infrastructure monitoring"
+      ]
+    },
+    "dedicated-server": {
+      "name": "Dedicated Server",
+      "short": "Fully dedicated physical servers for high-performance, resource-intensive workloads.",
+      "description": "We provide fully dedicated physical servers with complete resource ownership — built for high-traffic applications, databases and resource-intensive workloads that need maximum performance, security and control.",
+      "capabilities": [
+        "Dedicated physical hardware",
+        "Full root / admin access",
+        "Custom hardware configuration",
+        "Enterprise-grade network & bandwidth",
+        "Managed setup & hardening",
+        "24/7 monitoring & support"
+      ]
+    },
+    "domain-registration": {
+      "name": "Domain Registration",
+      "short": "Domain registration and management across all major TLDs.",
+      "description": "We handle domain registration, transfers and management across all major TLDs — with DNS configuration, WHOIS privacy and renewal management so your brand's online identity stays secure and available.",
+      "capabilities": [
+        "All major TLD registrations",
+        "Domain transfer assistance",
+        "DNS management & configuration",
+        "WHOIS privacy protection",
+        "Auto-renewal management",
+        "Domain security (DNSSEC / lock)"
+      ]
+    },
+    "storage-server": {
+      "name": "Storage Server",
+      "short": "Scalable dedicated storage servers for backups, media and large datasets.",
+      "description": "We provide dedicated storage server infrastructure for backups, media libraries and large datasets — with configurable RAID, redundancy and scalable capacity built for reliable long-term data storage.",
+      "capabilities": [
+        "High-capacity RAID storage",
+        "Scalable storage expansion",
+        "Automated backup scheduling",
+        "Redundancy & data protection",
+        "Secure remote access (FTP/SFTP)",
+        "24/7 monitoring & support"
       ]
     },
     "cyber-security": {
