@@ -12,7 +12,7 @@ import { ProcessSection } from "@/components/home/process-section";
 import { ScrollIndicator } from "@/components/what-we-do/scroll-indicator";
 import { OverviewStrip } from "@/components/what-we-do/overview-strip";
 import { ServiceSection } from "@/components/what-we-do/service-section";
-import { services } from "@/data/services";
+import { highlightServices } from "@/data/services";
 
 type Params = Promise<{ locale: string }>;
 
@@ -71,7 +71,7 @@ export default async function WhatWeDoPage({ params }: { params: Params }) {
       </section>
 
       <div className="flex flex-col">
-        {services.map((service, i) => (
+        {highlightServices.map((service, i) => (
           <ServiceSection key={service.slug} service={service} index={i} />
         ))}
       </div>

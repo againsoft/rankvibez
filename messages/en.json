@@ -149,12 +149,30 @@
       "title": "One technology partner, full capability.",
       "description": "From AI-driven systems to secure infrastructure and measurable growth — RankVibez brings the full stack together.",
       "items": {
-        "ai-first": { "title": "AI-First Technology", "description": "AI integrated into products and workflows, not bolted on." },
-        "enterprise-software": { "title": "Enterprise Software", "description": "Custom ERP and business systems built around real operations." },
-        "business-automation": { "title": "Business Automation", "description": "Automated workflows connecting teams, tools and data." },
-        "ecommerce-technology": { "title": "E-Commerce Technology", "description": "High-performance commerce platforms built to scale." },
-        "cloud-infrastructure": { "title": "Cloud & Infrastructure", "description": "Reliable, monitored infrastructure across leading providers." },
-        "cyber-security": { "title": "Cyber Security", "description": "Security considered from architecture through to launch." }
+        "ai-first": {
+          "title": "AI-First Technology",
+          "description": "AI integrated into products and workflows, not bolted on."
+        },
+        "enterprise-software": {
+          "title": "Enterprise Software",
+          "description": "Custom ERP and business systems built around real operations."
+        },
+        "business-automation": {
+          "title": "Business Automation",
+          "description": "Automated workflows connecting teams, tools and data."
+        },
+        "ecommerce-technology": {
+          "title": "E-Commerce Technology",
+          "description": "High-performance commerce platforms built to scale."
+        },
+        "cloud-infrastructure": {
+          "title": "Cloud & Infrastructure",
+          "description": "Reliable, monitored infrastructure across leading providers."
+        },
+        "cyber-security": {
+          "title": "Cyber Security",
+          "description": "Security considered from architecture through to launch."
+        }
       }
     },
     "testimonialsSection": {
@@ -520,13 +538,34 @@
       }
     },
     "processSteps": {
-      "discover": { "title": "Discover", "description": "Understand the business and goals." },
-      "strategize": { "title": "Strategize", "description": "Define technology and AI opportunities." },
-      "design": { "title": "Design", "description": "Create UX, architecture and workflows." },
-      "build": { "title": "Build", "description": "Develop the software and integrations." },
-      "secure": { "title": "Secure", "description": "Test, harden and validate the system." },
-      "launch": { "title": "Launch", "description": "Deploy to production." },
-      "grow": { "title": "Grow", "description": "Monitor, optimize and continuously improve." }
+      "discover": {
+        "title": "Discover",
+        "description": "Understand the business and goals."
+      },
+      "strategize": {
+        "title": "Strategize",
+        "description": "Define technology and AI opportunities."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Create UX, architecture and workflows."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Develop the software and integrations."
+      },
+      "secure": {
+        "title": "Secure",
+        "description": "Test, harden and validate the system."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Deploy to production."
+      },
+      "grow": {
+        "title": "Grow",
+        "description": "Monitor, optimize and continuously improve."
+      }
     },
     "trustSignals": {
       "ai-first-technology": "AI-First Technology",
@@ -571,7 +610,9 @@
       },
       "contact": {
         "heading": "Contact",
-        "body": ["Questions about this policy can be directed to admin@rankvibez.com."]
+        "body": [
+          "Questions about this policy can be directed to admin@rankvibez.com."
+        ]
       }
     }
   },
@@ -584,27 +625,39 @@
     "sections": {
       "acceptanceOfTerms": {
         "heading": "Acceptance of Terms",
-        "body": ["By accessing rankvibez.com, you agree to these Terms of Service. If you do not agree, please discontinue use of the website."]
+        "body": [
+          "By accessing rankvibez.com, you agree to these Terms of Service. If you do not agree, please discontinue use of the website."
+        ]
       },
       "useOfWebsite": {
         "heading": "Use of the Website",
-        "body": ["Content on this website is provided for general informational purposes about RankVibez and its services and should not be relied upon as a substitute for a formal proposal or contract."]
+        "body": [
+          "Content on this website is provided for general informational purposes about RankVibez and its services and should not be relied upon as a substitute for a formal proposal or contract."
+        ]
       },
       "serviceEngagements": {
         "heading": "Service Engagements",
-        "body": ["Specific project scope, deliverables, pricing and timelines for any engagement are governed by a separate written proposal or agreement between RankVibez and the client."]
+        "body": [
+          "Specific project scope, deliverables, pricing and timelines for any engagement are governed by a separate written proposal or agreement between RankVibez and the client."
+        ]
       },
       "intellectualProperty": {
         "heading": "Intellectual Property",
-        "body": ["All content on this website, including text, graphics and branding, is the property of RankVibez unless otherwise noted, and may not be reproduced without permission."]
+        "body": [
+          "All content on this website, including text, graphics and branding, is the property of RankVibez unless otherwise noted, and may not be reproduced without permission."
+        ]
       },
       "limitationOfLiability": {
         "heading": "Limitation of Liability",
-        "body": ["RankVibez is not liable for any indirect or consequential loss arising from use of this website. Nothing in these terms limits liability arising from a signed service agreement."]
+        "body": [
+          "RankVibez is not liable for any indirect or consequential loss arising from use of this website. Nothing in these terms limits liability arising from a signed service agreement."
+        ]
       },
       "contact": {
         "heading": "Contact",
-        "body": ["Questions about these terms can be directed to admin@rankvibez.com."]
+        "body": [
+          "Questions about these terms can be directed to admin@rankvibez.com."
+        ]
       }
     }
   },
@@ -617,19 +670,27 @@
     "sections": {
       "whatAreCookies": {
         "heading": "What Are Cookies",
-        "body": ["Cookies are small text files stored on your device that help websites function correctly and, where used, understand how visitors interact with the site."]
+        "body": [
+          "Cookies are small text files stored on your device that help websites function correctly and, where used, understand how visitors interact with the site."
+        ]
       },
       "howWeUseCookies": {
         "heading": "How We Use Cookies",
-        "body": ["RankVibez uses essential cookies required for the website to function. If analytics or marketing cookies are added in the future, this policy will be updated accordingly."]
+        "body": [
+          "RankVibez uses essential cookies required for the website to function. If analytics or marketing cookies are added in the future, this policy will be updated accordingly."
+        ]
       },
       "managingCookies": {
         "heading": "Managing Cookies",
-        "body": ["You can control or disable cookies through your browser settings. Disabling essential cookies may affect website functionality."]
+        "body": [
+          "You can control or disable cookies through your browser settings. Disabling essential cookies may affect website functionality."
+        ]
       },
       "contact": {
         "heading": "Contact",
-        "body": ["Questions about this policy can be directed to admin@rankvibez.com."]
+        "body": [
+          "Questions about this policy can be directed to admin@rankvibez.com."
+        ]
       }
     }
   },
@@ -755,7 +816,13 @@
     "getInTouch": "Get In Touch"
   },
   "aiData": {
-    "flow": ["Business Data", "AI Intelligence Layer", "Automation", "Business Actions", "Insights & Growth"],
+    "flow": [
+      "Business Data",
+      "AI Intelligence Layer",
+      "Automation",
+      "Business Actions",
+      "Insights & Growth"
+    ],
     "capabilities": {
       "ai-erp": {
         "title": "AI-Driven ERP",
@@ -794,47 +861,83 @@
     "erp": {
       "name": "ERP & Business Management",
       "description": "Unified systems for finance, HR, inventory and operations.",
-      "flow": ["Business Data", "Unified ERP Core", "Reporting & Control"]
+      "flow": [
+        "Business Data",
+        "Unified ERP Core",
+        "Reporting & Control"
+      ]
     },
     "ecommerce": {
       "name": "E-Commerce",
       "description": "Storefronts, marketplaces and order management that scale.",
-      "flow": ["Catalog & Orders", "Commerce Platform", "Fulfillment & Growth"]
+      "flow": [
+        "Catalog & Orders",
+        "Commerce Platform",
+        "Fulfillment & Growth"
+      ]
     },
     "web-development": {
       "name": "Corporate Digital Platform",
       "description": "Websites and portals built for credibility and performance.",
-      "flow": ["Content & Brand", "Web Platform", "Engagement & Leads"]
+      "flow": [
+        "Content & Brand",
+        "Web Platform",
+        "Engagement & Leads"
+      ]
     },
     "ai-transformation": {
       "name": "AI Transformation",
       "description": "Practical AI adoption across workflows and operations.",
-      "flow": ["Business Process", "AI Layer", "Automated Outcomes"]
+      "flow": [
+        "Business Process",
+        "AI Layer",
+        "Automated Outcomes"
+      ]
     },
     "cloud-infrastructure": {
       "name": "Cloud Infrastructure",
       "description": "Scalable, monitored infrastructure across cloud providers.",
-      "flow": ["Workloads", "Cloud Architecture", "Reliability & Scale"]
+      "flow": [
+        "Workloads",
+        "Cloud Architecture",
+        "Reliability & Scale"
+      ]
     },
     "cyber-security": {
       "name": "Cyber Security",
       "description": "Security built into infrastructure, not bolted on after.",
-      "flow": ["Risk Assessment", "Hardening & Controls", "Ongoing Monitoring"]
+      "flow": [
+        "Risk Assessment",
+        "Hardening & Controls",
+        "Ongoing Monitoring"
+      ]
     },
     "digital-marketing": {
       "name": "Digital Growth",
       "description": "SEO, ads and conversion systems that compound over time.",
-      "flow": ["Audience & Channels", "Growth Execution", "Measured Outcomes"]
+      "flow": [
+        "Audience & Channels",
+        "Growth Execution",
+        "Measured Outcomes"
+      ]
     },
     "business-automation": {
       "name": "Business Automation",
       "description": "Automated workflows connecting tools, teams and data.",
-      "flow": ["Manual Workflow", "Automation Layer", "Time & Cost Saved"]
+      "flow": [
+        "Manual Workflow",
+        "Automation Layer",
+        "Time & Cost Saved"
+      ]
     },
     "server-maintenance": {
       "name": "Managed Technology Services",
       "description": "Ongoing support, maintenance and monitoring for peace of mind.",
-      "flow": ["Live Systems", "Monitoring & Support", "Continuous Improvement"]
+      "flow": [
+        "Live Systems",
+        "Monitoring & Support",
+        "Continuous Improvement"
+      ]
     }
   },
   "industriesPage": {
@@ -945,12 +1048,71 @@
     "relatedServices": "Related Services"
   },
   "serviceCategories": {
-    "Enterprise Software": "Enterprise Software",
-    "Cloud & Infrastructure": "Cloud & Infrastructure",
-    "Web Hosting & Servers": "Web Hosting & Servers",
-    "Cyber Security": "Cyber Security",
-    "Digital Growth": "Digital Growth",
-    "AI & Business Transformation": "AI & Business Transformation"
+    "hosting": {
+      "name": "Hosting",
+      "short": "Linux, Windows and BDIX web hosting with cPanel, ASP .NET and MVC support.",
+      "description": "Shared and reseller web hosting built on SSD storage and monitored infrastructure — whether your site runs on WordPress, Laravel, ASP .NET or a custom MVC stack. BDIX-connected plans keep Bangladeshi visitors on local routing for noticeably faster page loads."
+    },
+    "domain": {
+      "name": "Domain",
+      "short": "Register, renew, transfer and resell domains across every major extension.",
+      "description": "Secure the names your brand depends on. We handle registration, renewal and transfers for gTLDs, ccTLDs and .com.bd domains, with free DNS management, theft protection and bulk tooling for portfolios of any size."
+    },
+    "email": {
+      "name": "Email",
+      "short": "Business email hosting on your own domain, including BDIX and Google Workspace.",
+      "description": "Professional mailboxes on your own domain with spam filtering, mobile sync and generous storage. Choose BDIX-hosted email for local speed, our standard business platform, or a fully managed Google Workspace deployment."
+    },
+    "ssl": {
+      "name": "SSL",
+      "short": "SSL certificates, wildcard validation, free SSL and hands-on installation.",
+      "description": "Encrypt every connection to your site and clear the browser warnings that cost you conversions. From free DV certificates to organisation-validated and wildcard options, we source, validate and install the right certificate for you."
+    },
+    "vps-server": {
+      "name": "VPS Server",
+      "short": "Managed and self-managed KVM VPS on Linux and Windows, including BDIX.",
+      "description": "Dedicated CPU, RAM and NVMe storage on virtualised hardware, with full root or administrator access. Pick a self-managed instance if your team runs the stack, or a managed plan where we handle patching, backups and monitoring."
+    },
+    "dedicated-servers": {
+      "name": "Dedicated Server",
+      "short": "Bare-metal servers in Bangladesh and the USA, managed or unmanaged.",
+      "description": "An entire physical machine reserved for your workload — no noisy neighbours, no shared resources. Deploy in Bangladesh for local latency or in the USA for global reach, with storage, maintenance and management options on top."
+    },
+    "cloud": {
+      "name": "Cloud",
+      "short": "Cloud hosting, storage, private cloud and infrastructure as a service.",
+      "description": "Elastic infrastructure that grows with demand instead of forcing you to buy for peak. Cloud hosting, object and FTP storage, private clouds on Windows or Linux, backup, disaster recovery and hybrid architectures."
+    },
+    "ip-pbx": {
+      "name": "IP PBX",
+      "short": "Dedicated and cloud IP PBX systems with IP numbers for business calling.",
+      "description": "Run your entire phone system over the internet. Extensions, IVR menus, call recording, queues and reporting — hosted in the cloud or on a dedicated PBX in your own environment, with IP numbers for inbound and outbound calling."
+    },
+    "bulk-sms": {
+      "name": "Bulk SMS",
+      "short": "Bulk and masking SMS delivery with brand sender IDs and an API.",
+      "description": "Reach customers where they always look. Send transactional alerts, OTPs and campaigns to every operator in Bangladesh, with masking SMS so messages arrive under your brand name instead of a numeric sender."
+    },
+    "enterprise-software": {
+      "name": "Enterprise Software",
+      "short": "Custom ERP, AI-driven ERP, e-commerce platforms and web applications.",
+      "description": "Software built around how your business actually works — ERP for finance, HR and inventory, commerce platforms that scale, and web applications designed, built and maintained by one team."
+    },
+    "security": {
+      "name": "Cyber Security",
+      "short": "Security assessment, hardening and monitoring for your infrastructure.",
+      "description": "Protect your systems, data and customers with layered defence — vulnerability assessment, hardening, monitoring and incident response across your applications, servers and networks."
+    },
+    "digital-growth": {
+      "name": "Digital Growth",
+      "short": "SEO, digital marketing, paid campaigns and conversion optimisation.",
+      "description": "Turn traffic into revenue. Search visibility, paid acquisition, campaign management and conversion work that is measured against pipeline, not vanity metrics."
+    },
+    "ai-business-transformation": {
+      "name": "AI & Business Transformation",
+      "short": "AI automation, AI-driven operations and virtual assistance.",
+      "description": "Put AI to work inside your operations — automating repetitive workflows, surfacing decisions from your own data, and extending your team with trained virtual assistance."
+    }
   },
   "servicesData": {
     "erp": {
@@ -1329,6 +1491,495 @@
         "Research & reporting",
         "Operational task support"
       ]
+    },
+    "asp-net-hosting": {
+      "name": "ASP .NET Hosting",
+      "short": "Windows hosting tuned for ASP .NET, .NET Core and SQL Server applications.",
+      "description": "Hosting built specifically for the Microsoft stack. Run ASP .NET Web Forms, .NET Core and Blazor applications on IIS with the framework versions your project needs, alongside SQL Server databases and full Plesk control.",
+      "capabilities": [
+        "ASP .NET and .NET Core runtime support",
+        "IIS application pools with custom settings",
+        "MS SQL Server databases",
+        "Plesk control panel access",
+        "Free SSL certificate and auto-renewal",
+        "Daily backups with one-click restore"
+      ]
+    },
+    "bdix-windows-hosting": {
+      "name": "BDIX Windows Hosting",
+      "short": "BDIX-connected Windows hosting for fast local delivery in Bangladesh.",
+      "description": "Windows hosting served from a BDIX-peered network, so visitors inside Bangladesh reach your site over local routing instead of international transit. Ideal for portals, government-facing sites and .NET applications with a domestic audience.",
+      "capabilities": [
+        "BDIX peering for local-speed delivery",
+        "Windows Server with IIS and Plesk",
+        "ASP .NET and MS SQL support",
+        "SSD storage with generous bandwidth",
+        "Free SSL certificate",
+        "24/7 monitoring and support"
+      ]
+    },
+    "bdix-cpanel-hosting": {
+      "name": "BDIX cPanel Hosting",
+      "short": "BDIX-connected Linux hosting with the full cPanel toolset.",
+      "description": "The familiar cPanel experience on a BDIX-peered Linux platform. Deploy WordPress, Laravel or any PHP application through Softaculous and serve it to Bangladeshi visitors over local routing.",
+      "capabilities": [
+        "BDIX peering for local-speed delivery",
+        "cPanel with Softaculous one-click installs",
+        "LiteSpeed web server and NVMe storage",
+        "Free SSL certificate and auto-renewal",
+        "Unlimited email accounts and databases",
+        "Daily off-site backups"
+      ]
+    },
+    "web-hosting": {
+      "name": "Web Hosting",
+      "short": "Entry-level shared hosting for business sites, blogs and landing pages.",
+      "description": "A straightforward, well-monitored home for your website. Shared Linux hosting with SSD storage, free SSL and a control panel that keeps day-to-day tasks — email, DNS, backups — a couple of clicks away.",
+      "capabilities": [
+        "SSD storage with unmetered bandwidth",
+        "One-click WordPress installation",
+        "Free SSL certificate",
+        "Business email on your own domain",
+        "99.9% uptime commitment",
+        "Free migration from your current host"
+      ]
+    },
+    "mvc-hosting": {
+      "name": "MVC Hosting",
+      "short": "Hosting configured for ASP .NET MVC and modern MVC frameworks.",
+      "description": "Hosting for applications built on the MVC pattern — ASP .NET MVC, Laravel, CodeIgniter or Django. Routing, URL rewriting and framework dependencies are configured for you so deployment is a push, not a project.",
+      "capabilities": [
+        "ASP .NET MVC and .NET Core MVC support",
+        "URL rewriting and custom routing rules",
+        "Composer, NuGet and CLI access",
+        "MS SQL and MySQL databases",
+        "Staging environment for safe releases",
+        "Free SSL certificate"
+      ]
+    },
+    "domain-renew": {
+      "name": "Domain Renewal",
+      "short": "Renew domains on time with reminders and multi-year locking.",
+      "description": "Never lose a domain to an expired card or a missed email. We track every renewal date in your portfolio, send reminders well ahead of expiry, and can lock names in for multiple years so the risk disappears entirely.",
+      "capabilities": [
+        "Automated renewal reminders",
+        "Multi-year renewal options",
+        "Auto-renew with saved payment method",
+        "Grace and redemption period recovery",
+        "Portfolio-wide expiry dashboard",
+        "Renewal for domains held elsewhere"
+      ]
+    },
+    "domain-transfer": {
+      "name": "Domain Transfer",
+      "short": "Move domains from another registrar without downtime.",
+      "description": "Consolidate your domains with a transfer that keeps your site and email running throughout. We copy DNS records first, handle the authorisation codes and registrar approvals, and confirm propagation before closing the ticket.",
+      "capabilities": [
+        "DNS records copied before the switch",
+        "EPP/authorisation code handling",
+        "Zero-downtime cutover planning",
+        "One extra year added on transfer",
+        "Bulk transfer for large portfolios",
+        "Post-transfer propagation checks"
+      ]
+    },
+    "bulk-domain-registration": {
+      "name": "Bulk Domain Registration",
+      "short": "Register and manage large domain portfolios from one dashboard.",
+      "description": "For brands protecting trademarks, misspellings and regional extensions. Register hundreds of names in a single pass, apply DNS and renewal settings across the whole portfolio, and keep ownership records consistent.",
+      "capabilities": [
+        "Bulk search and availability checks",
+        "Register many domains in one checkout",
+        "Portfolio-wide DNS templates",
+        "Consistent WHOIS and contact records",
+        "Consolidated renewal calendar",
+        "Volume pricing on large batches"
+      ]
+    },
+    "domain-reseller": {
+      "name": "Domain Reseller",
+      "short": "Sell domains under your own brand with wholesale pricing and an API.",
+      "description": "Add domain registration to your own agency or hosting business. You get wholesale rates, a white-label control panel and an API for automating registration, renewal and DNS from your existing systems.",
+      "capabilities": [
+        "Wholesale registration and renewal pricing",
+        "White-label reseller control panel",
+        "Registration and DNS API",
+        "You set your own retail pricing",
+        "Sub-account management for clients",
+        "Dedicated reseller support channel"
+      ]
+    },
+    "bdix-email-hosting": {
+      "name": "BDIX Email Hosting",
+      "short": "BDIX-connected business email with local delivery speed.",
+      "description": "Business mailboxes hosted on BDIX-peered infrastructure, so mail between local staff and clients moves over domestic routing. Full IMAP, POP3 and SMTP access with webmail and mobile sync.",
+      "capabilities": [
+        "BDIX peering for fast local delivery",
+        "Mailboxes on your own domain",
+        "IMAP, POP3, SMTP and webmail access",
+        "Spam and virus filtering",
+        "Mobile and desktop client sync",
+        "Shared calendars and contacts"
+      ]
+    },
+    "google-workspace-email": {
+      "name": "Google Workspace Email",
+      "short": "Gmail on your own domain, with Drive, Meet and Calendar included.",
+      "description": "Google Workspace deployed and managed for your organisation — Gmail under your domain, plus Drive, Docs, Calendar and Meet. We handle licensing, DNS records, migration from your old mail host and ongoing admin.",
+      "capabilities": [
+        "Gmail on your own domain name",
+        "Drive, Docs, Sheets and Slides",
+        "Google Meet and shared Calendar",
+        "Migration from existing mail servers",
+        "Admin console setup and user policies",
+        "Licence management and billing support"
+      ]
+    },
+    "ssl-certificate": {
+      "name": "SSL Certificate",
+      "short": "DV, OV and EV certificates from trusted certificate authorities.",
+      "description": "The right certificate for the level of trust your site needs. Domain validation for standard sites, organisation validation where visitors need to see a verified company, and extended validation for financial and transactional platforms.",
+      "capabilities": [
+        "DV, OV and EV certificate options",
+        "Certificates from trusted authorities",
+        "Validation paperwork handled for you",
+        "Installation and configuration included",
+        "Expiry monitoring and renewal reminders",
+        "Warranty-backed certificates"
+      ]
+    },
+    "ssl-installation": {
+      "name": "SSL Installation",
+      "short": "Certificate installation, HTTPS migration and mixed-content cleanup.",
+      "description": "Installation done properly, wherever your certificate came from. We generate the CSR, install the full chain, force HTTPS, fix mixed-content warnings and verify the result against an independent SSL test before handover.",
+      "capabilities": [
+        "CSR generation and chain installation",
+        "Works on cPanel, Plesk, IIS, Nginx and Apache",
+        "HTTP to HTTPS redirect configuration",
+        "Mixed-content detection and cleanup",
+        "Independent SSL grade verification",
+        "Auto-renewal setup where supported"
+      ]
+    },
+    "free-ssl": {
+      "name": "Free SSL",
+      "short": "Free Let's Encrypt certificates with automatic renewal.",
+      "description": "Every site deserves encryption. Free domain-validated certificates are issued and renewed automatically on all our hosting plans, so the padlock stays green without anyone remembering to act on it.",
+      "capabilities": [
+        "Free domain-validated certificates",
+        "Automatic issuance on new domains",
+        "Automatic renewal before expiry",
+        "Covers subdomains and addon domains",
+        "Included on all hosting plans",
+        "Upgrade path to OV, EV or wildcard"
+      ]
+    },
+    "wildcard-ssl": {
+      "name": "Wildcard SSL",
+      "short": "One certificate securing your domain and every subdomain under it.",
+      "description": "A single wildcard certificate covers an unlimited number of first-level subdomains — app, shop, mail, staging and anything you add later. Simpler to manage and cheaper than issuing a certificate per subdomain.",
+      "capabilities": [
+        "Covers unlimited first-level subdomains",
+        "One certificate, one renewal date",
+        "DNS-based validation supported",
+        "Installation across multiple servers",
+        "Expiry monitoring and reminders",
+        "Warranty-backed certificates"
+      ]
+    },
+    "managed-vps": {
+      "name": "Managed VPS",
+      "short": "A VPS where we handle patching, backups, monitoring and support.",
+      "description": "All the power of a virtual private server without needing a system administrator on staff. We provision it, harden it, patch it, monitor it and restore it — you deploy your application and get on with the business.",
+      "capabilities": [
+        "Provisioning, hardening and OS patching",
+        "24/7 monitoring with proactive alerts",
+        "Automated backups and restore testing",
+        "Control panel installation and updates",
+        "Security updates and firewall management",
+        "Priority engineer support"
+      ]
+    },
+    "self-managed-vps": {
+      "name": "Self-Managed VPS",
+      "short": "Full root access on a KVM VPS for teams who run their own stack.",
+      "description": "Raw compute with nothing in your way. Choose your operating system, get root or administrator access from the first boot, and configure the machine exactly as your team wants it. We keep the hardware and network healthy.",
+      "capabilities": [
+        "Full root or administrator access",
+        "Choice of Linux distribution or Windows",
+        "Console access and OS reinstall on demand",
+        "Dedicated CPU, RAM and NVMe allocation",
+        "Private networking between instances",
+        "Network and hardware support included"
+      ]
+    },
+    "windows-vps": {
+      "name": "Windows VPS",
+      "short": "Windows Server instances with RDP access and dedicated resources.",
+      "description": "A Windows Server environment of your own, reachable over Remote Desktop. Run .NET applications, MS SQL, trading platforms or desktop software that needs to stay online around the clock.",
+      "capabilities": [
+        "Windows Server with RDP access",
+        "Administrator rights from first boot",
+        "Dedicated CPU, RAM and NVMe storage",
+        "MS SQL and IIS ready",
+        "Snapshot and restore support",
+        "Licensing included in the plan"
+      ]
+    },
+    "linux-vps": {
+      "name": "Linux VPS",
+      "short": "KVM Linux instances on Ubuntu, CentOS, AlmaLinux or Debian.",
+      "description": "A clean Linux server with full root access and guaranteed resources. Pick your distribution, deploy your stack over SSH, and scale CPU, memory or storage as the workload grows.",
+      "capabilities": [
+        "Ubuntu, Debian, AlmaLinux or CentOS",
+        "Full root access over SSH",
+        "Dedicated vCPU, RAM and NVMe storage",
+        "Private networking and floating IPs",
+        "Snapshots and scheduled backups",
+        "Vertical scaling without redeployment"
+      ]
+    },
+    "cpanel-vps": {
+      "name": "cPanel VPS",
+      "short": "A VPS with cPanel and WHM licensed, installed and ready to use.",
+      "description": "Dedicated VPS resources with the cPanel/WHM stack already in place. Create accounts, set packages and manage clients from WHM while keeping the isolation and performance of your own virtual server.",
+      "capabilities": [
+        "cPanel and WHM licence included",
+        "Create and manage unlimited accounts",
+        "Root access alongside WHM control",
+        "LiteSpeed or Apache web server",
+        "Automated cPanel backups",
+        "Free migration of existing cPanel accounts"
+      ]
+    },
+    "kvm-vps": {
+      "name": "KVM VPS",
+      "short": "Hardware-virtualised VPS with genuinely isolated resources.",
+      "description": "KVM virtualisation gives each instance its own kernel and reserved hardware slice, so a busy neighbour cannot take your CPU or memory. Run custom kernels, containers or any operating system you need.",
+      "capabilities": [
+        "True hardware virtualisation",
+        "Guaranteed, non-shared CPU and RAM",
+        "Custom kernel and OS images",
+        "Docker and Kubernetes friendly",
+        "NVMe storage with high IOPS",
+        "Console access and rescue mode"
+      ]
+    },
+    "lxpanel-vps": {
+      "name": "lxPanel VPS",
+      "short": "A lightweight control panel VPS as a cost-effective cPanel alternative.",
+      "description": "Web hosting management without the licence cost. lxPanel covers domains, databases, email, SSL and file management on a lean footprint, leaving more of your VPS resources for the sites themselves.",
+      "capabilities": [
+        "Lightweight control panel, no licence fee",
+        "Domain, DNS and database management",
+        "Email accounts and SSL handling",
+        "One-click application installs",
+        "Lower memory and CPU overhead",
+        "Root access retained alongside the panel"
+      ]
+    },
+    "dedicated-server-bd": {
+      "name": "Dedicated Server in Bangladesh",
+      "short": "Bare-metal servers hosted locally with BDIX connectivity.",
+      "description": "A full physical server in a Bangladeshi data centre, peered with BDIX. The right choice when your users are domestic, your data must stay in-country, or latency is the thing you are optimising for.",
+      "capabilities": [
+        "Local data centre with BDIX peering",
+        "Full hardware dedicated to you",
+        "Custom CPU, RAM and storage builds",
+        "Data residency inside Bangladesh",
+        "Remote hands and hardware replacement",
+        "24/7 local engineer support"
+      ]
+    },
+    "dedicated-server-usa": {
+      "name": "Dedicated Server in USA",
+      "short": "US-based bare-metal servers for global reach and high bandwidth.",
+      "description": "Dedicated hardware in American data centres with generous international bandwidth. Built for products serving a global audience, high-traffic platforms and workloads that need cheap, plentiful transit.",
+      "capabilities": [
+        "Tier-3 US data centre locations",
+        "High-bandwidth international transit",
+        "Custom hardware configurations",
+        "DDoS protection included",
+        "IPMI and out-of-band access",
+        "24/7 monitoring and remote hands"
+      ]
+    },
+    "managed-dedicated-server": {
+      "name": "Managed Dedicated Server",
+      "short": "Bare-metal performance with our engineers running the operating system.",
+      "description": "You get the whole machine; we keep it healthy. Operating system patching, security hardening, backup verification, monitoring and incident response are handled by our team under an agreed response time.",
+      "capabilities": [
+        "OS installation, patching and hardening",
+        "24/7 proactive monitoring and alerting",
+        "Backup configuration and restore testing",
+        "Firewall and access policy management",
+        "Performance tuning and capacity review",
+        "Defined response-time commitments"
+      ]
+    },
+    "windows-dedicated-server": {
+      "name": "Windows Dedicated Server",
+      "short": "Dedicated hardware running Windows Server with licensing included.",
+      "description": "An entire physical machine running Windows Server, licensed and configured for your workload — Active Directory, MS SQL, IIS, Remote Desktop Services or line-of-business applications that need real hardware.",
+      "capabilities": [
+        "Windows Server licensing included",
+        "Active Directory and domain services",
+        "MS SQL Server and IIS hosting",
+        "Remote Desktop Services support",
+        "Hardware RAID with hot-swap drives",
+        "Scheduled patching windows"
+      ]
+    },
+    "linux-dedicated-server": {
+      "name": "Linux Dedicated Server",
+      "short": "Dedicated hardware running the Linux distribution of your choice.",
+      "description": "Bare-metal Linux with full root access and no virtualisation overhead. Ideal for database servers, container hosts, media processing and any workload where consistent I/O and CPU matter.",
+      "capabilities": [
+        "Ubuntu, Debian, AlmaLinux or CentOS",
+        "Full root access, no virtualisation layer",
+        "Hardware RAID and NVMe storage",
+        "Container and Kubernetes hosting",
+        "Custom kernel and networking setup",
+        "IPMI access and rescue mode"
+      ]
+    },
+    "cloud-storage": {
+      "name": "Cloud Storage",
+      "short": "Scalable cloud drives for files, media and archives, billed by usage.",
+      "description": "Storage that grows as you fill it, without buying disks up front. Keep documents, media libraries and archives in redundant cloud storage, reachable from your applications, your team and your backup jobs.",
+      "capabilities": [
+        "Pay only for the capacity you use",
+        "Redundant, replicated storage",
+        "Web, desktop and mobile access",
+        "Team folders with access controls",
+        "Versioning and deleted-file recovery",
+        "Encryption at rest and in transit"
+      ]
+    },
+    "cloud-hosting": {
+      "name": "Cloud Hosting",
+      "short": "Website and application hosting that scales with traffic spikes.",
+      "description": "Your site runs across a pool of cloud resources rather than one machine, so a traffic surge adds capacity instead of causing an outage. Resources scale up when demand arrives and back down when it passes.",
+      "capabilities": [
+        "Auto-scaling compute resources",
+        "High availability across nodes",
+        "Load balancing and failover",
+        "NVMe-backed storage with caching",
+        "Instant vertical resource upgrades",
+        "Usage-based billing"
+      ]
+    },
+    "ftp-storage": {
+      "name": "FTP Storage",
+      "short": "Dedicated FTP space for backups, archives and large file exchange.",
+      "description": "Simple, high-capacity storage reachable over FTP, FTPS and SFTP. Point your backup jobs, media archives or client file exchange at it and keep that traffic off your production server.",
+      "capabilities": [
+        "FTP, FTPS and SFTP access",
+        "High-capacity, low-cost storage tiers",
+        "Multiple accounts with per-folder access",
+        "Works with standard backup tools",
+        "Unmetered internal transfer",
+        "Quota alerts and usage reporting"
+      ]
+    },
+    "windows-private-cloud": {
+      "name": "Windows Private Cloud",
+      "short": "An isolated Windows cloud environment reserved entirely for you.",
+      "description": "A private pool of Windows compute, storage and networking on dedicated hardware. Create and resize virtual machines on demand while keeping the isolation, compliance posture and control of on-premise infrastructure.",
+      "capabilities": [
+        "Dedicated hardware, single-tenant",
+        "Self-service Windows VM provisioning",
+        "Hyper-V or VMware virtualisation",
+        "Active Directory integration",
+        "Private VLANs and firewall policies",
+        "Snapshot, backup and DR options"
+      ]
+    },
+    "linux-private-cloud": {
+      "name": "Linux Private Cloud",
+      "short": "A single-tenant Linux cloud with full control over the stack.",
+      "description": "Your own Linux cloud on isolated hardware — provision instances, attach storage and define networks through a self-service panel, with no other tenant sharing the underlying machines.",
+      "capabilities": [
+        "Single-tenant, isolated hardware",
+        "Self-service instance provisioning",
+        "KVM virtualisation with custom images",
+        "Software-defined private networking",
+        "Container and Kubernetes ready",
+        "Snapshot, backup and DR options"
+      ]
+    },
+    "dedicated-ip-pbx": {
+      "name": "Dedicated IP PBX",
+      "short": "A private PBX system on dedicated hardware in your environment.",
+      "description": "Your own phone system, on your own server. Extensions, IVR, call recording and reporting run on dedicated hardware you control — the right fit where call data must stay internal or integrate deeply with your systems.",
+      "capabilities": [
+        "Dedicated PBX server and hardware",
+        "Unlimited internal extensions",
+        "IVR menus and call routing rules",
+        "Call recording and archival",
+        "CRM and ERP integration",
+        "On-premise or hosted deployment"
+      ]
+    },
+    "cloud-ip-pbx": {
+      "name": "Cloud IP PBX",
+      "short": "A hosted phone system with no on-site hardware to maintain.",
+      "description": "A full business phone system delivered from the cloud. Add extensions in minutes, route calls to desk phones, softphones or mobiles, and keep the whole team reachable on one number wherever they work.",
+      "capabilities": [
+        "No on-site hardware required",
+        "Desk phone, softphone and mobile support",
+        "IVR, queues and time-based routing",
+        "Voicemail to email",
+        "Live call reporting and analytics",
+        "Add or remove extensions on demand"
+      ]
+    },
+    "ip-number": {
+      "name": "IP Number",
+      "short": "Business phone numbers for inbound and outbound VoIP calling.",
+      "description": "Virtual numbers that connect straight into your PBX. Take local and international inbound calls, present a consistent caller ID on outbound calls, and add or port numbers as the business changes.",
+      "capabilities": [
+        "Local and international numbers",
+        "Inbound and outbound VoIP calling",
+        "Number porting from other providers",
+        "Consistent outbound caller ID",
+        "Multiple concurrent call channels",
+        "Per-number routing rules"
+      ]
+    },
+    "bulk-sms-gateway": {
+      "name": "Bulk SMS",
+      "short": "Send transactional and campaign SMS to every operator in Bangladesh.",
+      "description": "A direct-route SMS gateway for OTPs, alerts and marketing campaigns. Send from the web panel or your own application through the API, and see delivery reports operator by operator.",
+      "capabilities": [
+        "Direct routes to all local operators",
+        "REST API and web panel sending",
+        "Scheduled and campaign sending",
+        "Per-message delivery reports",
+        "Contact lists and segmentation",
+        "No expiry on purchased credits"
+      ]
+    },
+    "masking-sms": {
+      "name": "Masking SMS",
+      "short": "SMS delivered under your brand name instead of a numeric sender.",
+      "description": "Messages arrive from your brand, not an anonymous number — which lifts open rates and makes OTPs and alerts far harder to spoof. We register the sender ID with the operators and handle the approval process.",
+      "capabilities": [
+        "Custom alphanumeric sender ID",
+        "Operator registration handled for you",
+        "Higher trust and open rates",
+        "Ideal for OTP and transactional alerts",
+        "API and web panel sending",
+        "Delivery reporting per message"
+      ]
     }
+  },
+  "serviceCategoryPage": {
+    "serviceCount": "{count, plural, =1 {# service} other {# services}}",
+    "moreServices": "+{count} more",
+    "exploreCategory": "Explore Category",
+    "requestQuote": "Request a Quote",
+    "talkToTeam": "Talk to Our Team",
+    "otherCategories": "Other Categories"
   }
 }

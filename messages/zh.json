@@ -149,12 +149,30 @@
       "title": "一个技术合作伙伴，完整的能力体系。",
       "description": "从AI驱动的系统到安全的基础设施与可衡量的增长——RankVibez 将全栈能力融为一体。",
       "items": {
-        "ai-first": { "title": "AI 优先技术", "description": "AI 深度融入产品与工作流，而非事后附加。" },
-        "enterprise-software": { "title": "企业软件", "description": "围绕真实业务运营打造的定制化 ERP 与业务系统。" },
-        "business-automation": { "title": "业务自动化", "description": "连接团队、工具与数据的自动化工作流。" },
-        "ecommerce-technology": { "title": "电子商务技术", "description": "为规模化增长打造的高性能电商平台。" },
-        "cloud-infrastructure": { "title": "云计算与基础设施", "description": "在领先服务商之上构建的可靠、可监控的基础设施。" },
-        "cyber-security": { "title": "网络安全", "description": "从架构设计到上线全程贯穿的安全考量。" }
+        "ai-first": {
+          "title": "AI 优先技术",
+          "description": "AI 深度融入产品与工作流，而非事后附加。"
+        },
+        "enterprise-software": {
+          "title": "企业软件",
+          "description": "围绕真实业务运营打造的定制化 ERP 与业务系统。"
+        },
+        "business-automation": {
+          "title": "业务自动化",
+          "description": "连接团队、工具与数据的自动化工作流。"
+        },
+        "ecommerce-technology": {
+          "title": "电子商务技术",
+          "description": "为规模化增长打造的高性能电商平台。"
+        },
+        "cloud-infrastructure": {
+          "title": "云计算与基础设施",
+          "description": "在领先服务商之上构建的可靠、可监控的基础设施。"
+        },
+        "cyber-security": {
+          "title": "网络安全",
+          "description": "从架构设计到上线全程贯穿的安全考量。"
+        }
       }
     },
     "testimonialsSection": {
@@ -520,13 +538,34 @@
       }
     },
     "processSteps": {
-      "discover": { "title": "洞察需求", "description": "理解业务与目标。" },
-      "strategize": { "title": "制定策略", "description": "明确技术与AI机会点。" },
-      "design": { "title": "设计方案", "description": "打造用户体验、架构与工作流。" },
-      "build": { "title": "开发构建", "description": "开发软件与系统集成。" },
-      "secure": { "title": "安全加固", "description": "测试、强化并验证系统。" },
-      "launch": { "title": "正式上线", "description": "部署至生产环境。" },
-      "grow": { "title": "持续增长", "description": "监控、优化并持续改进。" }
+      "discover": {
+        "title": "洞察需求",
+        "description": "理解业务与目标。"
+      },
+      "strategize": {
+        "title": "制定策略",
+        "description": "明确技术与AI机会点。"
+      },
+      "design": {
+        "title": "设计方案",
+        "description": "打造用户体验、架构与工作流。"
+      },
+      "build": {
+        "title": "开发构建",
+        "description": "开发软件与系统集成。"
+      },
+      "secure": {
+        "title": "安全加固",
+        "description": "测试、强化并验证系统。"
+      },
+      "launch": {
+        "title": "正式上线",
+        "description": "部署至生产环境。"
+      },
+      "grow": {
+        "title": "持续增长",
+        "description": "监控、优化并持续改进。"
+      }
     },
     "trustSignals": {
       "ai-first-technology": "AI 优先技术",
@@ -571,7 +610,9 @@
       },
       "contact": {
         "heading": "联系我们",
-        "body": ["如对本政策有任何疑问，请联系 admin@rankvibez.com。"]
+        "body": [
+          "如对本政策有任何疑问，请联系 admin@rankvibez.com。"
+        ]
       }
     }
   },
@@ -584,27 +625,39 @@
     "sections": {
       "acceptanceOfTerms": {
         "heading": "条款接受",
-        "body": ["访问 rankvibez.com 即表示您同意本服务条款。如果您不同意，请停止使用本网站。"]
+        "body": [
+          "访问 rankvibez.com 即表示您同意本服务条款。如果您不同意，请停止使用本网站。"
+        ]
       },
       "useOfWebsite": {
         "heading": "网站使用",
-        "body": ["本网站内容仅用于提供关于 RankVibez 及其服务的一般性信息，不应被视为正式提案或合同的替代品。"]
+        "body": [
+          "本网站内容仅用于提供关于 RankVibez 及其服务的一般性信息，不应被视为正式提案或合同的替代品。"
+        ]
       },
       "serviceEngagements": {
         "heading": "服务合作",
-        "body": ["任何具体项目的范围、交付物、定价与时间安排，均由 RankVibez 与客户之间另行签署的书面提案或协议予以约定。"]
+        "body": [
+          "任何具体项目的范围、交付物、定价与时间安排，均由 RankVibez 与客户之间另行签署的书面提案或协议予以约定。"
+        ]
       },
       "intellectualProperty": {
         "heading": "知识产权",
-        "body": ["本网站上的所有内容，包括文字、图形与品牌标识，除另有说明外均归 RankVibez 所有，未经许可不得复制。"]
+        "body": [
+          "本网站上的所有内容，包括文字、图形与品牌标识，除另有说明外均归 RankVibez 所有，未经许可不得复制。"
+        ]
       },
       "limitationOfLiability": {
         "heading": "责任限制",
-        "body": ["对于因使用本网站而产生的任何间接或后果性损失，RankVibez 概不承担责任。本条款中的任何内容均不限制因已签署的服务协议而产生的责任。"]
+        "body": [
+          "对于因使用本网站而产生的任何间接或后果性损失，RankVibez 概不承担责任。本条款中的任何内容均不限制因已签署的服务协议而产生的责任。"
+        ]
       },
       "contact": {
         "heading": "联系我们",
-        "body": ["如对本条款有任何疑问，请联系 admin@rankvibez.com。"]
+        "body": [
+          "如对本条款有任何疑问，请联系 admin@rankvibez.com。"
+        ]
       }
     }
   },
@@ -617,19 +670,27 @@
     "sections": {
       "whatAreCookies": {
         "heading": "什么是 Cookie",
-        "body": ["Cookie 是存储在您设备上的小型文本文件，用于帮助网站正常运行，并在使用时了解访客与网站的交互方式。"]
+        "body": [
+          "Cookie 是存储在您设备上的小型文本文件，用于帮助网站正常运行，并在使用时了解访客与网站的交互方式。"
+        ]
       },
       "howWeUseCookies": {
         "heading": "我们如何使用 Cookie",
-        "body": ["RankVibez 使用网站正常运行所必需的基本 Cookie。若未来新增分析或营销类 Cookie，本政策将相应更新。"]
+        "body": [
+          "RankVibez 使用网站正常运行所必需的基本 Cookie。若未来新增分析或营销类 Cookie，本政策将相应更新。"
+        ]
       },
       "managingCookies": {
         "heading": "管理 Cookie",
-        "body": ["您可以通过浏览器设置来控制或禁用 Cookie。禁用基本 Cookie 可能会影响网站功能。"]
+        "body": [
+          "您可以通过浏览器设置来控制或禁用 Cookie。禁用基本 Cookie 可能会影响网站功能。"
+        ]
       },
       "contact": {
         "heading": "联系我们",
-        "body": ["如对本政策有任何疑问，请联系 admin@rankvibez.com。"]
+        "body": [
+          "如对本政策有任何疑问，请联系 admin@rankvibez.com。"
+        ]
       }
     }
   },
@@ -755,7 +816,13 @@
     "getInTouch": "联系我们"
   },
   "aiData": {
-    "flow": ["业务数据", "AI 智能层", "自动化", "业务行动", "洞察与增长"],
+    "flow": [
+      "业务数据",
+      "AI 智能层",
+      "自动化",
+      "业务行动",
+      "洞察与增长"
+    ],
     "capabilities": {
       "ai-erp": {
         "title": "AI驱动的 ERP",
@@ -794,47 +861,83 @@
     "erp": {
       "name": "ERP 与业务管理",
       "description": "面向财务、人力资源、库存与运营的统一系统。",
-      "flow": ["业务数据", "统一 ERP 核心", "报表与管控"]
+      "flow": [
+        "业务数据",
+        "统一 ERP 核心",
+        "报表与管控"
+      ]
     },
     "ecommerce": {
       "name": "电子商务",
       "description": "可随业务扩展的商城、市场平台与订单管理系统。",
-      "flow": ["商品目录与订单", "电商平台", "履约与增长"]
+      "flow": [
+        "商品目录与订单",
+        "电商平台",
+        "履约与增长"
+      ]
     },
     "web-development": {
       "name": "企业数字平台",
       "description": "为塑造品牌可信度与卓越性能而打造的网站与门户。",
-      "flow": ["内容与品牌", "网站平台", "互动与获客"]
+      "flow": [
+        "内容与品牌",
+        "网站平台",
+        "互动与获客"
+      ]
     },
     "ai-transformation": {
       "name": "AI 转型",
       "description": "在工作流与业务运营中落地切实可行的AI应用。",
-      "flow": ["业务流程", "AI 层", "自动化成果"]
+      "flow": [
+        "业务流程",
+        "AI 层",
+        "自动化成果"
+      ]
     },
     "cloud-infrastructure": {
       "name": "云基础设施",
       "description": "跨云服务商的可扩展、可监控基础设施。",
-      "flow": ["工作负载", "云架构", "可靠性与扩展"]
+      "flow": [
+        "工作负载",
+        "云架构",
+        "可靠性与扩展"
+      ]
     },
     "cyber-security": {
       "name": "网络安全",
       "description": "从一开始就融入基础设施的安全能力，而非事后附加。",
-      "flow": ["风险评估", "加固与管控", "持续监控"]
+      "flow": [
+        "风险评估",
+        "加固与管控",
+        "持续监控"
+      ]
     },
     "digital-marketing": {
       "name": "数字增长",
       "description": "能够随时间不断复利增长的 SEO、广告与转化体系。",
-      "flow": ["受众与渠道", "增长执行", "可衡量的成果"]
+      "flow": [
+        "受众与渠道",
+        "增长执行",
+        "可衡量的成果"
+      ]
     },
     "business-automation": {
       "name": "业务自动化",
       "description": "连接工具、团队与数据的自动化工作流。",
-      "flow": ["人工工作流", "自动化层", "节省时间与成本"]
+      "flow": [
+        "人工工作流",
+        "自动化层",
+        "节省时间与成本"
+      ]
     },
     "server-maintenance": {
       "name": "托管技术服务",
       "description": "持续的支持、维护与监控，让您安心无忧。",
-      "flow": ["线上系统", "监控与支持", "持续改进"]
+      "flow": [
+        "线上系统",
+        "监控与支持",
+        "持续改进"
+      ]
     }
   },
   "industriesPage": {
@@ -943,14 +1046,6 @@
     "talkToExpert": "咨询专家",
     "getCustomQuote": "获取定制报价",
     "relatedServices": "相关服务"
-  },
-  "serviceCategories": {
-    "Enterprise Software": "企业软件",
-    "Cloud & Infrastructure": "云计算与基础设施",
-    "Web Hosting & Servers": "网页托管与服务器",
-    "Cyber Security": "网络安全",
-    "Digital Growth": "数字增长",
-    "AI & Business Transformation": "AI 与业务转型"
   },
   "servicesData": {
     "erp": {
@@ -1329,6 +1424,562 @@
         "调研与报表",
         "运营任务支持"
       ]
+    },
+    "asp-net-hosting": {
+      "name": "ASP .NET 主机",
+      "short": "为 ASP .NET、.NET Core 与 SQL Server 应用优化的 Windows 主机。",
+      "description": "专为微软技术栈打造的托管环境。在 IIS 上运行 ASP .NET Web Forms、.NET Core 与 Blazor 应用，可选择项目所需的框架版本，并配备 SQL Server 数据库与完整的 Plesk 控制权限。",
+      "capabilities": [
+        "支持 ASP .NET 与 .NET Core 运行时",
+        "可自定义配置的 IIS 应用程序池",
+        "MS SQL Server 数据库",
+        "Plesk 控制面板访问权限",
+        "免费 SSL 证书并自动续期",
+        "每日备份，一键还原"
+      ]
+    },
+    "bdix-windows-hosting": {
+      "name": "BDIX Windows 主机",
+      "short": "接入 BDIX 的 Windows 主机，面向孟加拉国本地高速访问。",
+      "description": "部署在 BDIX 对等网络中的 Windows 主机，孟加拉国境内访客通过本地线路而非国际出口访问您的网站。非常适合门户网站、面向政府的站点，以及服务本国受众的 .NET 应用。",
+      "capabilities": [
+        "BDIX 对等互联，本地访问速度",
+        "Windows Server，配备 IIS 与 Plesk",
+        "支持 ASP .NET 与 MS SQL",
+        "SSD 存储与充足带宽",
+        "免费 SSL 证书",
+        "7×24 小时监控与技术支持"
+      ]
+    },
+    "bdix-cpanel-hosting": {
+      "name": "BDIX cPanel 主机",
+      "short": "接入 BDIX 的 Linux 主机，提供完整 cPanel 工具集。",
+      "description": "在具备 BDIX 对等互联的 Linux 平台上，使用您熟悉的 cPanel。通过 Softaculous 一键部署 WordPress、Laravel 或任意 PHP 应用，并以本地线路服务孟加拉国访客。",
+      "capabilities": [
+        "BDIX 对等互联，本地访问速度",
+        "cPanel 与 Softaculous 一键安装",
+        "LiteSpeed 网页服务器与 NVMe 存储",
+        "免费 SSL 证书并自动续期",
+        "不限数量的邮箱与数据库",
+        "每日异地备份"
+      ]
+    },
+    "web-hosting": {
+      "name": "网站托管",
+      "short": "面向企业官网、博客与落地页的入门级共享主机。",
+      "description": "为您的网站提供一个简单可靠、全程监控的落脚点。共享 Linux 主机配备 SSD 存储与免费 SSL，控制面板让邮箱、DNS、备份等日常操作都只需两次点击。",
+      "capabilities": [
+        "SSD 存储，不限流量",
+        "一键安装 WordPress",
+        "免费 SSL 证书",
+        "使用自有域名的企业邮箱",
+        "99.9% 在线率承诺",
+        "从现有主机免费迁移"
+      ]
+    },
+    "mvc-hosting": {
+      "name": "MVC 应用主机",
+      "short": "为 ASP .NET MVC 及现代 MVC 框架预先配置的托管环境。",
+      "description": "面向基于 MVC 模式构建的应用——ASP .NET MVC、Laravel、CodeIgniter 或 Django。路由、URL 重写与框架依赖均已为您配置妥当，上线只需一次推送，而不是一个项目。",
+      "capabilities": [
+        "支持 ASP .NET MVC 与 .NET Core MVC",
+        "URL 重写与自定义路由规则",
+        "Composer、NuGet 与命令行访问",
+        "MS SQL 与 MySQL 数据库",
+        "预发布环境，安全上线",
+        "免费 SSL 证书"
+      ]
+    },
+    "domain-renew": {
+      "name": "域名续费",
+      "short": "按时续费域名，配备到期提醒与多年期锁定。",
+      "description": "不再因过期的信用卡或漏看的邮件而丢失域名。我们跟踪您名下每一个域名的续费日期，在到期前充分提前提醒，也可一次锁定多年，从根本上消除风险。",
+      "capabilities": [
+        "自动续费提醒",
+        "多年期续费选项",
+        "绑定支付方式自动续费",
+        "宽限期与赎回期抢救",
+        "全域名组合到期看板",
+        "可为存放在其他注册商的域名续费"
+      ]
+    },
+    "domain-transfer": {
+      "name": "域名转入",
+      "short": "从其他注册商转移域名，全程不中断服务。",
+      "description": "把域名集中管理，转移过程中网站与邮箱照常运行。我们先复制 DNS 记录，再处理转移码与注册商审核，并在确认解析生效后才结束工单。",
+      "capabilities": [
+        "切换前先复制 DNS 记录",
+        "处理 EPP／转移授权码",
+        "零停机切换方案",
+        "转入即赠一年有效期",
+        "支持大批量域名批量转入",
+        "转入后解析生效核查"
+      ]
+    },
+    "bulk-domain-registration": {
+      "name": "批量域名注册",
+      "short": "在一个后台中注册并管理大规模域名组合。",
+      "description": "适合需要保护商标、常见拼写错误与区域后缀的品牌。一次性注册数百个域名，对整个组合统一应用 DNS 与续费设置，并保持所有权信息一致。",
+      "capabilities": [
+        "批量查询与可用性检测",
+        "一次结算注册多个域名",
+        "适用于全组合的 DNS 模板",
+        "统一的 WHOIS 与联系人信息",
+        "合并的续费日历",
+        "大批量享阶梯价格"
+      ]
+    },
+    "domain-reseller": {
+      "name": "域名代理",
+      "short": "以自有品牌销售域名，享批发价并接入 API。",
+      "description": "把域名注册业务并入您的代理或主机业务。您将获得批发价格、白标控制面板，以及可在现有系统中自动完成注册、续费与 DNS 操作的 API。",
+      "capabilities": [
+        "注册与续费批发价",
+        "白标代理控制面板",
+        "注册与 DNS 接口 API",
+        "零售价格由您自行设定",
+        "客户子账户管理",
+        "代理专属支持通道"
+      ]
+    },
+    "bdix-email-hosting": {
+      "name": "BDIX 企业邮箱",
+      "short": "接入 BDIX 的企业邮箱，本地投递速度更快。",
+      "description": "托管在 BDIX 对等网络上的企业邮箱，本地同事与客户之间的邮件走国内线路。提供完整的 IMAP、POP3 与 SMTP 访问，并支持网页邮箱与移动端同步。",
+      "capabilities": [
+        "BDIX 对等互联，本地投递更快",
+        "使用自有域名的邮箱",
+        "IMAP、POP3、SMTP 与网页邮箱访问",
+        "垃圾邮件与病毒过滤",
+        "移动端与桌面客户端同步",
+        "共享日历与通讯录"
+      ]
+    },
+    "google-workspace-email": {
+      "name": "Google Workspace 邮箱",
+      "short": "使用自有域名的 Gmail，含 Drive、Meet 与日历。",
+      "description": "为贵组织部署并托管 Google Workspace——以自有域名使用 Gmail，另含 Drive、Docs、日历与 Meet。我们负责授权采购、DNS 记录配置、从旧邮件系统迁移以及日常管理。",
+      "capabilities": [
+        "使用自有域名的 Gmail",
+        "Drive、Docs、Sheets 与 Slides",
+        "Google Meet 与共享日历",
+        "从现有邮件服务器迁移",
+        "管理控制台配置与用户策略",
+        "授权管理与账单支持"
+      ]
+    },
+    "ssl-certificate": {
+      "name": "SSL 证书",
+      "short": "来自受信任证书颁发机构的 DV、OV 与 EV 证书。",
+      "description": "按您网站所需的信任级别选择合适的证书。普通站点可用域名验证，需要访客看到经核实企业身份时用组织验证，金融与交易类平台则用扩展验证。",
+      "capabilities": [
+        "提供 DV、OV 与 EV 证书选项",
+        "来自受信任颁发机构的证书",
+        "验证材料由我们代为处理",
+        "含安装与配置服务",
+        "到期监控与续期提醒",
+        "附带保额担保的证书"
+      ]
+    },
+    "ssl-installation": {
+      "name": "SSL 安装服务",
+      "short": "证书安装、HTTPS 迁移与混合内容清理。",
+      "description": "无论证书从何处购买，都把安装这件事做对。我们生成 CSR、安装完整证书链、强制 HTTPS、修复混合内容告警，并在交付前用第三方 SSL 检测工具验证结果。",
+      "capabilities": [
+        "CSR 生成与证书链安装",
+        "适用于 cPanel、Plesk、IIS、Nginx 与 Apache",
+        "配置 HTTP 到 HTTPS 跳转",
+        "混合内容检测与清理",
+        "第三方 SSL 评级验证",
+        "在支持的环境中配置自动续期"
+      ]
+    },
+    "free-ssl": {
+      "name": "免费 SSL",
+      "short": "免费的 Let's Encrypt 证书，自动续期。",
+      "description": "每个网站都值得被加密。所有主机方案均自动签发并续期免费的域名验证证书，无需任何人惦记，地址栏的小锁始终亮着。",
+      "capabilities": [
+        "免费域名验证证书",
+        "新域名自动签发",
+        "到期前自动续期",
+        "覆盖子域名与附加域名",
+        "所有主机方案均包含",
+        "可升级至 OV、EV 或通配符证书"
+      ]
+    },
+    "wildcard-ssl": {
+      "name": "通配符 SSL",
+      "short": "一张证书同时保护主域名及其下所有子域名。",
+      "description": "单张通配符证书可覆盖数量不限的一级子域名——app、shop、mail、staging，以及日后新增的任何子域。比逐个子域签发证书更易管理，也更省钱。",
+      "capabilities": [
+        "覆盖不限数量的一级子域名",
+        "一张证书，一个续期日期",
+        "支持基于 DNS 的验证",
+        "可在多台服务器上安装",
+        "到期监控与续期提醒",
+        "附带保额担保的证书"
+      ]
+    },
+    "managed-vps": {
+      "name": "托管型 VPS",
+      "short": "由我们负责补丁、备份、监控与支持的 VPS。",
+      "description": "拥有虚拟私有服务器的全部性能，却不必在团队里养一名系统管理员。我们负责开通、加固、打补丁、监控与恢复——您只管部署应用、专注业务。",
+      "capabilities": [
+        "开通、安全加固与系统补丁",
+        "7×24 监控与主动告警",
+        "自动备份与恢复演练",
+        "控制面板安装与升级",
+        "安全更新与防火墙管理",
+        "工程师优先响应支持"
+      ]
+    },
+    "self-managed-vps": {
+      "name": "自管理 VPS",
+      "short": "面向自行运维团队的 KVM VPS，提供完整 root 权限。",
+      "description": "纯粹的算力，没有任何阻碍。自选操作系统，开机即获得 root 或管理员权限，完全按团队的方式配置这台机器。硬件与网络的健康由我们负责。",
+      "capabilities": [
+        "完整的 root 或管理员权限",
+        "可选 Linux 发行版或 Windows",
+        "控制台访问与随时重装系统",
+        "独享 CPU、内存与 NVMe 配额",
+        "实例之间的私有网络",
+        "含网络与硬件支持"
+      ]
+    },
+    "windows-vps": {
+      "name": "Windows VPS",
+      "short": "支持 RDP 远程桌面、资源独享的 Windows Server 实例。",
+      "description": "一台属于您的 Windows Server 环境，通过远程桌面随时可达。可运行 .NET 应用、MS SQL、交易平台，或任何需要全天候在线的桌面软件。",
+      "capabilities": [
+        "Windows Server 与 RDP 访问",
+        "开机即拥有管理员权限",
+        "独享 CPU、内存与 NVMe 存储",
+        "开箱支持 MS SQL 与 IIS",
+        "支持快照与还原",
+        "方案已含系统授权"
+      ]
+    },
+    "linux-vps": {
+      "name": "Linux VPS",
+      "short": "基于 Ubuntu、CentOS、AlmaLinux 或 Debian 的 KVM 实例。",
+      "description": "一台干净的 Linux 服务器，拥有完整 root 权限与有保障的资源。自选发行版，通过 SSH 部署您的技术栈，并随业务增长扩展 CPU、内存或存储。",
+      "capabilities": [
+        "Ubuntu、Debian、AlmaLinux 或 CentOS",
+        "通过 SSH 获得完整 root 权限",
+        "独享 vCPU、内存与 NVMe 存储",
+        "私有网络与浮动 IP",
+        "快照与定时备份",
+        "无需重新部署即可纵向扩容"
+      ]
+    },
+    "cpanel-vps": {
+      "name": "cPanel VPS",
+      "short": "已授权并预装 cPanel 与 WHM、开箱即用的 VPS。",
+      "description": "独享的 VPS 资源，并已装好 cPanel/WHM。在 WHM 中创建账户、设定套餐、管理客户，同时保有自己虚拟服务器的隔离性与性能。",
+      "capabilities": [
+        "含 cPanel 与 WHM 授权",
+        "创建并管理不限数量的账户",
+        "WHM 管理之外仍保留 root 权限",
+        "LiteSpeed 或 Apache 网页服务器",
+        "cPanel 自动备份",
+        "免费迁移现有 cPanel 账户"
+      ]
+    },
+    "kvm-vps": {
+      "name": "KVM VPS",
+      "short": "硬件级虚拟化，资源真正隔离的 VPS。",
+      "description": "KVM 虚拟化为每个实例分配独立内核与预留的硬件份额，繁忙的邻居无法抢走您的 CPU 或内存。可运行自定义内核、容器或任何所需的操作系统。",
+      "capabilities": [
+        "真正的硬件级虚拟化",
+        "有保障、不共享的 CPU 与内存",
+        "自定义内核与系统镜像",
+        "适配 Docker 与 Kubernetes",
+        "高 IOPS 的 NVMe 存储",
+        "控制台访问与救援模式"
+      ]
+    },
+    "lxpanel-vps": {
+      "name": "lxPanel VPS",
+      "short": "轻量控制面板 VPS，cPanel 的高性价比替代方案。",
+      "description": "无需授权费用的网站托管管理方案。lxPanel 覆盖域名、数据库、邮箱、SSL 与文件管理，占用资源极少，把更多 VPS 性能留给网站本身。",
+      "capabilities": [
+        "轻量控制面板，无授权费用",
+        "域名、DNS 与数据库管理",
+        "邮箱账户与 SSL 管理",
+        "一键安装常用应用",
+        "更低的内存与 CPU 开销",
+        "面板之外仍保留 root 权限"
+      ]
+    },
+    "dedicated-server-bd": {
+      "name": "孟加拉国独立服务器",
+      "short": "本地机房托管、具备 BDIX 互联的裸金属服务器。",
+      "description": "位于孟加拉国数据中心并接入 BDIX 的整台物理服务器。当您的用户在本国、数据必须留在境内，或延迟是首要优化目标时，这是正确的选择。",
+      "capabilities": [
+        "本地数据中心并接入 BDIX",
+        "整台硬件完全专属于您",
+        "可定制 CPU、内存与存储配置",
+        "数据驻留在孟加拉国境内",
+        "现场协助与硬件更换",
+        "7×24 本地工程师支持"
+      ]
+    },
+    "dedicated-server-usa": {
+      "name": "美国独立服务器",
+      "short": "位于美国的裸金属服务器，面向全球覆盖与大带宽需求。",
+      "description": "部署在美国数据中心的专属硬件，配备充裕的国际带宽。适合面向全球用户的产品、高流量平台，以及需要廉价大带宽出口的业务。",
+      "capabilities": [
+        "美国 Tier-3 数据中心节点",
+        "大带宽国际出口",
+        "可定制硬件配置",
+        "含 DDoS 防护",
+        "IPMI 与带外管理访问",
+        "7×24 监控与现场协助"
+      ]
+    },
+    "managed-dedicated-server": {
+      "name": "托管型独立服务器",
+      "short": "裸金属性能，操作系统由我们的工程师运维。",
+      "description": "整台机器归您使用，由我们保障其健康运行。系统补丁、安全加固、备份校验、监控与事件响应均由我们的团队按约定响应时限负责。",
+      "capabilities": [
+        "系统安装、补丁与安全加固",
+        "7×24 主动监控与告警",
+        "备份配置与恢复演练",
+        "防火墙与访问策略管理",
+        "性能调优与容量评估",
+        "明确的响应时限承诺"
+      ]
+    },
+    "windows-dedicated-server": {
+      "name": "Windows 独立服务器",
+      "short": "运行 Windows Server 的专属硬件，已含系统授权。",
+      "description": "一整台运行 Windows Server 的物理机，已按您的业务需求完成授权与配置——Active Directory、MS SQL、IIS、远程桌面服务，或任何需要真实硬件的核心业务系统。",
+      "capabilities": [
+        "含 Windows Server 授权",
+        "Active Directory 与域服务",
+        "MS SQL Server 与 IIS 托管",
+        "支持远程桌面服务",
+        "硬件 RAID 与热插拔硬盘",
+        "按计划安排的补丁窗口"
+      ]
+    },
+    "linux-dedicated-server": {
+      "name": "Linux 独立服务器",
+      "short": "运行您所选 Linux 发行版的专属硬件。",
+      "description": "裸金属 Linux，拥有完整 root 权限且没有虚拟化损耗。非常适合数据库服务器、容器宿主机、媒体处理，以及任何对 I/O 与 CPU 稳定性有要求的业务。",
+      "capabilities": [
+        "Ubuntu、Debian、AlmaLinux 或 CentOS",
+        "完整 root 权限，无虚拟化层",
+        "硬件 RAID 与 NVMe 存储",
+        "容器与 Kubernetes 托管",
+        "自定义内核与网络配置",
+        "IPMI 访问与救援模式"
+      ]
+    },
+    "cloud-storage": {
+      "name": "云存储",
+      "short": "按用量计费的弹性云盘，用于文件、媒体与归档。",
+      "description": "存多少扩多少，无需提前采购硬盘。把文档、媒体素材库与归档数据放在具备冗余的云存储中，应用、团队与备份任务都能随时访问。",
+      "capabilities": [
+        "只为实际使用的容量付费",
+        "冗余复制存储",
+        "网页、桌面与移动端访问",
+        "带权限控制的团队文件夹",
+        "版本管理与删除文件恢复",
+        "静态与传输过程加密"
+      ]
+    },
+    "cloud-hosting": {
+      "name": "云主机",
+      "short": "可随流量高峰弹性伸缩的网站与应用托管。",
+      "description": "您的网站运行在一组云资源之上而非单台机器，流量激增时系统会增加容量，而不是直接宕机。需求到来时资源自动扩容，高峰过后再自动回落。",
+      "capabilities": [
+        "算力自动伸缩",
+        "多节点高可用",
+        "负载均衡与故障转移",
+        "NVMe 存储并启用缓存",
+        "即时纵向升级配置",
+        "按实际用量计费"
+      ]
+    },
+    "ftp-storage": {
+      "name": "FTP 存储空间",
+      "short": "用于备份、归档与大文件交换的专用 FTP 空间。",
+      "description": "通过 FTP、FTPS 与 SFTP 访问的大容量存储，简单直接。把备份任务、媒体归档或与客户的文件交换指向这里，让这些流量远离您的生产服务器。",
+      "capabilities": [
+        "FTP、FTPS 与 SFTP 访问",
+        "大容量低成本存储档位",
+        "多账户、按目录授权",
+        "兼容主流备份工具",
+        "内网传输不限量",
+        "容量预警与用量报表"
+      ]
+    },
+    "windows-private-cloud": {
+      "name": "Windows 私有云",
+      "short": "完全专属于您的隔离式 Windows 云环境。",
+      "description": "在专属硬件上构建的 Windows 算力、存储与网络私有资源池。按需创建与调整虚拟机规格，同时保有本地机房级别的隔离性、合规性与控制力。",
+      "capabilities": [
+        "专属硬件，单租户隔离",
+        "自助开通 Windows 虚拟机",
+        "Hyper-V 或 VMware 虚拟化",
+        "与 Active Directory 集成",
+        "私有 VLAN 与防火墙策略",
+        "快照、备份与容灾选项"
+      ]
+    },
+    "linux-private-cloud": {
+      "name": "Linux 私有云",
+      "short": "单租户 Linux 云，对整个技术栈拥有完全控制权。",
+      "description": "构建在隔离硬件上、完全属于您的 Linux 云——通过自助面板开通实例、挂载存储、定义网络，底层机器不与任何其他租户共享。",
+      "capabilities": [
+        "单租户隔离硬件",
+        "自助开通实例",
+        "KVM 虚拟化与自定义镜像",
+        "软件定义的私有网络",
+        "适配容器与 Kubernetes",
+        "快照、备份与容灾选项"
+      ]
+    },
+    "dedicated-ip-pbx": {
+      "name": "独立 IP PBX",
+      "short": "部署在您自有环境、专属硬件上的私有 PBX 系统。",
+      "description": "属于您自己的电话系统，运行在您自己的服务器上。分机、IVR、通话录音与报表都跑在您掌控的专属硬件上——当通话数据必须留在内部，或需要与业务系统深度集成时，这是正确选择。",
+      "capabilities": [
+        "专属 PBX 服务器与硬件",
+        "不限数量的内部分机",
+        "IVR 语音菜单与呼叫路由规则",
+        "通话录音与归档",
+        "与 CRM 及 ERP 集成",
+        "可本地部署或托管部署"
+      ]
+    },
+    "cloud-ip-pbx": {
+      "name": "云端 IP PBX",
+      "short": "托管式电话系统，无需维护任何现场硬件。",
+      "description": "由云端交付的完整企业电话系统。几分钟内新增分机，把来电路由到话机、软电话或手机，让整个团队无论在哪办公都能通过同一个号码被找到。",
+      "capabilities": [
+        "无需现场硬件",
+        "支持话机、软电话与手机",
+        "IVR、排队与按时段路由",
+        "语音信箱转邮件",
+        "实时通话报表与分析",
+        "随时增减分机"
+      ]
+    },
+    "ip-number": {
+      "name": "IP 号码",
+      "short": "用于 VoIP 呼入与呼出的企业电话号码。",
+      "description": "可直接接入您 PBX 的虚拟号码。接听本地与国际来电，在外呼时统一显示主叫号码，并随业务变化随时新增或携号转入。",
+      "capabilities": [
+        "本地与国际号码",
+        "支持 VoIP 呼入与呼出",
+        "从其他运营商携号转入",
+        "统一的外呼主叫显示",
+        "支持多路并发通话",
+        "可按号码设置路由规则"
+      ]
+    },
+    "bulk-sms-gateway": {
+      "name": "短信群发",
+      "short": "向孟加拉国所有运营商发送交易与营销短信。",
+      "description": "用于验证码、通知与营销活动的直连短信网关。可在网页后台发送，也可通过 API 从自有系统发送，并按运营商查看送达报告。",
+      "capabilities": [
+        "直连所有本地运营商",
+        "支持 REST API 与网页后台发送",
+        "定时发送与活动群发",
+        "逐条短信送达报告",
+        "通讯录管理与人群细分",
+        "已购短信条数永不过期"
+      ]
+    },
+    "masking-sms": {
+      "name": "品牌签名短信",
+      "short": "以品牌名而非数字号码作为发送方的短信。",
+      "description": "短信以您的品牌而非匿名号码送达——既提升打开率，也让验证码与通知类短信更难被仿冒。发送方签名的运营商报备与审批流程由我们代办。",
+      "capabilities": [
+        "自定义字母数字发送方名称",
+        "运营商报备由我们代办",
+        "更高的信任度与打开率",
+        "适用于验证码与交易通知",
+        "支持 API 与网页后台发送",
+        "逐条短信送达报告"
+      ]
+    }
+  },
+  "serviceCategoryPage": {
+    "serviceCount": "{count} 项服务",
+    "moreServices": "还有 {count} 项",
+    "exploreCategory": "浏览此类别",
+    "requestQuote": "获取报价",
+    "talkToTeam": "联系我们的团队",
+    "otherCategories": "其他类别"
+  },
+  "serviceCategories": {
+    "hosting": {
+      "name": "虚拟主机",
+      "short": "Linux、Windows 与 BDIX 网站托管，支持 cPanel、ASP .NET 与 MVC。",
+      "description": "基于 SSD 存储与全程监控的共享主机与经销主机——无论您的网站运行在 WordPress、Laravel、ASP .NET 还是自定义 MVC 架构上。BDIX 接入方案让孟加拉国本地访客走本地线路，页面加载明显更快。"
+    },
+    "domain": {
+      "name": "域名",
+      "short": "在所有主流后缀下注册、续费、转入与经销域名。",
+      "description": "锁定品牌赖以生存的名字。我们负责 gTLD、ccTLD 与 .com.bd 域名的注册、续费与转移，提供免费 DNS 管理、防盗保护，以及适用于任意规模域名组合的批量工具。"
+    },
+    "email": {
+      "name": "企业邮箱",
+      "short": "使用自有域名的企业邮箱，含 BDIX 与 Google Workspace 方案。",
+      "description": "以自有域名开设专业邮箱，具备垃圾邮件过滤、移动端同步与充足存储空间。可选 BDIX 托管邮箱以获得本地速度、我们的标准企业邮件平台，或全托管的 Google Workspace 部署。"
+    },
+    "ssl": {
+      "name": "SSL 证书",
+      "short": "SSL 证书、通配符验证、免费 SSL 与专人安装服务。",
+      "description": "加密访问您网站的每一次连接，消除那些正在损失转化率的浏览器警告。从免费 DV 证书到组织验证与通配符证书，我们负责采购、验证并为您完成安装。"
+    },
+    "vps-server": {
+      "name": "VPS 服务器",
+      "short": "Linux 与 Windows 的托管及自管理 KVM VPS，含 BDIX 线路。",
+      "description": "虚拟化硬件上的独享 CPU、内存与 NVMe 存储，并提供完整的 root 或管理员权限。若贵团队自行运维，可选自管理实例；也可选择托管方案，由我们负责补丁、备份与监控。"
+    },
+    "dedicated-servers": {
+      "name": "独立服务器",
+      "short": "位于孟加拉国与美国的裸金属服务器，可托管或自管理。",
+      "description": "整台物理机专供您的业务使用——没有邻居抢资源，没有共享瓶颈。可部署在孟加拉国以获得本地低延迟，或部署在美国以覆盖全球，并可叠加存储、维护与托管管理选项。"
+    },
+    "cloud": {
+      "name": "云服务",
+      "short": "云主机、云存储、私有云与基础设施即服务。",
+      "description": "随需求增长的弹性基础设施，不必按峰值提前采购。涵盖云主机、对象存储与 FTP 存储、Windows 或 Linux 私有云、备份、容灾以及混合云架构。"
+    },
+    "ip-pbx": {
+      "name": "IP PBX 电话系统",
+      "short": "独立与云端 IP PBX 系统，并提供企业通话所需的 IP 号码。",
+      "description": "把整套电话系统搬到互联网上。分机、IVR 语音菜单、通话录音、排队与报表——可托管在云端，也可部署为您自有环境中的独立 PBX，并配套用于呼入呼出的 IP 号码。"
+    },
+    "bulk-sms": {
+      "name": "短信群发",
+      "short": "群发与品牌签名短信，支持自定义发送方名称与 API 接入。",
+      "description": "在客户一定会看的地方触达他们。向孟加拉国所有运营商发送交易通知、验证码与营销活动短信，并通过签名短信让消息以您的品牌名而非一串数字发出。"
+    },
+    "enterprise-software": {
+      "name": "企业软件",
+      "short": "定制 ERP、AI 驱动 ERP、电商平台与 Web 应用。",
+      "description": "围绕企业真实运作方式构建的软件——覆盖财务、人力与库存的 ERP，可持续扩展的电商平台，以及由同一支团队设计、开发并维护的 Web 应用。"
+    },
+    "security": {
+      "name": "网络安全",
+      "short": "对基础设施进行安全评估、加固与持续监控。",
+      "description": "用分层防御保护您的系统、数据与客户——覆盖应用、服务器与网络的漏洞评估、安全加固、持续监控与事件响应。"
+    },
+    "digital-growth": {
+      "name": "数字增长",
+      "short": "SEO、数字营销、付费广告投放与转化率优化。",
+      "description": "把流量变成收入。搜索可见度、付费获客、广告投放管理与转化优化，全部以销售管道而非虚荣指标来衡量。"
+    },
+    "ai-business-transformation": {
+      "name": "AI 与业务转型",
+      "short": "AI 自动化、AI 驱动运营与虚拟助理服务。",
+      "description": "让 AI 真正进入日常运营——自动化重复流程，从自有数据中提炼决策依据，并用训练过的虚拟助理扩展团队产能。"
     }
   }
 }

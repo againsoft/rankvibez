@@ -16,10 +16,13 @@ function FooterColumn({
   title,
   links,
   t,
+  suffix = "",
 }: {
   title: string;
   links: { key: string; href: string }[];
   t: ReturnType<typeof useTranslations>;
+  /** Appended to each key — lets a column read nested labels like `hosting.name`. */
+  suffix?: string;
 }) {
   return (
     <div className="flex flex-col gap-4">
@@ -28,7 +31,7 @@ function FooterColumn({
         {links.map((link) => (
           <li key={link.key}>
             <Link href={link.href} className="focus-ring rounded text-sm text-muted transition-colors hover:text-foreground">
-              {t(link.key)}
+              {t(`${link.key}${suffix}`)}
             </Link>
           </li>
         ))}
@@ -40,7 +43,8 @@ function FooterColumn({
 export function Footer() {
   const t = useTranslations("footer");
   const tSolutions = useTranslations("footer.solutions");
-  const tServices = useTranslations("footer.services");
+  // Services column labels are category names, shared with the services pages.
+  const tServices = useTranslations("serviceCategories");
   const tCompany = useTranslations("footer.company");
   const tResources = useTranslations("footer.resources");
 
@@ -68,7 +72,7 @@ export function Footer() {
             <p className="max-w-[220px] text-sm leading-relaxed text-muted">{t("tagline")}</p>
           </div>
           <FooterColumn title={t("columns.solutions")} links={footerNav.solutions} t={tSolutions} />
-          <FooterColumn title={t("columns.services")} links={footerNav.services} t={tServices} />
+          <FooterColumn title={t("columns.services")} links={footerNav.services} t={tServices} suffix=".name" />
           <FooterColumn title={t("columns.company")} links={footerNav.company} t={tCompany} />
           <FooterColumn title={t("columns.resources")} links={footerNav.resources} t={tResources} />
           <div className="col-span-2 flex flex-col gap-4 sm:col-span-1">

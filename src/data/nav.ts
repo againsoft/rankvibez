@@ -16,22 +16,27 @@ export const primaryNav: NavItem[] = [
 
 export const footerNav = {
   solutions: [
-    { key: "erp", href: "/services/erp" },
-    { key: "aiErp", href: "/services/ai-erp" },
-    { key: "ecommerce", href: "/services/ecommerce" },
-    { key: "aiAutomation", href: "/services/ai-transformation" },
-    { key: "cyberSecurity", href: "/services/cyber-security" },
-    { key: "cloud", href: "/services/server-maintenance" },
+    { key: "erp", href: "/services/enterprise-software/erp" },
+    { key: "aiErp", href: "/services/enterprise-software/ai-erp" },
+    { key: "ecommerce", href: "/services/enterprise-software/ecommerce" },
+    { key: "aiAutomation", href: "/services/ai-business-transformation/ai-transformation" },
+    { key: "cyberSecurity", href: "/services/security/cyber-security" },
+    { key: "cloud", href: "/services/cloud" },
   ],
+  /**
+   * The services column links the infrastructure categories rather than single
+   * services, so its labels come from the `serviceCategories` namespace.
+   */
   services: [
-    { key: "softwareDevelopment", href: "/services/ecommerce" },
-    { key: "websiteDevelopment", href: "/services/web-development" },
-    { key: "serverMaintenance", href: "/services/server-maintenance" },
-    { key: "professionalEmail", href: "/services/business-email" },
-    { key: "seo", href: "/services/seo" },
-    { key: "digitalMarketing", href: "/services/digital-marketing" },
-    { key: "adsCampaign", href: "/services/ads-campaign" },
-    { key: "virtualAssistance", href: "/services/virtual-assistance" },
+    { key: "hosting", href: "/services/hosting" },
+    { key: "domain", href: "/services/domain" },
+    { key: "email", href: "/services/email" },
+    { key: "ssl", href: "/services/ssl" },
+    { key: "vps-server", href: "/services/vps-server" },
+    { key: "dedicated-servers", href: "/services/dedicated-servers" },
+    { key: "cloud", href: "/services/cloud" },
+    { key: "ip-pbx", href: "/services/ip-pbx" },
+    { key: "bulk-sms", href: "/services/bulk-sms" },
   ],
   company: [
     { key: "about", href: "/about" },

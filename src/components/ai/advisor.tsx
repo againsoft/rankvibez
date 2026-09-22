@@ -12,10 +12,10 @@ const questions = [
 ] as const;
 
 const recommendationHrefs: Record<string, string> = {
-  erp: "/services/erp",
-  ecommerce: "/services/ecommerce",
-  automation: "/services/ai-transformation",
-  security: "/services/cyber-security",
+  erp: "/services/enterprise-software/erp",
+  ecommerce: "/services/enterprise-software/ecommerce",
+  automation: "/services/ai-business-transformation/ai-transformation",
+  security: "/services/security/cyber-security",
 };
 
 export function Advisor() {

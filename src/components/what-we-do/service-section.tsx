@@ -8,11 +8,11 @@ import { Container } from "@/components/ui/container";
 import { Badge } from "@/components/ui/badge";
 import { Reveal } from "@/components/shared/reveal";
 import { cn } from "@/lib/utils";
-import type { Service } from "@/data/services";
+import { servicePath, type Service } from "@/data/services";
 
 export function ServiceSection({ service, index }: { service: Service; index: number }) {
   const t = useTranslations(`servicesData.${service.slug}`);
-  const tCategory = useTranslations("serviceCategories");
+  const tCategory = useTranslations(`serviceCategories.${service.category}`);
   const tCommon = useTranslations("common");
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
   const reverse = index % 2 === 1;
@@ -27,7 +27,7 @@ export function ServiceSection({ service, index }: { service: Service; index: nu
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-soft text-primary">
               <Icon size={24} />
             </div>
-            <Badge>{tCategory(service.category)}</Badge>
+            <Badge>{tCategory("name")}</Badge>
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">{t("name")}</h2>
             <p className="text-base leading-relaxed text-muted">{t("description")}</p>
 
@@ -42,7 +42,7 @@ export function ServiceSection({ service, index }: { service: Service; index: nu
             </ul>
 
             <Link
-              href={`/services/${service.slug}`}
+              href={servicePath(service)}
               className="focus-ring mt-1 inline-flex items-center gap-1.5 rounded text-sm font-medium text-secondary transition-transform hover:translate-x-1"
             >
               {tCommon("exploreService")}

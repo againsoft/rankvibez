@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { services, serviceCategories, getServiceBySlug } from "@/data/services";
+import { serviceCategories, getServicesByCategory, getServiceBySlug } from "@/data/services";
 import { StepIndicator } from "./step-indicator";
 import { ServiceSelectCard } from "./service-select-card";
 
@@ -177,10 +177,12 @@ export function QuoteForm() {
               </div>
 
               {serviceCategories.map((category) => {
-                const categoryServices = services.filter((s) => s.category === category);
+                const categoryServices = getServicesByCategory(category.slug);
                 return (
-                  <div key={category} className="flex flex-col gap-3">
-                    <p className="text-xs font-semibold uppercase tracking-[0.1em] text-muted-2">{tCategory(category)}</p>
+                  <div key={category.slug} className="flex flex-col gap-3">
+                    <p className="text-xs font-semibold uppercase tracking-[0.1em] text-muted-2">
+                      {tCategory(`${category.slug}.name`)}
+                    </p>
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                       {categoryServices.map((service) => (
                         <ServiceSelectCard

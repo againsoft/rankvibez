@@ -4,16 +4,16 @@ import Image from "next/image";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { ArrowRight } from "lucide-react";
-import type { Service } from "@/data/services";
+import { servicePath, type Service } from "@/data/services";
 
 export function ServiceCard({ service }: { service: Service }) {
   const t = useTranslations(`servicesData.${service.slug}`);
-  const tCategory = useTranslations("serviceCategories");
+  const tCategory = useTranslations(`serviceCategories.${service.category}`);
   const tCommon = useTranslations("common");
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
   return (
     <Link
-      href={`/services/${service.slug}`}
+      href={servicePath(service)}
       className="card-surface focus-ring group flex h-full flex-col overflow-hidden rounded-2xl transition-transform duration-300 hover:-translate-y-1"
     >
       {service.image ? (
@@ -26,7 +26,7 @@ export function ServiceCard({ service }: { service: Service }) {
             sizes="(min-width: 1024px) 33vw, 100vw"
           />
           <span className="absolute right-4 top-4 rounded-full border border-border-strong bg-background/70 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.1em] text-muted backdrop-blur">
-            {tCategory(service.category)}
+            {tCategory("name")}
           </span>
         </div>
       ) : null}
@@ -36,7 +36,7 @@ export function ServiceCard({ service }: { service: Service }) {
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-soft text-primary">
               <Icon size={20} />
             </div>
-            <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-muted-2">{tCategory(service.category)}</span>
+            <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-muted-2">{tCategory("name")}</span>
           </div>
         )}
         <h3 className={`text-lg font-semibold text-foreground ${service.image ? "" : "mt-5"}`}>{t("name")}</h3>

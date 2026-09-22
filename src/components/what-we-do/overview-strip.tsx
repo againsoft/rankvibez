@@ -1,14 +1,14 @@
 import { useTranslations } from "next-intl";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import { services } from "@/data/services";
+import { highlightServices } from "@/data/services";
 
 export function OverviewStrip() {
   const tData = useTranslations("servicesData");
 
   return (
     <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-      {services.map((service) => {
+      {highlightServices.map((service) => {
         const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
         return (
           <a

@@ -4,47 +4,56 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildAlternates } from "@/lib/seo";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, ArrowLeft } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/container";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/reveal";
 import { CTASection } from "@/components/shared/cta-section";
 import { ServiceCard } from "@/components/shared/service-card";
-import { services, getServiceBySlug } from "@/data/services";
+import { services, getServiceBySlug, getServicesByCategory, servicePath, categoryPath } from "@/data/services";
 
-type Params = Promise<{ locale: string; slug: string }>;
+type Params = Promise<{ locale: string; category: string; slug: string }>;
 
 export function generateStaticParams() {
-  return services.map((s) => ({ slug: s.slug }));
+  return services.map((s) => ({ category: s.category, slug: s.slug }));
+}
+
+/** A service lives under exactly one category, so a mismatched pair is a 404, not a duplicate page. */
+function resolveService(category: string, slug: string) {
+  const service = getServiceBySlug(slug);
+  return service && service.category === category ? service : undefined;
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const service = getServiceBySlug(slug);
+  const { locale, category, slug } = await params;
+  const service = resolveService(category, slug);
   if (!service) return {};
   const t = await getTranslations({ locale, namespace: `servicesData.${slug}` });
   return {
     title: t("name"),
     description: t("short"),
-    alternates: buildAlternates(locale, `/services/${slug}`),
+    alternates: buildAlternates(locale, servicePath(service)),
   };
 }
 
 export default async function ServiceDetailPage({ params }: { params: Params }) {
-  const { locale, slug } = await params;
+  const { locale, category, slug } = await params;
   setRequestLocale(locale);
 
-  const service = getServiceBySlug(slug);
+  const service = resolveService(category, slug);
   if (!service) notFound();
 
   const t = await getTranslations(`servicesData.${slug}`);
-  const tCategory = await getTranslations("serviceCategories");
+  const tCategory = await getTranslations(`serviceCategories.${service.category}`);
   const tPage = await getTranslations("serviceDetailPage");
   const capabilities = t.raw("capabilities") as string[];
 
   const Icon = (Icons[service.icon as keyof typeof Icons] as LucideIcon) ?? Icons.Sparkles;
-  const related = services.filter((s) => s.category === service.category && s.slug !== service.slug).slice(0, 3);
+  const related = getServicesByCategory(service.category)
+    .filter((s) => s.slug !== service.slug)
+    .slice(0, 3);
 
   return (
     <>
@@ -53,7 +62,14 @@ export default async function ServiceDetailPage({ params }: { params: Params }) 
         <div className="glow-orb pointer-events-none absolute -top-56 left-1/2 h-[520px] w-[820px] -translate-x-1/2 opacity-40" />
         <Container className="relative">
           <Reveal className="flex max-w-3xl flex-col gap-5">
-            <Badge>{tCategory(service.category)}</Badge>
+            <Link
+              href={categoryPath(service.category)}
+              className="focus-ring inline-flex w-fit items-center gap-1.5 rounded-full text-sm font-medium text-muted transition-colors hover:text-foreground"
+            >
+              <ArrowLeft size={14} />
+              {tCategory("name")}
+            </Link>
+            <Badge>{tCategory("name")}</Badge>
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-soft text-primary">
               <Icon size={26} />
             </div>

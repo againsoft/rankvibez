@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { CheckCircle2, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { services } from "@/data/services";
+import { serviceCategories, getServicesByCategory } from "@/data/services";
 import { budgetOptions, countryOptions } from "@/data/contact";
 
 const fieldClass =
@@ -14,6 +14,7 @@ const labelClass = "text-xs font-medium uppercase tracking-[0.08em] text-muted-2
 export function ContactForm() {
   const t = useTranslations("contactForm");
   const tServices = useTranslations("servicesData");
+  const tCategories = useTranslations("serviceCategories");
   const tCountries = useTranslations("countries");
   const tBudget = useTranslations("contactData.budgetOptions");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -96,8 +97,12 @@ export function ContactForm() {
           <label className={labelClass} htmlFor="service">{t("serviceLabel")}</label>
           <select id="service" name="service" className={fieldClass} defaultValue="">
             <option value="" disabled>{t("servicePlaceholder")}</option>
-            {services.map((s) => (
-              <option key={s.slug} value={s.slug}>{tServices(`${s.slug}.name`)}</option>
+            {serviceCategories.map((category) => (
+              <optgroup key={category.slug} label={tCategories(`${category.slug}.name`)}>
+                {getServicesByCategory(category.slug).map((s) => (
+                  <option key={s.slug} value={s.slug}>{tServices(`${s.slug}.name`)}</option>
+                ))}
+              </optgroup>
             ))}
           </select>
         </div>

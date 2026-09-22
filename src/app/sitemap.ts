@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-import { services } from "@/data/services";
+import { services, serviceCategories, servicePath, categoryPath } from "@/data/services";
 import { portfolioProjects } from "@/data/portfolio";
 
 const siteUrl = "https://www.rankvibez.com";
@@ -52,13 +52,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     localizedEntry(route, route === "" ? 1 : 0.7, "weekly")
   );
 
+  const categoryRoutes = serviceCategories.flatMap((c) =>
+    localizedEntry(categoryPath(c), 0.7, "monthly")
+  );
+
   const serviceRoutes = services.flatMap((s) =>
-    localizedEntry(`/services/${s.slug}`, 0.6, "monthly")
+    localizedEntry(servicePath(s), 0.6, "monthly")
   );
 
   const portfolioRoutes = portfolioProjects.flatMap((p) =>
     localizedEntry(`/portfolio/${p.slug}`, 0.5, "monthly")
   );
 
-  return [...routes, ...serviceRoutes, ...portfolioRoutes];
+  return [...routes, ...categoryRoutes, ...serviceRoutes, ...portfolioRoutes];
 }
