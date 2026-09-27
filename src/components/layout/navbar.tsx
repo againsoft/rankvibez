@@ -8,6 +8,7 @@ import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "./language-switcher";
+import { MobileServicesMenu, ServicesMegaMenu } from "./services-menu";
 import { primaryNav } from "@/data/nav";
 import { cn } from "@/lib/utils";
 
@@ -50,6 +51,7 @@ export function Navbar() {
         <nav className="hidden items-center gap-1 lg:flex" aria-label={t("primaryNavLabel")}>
           {primaryNav.map((item) => {
             const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+            if (item.href === "/services") return <ServicesMegaMenu key={item.href} active={active} />;
             return (
               <Link
                 key={item.href}
@@ -90,16 +92,20 @@ export function Navbar() {
           open ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-2 opacity-0"
         )}
       >
-        <Container className="flex flex-col gap-1 py-6">
-          {primaryNav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="focus-ring rounded-lg px-3 py-3 text-base font-medium text-foreground/90 hover:bg-white/[0.05]"
-            >
-              {t(item.key)}
-            </Link>
-          ))}
+        <Container className="flex max-h-[calc(100dvh-4.5rem)] flex-col gap-1 overflow-y-auto py-6">
+          {primaryNav.map((item) =>
+            item.href === "/services" ? (
+              <MobileServicesMenu key={item.href} />
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="focus-ring rounded-lg px-3 py-3 text-base font-medium text-foreground/90 hover:bg-white/[0.05]"
+              >
+                {t(item.key)}
+              </Link>
+            )
+          )}
           <div className="mt-2 px-3">
             <LanguageSwitcher />
           </div>
